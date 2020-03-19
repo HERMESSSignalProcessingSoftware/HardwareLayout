@@ -3,7 +3,7 @@
 <eagle version="9.6.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -4511,7 +4511,7 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="" x="147.32" y="26.035" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="133.985" y="40.03" size="1.27" layer="27" rot="R180" align="top-center"/>
 </element>
-<element name="RN11" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" package="EXBS8V" package3d_urn="urn:adsk.eagle:package:24925/1" value="56k" x="132.334" y="34.036" smashed="yes" rot="MR90">
+<element name="RN11" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" package="EXBS8V" package3d_urn="urn:adsk.eagle:package:24925/1" value="3k" x="132.334" y="34.036" smashed="yes" rot="MR90">
 <attribute name="MF" value="" x="132.334" y="34.036" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="" x="132.334" y="34.036" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="128.905" y="33.147" size="1.27" layer="26" rot="MR90"/>
@@ -4536,7 +4536,7 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="" x="147.32" y="20.32" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="133.985" y="34.315" size="1.27" layer="27" rot="R180" align="top-center"/>
 </element>
-<element name="RN12" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" package="EXBS8V" package3d_urn="urn:adsk.eagle:package:24925/1" value="56k" x="114.173" y="24.384" smashed="yes">
+<element name="RN12" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" package="EXBS8V" package3d_urn="urn:adsk.eagle:package:24925/1" value="1k" x="114.173" y="24.384" smashed="yes">
 <attribute name="MF" value="" x="114.173" y="24.384" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="114.173" y="24.384" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="111.633" y="26.289" size="1.27" layer="25"/>
