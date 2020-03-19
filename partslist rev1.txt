@@ -1,0 +1,110 @@
+Partlist
+
+Exported from Blade.brd at 19.03.2020 01:54
+
+EAGLE Version 9.6.0 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value                      Package                    Library              Position (mil)        Orientation
+
+C1       22p                        C0603                      rcl                  (5220 3105)           R180
+C2       22p                        C0603                      rcl                  (5155 3710)           R180
+C3       10n                        C0805                      rcl                  (850 3400)            MR90
+C4       10u                        C0805                      rcl                  (1250 3250)           R90
+C5       10u                        153CLV-0810                rcl                  (1050 3550)           R180
+C6       10n                        C0805                      rcl                  (850 2050)            MR90
+C7       4u7                        153CLV-0810                rcl                  (1050 2600)           R90
+C8       10n                        C0805                      rcl                  (800 2600)            R90
+C9       10u                        C0805                      rcl                  (1250 1850)           R90
+C10      10u                        153CLV-0810                rcl                  (1050 2200)           R180
+C11      4u7                        153CLV-0810                rcl                  (1055 1285)           R90
+C12      10n                        C0805                      rcl                  (745 1460)            R90
+C13      10n                        C0805                      rcl                  (880 1035)            R180
+C14      10u                        C0805                      rcl                  (610 1380)            MR0
+C15      10u                        153CLV-0810                rcl                  (1080 445)            R90
+C16      2.2u                       C1206                      rcl                  (2850 550)            R0
+C17      2.2u                       C1206                      rcl                  (2635 1525)           R270
+C18      100n                       0603-CAP                   aSparkFun            (3700 1800)           R90
+C19      100n                       C0805                      rcl                  (1760 3460)           R270
+C20      100n                       C0805                      rcl                  (1350 3650)           MR270
+C21      1u                         C0805                      rcl                  (1350 3425)           MR270
+C22      100n                       C0805                      rcl                  (1335 3155)           MR270
+C23      100n                       C0805                      rcl                  (1725 3000)           MR270
+C24      1u                         C0805                      rcl                  (1350 2925)           MR270
+C25      100n                       C0805                      rcl                  (1350 2700)           MR90
+C26      100n                       C0805                      rcl                  (1765 2530)           MR270
+C27      1u                         C0805                      rcl                  (1335 2390)           MR270
+C28      100n                       C0805                      rcl                  (1650 1600)           MR180
+C29      100n                       C0805                      rcl                  (1650 925)            MR180
+C30      100n                       C0805                      rcl                  (1575 2150)           MR270
+C31      100n                       C0805                      rcl                  (2375 2150)           MR270
+C32      100n                       C0805                      rcl                  (3625 2675)           MR180
+C33      100n                       C0805                      rcl                  (4750 3175)           R270
+C34      100n                       C0805                      rcl                  (5125 2225)           R270
+C35      100n                       C0805                      rcl                  (4290 3040)           R180
+C36      100n                       C0805                      rcl                  (4605 2000)           R270
+C37      100n                       C0805                      rcl                  (3795 2985)           R0
+C38      10u                        153CLV-0810                rcl                  (4875 2450)           R270
+C39      10u                        153CLV-0810                rcl                  (4870 1940)           R270
+C40      10u                        153CLV-0810                rcl                  (4500 3450)           R270
+C41      10u                        153CLV-0810                rcl                  (3595 3295)           R270
+D1       3V6                        DMELF                      diodes               (5100 3200)           MR90
+D2       3V6                        DMELF                      diodes               (5350 3200)           MR90
+D3       3V6                        DMELF                      diodes               (3600 2025)           MR180
+D4       3V6                        DMELF                      diodes               (4175 2025)           MR0
+IC1      THN10-2411WIR              THL_20WI_SERIES            traco_thl_tel_series (4850 2200)           MR90
+IC2      MCP6064-E/SL               SO14                       linear               (700 3100)            R180
+IC3      MCP6064-E/SL               SO14                       linear               (700 1800)            R180
+IC4      MCP6064-E/SL               SO14                       linear               (700 700)             R180
+JP1      JUMPER-SMT_2_NC_PASTE_SILK SMT-JUMPER_2_NC_PASTE_SILK SparkFun-Jumpers     (3800 1760)           R0
+L1       1m                         L5650M                     rcl                  (650 3550)            R0
+L2       1m                         L5650M                     rcl                  (650 2200)            R0
+L3       1m                         L5650M                     rcl                  (615 1075)            R0
+LED1                                CHIP-LED0603               adafruit             (5900 3200)           R0
+LED2                                CHIP-LED0603               adafruit             (6000 3200)           R0
+LED3                                CHIP-LED0603               adafruit             (6100 3200)           R0
+LED4                                CHIP-LED0603               adafruit             (6200 3200)           R0
+Q1       12MHz                      SM49                       adafruit             (5350 3450)           R90
+R1       100k                       R0805                      rcl                  (550 2450)            R0
+R2       1k                         R0805                      rcl                  (810 2425)            MR270
+R3       ?                          R0805                      rcl                  (600 2750)            R180
+R4       ?                          R0805                      rcl                  (730 2450)            R180
+R5       100k                       R0805                      rcl                  (505 1320)            R0
+R6       1k                         R0805                      rcl                  (820 1275)            R90
+R7       ?                          R0805                      rcl                  (860 930)             R0
+R8       ?                          R0805                      rcl                  (680 1320)            R180
+R9       20k                        R0805                      rcl                  (4200 1000)           R180
+RN1      56k                        EXBS8V                     resistor-dil         (1050 3250)           R180
+RN2      5k6                        EXBS8V                     resistor-dil         (1050 3200)           MR0
+RN3      330                        EXBS8V                     resistor-dil         (1050 2950)           MR90
+RN4      56k                        EXBS8V                     resistor-dil         (1050 1900)           R180
+RN5      5k6                        EXBS8V                     resistor-dil         (1050 1850)           MR0
+RN6      330                        EXBS8V                     resistor-dil         (1050 1600)           MR90
+RN7      ?                          EXBS8V                     resistor-dil         (1050 900)            R180
+RN8      ?                          EXBS8V                     resistor-dil         (1050 850)            MR0
+RN9      ?                          EXBS8V                     resistor-dil         (1050 600)            MR90
+RN10     270                        EXBS8V                     resistor-dil         (5300 2850)           R270
+SV1                                 MA07-2                     con-lstb             (5300 700)            R270
+U$2      CH340G                     SOIC16                     ch340g               (4950 3450)           R90
+U1       ADR366WAUJZ                SOT23-5                    ADR360               (600 2600)            R90
+U2       ADR366WAUJZ                SOT23-5                    ADR360               (565 1485)            R90
+U3       ADS1148QPWRQ1              TSSOP28                    ads11xx              (1525 3550)           R0
+U4       ADS1148QPWRQ1              TSSOP28                    ads11xx              (1525 3025)           R0
+U5       ADS1148QPWRQ1              TSSOP28                    ads11xx              (1525 2475)           R0
+U6       LT1528                     Q5-DD                      aSparkFun            (4050 3450)           R0
+U7       S70FL01GS                  SO16                       S70FL01GS            (1725 1475)           R270
+U8       S70FL01GS                  SO16                       S70FL01GS            (1725 800)            R270
+U9       STM32F77XXXLQFP208         QFP50P3060X3060X385-208    stm32f               (3300 1150)           R225
+X1       D-SUB9-H5M09RA             H5M09RA                    con-thomas-betts     (6050 750)            R90
+X2       D-SUB15-H5M15RA            H5M15RA                    con-thomas-betts     (6050 2300)           R90
+X3       USBPTH                     USB-B-PTH                  aSparkFun            (5950 3650)           R180
+X_IN_1                              SMA_EDGELAUNCH             adafruit             (0 3800)              R0
+X_IN_2                              SMA_EDGELAUNCH             adafruit             (0 3350)              R0
+X_IN_3                              SMA_EDGELAUNCH             adafruit             (0 2900)              R0
+X_IN_4                              SMA_EDGELAUNCH             adafruit             (0 2450)              R0
+X_IN_5                              SMA_EDGELAUNCH             adafruit             (0 2000)              R0
+X_IN_6                              SMA_EDGELAUNCH             adafruit             (0 1550)              R0
+X_IN_7                              SMA_EDGELAUNCH             adafruit             (0 1100)              R0
+X_IN_8                              SMA_EDGELAUNCH             adafruit             (0 650)               R0
+X_IN_9                              SMA_EDGELAUNCH             adafruit             (0 200)               R0
