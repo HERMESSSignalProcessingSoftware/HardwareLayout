@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -34035,6 +34035,1669 @@ Source: &lt;a href="http://datasheets.maxim-ic.com/en/ds/MAX1487-MAX491.pdf"&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="m-pad-2.1">
+<description>&lt;h1&gt;&lt;u&gt;&lt;b&gt;M-Pad&lt;/b&gt; Library&lt;br&gt; &lt;/h1&gt;&lt;/u&gt;
+&lt;br&gt;
+&lt;b&gt; Version :&lt;/b&gt; 2.1 &lt;br&gt;
+&lt;br&gt;
+&lt;b&gt; License :&lt;/b&gt; GNU General Public License version 2 (see bottom) &lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Description:&lt;/b&gt;&lt;br&gt;
+M-Pad library contains various parts from different manufactures.&lt;br&gt;
+Some parts are used in the m-pad project at sourceforge.  &lt;a href="http://m-pad.sourceforge.net"&gt;http://m-pad.sourceforge.net&lt;/a&gt;&lt;br&gt;
+M-Pad is an embedded modular multifunctional multimedia Board with Intel PXA 27x CPU and Intel 2700G Graphic Accellerator.&lt;br&gt;
+&lt;br&gt;
+&lt;u&gt;&lt;b&gt;Attention:&lt;/b&gt; Be awear that the devices can have bugs. Please verify the correctness of the dimension and the pin connectios.&lt;br&gt;&lt;/u&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;b&gt;Changes:&lt;/b&gt; 
+&lt;ul&gt;
+	&lt;li&gt; Changed the symbol of the ZHX2022 IRDA module
+	&lt;li&gt; Added a new landpatter to L_EU and L_US (ELLATV)
+	&lt;li&gt; Name and Value font size of the symbols GE28F_*
+	&lt;li&gt; CON-CF changed Name and Value font size
+	&lt;li&gt; Resized the SMD pads of SOT23-6L
+	&lt;li&gt; Added a new landpatter to L_EU and L_US (PCC-S1)
+	&lt;li&gt; Added and changed the landpattern for TPS6204x from QFN-10 to QFN10
+	&lt;li&gt; Added inductors to L_EU and L_US (CDRH3D28 to CDRH8D28)
+	&lt;li&gt; Minor changes on A3-MPAD and MD235
+&lt;/ul&gt;
+
+&lt;br&gt;
+&lt;b&gt;Bug Fixes:&lt;/b&gt;&lt;br&gt;
+&lt;ul&gt;
+	&lt;li&gt; ...
+&lt;/ul&gt;
+
+&lt;br&gt;
+&lt;b&gt;Add new Devices:&lt;/b&gt;
+&lt;ul&gt;
+	&lt;li&gt; IRF7805
+	&lt;li&gt; CON-54722-0607
+	&lt;li&gt; MAX1953_MAX1954
+	&lt;li&gt; MT48H8M32LF
+	&lt;li&gt; Si7868ADP
+	&lt;li&gt; TPS5124
+	&lt;li&gt; TPS6204x 
+	&lt;li&gt; MC14548x
+	&lt;li&gt; CON-52991-0508
+	&lt;li&gt; MAX9813
+	&lt;li&gt; MSM7702
+	&lt;li&gt; MSM7717
+	&lt;li&gt; GM-862-GPS
+	&lt;li&gt; CON-HIROSE-COAXIAL
+	&lt;li&gt; K9WAG08U1A 
+	&lt;li&gt; K9**G08U*A
+	&lt;li&gt; SMT-ANTENNA
+	&lt;li&gt; CF-CARD-IDE_MODE
+	&lt;li&gt; TS5A3153
+	&lt;li&gt; TS5A3159
+	&lt;li&gt; LM2717
+	&lt;li&gt; MD8831_MD8832
+	&lt;li&gt; MD253
+	&lt;li&gt; TPS54550
+	&lt;li&gt; FDB1*AN06A0 
+	&lt;li&gt; TPS6220X
+	&lt;li&gt; TPS62510
+	&lt;li&gt; TPS6205x
+	&lt;li&gt; TPS5410_TPS5420
+	&lt;li&gt; STF203-xx
+	&lt;li&gt; SCP1000
+	&lt;li&gt; SCA3000
+&lt;/ul&gt;
+
+&lt;br&gt;
+Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;messi@users.sourceforge.net&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Included Devices:&lt;/b&gt;
+&lt;br&gt;
+&lt;table width=100% border=2 &gt;
+	&lt;th&gt;
+		&lt;TR &gt;
+			&lt;TH  bgcolor=grey align=center&gt;  &lt;i&gt;Device&lt;/i&gt;     &lt;/TH&gt;
+			&lt;TH  bgcolor=grey align=center&gt;  &lt;i&gt;Package&lt;/i&gt;   &lt;/TH&gt;
+			&lt;TH  bgcolor=grey align=center&gt;  &lt;i&gt;Manufacture&lt;/i&gt;   &lt;/TH&gt;
+			&lt;TH  bgcolor=grey align=center&gt;  &lt;i&gt;Description&lt;/i&gt;  &lt;/TH&gt;
+		&lt;/TR&gt;
+	&lt;/th&gt;
+		&lt;TBODY&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;2700G_3_5&lt;/TD&gt;
+			&lt;TD&gt;364-VF-BGA&lt;/TD&gt;
+			&lt;TD&gt;Intel&lt;/TD&gt;
+			&lt;TD&gt;Intel 2700G Multimedia Graphic Acceleration&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;2700G_7&lt;/TD&gt;
+			&lt;TD&gt;364-VF-BGA&lt;/TD&gt;
+			&lt;TD&gt;Intel&lt;/TD&gt;
+			&lt;TD&gt;Intel 2700G7 Multimedia Graphic Acceleration with 16MB SDRAM&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD &gt;2N3906_MMBT3906_PZT3906 &lt;/TD&gt;
+			&lt;TD&gt;SOT-23&lt;/TD&gt;
+			&lt;TD&gt;Fairchild Semiconductor&lt;/TD&gt;
+			&lt;TD&gt;PNP General Purpose Amplifier&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD &gt;2N7000KL/BS170KL &lt;/TD&gt;
+			&lt;TD&gt;TO-92&lt;/TD&gt;
+			&lt;TD&gt;Vishay Siliconix&lt;/TD&gt;
+			&lt;TD&gt;N-Channel 60-V (D-S) MOSFET&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD &gt;74*HC04 &lt;/TD&gt;
+			&lt;TD&gt;SO14,SSOP14,TSSOP14&lt;/TD&gt;
+			&lt;TD&gt;Ti, OnSemi, Fairchild&lt;/TD&gt;
+			&lt;TD&gt;6 CMOS Hex-Inverters in one package&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;A3L-MPAD&lt;/TD&gt;
+			&lt;TD&gt;None&lt;/TD&gt;
+            			&lt;TD&gt;None&lt;/TD&gt;
+			&lt;TD&gt;A3 Landscape Frame with textfield&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;AAT3125&lt;/TD&gt;
+			&lt;TD&gt;QFN44-16&lt;/TD&gt;
+                        		&lt;TD&gt;AnalogicTech&lt;/TD&gt;
+			&lt;TD&gt;The AAT3125 is a USB On-the-Go (OTG) Charge Pump&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;AD723&lt;/TD&gt;
+			&lt;TD&gt;TSSOP-28&lt;/TD&gt;
+                        		&lt;TD&gt;Analog Devices&lt;/TD&gt;
+			&lt;TD&gt;2.7 V to 5.5 V RGB-to-NTSC/PAL Encoder with Load Detect and Input Termination Switch&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;AD725&lt;/TD&gt;
+			&lt;TD&gt;SOIC16W&lt;/TD&gt;
+                        		&lt;TD&gt;Analog Devices&lt;/TD&gt;
+			&lt;TD&gt;Low Cost RGB to NTSC/PAL Encoder with Luma Trap Port&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;AD7142&lt;/TD&gt;
+			&lt;TD&gt;LFCSP-32&lt;/TD&gt;
+                        		&lt;TD&gt;Analog Devices&lt;/TD&gt;
+			&lt;TD&gt;Programmable Capacitance-to-Digital Converter with Environmental Compensation&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;AD7142_8WAY_SWITCH&lt;/TD&gt;
+			&lt;TD&gt;C_8WAY_SWITCH&lt;/TD&gt;
+                        		&lt;TD&gt;Analog Devices&lt;/TD&gt;
+			&lt;TD&gt;Capacitive 8-way swicth landpattern for the AD7142&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;AD7142_BUTTON&lt;/TD&gt;
+			&lt;TD&gt;C_BUTTON&lt;/TD&gt;
+                        		&lt;TD&gt;Analog Devices&lt;/TD&gt;
+			&lt;TD&gt;Capacitive button landpattern for the AD7142&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;AD7142_SLIDER&lt;/TD&gt;
+			&lt;TD&gt;C_SLIDER&lt;/TD&gt;
+                        		&lt;TD&gt;Analog Devices&lt;/TD&gt;
+			&lt;TD&gt;Capacitive slider landpattern for the AD7142&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;ADV7746&lt;/TD&gt;
+			&lt;TD&gt;TSSOP16&lt;/TD&gt;
+                        		&lt;TD&gt;Analog Devices&lt;/TD&gt;
+			&lt;TD&gt;24-Bit Capacitance-to-Digital Converter with Temperature Sensor&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;AD8614&lt;/TD&gt;
+			&lt;TD&gt;SOT23-5&lt;/TD&gt;
+                        		&lt;TD&gt;Analog Devices&lt;/TD&gt;
+			&lt;TD&gt;Single and Quad +18 V Operational Amplifiers&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;ADV7175A_76A&lt;/TD&gt;
+			&lt;TD&gt;MQFP44-2&lt;/TD&gt;
+                        		&lt;TD&gt;Analog Devices&lt;/TD&gt;
+			&lt;TD&gt;High Quality, 10-Bit, Digital CCIR-601 to PAL/NTSC Video Encoder&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;ADV7302A_ADV7303A&lt;/TD&gt;
+			&lt;TD&gt;LQFP64&lt;/TD&gt;
+                        		&lt;TD&gt;Analog Devices&lt;/TD&gt;
+			&lt;TD&gt;Multiformat SD, Progressive Scan/HDTV Video Encoder with Six 11-Bit DACs&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;ATmega406&lt;/TD&gt;
+			&lt;TD&gt;LQFP-48&lt;/TD&gt;
+                        		&lt;TD&gt;ATMEL&lt;/TD&gt;
+			&lt;TD&gt;The ATmega406 is a 8bit Microcontroller with 50KB In-System  Programmable Flash with special Functions for Smartbatteries&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;AXK3S30035&lt;/TD&gt;
+			&lt;TD&gt;AXK3S30035&lt;/TD&gt;
+			&lt;TD&gt;Matsushita &lt;/TD&gt;
+                        		&lt;TD&gt;30pin 0.6mm NARROW-PITCH CONNECTORS FOR PC BOARDS(Socket)&lt;/TD&gt;
+		&lt;/TR&gt;
+       	        	&lt;TR &gt;
+			&lt;TD&gt;AXK3S50035&lt;/TD&gt;
+			&lt;TD&gt;AXK3S50035&lt;/TD&gt;
+			&lt;TD&gt;Matsushita &lt;/TD&gt;
+                        		&lt;TD&gt;50pin 0.6mm NARROW-PITCH CONNECTORS FOR PC BOARDS(Socket)&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;AXK4S30435&lt;/TD&gt;
+			&lt;TD&gt;AXK4S30435&lt;/TD&gt;
+			&lt;TD&gt;Matsushita &lt;/TD&gt;
+                       		&lt;TD&gt;30pin 0.6mm NARROW-PITCH CONNECTORS FOR PC BOARDS(Header)&lt;/TD&gt;
+		&lt;/TR&gt;
+       	        	&lt;TR &gt;
+			&lt;TD&gt;AXK4S50435&lt;/TD&gt;
+			&lt;TD&gt;AXK4S50435&lt;/TD&gt;
+			&lt;TD&gt;Matsushita &lt;/TD&gt;
+                        		&lt;TD&gt;50pin 0.6mm NARROW-PITCH CONNECTORS FOR PC BOARDS(Header)&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;AXN330038S&lt;/TD&gt;
+			&lt;TD&gt;AXN330038S&lt;/TD&gt;
+			&lt;TD&gt;Matsushita &lt;/TD&gt;
+                        		&lt;TD&gt;30pin 0.8mm NARROW-PITCH CONNECTORS FOR PC BOARDS(Socket)&lt;/TD&gt;
+		&lt;/TR&gt;
+       	        	&lt;TR &gt;
+			&lt;TD&gt;AXN350038S&lt;/TD&gt;
+			&lt;TD&gt;AXN350038S&lt;/TD&gt;
+			&lt;TD&gt;Matsushita &lt;/TD&gt;
+                        		&lt;TD&gt;50pin 0.8mm NARROW-PITCH CONNECTORS FOR PC BOARDS(Socket)&lt;/TD&gt;
+		&lt;/TR&gt;
+       	        	&lt;TR &gt;
+			&lt;TD&gt;AXN430X30&lt;/TD&gt;
+			&lt;TD&gt;AXN430X30S&lt;/TD&gt;
+			&lt;TD&gt;Matsushita &lt;/TD&gt;
+                        		&lt;TD&gt;30pin 0.8mm NARROW-PITCH CONNECTORS FOR PC BOARDS(Header)&lt;/TD&gt;
+		&lt;/TR&gt;
+       	        	&lt;TR &gt;
+			&lt;TD&gt;AXN450X30&lt;/TD&gt;
+			&lt;TD&gt;AXN450X30S&lt;/TD&gt;
+			&lt;TD&gt;Matsushita &lt;/TD&gt;
+                        		&lt;TD&gt;50pin 0.8mm NARROW-PITCH CONNECTORS FOR PC BOARDS(Header)&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;BLUEGIGA_WT11&lt;/TD&gt;
+			&lt;TD&gt;WT11&lt;/TD&gt;
+			&lt;TD&gt;BlueGiga&lt;/TD&gt;
+                        		&lt;TD&gt;Embedded Bluetoothmodule  (2.0+EDR)&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;BLUEGIGA_WT12&lt;/TD&gt;
+			&lt;TD&gt;WT12&lt;/TD&gt;
+			&lt;TD&gt;BlueGiga&lt;/TD&gt;
+                        		&lt;TD&gt;Embedded Bluetoothmodule  (2.0+EDR)&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;BQ241XX&lt;/TD&gt;
+			&lt;TD&gt;QFN-20&lt;/TD&gt;
+			&lt;TD&gt;Texas Instruments&lt;/TD&gt;
+                        		&lt;TD&gt;LI-ION and LI-POL charge management IC&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;BQ24702/3&lt;/TD&gt;
+			&lt;TD&gt;TSSOP-24,QFN-28&lt;/TD&gt;
+			&lt;TD&gt;Texas Instruments&lt;/TD&gt;
+                        		&lt;TD&gt;Multichemistry Battery Charger&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;BR-C30A&lt;/TD&gt;
+			&lt;TD&gt;BR-C30A8&lt;/TD&gt;
+			&lt;TD&gt;Blue Radio&lt;/TD&gt;
+                        		&lt;TD&gt;BR-C30 Class1, Class2, and Class3 Bluetooth ver1.2 Module&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;BSS84LT1&lt;/TD&gt;
+			&lt;TD&gt;SOT-23&lt;/TD&gt;
+			&lt;TD&gt;On Semiconductor&lt;/TD&gt;
+                        		&lt;TD&gt;Power Mosfet P-Channel 130 mA, 50 V RDS(on) = 10 Ohm&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;BSS138&lt;/TD&gt;
+			&lt;TD&gt;SOT-23&lt;/TD&gt;
+			&lt;TD&gt;Fairchild Semiconductor&lt;/TD&gt;
+                        		&lt;TD&gt;N-Channel Logic Level Enhancement Mode Field Effect Transistor&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;CM-CHOKE-COIL&lt;/TD&gt;
+			&lt;TD&gt;various&lt;/TD&gt;
+			&lt;TD&gt;TDK,Murata&lt;/TD&gt;
+                        		&lt;TD&gt;Common mode choke coil for DC power line&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;CMSD4448&lt;/TD&gt;
+			&lt;TD&gt;SOT323&lt;/TD&gt;
+			&lt;TD&gt;Central Semiconductor&lt;/TD&gt;
+                        		&lt;TD&gt;Switching diode&lt;/TD&gt;
+		&lt;/TR&gt;
+                           &lt;TR &gt;
+			&lt;TD&gt;CDRH2D18/HP&lt;/TD&gt;
+			&lt;TD&gt;CDRH2D18/HP&lt;/TD&gt;
+			&lt;TD&gt;Sumida&lt;/TD&gt;
+                        		&lt;TD&gt;Inductor&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;CMSD4448&lt;/TD&gt;
+			&lt;TD&gt;SOT323&lt;/TD&gt;
+			&lt;TD&gt;Central Semiconductor&lt;/TD&gt;
+                        		&lt;TD&gt;Switching diode&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;Colibri SODimm 200&lt;/TD&gt;
+			&lt;TD&gt;SODimm 200&lt;/TD&gt;
+			&lt;TD&gt;Toradex&lt;/TD&gt;
+                        		&lt;TD&gt;SODimm 200 Connectorr&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;CON-22-12-2064&lt;/TD&gt;
+			&lt;TD&gt;7478-6&lt;/TD&gt;
+			&lt;TD&gt;Molex&lt;/TD&gt;
+                        		&lt;TD&gt;2.54mm (.100") KK® Solid Header 7478 Right Angle Friction Lockes&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;CON-22-16-2070&lt;/TD&gt;
+			&lt;TD&gt;4455-7&lt;/TD&gt;
+			&lt;TD&gt;Molex&lt;/TD&gt;
+                        		&lt;TD&gt;2.54mm (.100") KK® PC Board Connector 4455 Right Angle&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;CON-52991-0508&lt;/TD&gt;
+			&lt;TD&gt;52991-0508&lt;/TD&gt;
+			&lt;TD&gt;Molex&lt;/TD&gt;
+                        		&lt;TD&gt;Low profile board to board connector 50pin, 0.5pitch&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;CON-54722-0607&lt;/TD&gt;
+			&lt;TD&gt;54722-0607&lt;/TD&gt;
+			&lt;TD&gt;Molex&lt;/TD&gt;
+                        		&lt;TD&gt;Low profile board to board connector 60pin, 0.5pitch&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;CON-70553-0005&lt;/TD&gt;
+			&lt;TD&gt;70553-0005&lt;/TD&gt;
+			&lt;TD&gt;Molex&lt;/TD&gt;
+                        		&lt;TD&gt;2.54mm (.100") Pitch SL Wire-to-Board Shrouded Header 70553 Single Row, .120" Pocket Right Angle, Low Profile&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;CON-COMPACT-FLASH&lt;/TD&gt;
+			&lt;TD&gt;Various Packages&lt;/TD&gt;
+			&lt;TD&gt;Hirose,AVX&lt;/TD&gt;
+                        		&lt;TD&gt;Various Compact Flash Card Connectors&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;CON-DD1R030HA1&lt;/TD&gt;
+			&lt;TD&gt;CON-DD1R030HA1&lt;/TD&gt;
+			&lt;TD&gt;JAE&lt;/TD&gt;
+                        		&lt;TD&gt;30 pole I/O connector&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;CON-DF17-60F&lt;/TD&gt;
+			&lt;TD&gt;CON-DF17-60F&lt;/TD&gt;
+			&lt;TD&gt;Hirose&lt;/TD&gt;
+                        		&lt;TD&gt;DF17 series 0.5mm pitch 60pin female connector&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;CON-DF17-60M&lt;/TD&gt;
+			&lt;TD&gt;CON-DF17-60M&lt;/TD&gt;
+			&lt;TD&gt;Hirose&lt;/TD&gt;
+                        		&lt;TD&gt;DF17 series 0.5mm pitch 60pin male connector&lt;/TD&gt;
+		&lt;/TR&gt;
+       	        	&lt;TR &gt;
+			&lt;TD&gt;CON-FH19-13&lt;/TD&gt;
+			&lt;TD&gt;CON-FH19-13&lt;/TD&gt;
+			&lt;TD&gt;Hirose&lt;/TD&gt;
+           	        		&lt;TD&gt;FH19 13pin 0.5mm pitch FPC/FFC connector&lt;/TD&gt;
+		&lt;/TR&gt;
+       	        	&lt;TR &gt;
+			&lt;TD&gt;CON-FH19-30&lt;/TD&gt;
+			&lt;TD&gt;CON-FH19-30&lt;/TD&gt;
+			&lt;TD&gt;Hirose&lt;/TD&gt;
+           	        		&lt;TD&gt;FH19 30pin 0.5mm pitch FPC/FFC connector&lt;/TD&gt;
+		&lt;/TR&gt;
+       	        	&lt;TR &gt;
+			&lt;TD&gt;CON-FH19S-18&lt;/TD&gt;
+			&lt;TD&gt;CON-FH19S-18&lt;/TD&gt;
+			&lt;TD&gt;Hirose&lt;/TD&gt;
+           	        		&lt;TD&gt;FH19S 18pin 0.5mm pitch FPC/FFC connector&lt;/TD&gt;
+		&lt;/TR&gt;
+       	        	&lt;TR &gt;
+			&lt;TD&gt;CON-FH23-25S&lt;/TD&gt;
+			&lt;TD&gt;CON-FH23-25S&lt;/TD&gt;
+			&lt;TD&gt;Hirose&lt;/TD&gt;
+           	        		&lt;TD&gt;FH23 25pin 0.3mm pitch FPC/FFC connector&lt;/TD&gt;
+		&lt;/TR&gt;
+       	        	&lt;TR &gt;
+			&lt;TD&gt;CON-GPS&lt;/TD&gt;
+			&lt;TD&gt;MA-8-2&lt;/TD&gt;
+			&lt;TD&gt;Samtec&lt;/TD&gt;
+           	        		&lt;TD&gt;Double row 8 pin surface mounted connector for the GPS module Lassen IQ&lt;/TD&gt;
+		&lt;/TR&gt;
+       	        	&lt;TR &gt;
+			&lt;TD&gt;CON-HEADPHONE&lt;/TD&gt;
+			&lt;TD&gt;Various&lt;/TD&gt;
+			&lt;TD&gt;Kobiconn, CUI Inc&lt;/TD&gt;
+           	        		&lt;TD&gt;3.5mm SURFACE MOUNT AUDIO JACK-STEREO&lt;/TD&gt;
+		&lt;/TR&gt;
+       	        	&lt;TR &gt;
+			&lt;TD&gt;CON-HIROSE-COAXIAL&lt;/TD&gt;
+			&lt;TD&gt;Various&lt;/TD&gt;
+			&lt;TD&gt;Hirose&lt;/TD&gt;
+           	        		&lt;TD&gt;Ultra Small Surface Mount Coaxial Connectors&lt;/TD&gt;
+		&lt;/TR&gt;
+       	        	&lt;TR &gt;
+			&lt;TD&gt;CON-INVERTER&lt;/TD&gt;
+			&lt;TD&gt;Various&lt;/TD&gt;
+			&lt;TD&gt;Molex&lt;/TD&gt;
+           	        		&lt;TD&gt;Micro-Miniature 1.25mm Connectors&lt;/TD&gt;
+		&lt;/TR&gt;
+       	        	&lt;TR &gt;
+			&lt;TD&gt;CON-MINI_USB-A&lt;/TD&gt;
+			&lt;TD&gt;Various&lt;/TD&gt;
+			&lt;TD&gt;Kobiconn&lt;/TD&gt;
+           	        		&lt;TD&gt;Mini USB Type A Connector&lt;/TD&gt;
+		&lt;/TR&gt;
+       	        	&lt;TR &gt;
+			&lt;TD&gt;CON-MINI_USB-AB&lt;/TD&gt;
+			&lt;TD&gt;Various&lt;/TD&gt;
+			&lt;TD&gt;Hirose,Molex&lt;/TD&gt;
+           	        		&lt;TD&gt;Mini USB Type A/B Connector&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;CON-PWR-JACK&lt;/TD&gt;
+			&lt;TD&gt;Various&lt;/TD&gt;
+			&lt;TD&gt;Kycon,Kobiconn&lt;/TD&gt;
+                        		&lt;TD&gt;DC Power Jacks 2.1mm and 2.5mm&lt;/TD&gt;
+		&lt;/TR&gt;
+       	        	&lt;TR &gt;
+			&lt;TD&gt;CON-RJ45&lt;/TD&gt;
+			&lt;TD&gt;Various Packages&lt;/TD&gt;
+			&lt;TD&gt;Kycon&lt;/TD&gt;
+           	        		&lt;TD&gt;Ethernet RJ45 8-pol surface mount modular jack&lt;/TD&gt;
+		&lt;/TR&gt;
+       	        	&lt;TR &gt;
+			&lt;TD&gt;CON-SD-MMC&lt;/TD&gt;
+			&lt;TD&gt;Various Packages&lt;/TD&gt;
+			&lt;TD&gt;Hirose, AVX&lt;/TD&gt;
+           	        		&lt;TD&gt;SD/MMC Card Connectos&lt;/TD&gt;
+		&lt;/TR&gt;
+       	        	&lt;TR &gt;
+			&lt;TD&gt;CON-SPEAKER&lt;/TD&gt;
+			&lt;TD&gt;Various Packages&lt;/TD&gt;
+			&lt;TD&gt;Various Manufactures&lt;/TD&gt;
+           	        		&lt;TD&gt;SMD/Through hole pin connectors&lt;/TD&gt;
+		&lt;/TR&gt;
+       	        	&lt;TR &gt;
+			&lt;TD&gt;CON-ST60-24P&lt;/TD&gt;
+			&lt;TD&gt;ST60-24P&lt;/TD&gt;
+			&lt;TD&gt;Hirose&lt;/TD&gt;
+           	        		&lt;TD&gt;Interface Connectors for Miniature, Portable Terminal Devices&lt;/TD&gt;
+		&lt;/TR&gt;
+       	        	&lt;TR &gt;
+			&lt;TD&gt;CON-S-VIDEO&lt;/TD&gt;
+			&lt;TD&gt;Various&lt;/TD&gt;
+			&lt;TD&gt;CUI Inc&lt;/TD&gt;
+           	        		&lt;TD&gt;MINIATURE CIRCULAR DIN CONNECTOR&lt;/TD&gt;
+		&lt;/TR&gt;
+       	        	&lt;TR &gt;
+			&lt;TD&gt;CON-TOUCHPANEL&lt;/TD&gt;
+			&lt;TD&gt;FCI-SFW4R-5&lt;/TD&gt;
+			&lt;TD&gt;FCI&lt;/TD&gt;
+           	        		&lt;TD&gt;SMT 1mm FPC connector 4pins&lt;/TD&gt;
+		&lt;/TR&gt;
+       	        	&lt;TR &gt;
+			&lt;TD&gt;CON-TRACKBALL&lt;/TD&gt;
+			&lt;TD&gt;Various&lt;/TD&gt;
+			&lt;TD&gt;AVX,Molex/TD&gt;
+           	        		&lt;TD&gt;SMT 0.5mm FPC connector 11pins&lt;/TD&gt;
+		&lt;/TR&gt;
+       	        	&lt;TR &gt;
+			&lt;TD&gt;CON-USB&lt;/TD&gt;
+			&lt;TD&gt;Various&lt;/TD&gt;
+			&lt;TD&gt;Assmann, Kycon,  Mill-Max&lt;/TD&gt;
+           	        		&lt;TD&gt;SMT USB Type-A Connectors&lt;/TD&gt;
+		&lt;/TR&gt;
+       	        	&lt;TR &gt;
+			&lt;TD&gt;CRSTALS&lt;/TD&gt;
+			&lt;TD&gt;Various Packages&lt;/TD&gt;
+			&lt;TD&gt;Epson,Citizen,ECS/TD&gt;
+           	        		&lt;TD&gt;Various crystals from various manufactures&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;CTP-35009-01&lt;/TD&gt;
+			&lt;TD&gt;CTP-35009-01&lt;/TD&gt;
+			&lt;TD&gt;www.connect-tech-products.com&lt;/TD&gt;
+           	        		&lt;TD&gt;Trough hole head phone jack&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;CTS-Crystals&lt;/TD&gt;
+			&lt;TD&gt;CTS-405, CTS-406&lt;/TD&gt;
+			&lt;TD&gt;CTS&lt;/TD&gt;
+           	        		&lt;TD&gt;Ceramic - SM Crystal (10 - 50MHz)&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;C_US&lt;/TD&gt;
+			&lt;TD&gt;various packages&lt;/TD&gt;
+			&lt;TD&gt;Panasonic&lt;/TD&gt;
+                        		&lt;TD&gt;Capacitors in various packages&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;D53LC&lt;/TD&gt;
+			&lt;TD&gt;D53LC&lt;/TD&gt;
+			&lt;TD&gt;TOKO&lt;/TD&gt;
+                        		&lt;TD&gt;SURFACE MOUNT FIXED INDUCTOR&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;D518LC&lt;/TD&gt;
+			&lt;TD&gt;D518LC&lt;/TD&gt;
+			&lt;TD&gt;TOKO&lt;/TD&gt;
+                        		&lt;TD&gt;SURFACE MOUNT FIXED INDUCTOR&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;DAC6571&lt;/TD&gt;
+			&lt;TD&gt;SOT23-6&lt;/TD&gt;
+			&lt;TD&gt;Texas Instruments&lt;/TD&gt;
+                        		&lt;TD&gt;10-BIT DIGITAL-TO-ANALOG CONVERTER&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;DS1629&lt;/TD&gt;
+			&lt;TD&gt;SOIC8&lt;/TD&gt;
+			&lt;TD&gt;Maxim&lt;/TD&gt;
+                        		&lt;TD&gt;2-Wire Digital Thermometer and Real Time Clock&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;DS90C363B_DS90C365_THC63LVDM63R&lt;/TD&gt;
+			&lt;TD&gt;TSSOP-48&lt;/TD&gt;
+			&lt;TD&gt;National Semiconductors, Thine Electronics&lt;/TD&gt;
+                        		&lt;TD&gt;+3.3V Programmable LVDS Transmitter 18-Bit Flat Panel Display (FPD) Link -65 MHz&lt;/TD&gt;
+		&lt;/TR&gt;
+       	        	&lt;TR &gt;
+			&lt;TD&gt;D_SCHOTTKY&lt;/TD&gt;
+			&lt;TD&gt;various packages&lt;/TD&gt;
+			&lt;TD&gt;NN&lt;/TD&gt;
+                        		&lt;TD&gt;Schottky diodes in various packages&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;ECX-306&lt;/TD&gt;
+			&lt;TD&gt;ECX-306&lt;/TD&gt;
+			&lt;TD&gt;ECS&lt;/TD&gt;
+                        		&lt;TD&gt;ISMD Tuning Frok Crystal Unit&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;EEPROM_93C46&lt;/TD&gt;
+			&lt;TD&gt;DIL08, SOIC8&lt;/TD&gt;
+			&lt;TD&gt;Microchip&lt;/TD&gt;
+                        		&lt;TD&gt;IC SERIAL EEPROM 1K 64X16 8SOIC&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;ESDXXL&lt;/TD&gt;
+			&lt;TD&gt;SOT23 Plastic&lt;/TD&gt;
+			&lt;TD&gt;ST-Microelectronics&lt;/TD&gt;
+                        		&lt;TD&gt;DUAL TRANSIL ARRAY FOR ESD PROTECTION&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;FA-248&lt;/TD&gt;
+			&lt;TD&gt;FA-248&lt;/TD&gt;
+			&lt;TD&gt;Epson&lt;/TD&gt;
+                        		&lt;TD&gt;Thin SMD High Frequency Crystal Unit (12-27MHz)&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;FC-135&lt;/TD&gt;
+			&lt;TD&gt;FC-135&lt;/TD&gt;
+			&lt;TD&gt;Epson&lt;/TD&gt;
+                        		&lt;TD&gt;Thin SMD LowFrequency Crystal Unit(32.768kHz)&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;FC-145&lt;/TD&gt;
+			&lt;TD&gt;FC-145&lt;/TD&gt;
+			&lt;TD&gt;Epson&lt;/TD&gt;
+                        		&lt;TD&gt;Thin SMD LowFrequency Crystal Unit(32.768kHz)&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR&gt;
+			&lt;TD&gt;FDB1*AN06A0&lt;/TD&gt;
+			&lt;TD&gt;TO-263AB&lt;/TD&gt;
+			&lt;TD&gt;Fairchild Semiconductor&lt;/TD&gt;
+                        		&lt;TD&gt;N-Channel PowerTrench MOSFET 60V, 75A/65A, 10.5mOhm&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR&gt;
+			&lt;TD&gt;FDC645N&lt;/TD&gt;
+			&lt;TD&gt;SSOT-6&lt;/TD&gt;
+			&lt;TD&gt;Fairchild Semiconductor&lt;/TD&gt;
+                        		&lt;TD&gt;N-Channel PowerTrench MOSFET&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR&gt;
+			&lt;TD&gt;FDC6305N&lt;/TD&gt;
+			&lt;TD&gt;SSOT-6&lt;/TD&gt;
+			&lt;TD&gt;Fairchild Semiconductor&lt;/TD&gt;
+                        		&lt;TD&gt;Dual N-Channel 2.5V Specified PowerTrench MOSFET&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR&gt;
+			&lt;TD&gt;FDS6670AS&lt;/TD&gt;
+			&lt;TD&gt;SO-8&lt;/TD&gt;
+			&lt;TD&gt;Fairchild Semiconductor&lt;/TD&gt;
+                        		&lt;TD&gt;30V N-Channel PowerTrench® SyncFET&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;FDS6679Z&lt;/TD&gt;
+			&lt;TD&gt;SO-8&lt;/TD&gt;
+			&lt;TD&gt;Fairchild Semiconductor&lt;/TD&gt;
+                        		&lt;TD&gt;30 Volt P-Channel PowerTrench MOSFET&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;FDS6681Z&lt;/TD&gt;
+			&lt;TD&gt;SO-8&lt;/TD&gt;
+			&lt;TD&gt;Fairchild Semiconductor&lt;/TD&gt;
+                        		&lt;TD&gt;30 Volt P-Channel PowerTrench MOSFET&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;FDS6912A&lt;/TD&gt;
+			&lt;TD&gt;SO-8&lt;/TD&gt;
+			&lt;TD&gt;Fairchild Semiconductor&lt;/TD&gt;
+                        		&lt;TD&gt;Dual N-Channel Logic Level PowerTrench MOSFET&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;FDS6990AA&lt;/TD&gt;
+			&lt;TD&gt;SO-8&lt;/TD&gt;
+			&lt;TD&gt;Fairchild Semiconductor&lt;/TD&gt;
+                        		&lt;TD&gt;Dual N-Channel PowerTrench SyncFET&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;FDS7079ZN3 &lt;/TD&gt;
+			&lt;TD&gt;SO-8&lt;/TD&gt;
+			&lt;TD&gt;Fairchild Semiconductor&lt;/TD&gt;
+                        		&lt;TD&gt;-30 Volt P-Channel PowerTrench MOSFET&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;FDS8928A&lt;/TD&gt;
+			&lt;TD&gt;SO-8&lt;/TD&gt;
+			&lt;TD&gt;Fairchild Semiconductor&lt;/TD&gt;
+                        		&lt;TD&gt;Dual N &amp; P-Channel Enhancement Mode Field Effect Transistor&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;FERRIT-JUMPER&lt;/TD&gt;
+			&lt;TD&gt;SPECIAL-FERRIT-JUMPER&lt;/TD&gt;
+			&lt;TD&gt;Self&lt;/TD&gt;
+                        		&lt;TD&gt;The ferrit jumper is a special design for current measurement. &lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;FERRITE-BEAD&lt;/TD&gt;
+			&lt;TD&gt;various packages&lt;/TD&gt;
+			&lt;TD&gt;NN&lt;/TD&gt;
+                        		&lt;TD&gt;Ferrite beads in various packages&lt;/TD&gt;
+		&lt;/TR&gt;
+       	        	&lt;TR &gt;
+			&lt;TD&gt;FUSE&lt;/TD&gt;
+			&lt;TD&gt;various packages&lt;/TD&gt;
+			&lt;TD&gt;NN&lt;/TD&gt;
+                        		&lt;TD&gt;Fuse's in various packages&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;GE28F__L18_T85-VFBGA56&lt;/TD&gt;
+			&lt;TD&gt;VFBGA-56&lt;/TD&gt;
+			&lt;TD&gt;Intel&lt;/TD&gt;
+                        		&lt;TD&gt;Wireless memory (L18) device is the latest generation of Intel StrataFlash® memory &lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;GE28F___L18T85-VFBGA79&lt;/TD&gt;
+			&lt;TD&gt;VFBGA-79&lt;/TD&gt;
+			&lt;TD&gt;Intel&lt;/TD&gt;
+                        		&lt;TD&gt;Wireless memory (L18) device is the latest generation of Intel StrataFlash® memory &lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;GE28F___L18T85_SCSP80&lt;/TD&gt;
+			&lt;TD&gt;SCSP-80&lt;/TD&gt;
+			&lt;TD&gt;Intel&lt;/TD&gt;
+                        		&lt;TD&gt;Wireless memory (L18) device is the latest generation of Intel StrataFlash® memory &lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;GM-862-GPS&lt;/TD&gt;
+			&lt;TD&gt;52991-0508&lt;/TD&gt;
+			&lt;TD&gt;Telit/Molex&lt;/TD&gt;
+                        		&lt;TD&gt;50 pin board to board connector for the GSM Module GM-862-GPS with integrated GPS &lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;HAT1072H&lt;/TD&gt;
+			&lt;TD&gt;LFPAK&lt;/TD&gt;
+			&lt;TD&gt;Renesas&lt;/TD&gt;
+                        		&lt;TD&gt;Silicon P Channel Power MOS FET&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;HM55B&lt;/TD&gt;
+			&lt;TD&gt;HM55B&lt;/TD&gt;
+			&lt;TD&gt;Hitachi&lt;/TD&gt;
+                        		&lt;TD&gt;The Hitachi HM55B is a dual-axis magnetic field sensor&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;IDG-300&lt;/TD&gt;
+			&lt;TD&gt;QFN-40&lt;/TD&gt;
+			&lt;TD&gt;InvenSense&lt;/TD&gt;
+                        		&lt;TD&gt;Integrated Dual-Axis Gyro&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;IRF7317&lt;&lt;/TD&gt;
+			&lt;TD&gt;SO-8&lt;/TD&gt;
+			&lt;TD&gt;International Rectifier&lt;/TD&gt;
+                        		&lt;TD&gt;HEXFET® Power MOSFET (N-P)&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;IRF7329&lt;&lt;/TD&gt;
+			&lt;TD&gt;SO-8&lt;/TD&gt;
+			&lt;TD&gt;International Rectifier&lt;/TD&gt;
+                        		&lt;TD&gt;HEXFET® Power MOSFET (P-P)&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;IRF7424&lt;&lt;/TD&gt;
+			&lt;TD&gt;SO-8&lt;/TD&gt;
+			&lt;TD&gt;International Rectifier&lt;/TD&gt;
+                        		&lt;TD&gt;HEXFET® Power MOSFET (P) Low RDS-on&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;IRF7425&lt;&lt;/TD&gt;
+			&lt;TD&gt;SO-8&lt;/TD&gt;
+			&lt;TD&gt;International Rectifier&lt;/TD&gt;
+                        		&lt;TD&gt;HEXFET® Power MOSFET (P) Low RDS-on&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;IRF7805&lt;&lt;/TD&gt;
+			&lt;TD&gt;SO-8&lt;/TD&gt;
+			&lt;TD&gt;International Rectifier&lt;/TD&gt;
+                        		&lt;TD&gt;HEXFET® Chip-Set for DC-DC Converters&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;ISP1761&lt;&lt;/TD&gt;
+			&lt;TD&gt;LQFP-128, TFBGA-128&lt;/TD&gt;
+			&lt;TD&gt;Philips Semiconductor&lt;/TD&gt;
+                        		&lt;TD&gt;Hi-Speed Universal Serial Bus On-The-Go controller&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;JESPER_SH-1&lt;/TD&gt;
+			&lt;TD&gt;NN&lt;/TD&gt;
+			&lt;TD&gt;NN&lt;/TD&gt;
+                        		&lt;TD&gt;SD-Card connector&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;K4M28163PF&lt;/TD&gt;
+			&lt;TD&gt;54FBGA&lt;/TD&gt;
+			&lt;TD&gt;SAMSUNG&lt;/TD&gt;
+                        		&lt;TD&gt;2M x 16Bit x 4 Banks Mobile SDRAM with 1.8V power supply.&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;K4M56323LE&lt;/TD&gt;
+			&lt;TD&gt;90FBGA&lt;/TD&gt;
+			&lt;TD&gt;SAMSUNG&lt;/TD&gt;
+                        		&lt;TD&gt;2M x 32Bit x 4 Banks Mobile SDRAM with 2.5V power supply.&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;K4S28323LF&lt;/TD&gt;
+			&lt;TD&gt;90FBGA&lt;/TD&gt;
+			&lt;TD&gt;SAMSUNG&lt;/TD&gt;
+                        		&lt;TD&gt;1M x 32Bit x 4 Banks Mobile SDRAM with 2.5V power supply&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;K4S51153PF&lt;/TD&gt;
+			&lt;TD&gt;54FBGA&lt;/TD&gt;
+			&lt;TD&gt;SAMSUNG&lt;/TD&gt;
+                        		&lt;TD&gt;8M x 16Bit x 4 Banks Mobile SDRAM with VDD/VDDQ =1.8V/1.8V&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;K4S51323PF&lt;/TD&gt;
+			&lt;TD&gt;90FBGA&lt;/TD&gt;
+			&lt;TD&gt;SAMSUNG&lt;/TD&gt;
+                        		&lt;TD&gt;4M x 32Bit x 4 Banks Mobile-SDRAM with VDD/VDDQ =1.8V/1.8V&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;K4S56323PF&lt;/TD&gt;
+			&lt;TD&gt;90FBGA&lt;/TD&gt;
+			&lt;TD&gt;SAMSUNG&lt;/TD&gt;
+                        		&lt;TD&gt;2M x 32Bit x 4 Banks Mobile SDRAM with 1.8V power supply.&lt;/TD&gt;
+		&lt;/TR&gt;
+                 	&lt;TR &gt;
+			&lt;TD&gt;K9WAG08U1A &lt;/TD&gt;
+			&lt;TD&gt;TSOP48L&lt;/TD&gt;
+			&lt;TD&gt;SAMSUNG&lt;/TD&gt;
+                        		&lt;TD&gt;1G x 8 Bit / 2G x 8 Bit / 4G x 8 Bit NAND Flash Memory.&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;K9**G08U*A &lt;/TD&gt;
+			&lt;TD&gt;52-TLGA&lt;/TD&gt;
+			&lt;TD&gt;SAMSUNG&lt;/TD&gt;
+                        		&lt;TD&gt;1G x 8 Bit / 2G x 8 Bit / 4G x 8 Bit NAND Flash Memory.&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;LED&lt;/TD&gt;
+			&lt;TD&gt;NN&lt;/TD&gt;
+			&lt;TD&gt;various packages&lt;/TD&gt;
+                        		&lt;TD&gt;LED's in various packages&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;LM2717&lt;/TD&gt;
+			&lt;TD&gt;TSSOP-24&lt;/TD&gt;
+			&lt;TD&gt;National Semiconductor&lt;/TD&gt;
+                        		&lt;TD&gt;Dual Step-Down DC/DC Converter&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;LM4888SQ&lt;/TD&gt;
+			&lt;TD&gt;SQA24A&lt;/TD&gt;
+			&lt;TD&gt;National Semiconductor&lt;/TD&gt;
+                        		&lt;TD&gt;Dual 2.1W Audio Amplifier Plus Stereo Headphone &amp; 3D Enhancement&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;LP3470&lt;/TD&gt;
+			&lt;TD&gt;SOT23-5L&lt;/TD&gt;
+			&lt;TD&gt;National Semiconductor&lt;/TD&gt;
+                        		&lt;TD&gt;Tiny Power On Reset Circuit&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;L_US&lt;/TD&gt;
+			&lt;TD&gt;various packages&lt;/TD&gt;
+			&lt;TD&gt;Sumida, TDK&lt;/TD&gt;
+                        		&lt;TD&gt;Inductors in various packages&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;LTC1628&lt;/TD&gt;
+			&lt;TD&gt;32QFN and SSOP-28&lt;/TD&gt;
+			&lt;TD&gt;Linear Technology&lt;/TD&gt;
+                        		&lt;TD&gt;High Efficiency, 2-Phase Synchronous Step-Down Switching Regulators&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;LTC1663&lt;/TD&gt;
+			&lt;TD&gt;TSTOT23-5 or MSOP8&lt;/TD&gt;
+			&lt;TD&gt;Linear Technology&lt;/TD&gt;
+                        		&lt;TD&gt;10-Bit Rail-to-Rail Micropower DAC with 2-Wire Interface&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;LTC1702a&lt;/TD&gt;
+			&lt;TD&gt;SSOP-24&lt;/TD&gt;
+			&lt;TD&gt;Linear Technology&lt;/TD&gt;
+                        		&lt;TD&gt;Dual 550kHz Synchronous 2-Phase Switching Regulator Controller&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;LTC1773&lt;/TD&gt;
+			&lt;TD&gt;MSOP-10&lt;/TD&gt;
+			&lt;TD&gt;Linear Technology&lt;/TD&gt;
+                        		&lt;TD&gt;Synchronous Step-Down DC/DC Controller&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;LTC4100&lt;/TD&gt;
+			&lt;TD&gt;SSOP-24&lt;/TD&gt;
+			&lt;TD&gt;Linear Technology&lt;/TD&gt;
+                        		&lt;TD&gt;Smart Battery Charger Controller&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;MAX63xx&lt;/TD&gt;
+			&lt;TD&gt;SOT23&lt;/TD&gt;
+			&lt;TD&gt;MAXIM&lt;/TD&gt;
+                        		&lt;TD&gt;3-Pin, Ultra-Low-Power SC70/SOT µP Reset Circuits&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;MAX671x&lt;/TD&gt;
+			&lt;TD&gt;SC70-4&lt;/TD&gt;
+			&lt;TD&gt;MAXIM&lt;/TD&gt;
+                        		&lt;TD&gt;4-Pin SC70 Microprocessor Reset Circuits with Manual Reset Input&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;MAX811-812&lt;/TD&gt;
+			&lt;TD&gt;SOT143 Reflow soldering&lt;/TD&gt;
+			&lt;TD&gt;MAXIM&lt;/TD&gt;
+                        		&lt;TD&gt;4-Pin µP Voltage Monitors with Manual Reset Input&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;MAX1535A&lt;/TD&gt;
+			&lt;TD&gt;TQFN32&lt;/TD&gt;
+			&lt;TD&gt;MAXIM&lt;/TD&gt;
+                        		&lt;TD&gt;Highly Integrated Level 2 SMBus Battery Charger&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;MAX1586-A/B/C&lt;/TD&gt;
+			&lt;TD&gt;TQFN48&lt;/TD&gt;
+			&lt;TD&gt;MAXIM&lt;/TD&gt;
+                        		&lt;TD&gt;Power Management IC for XSCAL Processors&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;MAX1647&lt;/TD&gt;
+			&lt;TD&gt;SSOP20&lt;/TD&gt;
+			&lt;TD&gt;MAXIM&lt;/TD&gt;
+                        		&lt;TD&gt;Chemistry-Independent Battery Chargers&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;MAX1648&lt;/TD&gt;
+			&lt;TD&gt;SO16&lt;/TD&gt;
+			&lt;TD&gt;MAXIM&lt;/TD&gt;
+                        		&lt;TD&gt;Chemistry-Independent Battery Chargers&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;MAX1693/4&lt;/TD&gt;
+			&lt;TD&gt;uMAX10&lt;/TD&gt;
+			&lt;TD&gt;MAXIM&lt;/TD&gt;
+                        		&lt;TD&gt;USB Current-Limited Switches with Fault Blanking&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;MAX1946&lt;/TD&gt;
+			&lt;TD&gt;QFN-8&lt;/TD&gt;
+			&lt;TD&gt;MAXIM&lt;/TD&gt;
+                        		&lt;TD&gt;USB Current-Limited Switches with Fault Blanking&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;MAX1953_MAX1954&lt;/TD&gt;
+			&lt;TD&gt;UMAX10&lt;/TD&gt;
+			&lt;TD&gt;MAXIM&lt;/TD&gt;
+                        		&lt;TD&gt;Low-Cost, High-Frequency, Current-Mode PWM Buck Controller&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;MAX3226_MAX3227 &lt;/TD&gt;
+			&lt;TD&gt;SSOP16&lt;/TD&gt;
+			&lt;TD&gt;MAXIM&lt;/TD&gt;
+                        		&lt;TD&gt;±15kV ESD-Protected, 1µA, 1Mbps, 3.0V to 5.5V, RS-232 Transceivers with AutoShutdown Plus&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;MAX3232&lt;/TD&gt;
+			&lt;TD&gt;SO16&lt;/TD&gt;
+			&lt;TD&gt;MAXIM&lt;/TD&gt;
+                        		&lt;TD&gt;250kbit multichannel RS-232 line driver/receiver with ESD protection&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;MAX3244_MAX3245 &lt;/TD&gt;
+			&lt;TD&gt;SSOP28,TSSOP28&lt;/TD&gt;
+			&lt;TD&gt;MAXIM&lt;/TD&gt;
+                        		&lt;TD&gt;±15kV ESD-Protected, 1µA, 1Mbps, 3.0V to 5.5V, RS-232 Transceivers with AutoShutdown Plus&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;MAX3387E&lt;/TD&gt;
+			&lt;TD&gt;TSSOP24&lt;/TD&gt;
+			&lt;TD&gt;MAXIM&lt;/TD&gt;
+                        		&lt;TD&gt;RS-232 Transceiver for PDAs and Cell Phones with ESD protection&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;MAX4377&lt;/TD&gt;
+			&lt;TD&gt;SOIC8, MSOP8&lt;/TD&gt;
+			&lt;TD&gt;MAXIM&lt;/TD&gt;
+                        		&lt;TD&gt;Dual High-Side Current-Sense Amplifier with Internal Gain&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;MAX8713&lt;/TD&gt;
+			&lt;TD&gt;TQFN24&lt;/TD&gt;
+			&lt;TD&gt;MAXIM&lt;/TD&gt;
+                        		&lt;TD&gt;Simplified Multichemistry SMBus Battery Charger&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;MAX9702&lt;/TD&gt;
+			&lt;TD&gt;TQFN28&lt;/TD&gt;
+			&lt;TD&gt;MAXIM&lt;/TD&gt;
+                        		&lt;TD&gt;1.8W, Filterless, Stereo, Class D Audio Power Amplifier and DirectDrive Stereo Headphone Amplifier&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;MAX9812&lt;/TD&gt;
+			&lt;TD&gt;SC-70&lt;/TD&gt;
+			&lt;TD&gt;MAXIM&lt;/TD&gt;
+                        		&lt;TD&gt;Tiny, Low-Cost, Single, Fixed-Gain Microphone Amplifiers with Integrated Bias&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;MAX9813&lt;/TD&gt;
+			&lt;TD&gt;SOT23-8&lt;/TD&gt;
+			&lt;TD&gt;MAXIM&lt;/TD&gt;
+                        		&lt;TD&gt;Tiny, Low-Cost, Dual-Input, Fixed-Gain Microphone Amplifiers with Integrated Bias&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;MC74VHC1GT125&lt;/TD&gt;
+			&lt;TD&gt;SOT23-5,SOT353&lt;/TD&gt;
+			&lt;TD&gt;OnSemi&lt;/TD&gt;
+                        		&lt;TD&gt;Noninverting Buffer / CMOS Logic Level Shifter with LSTTL-Compatible Inputs&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;MC14548x&lt;/TD&gt;
+			&lt;TD&gt;SSOP20W&lt;/TD&gt;
+			&lt;TD&gt;Freescale (Motorola)&lt;/TD&gt;
+                        		&lt;TD&gt;MC145481 3V PCM Codec-Filter and MC145483 13-bit linear PCM Codec-Filter&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;MD253&lt;/TD&gt;
+			&lt;TD&gt;115FBGA, 115-FBGA&lt;/TD&gt;
+			&lt;TD&gt;M-Systems&lt;/TD&gt;
+                        		&lt;TD&gt;4GBi, 8Gibt or 16Gbit  Flash Disk with MLC NAND and M-Systems x2 Technology&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;MD8831_MD8832&lt;/TD&gt;
+			&lt;TD&gt;69FBGA&lt;/TD&gt;
+			&lt;TD&gt;M-Systems&lt;/TD&gt;
+                        		&lt;TD&gt;1GBit or 2Gibt Flash Disk with MLC NAND and M-Systems x2 Technology&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;MIC2171&lt;/TD&gt;
+			&lt;TD&gt;TO-263-5&lt;/TD&gt;
+			&lt;TD&gt;Micrel&lt;/TD&gt;
+                        		&lt;TD&gt;100kHz 2.5A Switching Regulator (step-up)&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;MIC2177&lt;/TD&gt;
+			&lt;TD&gt;SOP20W&lt;/TD&gt;
+			&lt;TD&gt;Micrel&lt;/TD&gt;
+                        		&lt;TD&gt;2.5A synchronous buck (stepdown) switching regulator (DC/DC)&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;MIC2178&lt;/TD&gt;
+			&lt;TD&gt;SOP20W&lt;/TD&gt;
+			&lt;TD&gt;Micrel&lt;/TD&gt;
+                        		&lt;TD&gt;2.5A synchronous buck (stepdown) switching regulator (DC/DC)&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;MIC2179&lt;/TD&gt;
+			&lt;TD&gt;SSOP20W&lt;/TD&gt;
+			&lt;TD&gt;Micrel&lt;/TD&gt;
+                        		&lt;TD&gt;1.5A synchronous buck (stepdown) switching regulator (DC/DC)&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;MIC2182&lt;/TD&gt;
+			&lt;TD&gt;SOP16, SSOP16&lt;/TD&gt;
+			&lt;TD&gt;Micrel&lt;/TD&gt;
+                        		&lt;TD&gt;High-Efficiency Synchronous Buck Controller&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;MIC2185&lt;/TD&gt;
+			&lt;TD&gt;SOIC16, QSOP16&lt;/TD&gt;
+			&lt;TD&gt;Micrel&lt;/TD&gt;
+                        		&lt;TD&gt;Low Voltage Synchronous Boost PWM Controller IC&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;MIC2185&lt;/TD&gt;
+			&lt;TD&gt;SOIC16, QSOP16&lt;/TD&gt;
+			&lt;TD&gt;Micrel&lt;/TD&gt;
+                        		&lt;TD&gt;Low Voltage Synchronous Boost PWM Controller IC&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;MIC2196&lt;/TD&gt;
+			&lt;TD&gt;SOIC8&lt;/TD&gt;
+			&lt;TD&gt;Micrel&lt;/TD&gt;
+                        		&lt;TD&gt;400kHz SO-8 Boost Control IC&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;MMBD4148CC&lt;/TD&gt;
+			&lt;TD&gt;SOT-23&lt;/TD&gt;
+			&lt;TD&gt;Fairchild&lt;/TD&gt;
+                        		&lt;TD&gt;Dual Small Signal Diode&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;MMA7260Q&lt;/TD&gt;
+			&lt;TD&gt;QFN-16&lt;/TD&gt;
+			&lt;TD&gt;Freescale Semiconductor&lt;/TD&gt;
+                        		&lt;TD&gt;±1.5g - 6g Three Axis Low-g&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;MS5534A/B&lt;/TD&gt;
+			&lt;TD&gt;MS5534A/B-TOP, MS5534A/B-BOTTOM&lt;/TD&gt;
+			&lt;TD&gt;Intersema Sensoric SA&lt;/TD&gt;
+                        		&lt;TD&gt;Altimeter/Barometer Module&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;MSM7702&lt;/TD&gt;
+			&lt;TD&gt;SSOP20-P&lt;/TD&gt;
+			&lt;TD&gt;OKI&lt;/TD&gt;
+                        		&lt;TD&gt;Single Rail CODEC&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;MSM7717&lt;/TD&gt;
+			&lt;TD&gt;SSOP20-P&lt;/TD&gt;
+			&lt;TD&gt;OKI&lt;/TD&gt;
+                        		&lt;TD&gt;Single Rail CODEC&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;MT48H8M32LF&lt;/TD&gt;
+			&lt;TD&gt;90FBGA&lt;/TD&gt;
+			&lt;TD&gt;Micron&lt;/TD&gt;
+                        		&lt;TD&gt;256Mb: 8 Meg x 32 Mobile SDRAM&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;MXD2125&lt;/TD&gt;
+			&lt;TD&gt;LCC-8&lt;/TD&gt;
+			&lt;TD&gt;MEMSIC&lt;/TD&gt;
+                        		&lt;TD&gt;Ultra Low Noise ±3 g Dual Axis Accelerometer with Digital Outputs&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;OSCILLATORS&lt;/TD&gt;
+			&lt;TD&gt;Various Packages&lt;/TD&gt;
+			&lt;TD&gt;Abracon, Connor Winfield, CTS,Citizen&lt;/TD&gt;
+                        		&lt;TD&gt;Various Osccilators 32kHz, 1 to 50MHz &lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;NFM46P&lt;/TD&gt;
+			&lt;TD&gt;2220&lt;/TD&gt;
+			&lt;TD&gt;muRata&lt;/TD&gt;
+                        		&lt;TD&gt;Large rated current 3 terminal capacitor in DC power line (6A) &lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;NFM2012P&lt;/TD&gt;
+			&lt;TD&gt;0805&lt;/TD&gt;
+			&lt;TD&gt;muRata&lt;/TD&gt;
+                        		&lt;TD&gt;Large rated current 3 terminal capacitor in DC power line (2-4A)&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;PLM250S&lt;/TD&gt;
+			&lt;TD&gt;PLM250S&lt;/TD&gt;
+			&lt;TD&gt;muRata&lt;/TD&gt;
+                        		&lt;TD&gt;Choke Coil&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;PXA270_PBGA&lt;/TD&gt;
+			&lt;TD&gt;23x23mm PBGA&lt;/TD&gt;
+			&lt;TD&gt;Intel&lt;/TD&gt;
+                        		&lt;TD&gt;Intel® PXA270 MultiMedia Processor&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;PXA270_VF_BGA&lt;/TD&gt;
+			&lt;TD&gt;13x13mm VFBGA&lt;/TD&gt;
+			&lt;TD&gt;Intel&lt;/TD&gt;
+                        		&lt;TD&gt;Intel® PXA270 MultiMedia Processor&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;QuickIDE&lt;/TD&gt;
+			&lt;TD&gt;BGA 196&lt;/TD&gt;
+			&lt;TD&gt;Quick Logic&lt;/TD&gt;
+                        		&lt;TD&gt;QuickIDE Intel XScale PXA2xx to IDE Bridge&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;RESET-BUTTON&lt;/TD&gt;
+			&lt;TD&gt;EVQ-PJU05K&lt;/TD&gt;
+			&lt;TD&gt;Panasonic&lt;/TD&gt;
+                        		&lt;TD&gt;Surface Mount Momentary Pushbutton Switches&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;RESONATOR-MURATA2&lt;/TD&gt;
+			&lt;TD&gt;RESONATOR-MURATA2&lt;/TD&gt;
+			&lt;TD&gt;Murata&lt;/TD&gt;
+                        		&lt;TD&gt;ceramic Resonator with built in load capacitance&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;RESONATOR-MURATA3&lt;/TD&gt;
+			&lt;TD&gt;RESONATOR-MURATA3&lt;/TD&gt;
+			&lt;TD&gt;Murata&lt;/TD&gt;
+                        		&lt;TD&gt;ceramic Resonator with built in load capacitance&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;RESONATOR-MURATA4&lt;/TD&gt;
+			&lt;TD&gt;RESONATOR-MURATA4&lt;/TD&gt;
+			&lt;TD&gt;Murata&lt;/TD&gt;
+                        		&lt;TD&gt;ceramic Resonator with built in load capacitance&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;RGB-TRI-LED&lt;/TD&gt;
+			&lt;TD&gt;Various&lt;/TD&gt;
+			&lt;TD&gt;Various&lt;/TD&gt;
+                        		&lt;TD&gt;RGB Tri-LEDs&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;RN_EU&lt;/TD&gt;
+			&lt;TD&gt;various packages&lt;/TD&gt;
+			&lt;TD&gt;CTS,Panasonic&lt;/TD&gt;
+                        		&lt;TD&gt;Resistor Chip Arrays in various packages&lt;/TD&gt;
+		&lt;/TR&gt;
+               	&lt;TR &gt;
+			&lt;TD&gt;RW1S0CK&lt;/TD&gt;
+			&lt;TD&gt;Special Package&lt;/TD&gt;
+			&lt;TD&gt;www.ohmite.com&lt;/TD&gt;
+                        		&lt;TD&gt;Four-terminal Current Sense Resistor&lt;/TD&gt;
+		&lt;/TR&gt;
+               	&lt;TR &gt;
+			&lt;TD&gt;R_TRIM1&lt;/TD&gt;
+			&lt;TD&gt;RESISTOR-TRIM1/2&lt;/TD&gt;
+			&lt;TD&gt;www.tocos.com&lt;/TD&gt;
+                        		&lt;TD&gt;Trim Resistors&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;R_US&lt;/TD&gt;
+			&lt;TD&gt;various packages&lt;/TD&gt;
+			&lt;TD&gt;NN&lt;/TD&gt;
+                        		&lt;TD&gt;Resistors in various packages&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;SCA3000&lt;/TD&gt;
+			&lt;TD&gt;SCA3000&lt;/TD&gt;
+			&lt;TD&gt;VTI Technologies&lt;/TD&gt;
+                        		&lt;TD&gt;3-AXIS ULTRA LOW POWER ACCELEROMETER WITH DIGITAL I2C or SPI INTERFACE&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;SCP1000&lt;/TD&gt;
+			&lt;TD&gt;SCP1000&lt;/TD&gt;
+			&lt;TD&gt;VTI Technologies&lt;/TD&gt;
+                        		&lt;TD&gt;Pressure Sensor as Barometer and Altimeter&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;Si3456BDV&lt;/TD&gt;
+			&lt;TD&gt;TSOP-6&lt;/TD&gt;
+			&lt;TD&gt;VISHAY/Siliconix&lt;/TD&gt;
+                        		&lt;TD&gt;N-Channel 30-V (D-S) MOSFET&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;Si4431BDY&lt;/TD&gt;
+			&lt;TD&gt;SOIC-8&lt;/TD&gt;
+			&lt;TD&gt;VISHAY/Siliconix&lt;/TD&gt;
+                        		&lt;TD&gt;P-Channel 30-V (D-S) MOSFET&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;Si4435BDY&lt;/TD&gt;
+			&lt;TD&gt;SOIC-8&lt;/TD&gt;
+			&lt;TD&gt;VISHAY/Siliconix&lt;/TD&gt;
+                        		&lt;TD&gt;P-Channel 30-V (D-S) MOSFET&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;Si4800BDY&lt;/TD&gt;
+			&lt;TD&gt;SOIC-8&lt;/TD&gt;
+			&lt;TD&gt;VISHAY/Siliconix&lt;/TD&gt;
+                        		&lt;TD&gt;N-Channel Reduced Qg, Fast Switching MOSFET&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;Si4835BDY&lt;/TD&gt;
+			&lt;TD&gt;SOIC-8&lt;/TD&gt;
+			&lt;TD&gt;VISHAY/Siliconix&lt;/TD&gt;
+                        		&lt;TD&gt;P-Channel 30-V (D-S) MOSFET&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;Si4884BDY&lt;/TD&gt;
+			&lt;TD&gt;SOIC-8&lt;/TD&gt;
+			&lt;TD&gt;VISHAY/Siliconix&lt;/TD&gt;
+                        		&lt;TD&gt;N-Channel 30-V (D-S) MOSFET&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;Si4888BDY&lt;/TD&gt;
+			&lt;TD&gt;SOIC-8&lt;/TD&gt;
+			&lt;TD&gt;VISHAY/Siliconix&lt;/TD&gt;
+                        		&lt;TD&gt;N-Channel Reduced Qg, Fast Switching MOSFET&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;Si4925BDY&lt;/TD&gt;
+			&lt;TD&gt;SOIC-8&lt;/TD&gt;
+			&lt;TD&gt;VISHAY/Siliconix&lt;/TD&gt;
+                        		&lt;TD&gt;Dual P-Channel 30-V (D-S) MOSFET&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;Si5443DC&lt;/TD&gt;
+			&lt;TD&gt;1206-8 ChipFET&lt;/TD&gt;
+			&lt;TD&gt;VISHAY/Siliconix&lt;/TD&gt;
+                        		&lt;TD&gt;P-Channel 2.5-V (G-S) MOSFET&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;Si7868ADP&lt;/TD&gt;
+			&lt;TD&gt;So-8-PowerPAK&lt;/TD&gt;
+			&lt;TD&gt;VISHAY/Siliconix&lt;/TD&gt;
+                        		&lt;TD&gt;N-Channel 20-V (D-S) MOSFET&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;SMT-ANTENNA&lt;/TD&gt;
+			&lt;TD&gt;Various&lt;/TD&gt;
+                        		&lt;TD&gt;GigaAnt, Linx&lt;/TD&gt;
+			&lt;TD&gt;2.4Ghz SMD Antennas&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;SN74**C1G08&lt;/TD&gt;
+			&lt;TD&gt;SOT23-5,SC70-5&lt;/TD&gt;
+			&lt;TD&gt;Texas Instruments&lt;/TD&gt;
+                        		&lt;TD&gt;Single AND Gate positiv logic&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;SN74AVC4T245&lt;/TD&gt;
+			&lt;TD&gt;TSSOP-16W, QFN-16, TVSOP16&lt;/TD&gt;
+			&lt;TD&gt;Texas Instruments&lt;/TD&gt;
+                        		&lt;TD&gt;4-BIT DUAL-SUPPLY BUS TRANSCEIVER WITH CONFIGURABLE VOLTAGE TRANSLATION AND 3-STATE OUTPUTS&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;SN74AVC8T245&lt;/TD&gt;
+			&lt;TD&gt;TSSOP-24, QFN-24&lt;/TD&gt;
+			&lt;TD&gt;Texas Instruments&lt;/TD&gt;
+                        		&lt;TD&gt;8-BIT DUAL-SUPPLY BUS TRANSCEIVER WITH CONFIGURABLE VOLTAGE TRANSLATION AND 3-STATE OUTPUTS&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;SN74AVCAH164245&lt;/TD&gt;
+			&lt;TD&gt;TVSOP-48&lt;/TD&gt;
+			&lt;TD&gt;Texas Instruments&lt;/TD&gt;
+                        		&lt;TD&gt;16-BIT DUAL-SUPPLY BUS TRANSCEIVER WITH CONFIGURABLE VOLTAGE TRANSLATION AND 3-STATE OUTPUTS&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;SN74AVCB324245&lt;/TD&gt;
+			&lt;TD&gt;LFBGA96&lt;/TD&gt;
+			&lt;TD&gt;Texas Instruments&lt;/TD&gt;
+                        		&lt;TD&gt;32-BIT DUAL-SUPPLY BUS TRANSCEIVER WITH CONFIGURABLE VOLTAGE TRANSLATION AND 3-STATE OUTPUTS&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;SN74LVC1G04&lt;/TD&gt;
+			&lt;TD&gt;SOT23-5,SC70-5&lt;/TD&gt;
+			&lt;TD&gt;Texas Instruments&lt;/TD&gt;
+                        		&lt;TD&gt;Single Inverter Gate&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;SN74LVC2G04&lt;/TD&gt;
+			&lt;TD&gt;SOT23-6,SC70-6&lt;/TD&gt;
+			&lt;TD&gt;Texas Instruments&lt;/TD&gt;
+                        		&lt;TD&gt;Dual Inverter Gate&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;SN74LVC2G08&lt;/TD&gt;
+			&lt;TD&gt;SSOP-8,VSSOP-8&lt;/TD&gt;
+			&lt;TD&gt;Texas Instruments&lt;/TD&gt;
+                        		&lt;TD&gt;Dual AND Gate positiv logic&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;SN74LVC2G157&lt;/TD&gt;
+			&lt;TD&gt;SSOP8,VSSOP8&lt;/TD&gt;
+			&lt;TD&gt;Texas Instruments&lt;/TD&gt;
+                        		&lt;TD&gt;SINGLE 2-LINE TO 1-LINE DATA SELECTOR/MULTIPLEXER&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;SN74LVC2G241&lt;/TD&gt;
+			&lt;TD&gt;SSOP8,VSSOP8&lt;/TD&gt;
+			&lt;TD&gt;Texas Instruments&lt;/TD&gt;
+                        		&lt;TD&gt;Dual Buffer/Driver with 3.States Output&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;SN74xxx138&lt;/TD&gt;
+			&lt;TD&gt;SOIC-16, SSOP-16, TSSOP-16&lt;/TD&gt;
+			&lt;TD&gt;Texas Instruments&lt;/TD&gt;
+                        		&lt;TD&gt;3-Line to 8-Line Decoder/Demultiplexer&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;SP724AH&lt;/TD&gt;
+			&lt;TD&gt;SOT23-6L&lt;/TD&gt;
+			&lt;TD&gt;Harris or Littlefuse&lt;/TD&gt;
+                        		&lt;TD&gt;SCR Diode Array for ESD and Transient Overvoltage Protection&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;STEREOJACK1&lt;/TD&gt;
+			&lt;TD&gt;STEREOJACK1&lt;/TD&gt;
+			&lt;TD&gt;NN&lt;/TD&gt;
+                        		&lt;TD&gt;stereojack from Jespers Yampp7 MP3 player&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;STF203-xx&lt;/TD&gt;
+			&lt;TD&gt;SC70-6L&lt;/TD&gt;
+			&lt;TD&gt;SEMTECH&lt;/TD&gt;
+                        		&lt;TD&gt;USB Upstream Port Filter and TVS For EMI Filtering and ESD Protection&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;SWITCH_01&lt;/TD&gt;
+			&lt;TD&gt;SWITCH_01&lt;/TD&gt;
+			&lt;TD&gt;NN&lt;/TD&gt;
+                        		&lt;TD&gt;surface mount momentary pushbutton switch&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;SWITCH_04&lt;/TD&gt;
+			&lt;TD&gt;SWITCH_04&lt;/TD&gt;
+			&lt;TD&gt;www.e-switch.com&lt;/TD&gt;
+                        		&lt;TD&gt;SMT dip switches&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;SWITCH_NAVIGATION&lt;/TD&gt;
+			&lt;TD&gt;ITT_TPC&lt;/TD&gt;
+			&lt;TD&gt;ITT Canon&lt;/TD&gt;
+                        		&lt;TD&gt;TPC Series Tri-direction Scan Switch&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;SWITCH_ROTERY&lt;/TD&gt;
+			&lt;TD&gt;ALPS_SLLB120_220&lt;/TD&gt;
+			&lt;TD&gt;ALPS&lt;/TD&gt;
+                        		&lt;TD&gt;HORIZONTAL TYPE SEESAW AND PUSH OPERATION SWITCHES&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;TC7SH32F/FU&lt;/TD&gt;
+			&lt;TD&gt;SSOP5-P-0.65A SSOP5-P-0.95&lt;/TD&gt;
+			&lt;TD&gt;Toshiba&lt;/TD&gt;
+                        		&lt;TD&gt;2-Input OR-Gate&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;TDC-002&lt;/TD&gt;
+			&lt;TD&gt;Various packages&lt;/TD&gt;
+			&lt;TD&gt;TECHNIK INDUSTRIAL CO. LTD&lt;/TD&gt;
+                        		&lt;TD&gt;DC Power Jack&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;TG110-S050N2&lt;/TD&gt;
+			&lt;TD&gt;SOIC16&lt;/TD&gt;
+			&lt;TD&gt;Halo Electronics Inc&lt;/TD&gt;
+                        		&lt;TD&gt;ULTRA-Series, 16 Pin SOIC 10/100BASE-TX Magnetic Modules&lt;/TD&gt;
+		&lt;/TR&gt;
+        		&lt;TR &gt;
+			&lt;TD&gt;THS8135&lt;/TD&gt;
+			&lt;TD&gt;TQFP48&lt;/TD&gt;
+			&lt;TD&gt;Texas Instrument&lt;/TD&gt;
+            			&lt;TD&gt;TRIPLE 10-BIT, 240 MSPS VIDEO DAC WITH TRI-LEVEL SYNC&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;TMM-106-03-S-G&lt;/TD&gt;
+			&lt;TD&gt;TMM-106&lt;/TD&gt;
+			&lt;TD&gt;Samtec&lt;/TD&gt;
+            			&lt;TD&gt;2mm Board Stacker&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;TMM-108-03-D-G&lt;/TD&gt;
+			&lt;TD&gt;TMM-108&lt;/TD&gt;
+			&lt;TD&gt;Samtec&lt;/TD&gt;
+            			&lt;TD&gt;2mm Board Stacker&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;TPA6204A1&lt;/TD&gt;
+			&lt;TD&gt;QFN8-DRB&lt;/TD&gt;
+			&lt;TD&gt;Texas Instrument&lt;/TD&gt;
+            			&lt;TD&gt;1.7-W mono fully-differential audio amplifier&lt;/TD&gt;
+		&lt;/TR&gt;
+        		&lt;TR &gt;
+			&lt;TD&gt;TPS2042&lt;/TD&gt;
+			&lt;TD&gt;SOIC-8, MSOP-8&lt;/TD&gt;
+			&lt;TD&gt;Texas Instrument&lt;/TD&gt;
+            			&lt;TD&gt;CURRENT-LIMITED, POWER-DISTRIBUTION SWITCHES&lt;/TD&gt;
+		&lt;/TR&gt;
+        		&lt;TR &gt;
+			&lt;TD&gt;TPS5124&lt;/TD&gt;
+			&lt;TD&gt;TSSOP30&lt;/TD&gt;
+			&lt;TD&gt;Texas Instrument&lt;/TD&gt;
+            			&lt;TD&gt;Dual channel, synchronous, step-down PWM controller&lt;/TD&gt;
+		&lt;/TR&gt;
+        		&lt;TR &gt;
+			&lt;TD&gt;TPS5410_TPS5420&lt;/TD&gt;
+			&lt;TD&gt;SOIC-8&lt;/TD&gt;
+			&lt;TD&gt;Texas Instrument&lt;/TD&gt;
+            			&lt;TD&gt;1A or 2A, WIDE INPUT RANGE, STEP-DOWN SWIFT CONVERTER&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;TPS51020&lt;/TD&gt;
+			&lt;TD&gt;TSSOP30&lt;/TD&gt;
+			&lt;TD&gt;Texas Instrument&lt;/TD&gt;
+            			&lt;TD&gt;Dual voltage mode, DDR selectable, synchronous, step-down controller for notebook system power&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;TPS54350&lt;/TD&gt;
+			&lt;TD&gt;PSOP-16&lt;/TD&gt;
+			&lt;TD&gt;Texas Instrument&lt;/TD&gt;
+            			&lt;TD&gt;4.5V to 20V Input, 3A Output Synchronous PWM Switcher with integrated FET&lt;/TD&gt;
+		&lt;/TR&gt;
+		&lt;TR &gt;
+			&lt;TD&gt;TPS54550&lt;/TD&gt;
+			&lt;TD&gt;PSOP-16&lt;/TD&gt;
+			&lt;TD&gt;Texas Instrument&lt;/TD&gt;
+            			&lt;TD&gt;4.5V to 20V Input, 6A Output Synchronous PWM Switcher with integrated FET&lt;/TD&gt;
+		&lt;/TR&gt;
+        		&lt;TR &gt;
+			&lt;TD&gt;TPS6211*&lt;/TD&gt;
+			&lt;TD&gt;QFN16&lt;/TD&gt;
+			&lt;TD&gt;Texas Instrument&lt;/TD&gt;
+            			&lt;TD&gt;17-V, 1.5-A, SYNCHRONOUS STEP-DOWN CONVERTER &lt;/TD&gt;
+		&lt;/TR&gt;
+        		&lt;TR &gt;
+			&lt;TD&gt;TPS623XX&lt;/TD&gt;
+			&lt;TD&gt;QFN-10&lt;/TD&gt;
+			&lt;TD&gt;Texas Instrument&lt;/TD&gt;
+            			&lt;TD&gt;500mA, 3-MHz synchronous step-down converter &lt;/TD&gt;
+		&lt;/TR&gt;
+        		&lt;TR &gt;
+			&lt;TD&gt;TPS6200x&lt;/TD&gt;
+			&lt;TD&gt;MSOP-10&lt;/TD&gt;
+			&lt;TD&gt;Texas Instrument&lt;/TD&gt;
+            			&lt;TD&gt;600-mA High efficiency Step-Down low power DC-DC Converter&lt;/TD&gt;
+		&lt;/TR&gt;
+        		&lt;TR &gt;
+			&lt;TD&gt;TPS6204x&lt;/TD&gt;
+			&lt;TD&gt;MSOP-10&lt;/TD&gt;
+			&lt;TD&gt;Texas Instrument&lt;/TD&gt;
+            			&lt;TD&gt;1.2 A/1.25 MHz, HIGH-EFFICIENCY STEP-DOWN CONVERTER&lt;/TD&gt;
+		&lt;/TR&gt;
+        		&lt;TR &gt;
+			&lt;TD&gt;TPS6250x&lt;/TD&gt;
+			&lt;TD&gt;MSOP-10&lt;/TD&gt;
+			&lt;TD&gt;Texas Instrument&lt;/TD&gt;
+            			&lt;TD&gt;800-mA SYNCHRONOUS STEP-DOWN CONVERTER&lt;/TD&gt;
+		&lt;/TR&gt;
+        		&lt;TR &gt;
+			&lt;TD&gt;TPS6220x&lt;/TD&gt;
+			&lt;TD&gt;SOT23-5L&lt;/TD&gt;
+			&lt;TD&gt;Texas Instrument&lt;/TD&gt;
+            			&lt;TD&gt;300-mA High efficiency Step-Down low power DC-DC Converter&lt;/TD&gt;
+		&lt;/TR&gt;
+        		&lt;TR &gt;
+			&lt;TD&gt;TPS62510&lt;/TD&gt;
+			&lt;TD&gt;QFN10&lt;/TD&gt;
+			&lt;TD&gt;Texas Instrument&lt;/TD&gt;
+            			&lt;TD&gt;1.5-A, LOW INPUT VOLTAGE HIGH EFFICIENCY STEP-DOWN CONVERTER&lt;/TD&gt;
+		&lt;/TR&gt;
+        		&lt;TR &gt;
+			&lt;TD&gt;TS5A3153 &lt;/TD&gt;
+			&lt;TD&gt;SSOP8, VSSOP8&lt;/TD&gt;
+			&lt;TD&gt;Texas Instrument&lt;/TD&gt;
+            			&lt;TD&gt;single-pole double-throw (SPDT) analog switch&lt;/TD&gt;
+		&lt;/TR&gt;
+        		&lt;TR &gt;
+			&lt;TD&gt;TS5A3159 &lt;/TD&gt;
+			&lt;TD&gt;SOT23-6L, SC-70&lt;/TD&gt;
+			&lt;TD&gt;Texas Instrument&lt;/TD&gt;
+            			&lt;TD&gt;single-pole double-throw (SPDT) analog switch&lt;/TD&gt;
+		&lt;/TR&gt;
+        		&lt;TR &gt;
+			&lt;TD&gt;TW-09-02-SD-170-SMT&lt;/TD&gt;
+			&lt;TD&gt;TW-09-02-SD&lt;/TD&gt;
+			&lt;TD&gt;SAMTEC &lt;/TD&gt;
+                        		&lt;TD&gt;SAMTEC Board Stacker&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;USB-B&lt;/TD&gt;
+			&lt;TD&gt;USB-B USB-MINI-B&lt;/TD&gt;
+			&lt;TD&gt;Molex&lt;/TD&gt;
+                        		&lt;TD&gt;USB type (mini-)B surface mount connector&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;VREG_MULTI&lt;/TD&gt;
+			&lt;TD&gt;SOT223&lt;/TD&gt;
+			&lt;TD&gt;National Semiconductors&lt;/TD&gt;
+                        		&lt;TD&gt;standard package voltage regulator&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;VREG_MULTI2&lt;/TD&gt;
+			&lt;TD&gt;SOT23&lt;/TD&gt;
+			&lt;TD&gt;National Semiconductors&lt;/TD&gt;
+                        		&lt;TD&gt;standard package voltage regulator&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;XC2C256 _CP&lt;/TD&gt;
+			&lt;TD&gt;CP132&lt;/TD&gt;
+			&lt;TD&gt;Xilinx&lt;/TD&gt;
+                        		&lt;TD&gt;1.8V 256 macrocell CPLD targeted at power sensitive designs&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;XC2C384 _FT256&lt;/TD&gt;
+			&lt;TD&gt;FT256_FTG256&lt;/TD&gt;
+			&lt;TD&gt;Xilinx&lt;/TD&gt;
+                        		&lt;TD&gt;1.8V 384 macrocell CPLD targeted at power sensitive designs&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;XC2C512 _FG324&lt;/TD&gt;
+			&lt;TD&gt;FG324&lt;/TD&gt;
+			&lt;TD&gt;Xilinx&lt;/TD&gt;
+                        		&lt;TD&gt;1.8V 512 macrocell CPLD targeted at power sensitive designs&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;XCR3128XL_CS&lt;/TD&gt;
+			&lt;TD&gt;CS144&lt;/TD&gt;
+			&lt;TD&gt;Xilinx&lt;/TD&gt;
+                        		&lt;TD&gt;3.3V 128 macrocell CPLD targeted at power sensitive designs&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;XCR3128XL_CS&lt;/TD&gt;
+			&lt;TD&gt;TQFP144&lt;/TD&gt;
+			&lt;TD&gt;Xilinx&lt;/TD&gt;
+                        		&lt;TD&gt;3.3V 128 macrocell CPLD targeted at power sensitive designs&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;XCR3128XL_CS&lt;/TD&gt;
+			&lt;TD&gt;VQFP100&lt;/TD&gt;
+			&lt;TD&gt;Xilinx&lt;/TD&gt;
+                        		&lt;TD&gt;3.3V 128 macrocell CPLD targeted at power sensitive designs&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;XCR3256XL_TQ&lt;/TD&gt;
+			&lt;TD&gt;TQFP144&lt;/TD&gt;
+			&lt;TD&gt;Xilinx&lt;/TD&gt;
+                        		&lt;TD&gt;3.3V 256 macrocell CPLD targeted at power sensitive designs&lt;/TD&gt;
+		&lt;/TR&gt;
+               	&lt;TR &gt;
+			&lt;TD&gt;ZHX1810&lt;/TD&gt;
+			&lt;TD&gt;ZHX1810&lt;/TD&gt;
+			&lt;TD&gt;ZILOG&lt;/TD&gt;
+                        		&lt;TD&gt;Low-profile 1-meter transceiver with IrDa Data mode&lt;/TD&gt;
+		&lt;/TR&gt;
+                	&lt;TR &gt;
+			&lt;TD&gt;ZHX2022&lt;/TD&gt;
+			&lt;TD&gt;ZHX2022&lt;/TD&gt;
+			&lt;TD&gt;ZILOG&lt;/TD&gt;
+            		&lt;TD&gt;IrDA transceiver with up to 4 Mbits/s data rate&lt;/TD&gt;
+		&lt;/TR&gt;
+	&lt;/TBODY&gt;
+&lt;/TABLE&gt;
+&lt;b&gt;NN:&lt;/b&gt;Not Named&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;License:&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+************************************************************************************************************************&lt;br&gt;
+*  This program is free software; you can redistribute  it and/or modify it&lt;br&gt;
+ *  under  the terms of  the &lt;b&gt;GNU General  Public License&lt;/b&gt; as published by the&lt;br&gt;
+ *  Free Software Foundation;  either &lt;b&gt;version 2&lt;/b&gt; of the  License, or (at your&lt;br&gt;
+ *  option) any later version.&lt;br&gt;
+ *&lt;br&gt;
+ *  THIS  SOFTWARE  IS PROVIDED   ``AS  IS'' AND   ANY  EXPRESS OR IMPLIED&lt;br&gt;
+ *  WARRANTIES,   INCLUDING, BUT NOT  LIMITED  TO, THE IMPLIED WARRANTIES OF&lt;br&gt;
+ *  MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN&lt;br&gt;
+ *  NO  EVENT  SHALL   THE AUTHOR  BE    LIABLE FOR ANY   DIRECT, INDIRECT,&lt;br&gt;
+ *  INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT&lt;br&gt;
+ *  NOT LIMITED   TO, PROCUREMENT OF  SUBSTITUTE GOODS  OR SERVICES; LOSS OF&lt;br&gt;
+ *  USE, DATA,  OR PROFITS; OR  BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON&lt;br&gt;
+ *  ANY THEORY OF LIABILITY, WHETHER IN  CONTRACT, STRICT LIABILITY, OR TORT&lt;br&gt;
+ *  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF&lt;br&gt;
+ *  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.&lt;br&gt;
+ *&lt;br&gt;
+ *  You should have received a copy of the  GNU General Public License along&lt;br&gt;
+ *  with this program; if not, write  to the Free Software Foundation, Inc.,&lt;br&gt;
+ *  675 Mass Ave, Cambridge, MA 02139, USA.&lt;br&gt;
+************************************************************************************************************************&lt;br&gt;
+&lt;br&gt;</description>
+<packages>
+<package name="SOIC8">
+<description>&lt;b&gt;Small Outline IC&lt;/b&gt;</description>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="1.2924" width="0.254" layer="21"/>
+<wire x1="2.4" y1="1.2924" x2="2.4" y2="-1.4" width="0.254" layer="21"/>
+<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.254" layer="51"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.254" layer="21"/>
+<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.2924" width="0.254" layer="21"/>
+<wire x1="-2.4" y1="1.2924" x2="-2.4" y2="1.9" width="0.254" layer="21"/>
+<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.254" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.254" layer="21"/>
+<wire x1="2.4" y1="1.2924" x2="-2.4" y2="1.2924" width="0.254" layer="21"/>
+<circle x="-1.778" y="-0.762" radius="0.2873" width="0.254" layer="21"/>
+<smd name="2" x="-0.635" y="-2.7" dx="0.6" dy="1.8" layer="1"/>
+<smd name="7" x="-0.635" y="2.7" dx="0.6" dy="1.8" layer="1"/>
+<smd name="1" x="-1.905" y="-2.7" dx="0.6" dy="1.8" layer="1"/>
+<smd name="3" x="0.635" y="-2.7" dx="0.6" dy="1.8" layer="1"/>
+<smd name="4" x="1.905" y="-2.7" dx="0.6" dy="1.8" layer="1"/>
+<smd name="8" x="-1.905" y="2.7" dx="0.6" dy="1.8" layer="1"/>
+<smd name="6" x="0.635" y="2.7" dx="0.6" dy="1.8" layer="1"/>
+<smd name="5" x="1.905" y="2.7" dx="0.6" dy="1.8" layer="1"/>
+<text x="-2.667" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.937" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.15" y1="-3.1" x2="-1.66" y2="-2" layer="51"/>
+<rectangle x1="-0.88" y1="-3.1" x2="-0.39" y2="-2" layer="51"/>
+<rectangle x1="0.39" y1="-3.1" x2="0.88" y2="-2" layer="51"/>
+<rectangle x1="1.66" y1="-3.1" x2="2.15" y2="-2" layer="51"/>
+<rectangle x1="1.66" y1="2" x2="2.15" y2="3.1" layer="51"/>
+<rectangle x1="0.39" y1="2" x2="0.88" y2="3.1" layer="51"/>
+<rectangle x1="-0.88" y1="2" x2="-0.39" y2="3.1" layer="51"/>
+<rectangle x1="-2.15" y1="2" x2="-1.66" y2="3.1" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="78L05">
+<pin name="VIN" x="-12.7" y="-7.62" length="middle" rot="R90"/>
+<pin name="GND" x="0" y="-7.62" length="middle" rot="R90"/>
+<pin name="VOUT" x="12.7" y="-7.62" length="middle" rot="R90"/>
+<wire x1="-20.32" y1="-2.54" x2="20.32" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="20.32" y1="-2.54" x2="20.32" y2="15.24" width="0.1524" layer="94"/>
+<wire x1="20.32" y1="15.24" x2="-20.32" y2="15.24" width="0.1524" layer="94"/>
+<wire x1="-20.32" y1="15.24" x2="-20.32" y2="-2.54" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LM78L05ACMX/NOPB">
+<gates>
+<gate name="G$1" symbol="78L05" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="SOIC8">
+<connects>
+<connect gate="G$1" pin="GND" pad="2 3 6 7"/>
+<connect gate="G$1" pin="VIN" pad="8"/>
+<connect gate="G$1" pin="VOUT" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -34155,12 +35818,25 @@ Source: &lt;a href="http://datasheets.maxim-ic.com/en/ds/MAX1487-MAX491.pdf"&gt;
 <part name="IC7" library="Opto-Electronic" library_urn="urn:adsk.eagle:library:16378487" deviceset="MOCD207M" device="SOIC-8" package3d_urn="urn:adsk.eagle:package:16378512/1"/>
 <part name="RN12" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="EXBS8V" package3d_urn="urn:adsk.eagle:package:24925/1" value="1k"/>
 <part name="IC5" library="maxim" library_urn="urn:adsk.eagle:library:269" deviceset="MAX488" device="CSA" package3d_urn="urn:adsk.eagle:package:17511/1"/>
-<part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
-<part name="D5" library="diodes" deviceset="DZ" device="MELF" value="3V6"/>
-<part name="D6" library="diodes" deviceset="DZ" device="MELF" value="3V6"/>
+<part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="500"/>
+<part name="D5" library="diodes" deviceset="DZ" device="MELF" value="~5V2"/>
+<part name="D6" library="diodes" deviceset="DZ" device="MELF" value="~5V2"/>
 <part name="D7" library="diodes" deviceset="DZ" device="MELF" value="3V6"/>
 <part name="D8" library="diodes" deviceset="DZ" device="MELF" value="3V6"/>
 <part name="D9" library="diodes" deviceset="DZ" device="MELF" value="3V6"/>
+<part name="U$1" library="m-pad-2.1" deviceset="LM78L05ACMX/NOPB" device=""/>
+<part name="C42" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
+<part name="C43" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
+<part name="IC8" library="Opto-Electronic" library_urn="urn:adsk.eagle:library:16378487" deviceset="MOCD207M" device="SOIC-8" package3d_urn="urn:adsk.eagle:package:16378512/1"/>
+<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="3k"/>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="3k"/>
+<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="~10k"/>
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="~10k"/>
+<part name="D10" library="diodes" deviceset="DZ" device="MELF" value="3V6"/>
+<part name="R15" library="rcl" deviceset="R-EU_" device="R0805" value="500"/>
+<part name="C44" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="~0"/>
+<part name="R16" library="rcl" deviceset="R-EU_" device="R0805" value="3k3"/>
+<part name="R17" library="rcl" deviceset="R-EU_" device="R0805" value="3k3"/>
 </parts>
 <sheets>
 <sheet>
@@ -35267,31 +36943,43 @@ Source: &lt;a href="http://datasheets.maxim-ic.com/en/ds/MAX1487-MAX491.pdf"&gt;
   UART</text>
 <text x="401.066" y="101.854" size="5.08" layer="94">FLASH  mem</text>
 <text x="320.04" y="162.56" size="5.08" layer="94">lin. Reg</text>
-<wire x1="325.12" y1="205.74" x2="330.2" y2="205.74" width="0.1524" layer="94"/>
-<wire x1="330.2" y1="205.74" x2="330.2" y2="204.47" width="0.1524" layer="94"/>
-<wire x1="329.692" y1="204.47" x2="330.708" y2="204.47" width="0.1524" layer="94"/>
-<wire x1="330.708" y1="204.47" x2="330.2" y2="203.962" width="0.1524" layer="94"/>
-<wire x1="330.2" y1="203.962" x2="329.692" y2="204.47" width="0.1524" layer="94"/>
-<wire x1="329.692" y1="203.962" x2="330.2" y2="203.962" width="0.1524" layer="94"/>
-<wire x1="330.2" y1="203.962" x2="330.708" y2="203.962" width="0.1524" layer="94"/>
-<wire x1="330.2" y1="203.962" x2="330.2" y2="200.66" width="0.1524" layer="94"/>
-<wire x1="330.2" y1="200.66" x2="325.12" y2="200.66" width="0.1524" layer="94"/>
-<wire x1="391.16" y1="205.74" x2="396.24" y2="205.74" width="0.1524" layer="94"/>
-<wire x1="396.24" y1="205.74" x2="396.24" y2="204.47" width="0.1524" layer="94"/>
-<wire x1="395.732" y1="204.47" x2="396.748" y2="204.47" width="0.1524" layer="94"/>
-<wire x1="396.748" y1="204.47" x2="396.24" y2="203.962" width="0.1524" layer="94"/>
-<wire x1="396.24" y1="203.962" x2="395.732" y2="204.47" width="0.1524" layer="94"/>
-<wire x1="395.732" y1="203.962" x2="396.24" y2="203.962" width="0.1524" layer="94"/>
-<wire x1="396.24" y1="203.962" x2="396.748" y2="203.962" width="0.1524" layer="94"/>
-<wire x1="396.24" y1="203.962" x2="396.24" y2="200.66" width="0.1524" layer="94"/>
-<wire x1="396.24" y1="200.66" x2="391.16" y2="200.66" width="0.1524" layer="94"/>
-<wire x1="485.14" y1="124.46" x2="378.46" y2="124.46" width="0.1524" layer="94"/>
-<wire x1="378.46" y1="124.46" x2="378.46" y2="172.72" width="0.1524" layer="94"/>
-<wire x1="378.46" y1="172.72" x2="485.14" y2="172.72" width="0.1524" layer="94"/>
-<wire x1="485.14" y1="172.72" x2="485.14" y2="124.46" width="0.1524" layer="94"/>
-<text x="469.9" y="155.194" size="1.778" layer="94">galv trenn?</text>
-<rectangle x1="492.76" y1="134.62" x2="497.84" y2="172.72" layer="94"/>
-<rectangle x1="492.76" y1="124.46" x2="497.84" y2="129.54" layer="94"/>
+<wire x1="469.9" y1="279.4" x2="474.98" y2="279.4" width="0.1524" layer="94"/>
+<wire x1="474.98" y1="279.4" x2="474.98" y2="278.13" width="0.1524" layer="94"/>
+<wire x1="474.472" y1="278.13" x2="475.488" y2="278.13" width="0.1524" layer="94"/>
+<wire x1="475.488" y1="278.13" x2="474.98" y2="277.622" width="0.1524" layer="94"/>
+<wire x1="474.98" y1="277.622" x2="474.472" y2="278.13" width="0.1524" layer="94"/>
+<wire x1="474.472" y1="277.622" x2="474.98" y2="277.622" width="0.1524" layer="94"/>
+<wire x1="474.98" y1="277.622" x2="475.488" y2="277.622" width="0.1524" layer="94"/>
+<wire x1="474.98" y1="277.622" x2="474.98" y2="274.32" width="0.1524" layer="94"/>
+<wire x1="474.98" y1="274.32" x2="469.9" y2="274.32" width="0.1524" layer="94"/>
+<wire x1="313.436" y1="196.088" x2="318.516" y2="196.088" width="0.1524" layer="94"/>
+<wire x1="318.516" y1="196.088" x2="318.516" y2="194.818" width="0.1524" layer="94"/>
+<wire x1="318.008" y1="194.818" x2="319.024" y2="194.818" width="0.1524" layer="94"/>
+<wire x1="319.024" y1="194.818" x2="318.516" y2="194.31" width="0.1524" layer="94"/>
+<wire x1="318.516" y1="194.31" x2="318.008" y2="194.818" width="0.1524" layer="94"/>
+<wire x1="318.008" y1="194.31" x2="318.516" y2="194.31" width="0.1524" layer="94"/>
+<wire x1="318.516" y1="194.31" x2="319.024" y2="194.31" width="0.1524" layer="94"/>
+<wire x1="318.516" y1="194.31" x2="318.516" y2="191.008" width="0.1524" layer="94"/>
+<wire x1="318.516" y1="191.008" x2="313.436" y2="191.008" width="0.1524" layer="94"/>
+<wire x1="513.08" y1="119.38" x2="373.38" y2="119.38" width="0.1524" layer="94"/>
+<wire x1="373.38" y1="119.38" x2="373.38" y2="228.6" width="0.1524" layer="94"/>
+<wire x1="373.38" y1="228.6" x2="513.08" y2="228.6" width="0.1524" layer="94"/>
+<wire x1="513.08" y1="228.6" x2="513.08" y2="119.38" width="0.1524" layer="94"/>
+<text x="471.424" y="236.22" size="1.27" layer="94">LM78L05ACMX/NOPB</text>
+<wire x1="385.318" y1="212.852" x2="415.544" y2="213.106" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="415.544" y1="213.106" x2="415.29" y2="191.008" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="415.29" y1="191.008" x2="385.064" y2="190.754" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="385.064" y1="190.754" x2="385.318" y2="212.852" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="439.166" y1="164.592" x2="439.42" y2="190.5" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="439.42" y1="190.5" x2="415.798" y2="190.5" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="439.166" y1="164.592" x2="415.544" y2="164.592" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="415.544" y1="164.592" x2="415.798" y2="190.5" width="0.1524" layer="94" style="shortdash"/>
+<text x="374.396" y="221.996" size="5.08" layer="94">Galv. Trennung</text>
+<text x="426.72" y="222.758" size="2.54" layer="94">logic side</text>
+<wire x1="425.958" y1="221.488" x2="442.468" y2="221.488" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="442.468" y1="221.488" x2="442.468" y2="226.06" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="442.468" y1="226.06" x2="425.958" y2="226.06" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="425.958" y1="226.06" x2="425.958" y2="221.488" width="0.1524" layer="94" style="shortdash"/>
 </plain>
 <instances>
 <instance part="U$2" gate="G$1" x="358.14" y="45.72" smashed="yes"/>
@@ -35590,29 +37278,29 @@ Source: &lt;a href="http://datasheets.maxim-ic.com/en/ds/MAX1487-MAX491.pdf"&gt;
 <attribute name="NAME" x="24.384" y="61.341" size="1.778" layer="95"/>
 <attribute name="VALUE" x="24.384" y="56.261" size="1.778" layer="96"/>
 </instance>
-<instance part="C28" gate="G$1" x="408.94" y="266.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="408.559" y="268.224" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="413.639" y="268.224" size="1.778" layer="96" rot="R90"/>
+<instance part="C28" gate="G$1" x="398.526" y="281.432" smashed="yes" rot="R90">
+<attribute name="NAME" x="398.145" y="282.956" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="403.225" y="282.956" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C29" gate="G$1" x="408.94" y="259.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="408.559" y="260.604" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="413.639" y="260.604" size="1.778" layer="96" rot="R90"/>
+<instance part="C29" gate="G$1" x="398.526" y="273.812" smashed="yes" rot="R90">
+<attribute name="NAME" x="398.145" y="275.336" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="403.225" y="275.336" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C30" gate="G$1" x="408.94" y="251.46" smashed="yes" rot="R90">
-<attribute name="NAME" x="408.559" y="252.984" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="413.639" y="252.984" size="1.778" layer="96" rot="R90"/>
+<instance part="C30" gate="G$1" x="398.526" y="266.192" smashed="yes" rot="R90">
+<attribute name="NAME" x="398.145" y="267.716" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="403.225" y="267.716" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C31" gate="G$1" x="408.94" y="243.84" smashed="yes" rot="R90">
-<attribute name="NAME" x="408.559" y="245.364" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="413.639" y="245.364" size="1.778" layer="96" rot="R90"/>
+<instance part="C31" gate="G$1" x="398.526" y="258.572" smashed="yes" rot="R90">
+<attribute name="NAME" x="398.145" y="260.096" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="403.225" y="260.096" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C32" gate="G$1" x="408.94" y="236.22" smashed="yes" rot="R90">
-<attribute name="NAME" x="408.559" y="237.744" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="413.639" y="237.744" size="1.778" layer="96" rot="R90"/>
+<instance part="C32" gate="G$1" x="398.526" y="250.952" smashed="yes" rot="R90">
+<attribute name="NAME" x="398.145" y="252.476" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="403.225" y="252.476" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C33" gate="G$1" x="408.94" y="228.6" smashed="yes" rot="R90">
-<attribute name="NAME" x="408.559" y="230.124" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="413.639" y="230.124" size="1.778" layer="96" rot="R90"/>
+<instance part="C33" gate="G$1" x="398.526" y="243.332" smashed="yes" rot="R90">
+<attribute name="NAME" x="398.145" y="244.856" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="403.225" y="244.856" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME2" gate="G$2" x="393.7" y="0" smashed="yes">
@@ -35652,64 +37340,113 @@ Source: &lt;a href="http://datasheets.maxim-ic.com/en/ds/MAX1487-MAX491.pdf"&gt;
 <attribute name="NAME" x="358.775" y="93.2434" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="358.775" y="98.8314" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="IC6" gate="G$1" x="332.74" y="198.12" smashed="yes">
-<attribute name="NAME" x="325.12" y="209.55" size="1.778" layer="95"/>
-<attribute name="VALUE" x="325.12" y="185.42" size="1.778" layer="95"/>
+<instance part="IC6" gate="G$1" x="477.52" y="271.78" smashed="yes">
+<attribute name="NAME" x="469.9" y="283.21" size="1.778" layer="95"/>
+<attribute name="VALUE" x="469.9" y="259.08" size="1.778" layer="95"/>
 </instance>
-<instance part="RN11" gate="A" x="386.08" y="215.9" smashed="yes" rot="R270"/>
-<instance part="RN11" gate="B" x="383.54" y="215.9" smashed="yes" rot="R270">
-<attribute name="VALUE" x="387.604" y="217.678" size="1.778" layer="96"/>
-<attribute name="NAME" x="387.35" y="219.964" size="1.778" layer="95"/>
+<instance part="RN11" gate="A" x="308.356" y="206.248" smashed="yes" rot="R270"/>
+<instance part="RN11" gate="B" x="305.816" y="206.248" smashed="yes" rot="R270">
+<attribute name="VALUE" x="309.88" y="208.026" size="1.778" layer="96"/>
+<attribute name="NAME" x="309.626" y="210.312" size="1.778" layer="95"/>
 </instance>
-<instance part="RN11" gate="C" x="320.04" y="213.36" smashed="yes" rot="R270">
-<attribute name="VALUE" x="321.818" y="214.122" size="1.778" layer="96"/>
-<attribute name="NAME" x="322.072" y="216.662" size="1.778" layer="95"/>
+<instance part="RN11" gate="C" x="464.82" y="287.02" smashed="yes" rot="R270">
+<attribute name="VALUE" x="466.598" y="287.782" size="1.778" layer="96"/>
+<attribute name="NAME" x="466.852" y="290.322" size="1.778" layer="95"/>
 </instance>
-<instance part="RN11" gate="D" x="317.5" y="213.36" smashed="yes" rot="R270"/>
-<instance part="IC7" gate="G$1" x="398.78" y="198.12" smashed="yes">
-<attribute name="NAME" x="391.16" y="209.55" size="1.778" layer="95"/>
-<attribute name="VALUE" x="391.16" y="185.42" size="1.778" layer="95"/>
+<instance part="RN11" gate="D" x="462.28" y="287.02" smashed="yes" rot="R270"/>
+<instance part="IC7" gate="G$1" x="321.056" y="188.468" smashed="yes">
+<attribute name="NAME" x="313.436" y="199.898" size="1.778" layer="95"/>
+<attribute name="VALUE" x="309.88" y="175.768" size="1.778" layer="95"/>
 </instance>
-<instance part="RN12" gate="A" x="345.44" y="210.82" smashed="yes" rot="R270"/>
-<instance part="RN12" gate="B" x="347.98" y="210.82" smashed="yes" rot="R270">
-<attribute name="VALUE" x="350.52" y="210.312" size="1.778" layer="96"/>
-<attribute name="NAME" x="350.52" y="212.852" size="1.778" layer="95"/>
+<instance part="RN12" gate="A" x="490.22" y="284.48" smashed="yes" rot="R270"/>
+<instance part="RN12" gate="B" x="492.76" y="284.48" smashed="yes" rot="R270">
+<attribute name="VALUE" x="495.3" y="283.972" size="1.778" layer="96"/>
+<attribute name="NAME" x="495.3" y="286.512" size="1.778" layer="95"/>
 </instance>
-<instance part="RN12" gate="C" x="411.48" y="210.82" smashed="yes" rot="R270">
-<attribute name="VALUE" x="416.56" y="210.312" size="1.778" layer="96"/>
-<attribute name="NAME" x="416.56" y="212.852" size="1.778" layer="95"/>
+<instance part="RN12" gate="C" x="333.756" y="201.168" smashed="yes" rot="R270">
+<attribute name="VALUE" x="338.836" y="200.66" size="1.778" layer="96"/>
+<attribute name="NAME" x="338.836" y="203.2" size="1.778" layer="95"/>
 </instance>
-<instance part="RN12" gate="D" x="414.02" y="210.82" smashed="yes" rot="R270"/>
-<instance part="IC5" gate="G$1" x="424.18" y="149.86" smashed="yes">
-<attribute name="NAME" x="416.56" y="163.83" size="1.778" layer="95"/>
-<attribute name="VALUE" x="416.56" y="134.62" size="1.778" layer="96"/>
+<instance part="RN12" gate="D" x="336.296" y="201.168" smashed="yes" rot="R270"/>
+<instance part="IC5" gate="G$1" x="459.994" y="151.892" smashed="yes">
+<attribute name="NAME" x="452.374" y="165.862" size="1.778" layer="95"/>
+<attribute name="VALUE" x="452.374" y="136.652" size="1.778" layer="96"/>
 </instance>
-<instance part="R10" gate="G$1" x="449.58" y="142.24" smashed="yes" rot="R90">
-<attribute name="NAME" x="448.0814" y="138.43" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="452.882" y="138.43" size="1.778" layer="96" rot="R90"/>
+<instance part="R10" gate="G$1" x="480.314" y="144.272" smashed="yes" rot="R90">
+<attribute name="NAME" x="478.8154" y="140.462" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="483.616" y="140.462" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="IC5" gate="P" x="426.72" y="170.18" smashed="yes" rot="R90">
-<attribute name="NAME" x="423.418" y="166.878" size="1.778" layer="95"/>
+<instance part="IC5" gate="P" x="462.534" y="172.212" smashed="yes" rot="R90">
+<attribute name="NAME" x="459.232" y="168.91" size="1.778" layer="95"/>
 </instance>
-<instance part="D5" gate="G$1" x="411.48" y="134.62" smashed="yes" rot="R90">
-<attribute name="NAME" x="409.575" y="132.715" size="1.524" layer="95" rot="R90"/>
-<attribute name="VALUE" x="414.9725" y="132.715" size="1.524" layer="96" rot="R90"/>
+<instance part="D5" gate="G$1" x="447.294" y="136.652" smashed="yes" rot="R90">
+<attribute name="NAME" x="445.389" y="134.747" size="1.524" layer="95" rot="R90"/>
+<attribute name="VALUE" x="450.7865" y="134.747" size="1.524" layer="96" rot="R90"/>
 </instance>
-<instance part="D6" gate="G$1" x="406.4" y="152.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="404.495" y="150.495" size="1.524" layer="95" rot="R90"/>
-<attribute name="VALUE" x="409.8925" y="150.495" size="1.524" layer="96" rot="R90"/>
+<instance part="D6" gate="G$1" x="442.214" y="154.432" smashed="yes" rot="R90">
+<attribute name="NAME" x="440.309" y="152.527" size="1.524" layer="95" rot="R90"/>
+<attribute name="VALUE" x="445.7065" y="152.527" size="1.524" layer="96" rot="R90"/>
 </instance>
-<instance part="D7" gate="G$1" x="439.42" y="203.2" smashed="yes" rot="R90">
-<attribute name="NAME" x="437.515" y="201.295" size="1.524" layer="95" rot="R90"/>
-<attribute name="VALUE" x="442.9125" y="201.295" size="1.524" layer="96" rot="R90"/>
+<instance part="D7" gate="G$1" x="419.1" y="269.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="417.195" y="267.335" size="1.524" layer="95" rot="R90"/>
+<attribute name="VALUE" x="422.5925" y="267.335" size="1.524" layer="96" rot="R90"/>
 </instance>
-<instance part="D8" gate="G$1" x="447.04" y="203.2" smashed="yes" rot="R90">
-<attribute name="NAME" x="445.135" y="201.295" size="1.524" layer="95" rot="R90"/>
-<attribute name="VALUE" x="450.5325" y="201.295" size="1.524" layer="96" rot="R90"/>
+<instance part="D8" gate="G$1" x="426.72" y="269.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="424.815" y="267.335" size="1.524" layer="95" rot="R90"/>
+<attribute name="VALUE" x="430.2125" y="267.335" size="1.524" layer="96" rot="R90"/>
 </instance>
-<instance part="D9" gate="G$1" x="454.66" y="203.2" smashed="yes" rot="R90">
-<attribute name="NAME" x="452.755" y="201.295" size="1.524" layer="95" rot="R90"/>
-<attribute name="VALUE" x="458.1525" y="201.295" size="1.524" layer="96" rot="R90"/>
+<instance part="D9" gate="G$1" x="434.34" y="269.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="432.435" y="267.335" size="1.524" layer="95" rot="R90"/>
+<attribute name="VALUE" x="437.8325" y="267.335" size="1.524" layer="96" rot="R90"/>
+</instance>
+<instance part="U$1" gate="G$1" x="487.934" y="210.566" smashed="yes"/>
+<instance part="C42" gate="G$1" x="480.314" y="192.786" smashed="yes" rot="R270">
+<attribute name="NAME" x="480.695" y="191.262" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="475.615" y="191.262" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="C43" gate="G$1" x="495.554" y="192.786" smashed="yes" rot="R270">
+<attribute name="NAME" x="495.935" y="191.262" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="490.855" y="191.262" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="IC8" gate="G$1" x="414.528" y="190.754" smashed="yes" rot="MR0">
+<attribute name="NAME" x="422.148" y="202.184" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="425.704" y="178.054" size="1.778" layer="95" rot="MR0"/>
+</instance>
+<instance part="R11" gate="G$1" x="432.308" y="193.294" smashed="yes" rot="R180">
+<attribute name="NAME" x="430.53" y="196.342" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="436.118" y="196.342" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R12" gate="G$1" x="432.308" y="188.214" smashed="yes" rot="R180">
+<attribute name="NAME" x="430.784" y="191.2874" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="436.118" y="191.262" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R13" gate="G$1" x="399.288" y="203.454" smashed="yes" rot="R90">
+<attribute name="NAME" x="397.7894" y="202.184" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="402.59" y="202.184" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R14" gate="G$1" x="396.748" y="183.134" smashed="yes" rot="R270">
+<attribute name="NAME" x="398.2466" y="184.404" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="393.446" y="184.404" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="D10" gate="G$1" x="444.5" y="269.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="442.595" y="267.335" size="1.524" layer="95" rot="R90"/>
+<attribute name="VALUE" x="447.9925" y="267.335" size="1.524" layer="96" rot="R90"/>
+</instance>
+<instance part="R15" gate="G$1" x="480.314" y="131.572" smashed="yes" rot="R90">
+<attribute name="NAME" x="478.8154" y="127.762" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="483.616" y="127.762" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C44" gate="G$1" x="486.41" y="137.922" smashed="yes" rot="R90">
+<attribute name="NAME" x="486.029" y="139.446" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="491.109" y="139.446" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R16" gate="G$1" x="485.394" y="151.892" smashed="yes" rot="R180">
+<attribute name="NAME" x="482.854" y="154.432" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="493.014" y="154.432" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R17" gate="G$1" x="485.394" y="123.952" smashed="yes" rot="R180">
+<attribute name="NAME" x="482.854" y="122.428" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="490.474" y="122.428" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -36016,68 +37753,70 @@ Source: &lt;a href="http://datasheets.maxim-ic.com/en/ds/MAX1487-MAX491.pdf"&gt;
 </segment>
 <segment>
 <pinref part="C28" gate="G$1" pin="2"/>
-<wire x1="414.02" y1="266.7" x2="416.56" y2="266.7" width="0.1524" layer="91"/>
-<wire x1="416.56" y1="266.7" x2="416.56" y2="259.08" width="0.1524" layer="91"/>
-<label x="416.56" y="266.7" size="1.27" layer="95" rot="R90" xref="yes"/>
-<wire x1="416.56" y1="259.08" x2="416.56" y2="251.46" width="0.1524" layer="91"/>
-<wire x1="416.56" y1="251.46" x2="416.56" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="416.56" y1="243.84" x2="416.56" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="416.56" y1="236.22" x2="416.56" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="403.606" y1="281.432" x2="406.146" y2="281.432" width="0.1524" layer="91"/>
+<wire x1="406.146" y1="281.432" x2="406.146" y2="273.812" width="0.1524" layer="91"/>
+<label x="406.146" y="281.432" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="406.146" y1="273.812" x2="406.146" y2="266.192" width="0.1524" layer="91"/>
+<wire x1="406.146" y1="266.192" x2="406.146" y2="258.572" width="0.1524" layer="91"/>
+<wire x1="406.146" y1="258.572" x2="406.146" y2="250.952" width="0.1524" layer="91"/>
+<wire x1="406.146" y1="250.952" x2="406.146" y2="243.332" width="0.1524" layer="91"/>
 <pinref part="C33" gate="G$1" pin="2"/>
-<wire x1="414.02" y1="228.6" x2="416.56" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="403.606" y1="243.332" x2="406.146" y2="243.332" width="0.1524" layer="91"/>
 <pinref part="C32" gate="G$1" pin="2"/>
-<wire x1="414.02" y1="236.22" x2="416.56" y2="236.22" width="0.1524" layer="91"/>
-<junction x="416.56" y="236.22"/>
+<wire x1="403.606" y1="250.952" x2="406.146" y2="250.952" width="0.1524" layer="91"/>
+<junction x="406.146" y="250.952"/>
 <pinref part="C31" gate="G$1" pin="2"/>
-<wire x1="414.02" y1="243.84" x2="416.56" y2="243.84" width="0.1524" layer="91"/>
-<junction x="416.56" y="243.84"/>
+<wire x1="403.606" y1="258.572" x2="406.146" y2="258.572" width="0.1524" layer="91"/>
+<junction x="406.146" y="258.572"/>
 <pinref part="C30" gate="G$1" pin="2"/>
-<wire x1="414.02" y1="251.46" x2="416.56" y2="251.46" width="0.1524" layer="91"/>
-<junction x="416.56" y="251.46"/>
+<wire x1="403.606" y1="266.192" x2="406.146" y2="266.192" width="0.1524" layer="91"/>
+<junction x="406.146" y="266.192"/>
 <pinref part="C29" gate="G$1" pin="2"/>
-<wire x1="414.02" y1="259.08" x2="416.56" y2="259.08" width="0.1524" layer="91"/>
-<junction x="416.56" y="259.08"/>
+<wire x1="403.606" y1="273.812" x2="406.146" y2="273.812" width="0.1524" layer="91"/>
+<junction x="406.146" y="273.812"/>
 </segment>
 <segment>
 <pinref part="IC7" gate="G$1" pin="EMT1"/>
-<wire x1="408.94" y1="200.66" x2="416.56" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="416.56" y1="200.66" x2="416.56" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="331.216" y1="191.008" x2="338.836" y2="191.008" width="0.1524" layer="91"/>
+<wire x1="338.836" y1="191.008" x2="338.836" y2="180.848" width="0.1524" layer="91"/>
 <pinref part="IC7" gate="G$1" pin="EMT2"/>
-<wire x1="416.56" y1="190.5" x2="408.94" y2="190.5" width="0.1524" layer="91"/>
-<label x="416.56" y="190.5" size="1.27" layer="95" rot="R270" xref="yes"/>
+<wire x1="338.836" y1="180.848" x2="331.216" y2="180.848" width="0.1524" layer="91"/>
+<label x="338.836" y="180.848" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC6" gate="G$1" pin="EMT1"/>
-<wire x1="342.9" y1="200.66" x2="350.52" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="350.52" y1="200.66" x2="350.52" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="350.52" y1="190.5" x2="342.9" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="487.68" y1="274.32" x2="495.3" y2="274.32" width="0.1524" layer="91"/>
+<wire x1="495.3" y1="274.32" x2="495.3" y2="264.16" width="0.1524" layer="91"/>
+<wire x1="495.3" y1="264.16" x2="487.68" y2="264.16" width="0.1524" layer="91"/>
 <pinref part="IC6" gate="G$1" pin="EMT2"/>
-<label x="350.52" y="190.5" size="1.27" layer="95" rot="R270" xref="yes"/>
+<label x="495.3" y="264.16" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="P" pin="GND"/>
-<wire x1="434.34" y1="170.18" x2="436.88" y2="170.18" width="0.1524" layer="91"/>
-<label x="436.88" y="170.18" size="1.27" layer="95" xref="yes"/>
+<pinref part="IC8" gate="G$1" pin="EMT1"/>
+<wire x1="404.368" y1="193.294" x2="401.828" y2="193.294" width="0.1524" layer="91"/>
+<label x="401.828" y="193.294" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="D5" gate="G$1" pin="A"/>
-<wire x1="411.48" y1="132.08" x2="411.48" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="411.48" y1="129.54" x2="406.4" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="D6" gate="G$1" pin="A"/>
-<wire x1="406.4" y1="129.54" x2="406.4" y2="149.86" width="0.1524" layer="91"/>
-<label x="411.48" y="129.54" size="1.27" layer="95" xref="yes"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="437.388" y1="188.214" x2="437.388" y2="185.674" width="0.1524" layer="91"/>
+<label x="437.388" y="185.674" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
+<wire x1="434.34" y1="259.08" x2="426.72" y2="259.08" width="0.1524" layer="91"/>
 <pinref part="D7" gate="G$1" pin="A"/>
-<wire x1="439.42" y1="200.66" x2="439.42" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="439.42" y1="193.04" x2="447.04" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="419.1" y1="266.7" x2="419.1" y2="259.08" width="0.1524" layer="91"/>
+<wire x1="419.1" y1="259.08" x2="426.72" y2="259.08" width="0.1524" layer="91"/>
 <pinref part="D8" gate="G$1" pin="A"/>
-<wire x1="447.04" y1="193.04" x2="447.04" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="447.04" y1="193.04" x2="454.66" y2="193.04" width="0.1524" layer="91"/>
-<junction x="447.04" y="193.04"/>
+<wire x1="426.72" y1="259.08" x2="426.72" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="426.72" y1="259.08" x2="434.34" y2="259.08" width="0.1524" layer="91"/>
+<junction x="426.72" y="259.08"/>
 <pinref part="D9" gate="G$1" pin="A"/>
-<wire x1="454.66" y1="193.04" x2="454.66" y2="200.66" width="0.1524" layer="91"/>
-<label x="447.04" y="193.04" size="1.27" layer="95" rot="R270" xref="yes"/>
+<wire x1="434.34" y1="259.08" x2="434.34" y2="266.7" width="0.1524" layer="91"/>
+<label x="426.72" y="259.08" size="1.27" layer="95" rot="R270" xref="yes"/>
+<pinref part="D10" gate="G$1" pin="A"/>
+<wire x1="434.34" y1="259.08" x2="444.5" y2="259.08" width="0.1524" layer="91"/>
+<wire x1="444.5" y1="259.08" x2="444.5" y2="266.7" width="0.1524" layer="91"/>
+<junction x="434.34" y="259.08"/>
 </segment>
 </net>
 <net name="3V3" class="0">
@@ -36178,48 +37917,48 @@ Source: &lt;a href="http://datasheets.maxim-ic.com/en/ds/MAX1487-MAX491.pdf"&gt;
 </segment>
 <segment>
 <pinref part="C28" gate="G$1" pin="1"/>
-<wire x1="406.4" y1="266.7" x2="403.86" y2="266.7" width="0.1524" layer="91"/>
-<wire x1="403.86" y1="266.7" x2="403.86" y2="259.08" width="0.1524" layer="91"/>
-<label x="403.86" y="266.7" size="1.27" layer="95" rot="R90" xref="yes"/>
-<wire x1="403.86" y1="259.08" x2="403.86" y2="251.46" width="0.1524" layer="91"/>
-<wire x1="403.86" y1="251.46" x2="403.86" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="403.86" y1="243.84" x2="403.86" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="403.86" y1="236.22" x2="403.86" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="395.986" y1="281.432" x2="393.446" y2="281.432" width="0.1524" layer="91"/>
+<wire x1="393.446" y1="281.432" x2="393.446" y2="273.812" width="0.1524" layer="91"/>
+<label x="393.446" y="281.432" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="393.446" y1="273.812" x2="393.446" y2="266.192" width="0.1524" layer="91"/>
+<wire x1="393.446" y1="266.192" x2="393.446" y2="258.572" width="0.1524" layer="91"/>
+<wire x1="393.446" y1="258.572" x2="393.446" y2="250.952" width="0.1524" layer="91"/>
+<wire x1="393.446" y1="250.952" x2="393.446" y2="243.332" width="0.1524" layer="91"/>
 <pinref part="C33" gate="G$1" pin="1"/>
-<wire x1="406.4" y1="228.6" x2="403.86" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="395.986" y1="243.332" x2="393.446" y2="243.332" width="0.1524" layer="91"/>
 <pinref part="C29" gate="G$1" pin="1"/>
-<wire x1="403.86" y1="259.08" x2="406.4" y2="259.08" width="0.1524" layer="91"/>
-<junction x="403.86" y="259.08"/>
+<wire x1="393.446" y1="273.812" x2="395.986" y2="273.812" width="0.1524" layer="91"/>
+<junction x="393.446" y="273.812"/>
 <pinref part="C30" gate="G$1" pin="1"/>
-<wire x1="406.4" y1="251.46" x2="403.86" y2="251.46" width="0.1524" layer="91"/>
-<junction x="403.86" y="251.46"/>
+<wire x1="395.986" y1="266.192" x2="393.446" y2="266.192" width="0.1524" layer="91"/>
+<junction x="393.446" y="266.192"/>
 <pinref part="C31" gate="G$1" pin="1"/>
-<wire x1="406.4" y1="243.84" x2="403.86" y2="243.84" width="0.1524" layer="91"/>
-<junction x="403.86" y="243.84"/>
+<wire x1="395.986" y1="258.572" x2="393.446" y2="258.572" width="0.1524" layer="91"/>
+<junction x="393.446" y="258.572"/>
 <pinref part="C32" gate="G$1" pin="1"/>
-<wire x1="406.4" y1="236.22" x2="403.86" y2="236.22" width="0.1524" layer="91"/>
-<junction x="403.86" y="236.22"/>
+<wire x1="395.986" y1="250.952" x2="393.446" y2="250.952" width="0.1524" layer="91"/>
+<junction x="393.446" y="250.952"/>
 </segment>
 <segment>
 <pinref part="RN12" gate="A" pin="1"/>
-<wire x1="345.44" y1="215.9" x2="345.44" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="345.44" y1="218.44" x2="347.98" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="490.22" y1="289.56" x2="490.22" y2="292.1" width="0.1524" layer="91"/>
+<wire x1="490.22" y1="292.1" x2="492.76" y2="292.1" width="0.1524" layer="91"/>
 <pinref part="RN12" gate="B" pin="1"/>
-<wire x1="347.98" y1="218.44" x2="347.98" y2="215.9" width="0.1524" layer="91"/>
-<label x="347.98" y="218.44" size="1.27" layer="95" xref="yes"/>
+<wire x1="492.76" y1="292.1" x2="492.76" y2="289.56" width="0.1524" layer="91"/>
+<label x="492.76" y="292.1" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="RN12" gate="C" pin="1"/>
-<wire x1="411.48" y1="215.9" x2="411.48" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="411.48" y1="218.44" x2="414.02" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="333.756" y1="206.248" x2="333.756" y2="208.788" width="0.1524" layer="91"/>
+<wire x1="333.756" y1="208.788" x2="336.296" y2="208.788" width="0.1524" layer="91"/>
 <pinref part="RN12" gate="D" pin="1"/>
-<wire x1="414.02" y1="218.44" x2="414.02" y2="215.9" width="0.1524" layer="91"/>
-<label x="414.02" y="218.44" size="1.27" layer="95" xref="yes"/>
+<wire x1="336.296" y1="208.788" x2="336.296" y2="206.248" width="0.1524" layer="91"/>
+<label x="336.296" y="208.788" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="P" pin="VCC"/>
-<wire x1="419.1" y1="170.18" x2="416.56" y2="170.18" width="0.1524" layer="91"/>
-<label x="416.56" y="170.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="399.288" y1="208.534" x2="399.288" y2="211.074" width="0.1524" layer="91"/>
+<label x="399.288" y="211.074" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -36304,19 +38043,25 @@ Source: &lt;a href="http://datasheets.maxim-ic.com/en/ds/MAX1487-MAX491.pdf"&gt;
 </segment>
 <segment>
 <pinref part="RN11" gate="B" pin="1"/>
-<wire x1="383.54" y1="220.98" x2="383.54" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="383.54" y1="223.52" x2="386.08" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="305.816" y1="211.328" x2="305.816" y2="213.868" width="0.1524" layer="91"/>
+<wire x1="305.816" y1="213.868" x2="308.356" y2="213.868" width="0.1524" layer="91"/>
 <pinref part="RN11" gate="A" pin="1"/>
-<wire x1="386.08" y1="223.52" x2="386.08" y2="220.98" width="0.1524" layer="91"/>
-<label x="386.08" y="223.52" size="1.27" layer="95" xref="yes"/>
+<wire x1="308.356" y1="213.868" x2="308.356" y2="211.328" width="0.1524" layer="91"/>
+<label x="308.356" y="213.868" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="317.5" y1="218.44" x2="317.5" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="317.5" y1="220.98" x2="320.04" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="320.04" y1="220.98" x2="320.04" y2="218.44" width="0.1524" layer="91"/>
-<label x="320.04" y="220.98" size="1.27" layer="95" xref="yes"/>
+<wire x1="462.28" y1="292.1" x2="462.28" y2="294.64" width="0.1524" layer="91"/>
+<wire x1="462.28" y1="294.64" x2="464.82" y2="294.64" width="0.1524" layer="91"/>
+<wire x1="464.82" y1="294.64" x2="464.82" y2="292.1" width="0.1524" layer="91"/>
+<label x="464.82" y="294.64" size="1.27" layer="95" xref="yes"/>
 <pinref part="RN11" gate="C" pin="1"/>
 <pinref part="RN11" gate="D" pin="1"/>
+</segment>
+<segment>
+<pinref part="C42" gate="G$1" pin="2"/>
+<pinref part="U$1" gate="G$1" pin="VIN"/>
+<wire x1="475.234" y1="192.786" x2="475.234" y2="202.946" width="0.1524" layer="91"/>
+<label x="475.234" y="192.786" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="28VGND" class="0">
@@ -36332,6 +38077,49 @@ Source: &lt;a href="http://datasheets.maxim-ic.com/en/ds/MAX1487-MAX491.pdf"&gt;
 <wire x1="297.18" y1="144.78" x2="297.18" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="142.24" x2="307.34" y2="142.24" width="0.1524" layer="91"/>
 <junction x="307.34" y="142.24"/>
+</segment>
+<segment>
+<pinref part="C42" gate="G$1" pin="1"/>
+<pinref part="C43" gate="G$1" pin="2"/>
+<wire x1="482.854" y1="192.786" x2="487.934" y2="192.786" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<wire x1="487.934" y1="192.786" x2="490.474" y2="192.786" width="0.1524" layer="91"/>
+<wire x1="487.934" y1="202.946" x2="487.934" y2="192.786" width="0.1524" layer="91"/>
+<junction x="487.934" y="192.786"/>
+<label x="487.934" y="199.136" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="P" pin="GND"/>
+<wire x1="470.154" y1="172.212" x2="472.694" y2="172.212" width="0.1524" layer="91"/>
+<label x="472.694" y="172.212" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="D5" gate="G$1" pin="A"/>
+<wire x1="447.294" y1="134.112" x2="447.294" y2="131.572" width="0.1524" layer="91"/>
+<wire x1="447.294" y1="131.572" x2="442.214" y2="131.572" width="0.1524" layer="91"/>
+<pinref part="D6" gate="G$1" pin="A"/>
+<wire x1="442.214" y1="131.572" x2="442.214" y2="151.892" width="0.1524" layer="91"/>
+<label x="447.294" y="131.572" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R11" gate="G$1" pin="1"/>
+<wire x1="437.388" y1="193.294" x2="437.388" y2="195.834" width="0.1524" layer="91"/>
+<label x="437.388" y="195.834" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC8" gate="G$1" pin="EMT2"/>
+<wire x1="404.368" y1="183.134" x2="401.828" y2="183.134" width="0.1524" layer="91"/>
+<label x="401.828" y="183.134" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="C44" gate="G$1" pin="2"/>
+<wire x1="491.49" y1="137.922" x2="493.014" y2="137.922" width="0.1524" layer="91"/>
+<label x="493.014" y="137.922" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R17" gate="G$1" pin="1"/>
+<wire x1="490.474" y1="123.952" x2="491.998" y2="123.952" width="0.1524" layer="91"/>
+<label x="491.998" y="123.952" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="3V3REF" class="0">
@@ -37268,166 +39056,250 @@ Source: &lt;a href="http://datasheets.maxim-ic.com/en/ds/MAX1487-MAX491.pdf"&gt;
 <net name="N$42" class="0">
 <segment>
 <pinref part="IC6" gate="G$1" pin="A1"/>
-<wire x1="322.58" y1="205.74" x2="320.04" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="467.36" y1="279.4" x2="464.82" y2="279.4" width="0.1524" layer="91"/>
 <pinref part="RN11" gate="C" pin="2"/>
-<wire x1="320.04" y1="205.74" x2="320.04" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="464.82" y1="279.4" x2="464.82" y2="281.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$43" class="0">
 <segment>
 <pinref part="IC6" gate="G$1" pin="A2"/>
-<wire x1="322.58" y1="190.5" x2="317.5" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="467.36" y1="264.16" x2="462.28" y2="264.16" width="0.1524" layer="91"/>
 <pinref part="RN11" gate="D" pin="2"/>
-<wire x1="317.5" y1="190.5" x2="317.5" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="462.28" y1="264.16" x2="462.28" y2="281.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SOE" class="0">
 <segment>
 <pinref part="IC6" gate="G$1" pin="C2"/>
-<wire x1="322.58" y1="195.58" x2="320.04" y2="195.58" width="0.1524" layer="91"/>
-<label x="320.04" y="195.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="467.36" y1="269.24" x2="464.82" y2="269.24" width="0.1524" layer="91"/>
+<label x="464.82" y="269.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SODS" class="0">
 <segment>
 <pinref part="IC6" gate="G$1" pin="C1"/>
-<wire x1="322.58" y1="200.66" x2="320.04" y2="200.66" width="0.1524" layer="91"/>
-<label x="320.04" y="200.66" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="467.36" y1="274.32" x2="464.82" y2="274.32" width="0.1524" layer="91"/>
+<label x="464.82" y="274.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$46" class="0">
 <segment>
 <pinref part="IC7" gate="G$1" pin="A1"/>
-<wire x1="388.62" y1="205.74" x2="386.08" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="310.896" y1="196.088" x2="308.356" y2="196.088" width="0.1524" layer="91"/>
 <pinref part="RN11" gate="A" pin="2"/>
-<wire x1="386.08" y1="205.74" x2="386.08" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="308.356" y1="196.088" x2="308.356" y2="201.168" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$47" class="0">
 <segment>
 <pinref part="IC7" gate="G$1" pin="A2"/>
-<wire x1="388.62" y1="190.5" x2="383.54" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="310.896" y1="180.848" x2="305.816" y2="180.848" width="0.1524" layer="91"/>
 <pinref part="RN11" gate="B" pin="2"/>
-<wire x1="383.54" y1="190.5" x2="383.54" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="305.816" y1="180.848" x2="305.816" y2="201.168" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$48" class="0">
 <segment>
 <pinref part="IC7" gate="G$1" pin="C2"/>
-<wire x1="388.62" y1="195.58" x2="386.08" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="310.896" y1="185.928" x2="308.356" y2="185.928" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LO" class="0">
 <segment>
 <pinref part="IC7" gate="G$1" pin="C1"/>
-<wire x1="388.62" y1="200.66" x2="386.08" y2="200.66" width="0.1524" layer="91"/>
-<label x="386.08" y="200.66" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="310.896" y1="191.008" x2="308.356" y2="191.008" width="0.1524" layer="91"/>
+<label x="308.356" y="191.008" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SODS_OPT" class="0">
 <segment>
 <pinref part="IC6" gate="G$1" pin="COL1"/>
 <pinref part="RN12" gate="A" pin="2"/>
-<wire x1="345.44" y1="205.74" x2="342.9" y2="205.74" width="0.1524" layer="91"/>
-<label x="345.44" y="205.74" size="1.27" layer="95" xref="yes"/>
+<wire x1="490.22" y1="279.4" x2="487.68" y2="279.4" width="0.1524" layer="91"/>
+<label x="490.22" y="279.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="D8" gate="G$1" pin="C"/>
-<wire x1="447.04" y1="205.74" x2="447.04" y2="208.28" width="0.1524" layer="91"/>
-<label x="447.04" y="208.28" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="426.72" y1="271.78" x2="426.72" y2="274.32" width="0.1524" layer="91"/>
+<label x="426.72" y="274.32" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="SOE_OPT" class="0">
 <segment>
 <pinref part="IC6" gate="G$1" pin="COL2"/>
-<wire x1="342.9" y1="195.58" x2="347.98" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="487.68" y1="269.24" x2="492.76" y2="269.24" width="0.1524" layer="91"/>
 <pinref part="RN12" gate="B" pin="2"/>
-<wire x1="347.98" y1="195.58" x2="347.98" y2="205.74" width="0.1524" layer="91"/>
-<label x="347.98" y="203.2" size="1.27" layer="95" xref="yes"/>
+<wire x1="492.76" y1="269.24" x2="492.76" y2="279.4" width="0.1524" layer="91"/>
+<label x="492.76" y="276.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="D9" gate="G$1" pin="C"/>
-<wire x1="454.66" y1="205.74" x2="454.66" y2="208.28" width="0.1524" layer="91"/>
-<label x="454.66" y="208.28" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="434.34" y1="271.78" x2="434.34" y2="274.32" width="0.1524" layer="91"/>
+<label x="434.34" y="274.32" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="LO_OPT" class="0">
 <segment>
 <pinref part="IC7" gate="G$1" pin="COL1"/>
 <pinref part="RN12" gate="C" pin="2"/>
-<wire x1="411.48" y1="205.74" x2="408.94" y2="205.74" width="0.1524" layer="91"/>
-<label x="411.48" y="205.74" size="1.27" layer="95" xref="yes"/>
+<wire x1="333.756" y1="196.088" x2="331.216" y2="196.088" width="0.1524" layer="91"/>
+<label x="333.756" y="196.088" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="D7" gate="G$1" pin="C"/>
-<wire x1="439.42" y1="205.74" x2="439.42" y2="208.28" width="0.1524" layer="91"/>
-<label x="439.42" y="208.28" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="419.1" y1="271.78" x2="419.1" y2="274.32" width="0.1524" layer="91"/>
+<label x="419.1" y="274.32" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$45" class="0">
 <segment>
 <pinref part="IC7" gate="G$1" pin="COL2"/>
-<wire x1="408.94" y1="195.58" x2="414.02" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="331.216" y1="185.928" x2="336.296" y2="185.928" width="0.1524" layer="91"/>
 <pinref part="RN12" gate="D" pin="2"/>
-<wire x1="414.02" y1="195.58" x2="414.02" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="336.296" y1="185.928" x2="336.296" y2="196.088" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EXP_IN_P" class="0">
 <segment>
 <pinref part="IC5" gate="G$1" pin="A"/>
-<wire x1="436.88" y1="144.78" x2="439.42" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="439.42" y1="144.78" x2="439.42" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="472.694" y1="146.812" x2="475.234" y2="146.812" width="0.1524" layer="91"/>
+<wire x1="475.234" y1="146.812" x2="475.234" y2="149.352" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="439.42" y1="147.32" x2="449.58" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="449.58" y1="147.32" x2="454.66" y2="147.32" width="0.1524" layer="91"/>
-<junction x="449.58" y="147.32"/>
-<label x="454.66" y="147.32" size="1.27" layer="95" xref="yes"/>
+<wire x1="475.234" y1="149.352" x2="480.314" y2="149.352" width="0.1524" layer="91"/>
+<wire x1="480.314" y1="149.352" x2="482.854" y2="149.352" width="0.1524" layer="91"/>
+<junction x="480.314" y="149.352"/>
+<label x="482.854" y="149.352" size="1.27" layer="95" xref="yes"/>
+<pinref part="R16" gate="G$1" pin="2"/>
+<wire x1="480.314" y1="149.352" x2="480.314" y2="151.892" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EXP_IN_N" class="0">
 <segment>
 <pinref part="IC5" gate="G$1" pin="B"/>
-<wire x1="436.88" y1="139.7" x2="439.42" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="439.42" y1="139.7" x2="439.42" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="439.42" y1="137.16" x2="449.58" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="449.58" y1="137.16" x2="454.66" y2="137.16" width="0.1524" layer="91"/>
-<junction x="449.58" y="137.16"/>
-<label x="454.66" y="137.16" size="1.27" layer="95" xref="yes"/>
+<wire x1="472.694" y1="141.732" x2="475.234" y2="141.732" width="0.1524" layer="91"/>
+<wire x1="475.234" y1="141.732" x2="475.234" y2="126.492" width="0.1524" layer="91"/>
+<wire x1="475.234" y1="126.492" x2="480.314" y2="126.492" width="0.1524" layer="91"/>
+<label x="482.854" y="126.492" size="1.27" layer="95" xref="yes"/>
+<pinref part="R15" gate="G$1" pin="1"/>
+<wire x1="480.314" y1="126.492" x2="482.854" y2="126.492" width="0.1524" layer="91"/>
+<junction x="480.314" y="126.492"/>
+<pinref part="R17" gate="G$1" pin="2"/>
+<wire x1="480.314" y1="123.952" x2="480.314" y2="126.492" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EXP_OUT_N" class="0">
 <segment>
 <pinref part="IC5" gate="G$1" pin="Z"/>
-<wire x1="436.88" y1="154.94" x2="441.96" y2="154.94" width="0.1524" layer="91"/>
-<label x="441.96" y="154.94" size="1.27" layer="95" xref="yes"/>
+<wire x1="472.694" y1="156.972" x2="477.774" y2="156.972" width="0.1524" layer="91"/>
+<label x="477.774" y="156.972" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="EXP_OUT_P" class="0">
 <segment>
 <pinref part="IC5" gate="G$1" pin="Y"/>
-<wire x1="436.88" y1="160.02" x2="441.96" y2="160.02" width="0.1524" layer="91"/>
-<label x="441.96" y="160.02" size="1.27" layer="95" xref="yes"/>
+<wire x1="472.694" y1="162.052" x2="477.774" y2="162.052" width="0.1524" layer="91"/>
+<label x="477.774" y="162.052" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="EXP_OUT" class="0">
 <segment>
 <pinref part="IC5" gate="G$1" pin="DI"/>
-<wire x1="414.02" y1="157.48" x2="406.4" y2="157.48" width="0.1524" layer="91"/>
-<label x="406.4" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="449.834" y1="159.512" x2="442.214" y2="159.512" width="0.1524" layer="91"/>
+<label x="442.214" y="159.512" size="1.27" layer="95" rot="R90" xref="yes"/>
 <pinref part="D6" gate="G$1" pin="C"/>
-<wire x1="406.4" y1="154.94" x2="406.4" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="442.214" y1="156.972" x2="442.214" y2="159.512" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="IC8" gate="G$1" pin="COL2"/>
+<wire x1="396.748" y1="188.214" x2="404.368" y2="188.214" width="0.1524" layer="91"/>
+<label x="396.748" y="188.214" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="EXP_IN" class="0">
 <segment>
 <pinref part="IC5" gate="G$1" pin="RO"/>
-<wire x1="414.02" y1="142.24" x2="411.48" y2="142.24" width="0.1524" layer="91"/>
-<label x="401.32" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="449.834" y1="144.272" x2="447.294" y2="144.272" width="0.1524" layer="91"/>
+<label x="447.294" y="144.272" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="D5" gate="G$1" pin="C"/>
-<wire x1="411.48" y1="142.24" x2="401.32" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="411.48" y1="137.16" x2="411.48" y2="142.24" width="0.1524" layer="91"/>
-<junction x="411.48" y="142.24"/>
+<wire x1="447.294" y1="139.192" x2="447.294" y2="144.272" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC8" gate="G$1" pin="A1"/>
+<wire x1="424.688" y1="198.374" x2="427.228" y2="198.374" width="0.1524" layer="91"/>
+<wire x1="427.228" y1="198.374" x2="427.228" y2="200.914" width="0.1524" layer="91"/>
+<label x="427.228" y="200.914" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="5V-28V" class="0">
+<segment>
+<pinref part="C43" gate="G$1" pin="1"/>
+<wire x1="498.094" y1="192.786" x2="500.634" y2="192.786" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="VOUT"/>
+<wire x1="500.634" y1="192.786" x2="500.634" y2="202.946" width="0.1524" layer="91"/>
+<label x="500.634" y="192.786" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="P" pin="VCC"/>
+<wire x1="454.914" y1="172.212" x2="452.374" y2="172.212" width="0.1524" layer="91"/>
+<label x="452.374" y="172.212" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="396.748" y1="178.054" x2="396.748" y2="175.514" width="0.1524" layer="91"/>
+<label x="396.748" y="175.514" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R16" gate="G$1" pin="1"/>
+<wire x1="490.474" y1="151.892" x2="493.014" y2="151.892" width="0.1524" layer="91"/>
+<label x="493.014" y="151.892" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$44" class="0">
+<segment>
+<pinref part="IC8" gate="G$1" pin="C2"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="424.688" y1="188.214" x2="427.228" y2="188.214" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$49" class="0">
+<segment>
+<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="IC8" gate="G$1" pin="C1"/>
+<wire x1="427.228" y1="193.294" x2="424.688" y2="193.294" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EXP_OUT_OPT" class="0">
+<segment>
+<pinref part="IC8" gate="G$1" pin="A2"/>
+<wire x1="424.688" y1="183.134" x2="427.228" y2="183.134" width="0.1524" layer="91"/>
+<wire x1="427.228" y1="183.134" x2="427.228" y2="180.594" width="0.1524" layer="91"/>
+<label x="427.228" y="180.594" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="EXP_IN_OPT" class="0">
+<segment>
+<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="IC8" gate="G$1" pin="COL1"/>
+<wire x1="399.288" y1="198.374" x2="404.368" y2="198.374" width="0.1524" layer="91"/>
+<label x="399.288" y="198.374" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="D10" gate="G$1" pin="C"/>
+<wire x1="444.5" y1="271.78" x2="444.5" y2="274.32" width="0.1524" layer="91"/>
+<label x="444.5" y="274.32" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="N$50" class="0">
+<segment>
+<pinref part="R15" gate="G$1" pin="2"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="480.314" y1="136.652" x2="480.314" y2="137.922" width="0.1524" layer="91"/>
+<wire x1="480.314" y1="137.922" x2="480.314" y2="139.192" width="0.1524" layer="91"/>
+<wire x1="480.314" y1="137.922" x2="483.87" y2="137.922" width="0.1524" layer="91"/>
+<junction x="480.314" y="137.922"/>
+<pinref part="C44" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
