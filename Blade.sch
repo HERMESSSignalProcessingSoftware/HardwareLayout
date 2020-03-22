@@ -36338,18 +36338,46 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <label x="205.74" y="355.6" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="EXP_IN" class="0">
+<net name="EXP_OUT_OPT" class="0">
+<segment>
+<pinref part="U9" gate="G$1" pin="PE1"/>
+<wire x1="383.54" y1="142.24" x2="383.54" y2="137.16" width="0.1524" layer="91"/>
+<label x="383.54" y="137.16" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="EXP_IN_OPT" class="0">
 <segment>
 <pinref part="U9" gate="G$1" pin="PE0"/>
 <wire x1="388.62" y1="142.24" x2="388.62" y2="137.16" width="0.1524" layer="91"/>
 <label x="388.62" y="137.16" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
-<net name="EXP_OUT" class="0">
+<net name="LED_1" class="0">
 <segment>
-<pinref part="U9" gate="G$1" pin="PE1"/>
-<wire x1="383.54" y1="142.24" x2="383.54" y2="137.16" width="0.1524" layer="91"/>
-<label x="383.54" y="137.16" size="1.27" layer="95" rot="R270" xref="yes"/>
+<pinref part="U9" gate="G$1" pin="PF5"/>
+<wire x1="276.86" y1="142.24" x2="276.86" y2="137.16" width="0.1524" layer="91"/>
+<label x="276.86" y="137.16" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="LED_2" class="0">
+<segment>
+<pinref part="U9" gate="G$1" pin="PF4"/>
+<wire x1="281.94" y1="142.24" x2="281.94" y2="137.16" width="0.1524" layer="91"/>
+<label x="281.94" y="137.16" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="LED_3" class="0">
+<segment>
+<pinref part="U9" gate="G$1" pin="PF3"/>
+<wire x1="287.02" y1="142.24" x2="287.02" y2="137.16" width="0.1524" layer="91"/>
+<label x="287.02" y="137.16" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="LED_4" class="0">
+<segment>
+<pinref part="U9" gate="G$1" pin="PI14"/>
+<wire x1="210.82" y1="401.32" x2="205.74" y2="401.32" width="0.1524" layer="91"/>
+<label x="205.74" y="401.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -36729,9 +36757,6 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <pinref part="X2" gate="-9" pin="F"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-8" pin="F"/>
-<wire x1="104.14" y1="124.46" x2="109.22" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="124.46" x2="109.22" y2="127" width="0.1524" layer="91"/>
 <pinref part="X1" gate="-9" pin="F"/>
 <wire x1="109.22" y1="127" x2="104.14" y2="127" width="0.1524" layer="91"/>
 <label x="109.22" y="127" size="1.27" layer="95" xref="yes"/>
@@ -36926,6 +36951,11 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <label x="106.68" y="172.72" size="1.27" layer="95" xref="yes"/>
 <pinref part="X2" gate="-15" pin="F"/>
 </segment>
+<segment>
+<pinref part="X1" gate="-8" pin="F"/>
+<wire x1="104.14" y1="124.46" x2="109.22" y2="124.46" width="0.1524" layer="91"/>
+<label x="109.22" y="124.46" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 </nets>
 </sheet>
@@ -36980,6 +37010,10 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <wire x1="442.468" y1="221.488" x2="442.468" y2="226.06" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="442.468" y1="226.06" x2="425.958" y2="226.06" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="425.958" y1="226.06" x2="425.958" y2="221.488" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="477.52" y1="256.54" x2="477.52" y2="297.18" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="477.52" y1="297.18" x2="513.08" y2="297.18" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="513.08" y1="297.18" x2="513.08" y2="256.54" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="513.08" y1="256.54" x2="477.52" y2="256.54" width="0.1524" layer="94" style="shortdash"/>
 </plain>
 <instances>
 <instance part="U$2" gate="G$1" x="358.14" y="45.72" smashed="yes"/>
