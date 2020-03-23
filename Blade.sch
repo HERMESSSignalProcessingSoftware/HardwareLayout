@@ -36024,7 +36024,7 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <label x="439.42" y="436.88" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="3V3REF3" class="0">
+<net name="3V3REF2" class="0">
 <segment>
 <pinref part="U9" gate="G$1" pin="VREF+"/>
 <wire x1="393.7" y1="421.64" x2="393.7" y2="426.72" width="0.1524" layer="91"/>
@@ -36419,6 +36419,27 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <pinref part="U9" gate="G$1" pin="PI14"/>
 <wire x1="210.82" y1="401.32" x2="205.74" y2="401.32" width="0.1524" layer="91"/>
 <label x="205.74" y="401.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="SPI3_CS2" class="0">
+<segment>
+<pinref part="U9" gate="G$1" pin="PF2"/>
+<wire x1="292.1" y1="142.24" x2="292.1" y2="137.16" width="0.1524" layer="91"/>
+<label x="292.1" y="137.16" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="SPI4_CS2" class="0">
+<segment>
+<pinref part="U9" gate="G$1" pin="PI12"/>
+<wire x1="210.82" y1="391.16" x2="205.74" y2="391.16" width="0.1524" layer="91"/>
+<label x="205.74" y="391.16" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="SPI5_CS2" class="0">
+<segment>
+<pinref part="U9" gate="G$1" pin="PI13"/>
+<wire x1="210.82" y1="396.24" x2="205.74" y2="396.24" width="0.1524" layer="91"/>
+<label x="205.74" y="396.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
