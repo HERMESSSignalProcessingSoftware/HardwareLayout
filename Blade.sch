@@ -35837,6 +35837,14 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <part name="C44" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="~0"/>
 <part name="R16" library="rcl" deviceset="R-EU_" device="R0805" value="3k3"/>
 <part name="R17" library="rcl" deviceset="R-EU_" device="R0805" value="3k3"/>
+<part name="LED5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:6240556/1"/>
+<part name="LED6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:6240556/1"/>
+<part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="?"/>
+<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="?"/>
+<part name="LED7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:6240556/1"/>
+<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="?"/>
+<part name="LED8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:6240556/1"/>
+<part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="?"/>
 </parts>
 <sheets>
 <sheet>
@@ -36972,7 +36980,7 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <text x="350.52" y="17.78" size="5.08" layer="94">USB-
   UART</text>
 <text x="401.066" y="101.854" size="5.08" layer="94">FLASH  mem</text>
-<text x="320.04" y="162.56" size="5.08" layer="94">lin. Reg</text>
+<text x="320.04" y="162.56" size="5.08" layer="94">V. Reg</text>
 <wire x1="469.9" y1="279.4" x2="474.98" y2="279.4" width="0.1524" layer="94"/>
 <wire x1="474.98" y1="279.4" x2="474.98" y2="278.13" width="0.1524" layer="94"/>
 <wire x1="474.472" y1="278.13" x2="475.488" y2="278.13" width="0.1524" layer="94"/>
@@ -39375,6 +39383,38 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <attribute name="VALUE" x="35.56" y="73.152" size="1.778" layer="96"/>
 <attribute name="NAME" x="25.4" y="73.152" size="1.778" layer="95"/>
 </instance>
+<instance part="LED5" gate="G$1" x="43.18" y="83.82" smashed="yes" rot="R90">
+<attribute name="NAME" x="47.752" y="87.376" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="47.752" y="89.535" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="LED6" gate="G$1" x="43.18" y="91.44" smashed="yes" rot="R90">
+<attribute name="NAME" x="47.752" y="94.996" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="47.752" y="97.155" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R18" gate="G$1" x="33.02" y="83.82" smashed="yes" rot="R180">
+<attribute name="NAME" x="36.83" y="82.3214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="36.83" y="87.122" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R19" gate="G$1" x="33.02" y="91.44" smashed="yes" rot="R180">
+<attribute name="NAME" x="36.83" y="89.9414" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="36.83" y="94.742" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="LED7" gate="G$1" x="43.18" y="99.06" smashed="yes" rot="R90">
+<attribute name="NAME" x="47.752" y="102.616" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="47.752" y="104.775" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R20" gate="G$1" x="33.02" y="99.06" smashed="yes" rot="R180">
+<attribute name="NAME" x="36.83" y="97.5614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="36.83" y="102.362" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="LED8" gate="G$1" x="43.18" y="106.68" smashed="yes" rot="R90">
+<attribute name="NAME" x="47.752" y="110.236" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="47.752" y="112.395" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R21" gate="G$1" x="33.02" y="106.68" smashed="yes" rot="R180">
+<attribute name="NAME" x="36.83" y="105.1814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="36.83" y="109.982" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -39395,6 +39435,14 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <wire x1="48.26" y1="60.96" x2="50.8" y2="60.96" width="0.1524" layer="91"/>
 <junction x="50.8" y="60.96"/>
 <label x="50.8" y="53.34" size="1.27" layer="95" xref="yes"/>
+<wire x1="50.8" y1="76.2" x2="50.8" y2="83.82" width="0.1524" layer="91"/>
+<junction x="50.8" y="76.2"/>
+<pinref part="LED6" gate="G$1" pin="C"/>
+<wire x1="50.8" y1="83.82" x2="50.8" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="91.44" x2="48.26" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="LED5" gate="G$1" pin="C"/>
+<wire x1="48.26" y1="83.82" x2="50.8" y2="83.82" width="0.1524" layer="91"/>
+<junction x="50.8" y="83.82"/>
 </segment>
 </net>
 <net name="LED_4" class="0">
@@ -39451,6 +39499,72 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <pinref part="LED4" gate="G$1" pin="A"/>
 <pinref part="RN10" gate="D" pin="2"/>
 <wire x1="38.1" y1="76.2" x2="40.64" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$51" class="0">
+<segment>
+<pinref part="LED5" gate="G$1" pin="A"/>
+<pinref part="R18" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="83.82" x2="40.64" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$52" class="0">
+<segment>
+<pinref part="LED6" gate="G$1" pin="A"/>
+<pinref part="R19" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="91.44" x2="40.64" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="5V" class="0">
+<segment>
+<pinref part="R18" gate="G$1" pin="2"/>
+<wire x1="27.94" y1="83.82" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
+<label x="25.4" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="3V3" class="0">
+<segment>
+<pinref part="R19" gate="G$1" pin="2"/>
+<wire x1="27.94" y1="91.44" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
+<label x="25.4" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="28VGND" class="0">
+<segment>
+<pinref part="LED7" gate="G$1" pin="C"/>
+<wire x1="48.26" y1="99.06" x2="50.8" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="99.06" x2="50.8" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="LED8" gate="G$1" pin="C"/>
+<wire x1="50.8" y1="106.68" x2="48.26" y2="106.68" width="0.1524" layer="91"/>
+<label x="50.8" y="106.68" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="28V" class="0">
+<segment>
+<pinref part="R20" gate="G$1" pin="2"/>
+<wire x1="27.94" y1="99.06" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
+<label x="25.4" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$55" class="0">
+<segment>
+<pinref part="R20" gate="G$1" pin="1"/>
+<pinref part="LED7" gate="G$1" pin="A"/>
+<wire x1="38.1" y1="99.06" x2="40.64" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$56" class="0">
+<segment>
+<pinref part="LED8" gate="G$1" pin="A"/>
+<pinref part="R21" gate="G$1" pin="1"/>
+<wire x1="40.64" y1="106.68" x2="38.1" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="5V-28V" class="0">
+<segment>
+<pinref part="R21" gate="G$1" pin="2"/>
+<wire x1="27.94" y1="106.68" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
+<label x="25.4" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
