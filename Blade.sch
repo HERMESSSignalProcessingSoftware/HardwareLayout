@@ -35878,6 +35878,12 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <part name="L5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-EU" device="L5650M" package3d_urn="urn:adsk.eagle:package:23487/2" value="1m"/>
 <part name="C57" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10n"/>
 <part name="C58" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10u"/>
+<part name="U13" library="ADR360" deviceset="ADR36*" device="UJZ" technology="_" value="ADR366WAUJZ"/>
+<part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100k"/>
+<part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
+<part name="C52" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10n"/>
+<part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="?"/>
+<part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="?"/>
 </parts>
 <sheets>
 <sheet>
@@ -36022,13 +36028,6 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <pinref part="C18" gate="G$1" pin="2"/>
 <wire x1="436.88" y1="436.88" x2="439.42" y2="436.88" width="0.1524" layer="91"/>
 <label x="439.42" y="436.88" size="1.27" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
-<net name="3V3REF2" class="0">
-<segment>
-<pinref part="U9" gate="G$1" pin="VREF+"/>
-<wire x1="393.7" y1="421.64" x2="393.7" y2="426.72" width="0.1524" layer="91"/>
-<label x="393.7" y="426.72" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$34" class="0">
@@ -36440,6 +36439,76 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <pinref part="U9" gate="G$1" pin="PI13"/>
 <wire x1="210.82" y1="396.24" x2="205.74" y2="396.24" width="0.1524" layer="91"/>
 <label x="205.74" y="396.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ADC4_RES" class="0">
+<segment>
+<pinref part="U9" gate="G$1" pin="PF10"/>
+<wire x1="251.46" y1="142.24" x2="251.46" y2="137.16" width="0.1524" layer="91"/>
+<label x="251.46" y="137.16" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="ADC4_DRDY" class="0">
+<segment>
+<pinref part="U9" gate="G$1" pin="PH0"/>
+<wire x1="210.82" y1="243.84" x2="205.74" y2="243.84" width="0.1524" layer="91"/>
+<label x="205.74" y="243.84" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ADC6_RES" class="0">
+<segment>
+<pinref part="U9" gate="G$1" pin="PH1"/>
+<wire x1="205.74" y1="248.92" x2="210.82" y2="248.92" width="0.1524" layer="91"/>
+<label x="205.74" y="248.92" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ADC5_START" class="0">
+<segment>
+<pinref part="U9" gate="G$1" pin="PC0"/>
+<wire x1="490.22" y1="233.68" x2="495.3" y2="233.68" width="0.1524" layer="91"/>
+<label x="495.3" y="233.68" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="ADC5_RES" class="0">
+<segment>
+<pinref part="U9" gate="G$1" pin="PC2"/>
+<wire x1="490.22" y1="223.52" x2="495.3" y2="223.52" width="0.1524" layer="91"/>
+<label x="495.3" y="223.52" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="ADC6_START" class="0">
+<segment>
+<pinref part="U9" gate="G$1" pin="PC3"/>
+<wire x1="490.22" y1="218.44" x2="495.3" y2="218.44" width="0.1524" layer="91"/>
+<label x="495.3" y="218.44" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="ADC5_DRDY" class="0">
+<segment>
+<pinref part="U9" gate="G$1" pin="PA1"/>
+<wire x1="490.22" y1="401.32" x2="495.3" y2="401.32" width="0.1524" layer="91"/>
+<label x="495.3" y="401.32" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="ADC6_DRDY" class="0">
+<segment>
+<pinref part="U9" gate="G$1" pin="PA2"/>
+<wire x1="490.22" y1="396.24" x2="495.3" y2="396.24" width="0.1524" layer="91"/>
+<label x="495.3" y="396.24" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="ADC4_START" class="0">
+<segment>
+<pinref part="U9" gate="G$1" pin="PF9"/>
+<wire x1="256.54" y1="142.24" x2="256.54" y2="137.16" width="0.1524" layer="91"/>
+<label x="256.54" y="137.16" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="3V3REF3" class="0">
+<segment>
+<pinref part="U9" gate="G$1" pin="VREF+"/>
+<wire x1="393.7" y1="421.64" x2="393.7" y2="426.72" width="0.1524" layer="91"/>
+<label x="393.7" y="426.72" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -37228,6 +37297,7 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <wire x1="513.08" y1="256.54" x2="477.52" y2="256.54" width="0.1524" layer="94" style="shortdash"/>
 <text x="584.2" y="279.4" size="5.08" layer="94">ADCs</text>
 <text x="764.54" y="274.32" size="5.08" layer="94">OPAmps</text>
+<text x="759.46" y="73.66" size="1.778" layer="94" rot="MR180">Feinabgleich</text>
 </plain>
 <instances>
 <instance part="U$2" gate="G$1" x="358.14" y="45.72" smashed="yes"/>
@@ -37830,6 +37900,30 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <attribute name="NAME" x="704.596" y="136.779" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="704.596" y="141.859" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="U13" gate="G$1" x="734.06" y="71.12" smashed="yes">
+<attribute name="NAME" x="726.44" y="76.835" size="1.778" layer="95"/>
+<attribute name="VALUE" x="726.44" y="63.5" size="1.778" layer="96"/>
+</instance>
+<instance part="R22" gate="G$1" x="754.38" y="68.58" smashed="yes">
+<attribute name="NAME" x="750.57" y="70.0786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="750.57" y="65.278" size="1.778" layer="96"/>
+</instance>
+<instance part="R23" gate="G$1" x="754.38" y="60.96" smashed="yes">
+<attribute name="NAME" x="750.57" y="62.4586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="750.57" y="57.658" size="1.778" layer="96"/>
+</instance>
+<instance part="C52" gate="G$1" x="713.74" y="66.04" smashed="yes" rot="R180">
+<attribute name="NAME" x="712.216" y="65.659" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="712.216" y="70.739" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R24" gate="G$1" x="784.86" y="73.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="783.3614" y="69.85" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="788.162" y="69.85" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R25" gate="G$1" x="784.86" y="63.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="783.3614" y="59.69" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="788.162" y="59.69" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -38207,6 +38301,7 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <pinref part="U10" gate="G$1" pin="AVSS"/>
 <pinref part="C46" gate="G$1" pin="2"/>
 <junction x="655.32" y="149.86"/>
+<label x="655.32" y="149.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U10" gate="G$1" pin="CLK"/>
@@ -38231,6 +38326,7 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <pinref part="U11" gate="G$1" pin="AVSS"/>
 <pinref part="C49" gate="G$1" pin="2"/>
 <junction x="655.32" y="233.68"/>
+<label x="655.32" y="233.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U11" gate="G$1" pin="CLK"/>
@@ -38253,6 +38349,7 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <wire x1="655.32" y1="63.5" x2="655.32" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="655.32" y1="66.04" x2="629.92" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="U12" gate="G$1" pin="AVSS"/>
+<label x="655.32" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U12" gate="G$1" pin="CLK"/>
@@ -38325,6 +38422,18 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <junction x="695.96" y="124.46"/>
 <junction x="706.12" y="99.06"/>
 <label x="754.38" y="99.06" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="718.82" y1="60.96" x2="718.82" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="U13" gate="G$1" pin="GND"/>
+<wire x1="718.82" y1="68.58" x2="723.9" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="R23" gate="G$1" pin="1"/>
+<wire x1="718.82" y1="60.96" x2="749.3" y2="60.96" width="0.1524" layer="91"/>
+<junction x="718.82" y="60.96"/>
+<pinref part="C52" gate="G$1" pin="1"/>
+<wire x1="713.74" y1="63.5" x2="713.74" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="713.74" y1="60.96" x2="718.82" y2="60.96" width="0.1524" layer="91"/>
+<label x="718.82" y="60.96" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="3V3" class="0">
@@ -38595,6 +38704,15 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <pinref part="C12" gate="G$1" pin="2"/>
 <wire x1="307.34" y1="243.84" x2="307.34" y2="246.38" width="0.1524" layer="91"/>
 <junction x="307.34" y="246.38"/>
+</segment>
+<segment>
+<pinref part="U13" gate="G$1" pin="VIN"/>
+<wire x1="723.9" y1="73.66" x2="713.74" y2="73.66" width="0.1524" layer="91"/>
+<label x="706.12" y="73.66" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="713.74" y1="73.66" x2="706.12" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="C52" gate="G$1" pin="2"/>
+<wire x1="713.74" y1="71.12" x2="713.74" y2="73.66" width="0.1524" layer="91"/>
+<junction x="713.74" y="73.66"/>
 </segment>
 </net>
 <net name="28V" class="0">
@@ -39491,11 +39609,6 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <wire x1="40.64" y1="86.36" x2="38.1" y2="86.36" width="0.1524" layer="91"/>
 <label x="38.1" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
-<segment>
-<pinref part="U12" gate="G$1" pin="!RESET"/>
-<wire x1="566.42" y1="86.36" x2="563.88" y2="86.36" width="0.1524" layer="91"/>
-<label x="563.88" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="SPI5_SCK" class="0">
 <segment>
@@ -39539,22 +39652,12 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <wire x1="104.14" y1="86.36" x2="109.22" y2="86.36" width="0.1524" layer="91"/>
 <label x="109.22" y="86.36" size="1.27" layer="95" xref="yes"/>
 </segment>
-<segment>
-<pinref part="U12" gate="G$1" pin="!DRDY"/>
-<wire x1="629.92" y1="86.36" x2="635" y2="86.36" width="0.1524" layer="91"/>
-<label x="635" y="86.36" size="1.27" layer="95" xref="yes"/>
-</segment>
 </net>
 <net name="ADC3_START" class="0">
 <segment>
 <pinref part="U5" gate="G$1" pin="START"/>
 <wire x1="104.14" y1="76.2" x2="109.22" y2="76.2" width="0.1524" layer="91"/>
 <label x="109.22" y="76.2" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U12" gate="G$1" pin="START"/>
-<wire x1="629.92" y1="76.2" x2="635" y2="76.2" width="0.1524" layer="91"/>
-<label x="635" y="76.2" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$40" class="0">
@@ -39626,22 +39729,12 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <wire x1="40.64" y1="254" x2="38.1" y2="254" width="0.1524" layer="91"/>
 <label x="38.1" y="254" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
-<segment>
-<pinref part="U11" gate="G$1" pin="!RESET"/>
-<wire x1="566.42" y1="254" x2="563.88" y2="254" width="0.1524" layer="91"/>
-<label x="563.88" y="254" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="ADC1_DRDY" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="!DRDY"/>
 <wire x1="104.14" y1="254" x2="109.22" y2="254" width="0.1524" layer="91"/>
 <label x="109.22" y="254" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U11" gate="G$1" pin="!DRDY"/>
-<wire x1="629.92" y1="254" x2="635" y2="254" width="0.1524" layer="91"/>
-<label x="635" y="254" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ADC1_START" class="0">
@@ -39650,22 +39743,12 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <wire x1="104.14" y1="243.84" x2="109.22" y2="243.84" width="0.1524" layer="91"/>
 <label x="109.22" y="243.84" size="1.27" layer="95" xref="yes"/>
 </segment>
-<segment>
-<pinref part="U11" gate="G$1" pin="START"/>
-<wire x1="629.92" y1="243.84" x2="635" y2="243.84" width="0.1524" layer="91"/>
-<label x="635" y="243.84" size="1.27" layer="95" xref="yes"/>
-</segment>
 </net>
 <net name="ADC2_START" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="START"/>
 <wire x1="104.14" y1="160.02" x2="109.22" y2="160.02" width="0.1524" layer="91"/>
 <label x="109.22" y="160.02" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U10" gate="G$1" pin="START"/>
-<wire x1="629.92" y1="160.02" x2="635" y2="160.02" width="0.1524" layer="91"/>
-<label x="635" y="160.02" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ADC2_RES" class="0">
@@ -39674,22 +39757,12 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <wire x1="40.64" y1="170.18" x2="38.1" y2="170.18" width="0.1524" layer="91"/>
 <label x="38.1" y="170.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
-<segment>
-<pinref part="U10" gate="G$1" pin="!RESET"/>
-<wire x1="566.42" y1="170.18" x2="563.88" y2="170.18" width="0.1524" layer="91"/>
-<label x="563.88" y="170.18" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="ADC2_DRDY" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="!DRDY"/>
 <wire x1="104.14" y1="170.18" x2="109.22" y2="170.18" width="0.1524" layer="91"/>
 <label x="109.22" y="170.18" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U10" gate="G$1" pin="!DRDY"/>
-<wire x1="629.92" y1="170.18" x2="635" y2="170.18" width="0.1524" layer="91"/>
-<label x="635" y="170.18" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SPI5_MOSI" class="0">
@@ -40310,6 +40383,107 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <pinref part="U12" gate="G$1" pin="!CS"/>
 <wire x1="629.92" y1="81.28" x2="632.46" y2="81.28" width="0.1524" layer="91"/>
 <label x="632.46" y="81.28" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="ADC4_RES" class="0">
+<segment>
+<pinref part="U11" gate="G$1" pin="!RESET"/>
+<wire x1="566.42" y1="254" x2="563.88" y2="254" width="0.1524" layer="91"/>
+<label x="563.88" y="254" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ADC4_DRDY" class="0">
+<segment>
+<pinref part="U11" gate="G$1" pin="!DRDY"/>
+<wire x1="629.92" y1="254" x2="635" y2="254" width="0.1524" layer="91"/>
+<label x="635" y="254" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="ADC4_START" class="0">
+<segment>
+<pinref part="U11" gate="G$1" pin="START"/>
+<wire x1="629.92" y1="243.84" x2="635" y2="243.84" width="0.1524" layer="91"/>
+<label x="635" y="243.84" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="ADC5_RES" class="0">
+<segment>
+<pinref part="U10" gate="G$1" pin="!RESET"/>
+<wire x1="566.42" y1="170.18" x2="563.88" y2="170.18" width="0.1524" layer="91"/>
+<label x="563.88" y="170.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ADC5_DRDY" class="0">
+<segment>
+<pinref part="U10" gate="G$1" pin="!DRDY"/>
+<wire x1="629.92" y1="170.18" x2="635" y2="170.18" width="0.1524" layer="91"/>
+<label x="635" y="170.18" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="ADC5_START" class="0">
+<segment>
+<pinref part="U10" gate="G$1" pin="START"/>
+<wire x1="629.92" y1="160.02" x2="635" y2="160.02" width="0.1524" layer="91"/>
+<label x="635" y="160.02" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="ADC6_RES" class="0">
+<segment>
+<pinref part="U12" gate="G$1" pin="!RESET"/>
+<wire x1="566.42" y1="86.36" x2="563.88" y2="86.36" width="0.1524" layer="91"/>
+<label x="563.88" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ADC6_DRDY" class="0">
+<segment>
+<pinref part="U12" gate="G$1" pin="!DRDY"/>
+<wire x1="629.92" y1="86.36" x2="635" y2="86.36" width="0.1524" layer="91"/>
+<label x="635" y="86.36" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="ADC6_START" class="0">
+<segment>
+<pinref part="U12" gate="G$1" pin="START"/>
+<wire x1="629.92" y1="76.2" x2="635" y2="76.2" width="0.1524" layer="91"/>
+<label x="635" y="76.2" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$68" class="0">
+<segment>
+<pinref part="U13" gate="G$1" pin="TRIM"/>
+<pinref part="R22" gate="G$1" pin="1"/>
+<wire x1="746.76" y1="68.58" x2="749.3" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$69" class="0">
+<segment>
+<pinref part="R22" gate="G$1" pin="2"/>
+<pinref part="R24" gate="G$1" pin="1"/>
+<pinref part="R25" gate="G$1" pin="2"/>
+<wire x1="759.46" y1="68.58" x2="784.86" y2="68.58" width="0.1524" layer="91"/>
+<junction x="784.86" y="68.58"/>
+</segment>
+</net>
+<net name="N$70" class="0">
+<segment>
+<pinref part="R23" gate="G$1" pin="2"/>
+<wire x1="759.46" y1="60.96" x2="764.54" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="R25" gate="G$1" pin="1"/>
+<wire x1="784.86" y1="58.42" x2="774.7" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="774.7" y1="58.42" x2="774.7" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="774.7" y1="66.04" x2="764.54" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="3V3REF3" class="0">
+<segment>
+<pinref part="U13" gate="G$1" pin="VOUT"/>
+<label x="749.3" y="73.66" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="774.7" y1="71.12" x2="754.38" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="754.38" y1="71.12" x2="751.84" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="751.84" y1="73.66" x2="746.76" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="774.7" y1="71.12" x2="774.7" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="R24" gate="G$1" pin="2"/>
+<wire x1="774.7" y1="78.74" x2="784.86" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
