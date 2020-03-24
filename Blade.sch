@@ -35819,8 +35819,8 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <part name="RN12" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="EXBS8V" package3d_urn="urn:adsk.eagle:package:24925/1" value="1k"/>
 <part name="IC5" library="maxim" library_urn="urn:adsk.eagle:library:269" deviceset="MAX488" device="CSA" package3d_urn="urn:adsk.eagle:package:17511/1"/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="500"/>
-<part name="D5" library="diodes" deviceset="DZ" device="MELF" value="~5V2"/>
-<part name="D6" library="diodes" deviceset="DZ" device="MELF" value="~5V2"/>
+<part name="D5" library="diodes" deviceset="DZ" device="MELF" value="6V"/>
+<part name="D6" library="diodes" deviceset="DZ" device="MELF" value="6V"/>
 <part name="D7" library="diodes" deviceset="DZ" device="MELF" value="3V6"/>
 <part name="D8" library="diodes" deviceset="DZ" device="MELF" value="3V6"/>
 <part name="D9" library="diodes" deviceset="DZ" device="MELF" value="3V6"/>
