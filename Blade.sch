@@ -35722,8 +35722,8 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <part name="X2" library="con-thomas-betts" library_urn="urn:adsk.eagle:library:191" deviceset="D-SUB15-" device="H5M15RA" package3d_urn="urn:adsk.eagle:package:10566/1"/>
 <part name="X1" library="con-thomas-betts" library_urn="urn:adsk.eagle:library:191" deviceset="D-SUB9-" device="H5M09RA" package3d_urn="urn:adsk.eagle:package:10559/1"/>
 <part name="X3" library="aSparkFun" deviceset="USB" device="PTH"/>
-<part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA07-2" device="" package3d_urn="urn:adsk.eagle:package:8330/1"/>
-<part name="U$2" library="ch340g" deviceset="CH340G" device=""/>
+<part name="X_PROG" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA07-2" device="" package3d_urn="urn:adsk.eagle:package:8330/1"/>
+<part name="IC13" library="ch340g" deviceset="CH340G" device=""/>
 <part name="Q1" library="adafruit" deviceset="CRYSTAL" device="SM49" value="12MHz"/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="22p"/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="22p"/>
@@ -35824,7 +35824,7 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <part name="D7" library="diodes" deviceset="DZ" device="MELF" value="3V6"/>
 <part name="D8" library="diodes" deviceset="DZ" device="MELF" value="3V6"/>
 <part name="D9" library="diodes" deviceset="DZ" device="MELF" value="3V6"/>
-<part name="U$1" library="m-pad-2.1" deviceset="LM78L05ACMX/NOPB" device=""/>
+<part name="IC12" library="m-pad-2.1" deviceset="LM78L05ACMX/NOPB" device=""/>
 <part name="C42" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="C43" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="IC8" library="Opto-Electronic" library_urn="urn:adsk.eagle:library:16378487" deviceset="MOCD207M" device="SOIC-8" package3d_urn="urn:adsk.eagle:package:16378512/1"/>
@@ -36643,7 +36643,7 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <attribute name="NAME" x="100.33" y="127.762" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="X3" gate="G$1" x="101.6" y="93.98" smashed="yes" rot="R180"/>
-<instance part="SV1" gate="G$1" x="160.02" y="116.84" smashed="yes" rot="R180">
+<instance part="X_PROG" gate="G$1" x="160.02" y="116.84" smashed="yes" rot="R180">
 <attribute name="VALUE" x="163.83" y="129.54" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="163.83" y="105.918" size="1.778" layer="95" rot="R180"/>
 </instance>
@@ -36808,26 +36808,26 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <label x="111.76" y="93.98" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="14"/>
+<pinref part="X_PROG" gate="G$1" pin="14"/>
 <wire x1="167.64" y1="109.22" x2="172.72" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="109.22" x2="172.72" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="G$1" pin="2"/>
+<pinref part="X_PROG" gate="G$1" pin="2"/>
 <wire x1="172.72" y1="114.3" x2="172.72" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="116.84" x2="172.72" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="119.38" x2="172.72" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="121.92" x2="172.72" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="124.46" x2="167.64" y2="124.46" width="0.1524" layer="91"/>
 <label x="172.72" y="124.46" size="1.27" layer="95" xref="yes"/>
-<pinref part="SV1" gate="G$1" pin="4"/>
+<pinref part="X_PROG" gate="G$1" pin="4"/>
 <wire x1="167.64" y1="121.92" x2="172.72" y2="121.92" width="0.1524" layer="91"/>
 <junction x="172.72" y="121.92"/>
-<pinref part="SV1" gate="G$1" pin="6"/>
+<pinref part="X_PROG" gate="G$1" pin="6"/>
 <wire x1="172.72" y1="119.38" x2="167.64" y2="119.38" width="0.1524" layer="91"/>
 <junction x="172.72" y="119.38"/>
-<pinref part="SV1" gate="G$1" pin="8"/>
+<pinref part="X_PROG" gate="G$1" pin="8"/>
 <wire x1="167.64" y1="116.84" x2="172.72" y2="116.84" width="0.1524" layer="91"/>
 <junction x="172.72" y="116.84"/>
-<pinref part="SV1" gate="G$1" pin="10"/>
+<pinref part="X_PROG" gate="G$1" pin="10"/>
 <wire x1="167.64" y1="114.3" x2="172.72" y2="114.3" width="0.1524" layer="91"/>
 <junction x="172.72" y="114.3"/>
 </segment>
@@ -37102,7 +37102,7 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <label x="106.68" y="121.92" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="7"/>
+<pinref part="X_PROG" gate="G$1" pin="7"/>
 <wire x1="149.86" y1="116.84" x2="152.4" y2="116.84" width="0.1524" layer="91"/>
 <label x="149.86" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -37114,7 +37114,7 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <label x="106.68" y="119.38" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="9"/>
+<pinref part="X_PROG" gate="G$1" pin="9"/>
 <wire x1="149.86" y1="114.3" x2="152.4" y2="114.3" width="0.1524" layer="91"/>
 <label x="149.86" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -37126,7 +37126,7 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <label x="106.68" y="116.84" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="11"/>
+<pinref part="X_PROG" gate="G$1" pin="11"/>
 <wire x1="149.86" y1="111.76" x2="152.4" y2="111.76" width="0.1524" layer="91"/>
 <label x="149.86" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -37138,14 +37138,14 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <label x="106.68" y="114.3" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="3"/>
+<pinref part="X_PROG" gate="G$1" pin="3"/>
 <wire x1="149.86" y1="121.92" x2="152.4" y2="121.92" width="0.1524" layer="91"/>
 <label x="149.86" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="3V3" class="0">
 <segment>
-<pinref part="SV1" gate="G$1" pin="1"/>
+<pinref part="X_PROG" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="124.46" x2="149.86" y2="124.46" width="0.1524" layer="91"/>
 <label x="149.86" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -37157,7 +37157,7 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 </net>
 <net name="TDI" class="0">
 <segment>
-<pinref part="SV1" gate="G$1" pin="5"/>
+<pinref part="X_PROG" gate="G$1" pin="5"/>
 <wire x1="149.86" y1="119.38" x2="152.4" y2="119.38" width="0.1524" layer="91"/>
 <label x="149.86" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -37169,13 +37169,13 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="SV1" gate="G$1" pin="13"/>
+<pinref part="X_PROG" gate="G$1" pin="13"/>
 <wire x1="149.86" y1="109.22" x2="152.4" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="SV1" gate="G$1" pin="12"/>
+<pinref part="X_PROG" gate="G$1" pin="12"/>
 <wire x1="170.18" y1="111.76" x2="167.64" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -37300,7 +37300,7 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <text x="759.46" y="73.66" size="1.778" layer="94" rot="MR180">Feinabgleich</text>
 </plain>
 <instances>
-<instance part="U$2" gate="G$1" x="358.14" y="45.72" smashed="yes"/>
+<instance part="IC13" gate="G$1" x="358.14" y="45.72" smashed="yes"/>
 <instance part="Q1" gate="G$1" x="337.82" y="22.86" smashed="yes">
 <attribute name="NAME" x="340.36" y="23.876" size="1.778" layer="95"/>
 <attribute name="VALUE" x="340.36" y="20.32" size="1.778" layer="96"/>
@@ -37717,7 +37717,7 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <attribute name="NAME" x="432.435" y="267.335" size="1.524" layer="95" rot="R90"/>
 <attribute name="VALUE" x="437.8325" y="267.335" size="1.524" layer="96" rot="R90"/>
 </instance>
-<instance part="U$1" gate="G$1" x="487.934" y="210.566" smashed="yes"/>
+<instance part="IC12" gate="G$1" x="487.934" y="210.566" smashed="yes"/>
 <instance part="C42" gate="G$1" x="480.314" y="192.786" smashed="yes" rot="R270">
 <attribute name="NAME" x="480.695" y="191.262" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="475.615" y="191.262" size="1.778" layer="96" rot="R270"/>
@@ -37930,7 +37930,7 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <nets>
 <net name="DAPI_P" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="D+"/>
+<pinref part="IC13" gate="G$1" pin="D+"/>
 <wire x1="345.44" y1="45.72" x2="312.42" y2="45.72" width="0.1524" layer="91"/>
 <label x="317.5" y="45.72" size="1.27" layer="95" rot="R270" xref="yes"/>
 <pinref part="D2" gate="G$1" pin="C"/>
@@ -37939,7 +37939,7 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 </net>
 <net name="DAPI_N" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="D-"/>
+<pinref part="IC13" gate="G$1" pin="D-"/>
 <wire x1="345.44" y1="43.18" x2="322.58" y2="43.18" width="0.1524" layer="91"/>
 <label x="328.93" y="42.926" size="1.27" layer="95" rot="R270" xref="yes"/>
 <pinref part="D1" gate="G$1" pin="C"/>
@@ -37948,7 +37948,7 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 </net>
 <net name="DAPI_RX" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="TX"/>
+<pinref part="IC13" gate="G$1" pin="TX"/>
 <label x="330.2" y="53.34" size="1.27" layer="95" rot="R90" xref="yes"/>
 <pinref part="D4" gate="G$1" pin="C"/>
 <wire x1="345.44" y1="53.34" x2="297.18" y2="53.34" width="0.1524" layer="91"/>
@@ -37957,7 +37957,7 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="GND"/>
+<pinref part="IC13" gate="G$1" pin="GND"/>
 <wire x1="345.44" y1="55.88" x2="342.9" y2="55.88" width="0.1524" layer="91"/>
 <label x="342.9" y="55.88" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -38438,7 +38438,7 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 </net>
 <net name="3V3" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="VCC"/>
+<pinref part="IC13" gate="G$1" pin="VCC"/>
 <wire x1="370.84" y1="55.88" x2="373.38" y2="55.88" width="0.1524" layer="91"/>
 <label x="373.38" y="55.88" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -38639,7 +38639,7 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <net name="N$1" class="0">
 <segment>
 <pinref part="C2" gate="G$1" pin="1"/>
-<pinref part="U$2" gate="G$1" pin="XO"/>
+<pinref part="IC13" gate="G$1" pin="XO"/>
 <wire x1="345.44" y1="15.24" x2="345.44" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="2"/>
 <wire x1="345.44" y1="22.86" x2="345.44" y2="38.1" width="0.1524" layer="91"/>
@@ -38649,7 +38649,7 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="XI"/>
+<pinref part="IC13" gate="G$1" pin="XI"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="345.44" y1="40.64" x2="332.74" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="40.64" x2="332.74" y2="22.86" width="0.1524" layer="91"/>
@@ -38743,7 +38743,7 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 </segment>
 <segment>
 <pinref part="C42" gate="G$1" pin="2"/>
-<pinref part="U$1" gate="G$1" pin="VIN"/>
+<pinref part="IC12" gate="G$1" pin="VIN"/>
 <wire x1="475.234" y1="192.786" x2="475.234" y2="202.946" width="0.1524" layer="91"/>
 <label x="475.234" y="192.786" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -38766,7 +38766,7 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <pinref part="C42" gate="G$1" pin="1"/>
 <pinref part="C43" gate="G$1" pin="2"/>
 <wire x1="482.854" y1="192.786" x2="487.934" y2="192.786" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="IC12" gate="G$1" pin="GND"/>
 <wire x1="487.934" y1="192.786" x2="490.474" y2="192.786" width="0.1524" layer="91"/>
 <wire x1="487.934" y1="202.946" x2="487.934" y2="192.786" width="0.1524" layer="91"/>
 <junction x="487.934" y="192.786"/>
@@ -39815,7 +39815,7 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 </net>
 <net name="DAPI_TX" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="RX"/>
+<pinref part="IC13" gate="G$1" pin="RX"/>
 <wire x1="345.44" y1="50.8" x2="304.8" y2="50.8" width="0.1524" layer="91"/>
 <label x="325.12" y="50.8" size="1.27" layer="95" rot="R90" xref="yes"/>
 <pinref part="D3" gate="G$1" pin="C"/>
@@ -40005,7 +40005,7 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <segment>
 <pinref part="C43" gate="G$1" pin="1"/>
 <wire x1="498.094" y1="192.786" x2="500.634" y2="192.786" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VOUT"/>
+<pinref part="IC12" gate="G$1" pin="VOUT"/>
 <wire x1="500.634" y1="192.786" x2="500.634" y2="202.946" width="0.1524" layer="91"/>
 <label x="500.634" y="192.786" size="1.27" layer="95" xref="yes"/>
 </segment>
