@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.3.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="2.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -5526,7 +5526,7 @@ design rules under a new name.</description>
 <param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="a"/>
-<param name="PrefDir.2" value="a"/>
+<param name="PrefDir.2" value="0"/>
 <param name="PrefDir.3" value="0"/>
 <param name="PrefDir.4" value="0"/>
 <param name="PrefDir.5" value="0"/>
@@ -5539,7 +5539,7 @@ design rules under a new name.</description>
 <param name="PrefDir.12" value="0"/>
 <param name="PrefDir.13" value="0"/>
 <param name="PrefDir.14" value="0"/>
-<param name="PrefDir.15" value="a"/>
+<param name="PrefDir.15" value="0"/>
 <param name="PrefDir.16" value="a"/>
 <param name="cfVia" value="8"/>
 <param name="cfNonPref" value="5"/>
@@ -5963,16 +5963,16 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="48.387" y="-11.557" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="38.932" y="6.978" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="LED1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:6240556/1" value="" x="152.4" y="81.28" smashed="yes">
+<element name="LED1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:6240556/1" value="1V9" x="152.4" y="81.28" smashed="yes">
 <attribute name="VALUE" x="154.305" y="80.645" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="LED2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:6240556/1" value="" x="154.305" y="81.28" smashed="yes">
+<element name="LED2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:6240556/1" value="1V9" x="154.305" y="81.28" smashed="yes">
 <attribute name="VALUE" x="156.21" y="80.645" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="LED3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:6240556/1" value="" x="156.21" y="81.28" smashed="yes">
+<element name="LED3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:6240556/1" value="1V9" x="156.21" y="81.28" smashed="yes">
 <attribute name="VALUE" x="158.115" y="80.645" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="LED4" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:6240556/1" value="" x="158.115" y="81.28" smashed="yes">
+<element name="LED4" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:6240556/1" value="1V9" x="158.115" y="81.28" smashed="yes">
 <attribute name="VALUE" x="160.02" y="80.645" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="RN10" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" package="EXBS8V" package3d_urn="urn:adsk.eagle:package:24925/1" value="270" x="134.62" y="72.39" smashed="yes" rot="R270">
@@ -6311,19 +6311,19 @@ design rules under a new name.</description>
 <attribute name="NAME" x="122.682" y="47.625" size="1.27" layer="25"/>
 <attribute name="VALUE" x="123.19" y="43.815" size="1.27" layer="27"/>
 </element>
-<element name="LED5" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:6240556/1" value="" x="150.495" y="81.28" smashed="yes">
+<element name="LED5" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:6240556/1" value="1V9" x="150.495" y="81.28" smashed="yes">
 <attribute name="VALUE" x="152.4" y="80.645" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="LED6" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:6240556/1" value="" x="148.59" y="81.28" smashed="yes">
+<element name="LED6" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:6240556/1" value="1V9" x="148.59" y="81.28" smashed="yes">
 <attribute name="VALUE" x="150.495" y="80.645" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="?" x="150.495" y="82.296" smashed="yes" rot="MR90">
+<element name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="330" x="150.495" y="82.296" smashed="yes" rot="MR90">
 <attribute name="NAME" x="153.162" y="83.947" size="1.27" layer="26" rot="MR270"/>
 <attribute name="POPULARITY" value="86" x="150.495" y="82.296" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="150.495" y="82.296" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="147.955" y="81.661" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="?" x="147.828" y="82.296" smashed="yes" rot="MR90">
+<element name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="150" x="147.828" y="82.296" smashed="yes" rot="MR90">
 <attribute name="NAME" x="149.733" y="84.963" size="1.27" layer="26" rot="MR0"/>
 <attribute name="POPULARITY" value="86" x="147.828" y="82.296" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="147.828" y="82.296" size="1.778" layer="28" rot="MR90" display="off"/>
