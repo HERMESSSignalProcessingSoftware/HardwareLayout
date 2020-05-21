@@ -37,7 +37,7 @@
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -206,9 +206,9 @@
 <board>
 <fusionsync huburn="a.cGVyc29uYWw6dWUyYjZiNTFm" projecturn="a.cGVyc29uYWw6dWUyYjZiNTFmIzIwMTcwNjIzODEzNzU4MjY" f3durn="urn:adsk.wipprod:dm.lineage:NfGnPIWBTjK9hH2zAlQcMw" pcbguid="14fbca52-fa02-4b22-b74a-d786bfe443d1" lastpulledtime="" lastsyncedchangeguid="1dbc08e2-01f0-93f9-06e5-93317fdff8ee"/>
 <plain>
-<wire x1="0" y1="0" x2="162.56" y2="0.127" width="0" layer="20"/>
-<wire x1="162.56" y1="0.127" x2="162.56" y2="106.807" width="0" layer="20"/>
-<wire x1="162.56" y1="106.807" x2="0" y2="106.68" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="162.56" y2="0.254" width="0" layer="20"/>
+<wire x1="162.56" y1="0.254" x2="162.56" y2="106.934" width="0" layer="20"/>
+<wire x1="162.56" y1="106.934" x2="0" y2="106.68" width="0" layer="20"/>
 <wire x1="0" y1="106.68" x2="0" y2="0" width="0" layer="20"/>
 <polygon width="0.1524" layer="39">
 <vertex x="5.08" y="101.6"/>
@@ -6582,16 +6582,16 @@ design rules under a new name.</description>
 <contactref element="X_PROG" pad="10"/>
 <contactref element="IC13" pad="1"/>
 <polygon width="0.3048" layer="1" isolate="0.3048" rank="2">
-<vertex x="0" y="106.807"/>
+<vertex x="0" y="106.68"/>
 <vertex x="0" y="0"/>
-<vertex x="162.56" y="0"/>
-<vertex x="162.56" y="106.807"/>
+<vertex x="162.814" y="0"/>
+<vertex x="162.814" y="106.68"/>
 </polygon>
 <polygon width="0.3048" layer="16" isolate="0.3048" rank="2">
-<vertex x="162.56" y="106.807"/>
-<vertex x="162.56" y="0"/>
+<vertex x="162.814" y="106.68"/>
+<vertex x="162.814" y="0"/>
 <vertex x="0" y="0"/>
-<vertex x="0" y="106.807"/>
+<vertex x="0" y="106.68"/>
 </polygon>
 <contactref element="C1" pad="2"/>
 <contactref element="C2" pad="2"/>
@@ -7060,16 +7060,16 @@ design rules under a new name.</description>
 <wire x1="80.01" y1="91.875" x2="78.74" y2="91.875" width="0.254" layer="1"/>
 <wire x1="73.9917" y1="82.165" x2="73.9917" y2="81.515" width="0.254" layer="1"/>
 <polygon width="0.3048" layer="2" isolate="0.3048" rank="2">
-<vertex x="162.56" y="106.807"/>
-<vertex x="162.56" y="0"/>
+<vertex x="162.814" y="106.68"/>
+<vertex x="162.814" y="0"/>
 <vertex x="0" y="0"/>
-<vertex x="0" y="106.807"/>
+<vertex x="0" y="106.68"/>
 </polygon>
 <polygon width="0.3048" layer="15" isolate="0.3048" rank="2">
-<vertex x="162.56" y="106.807"/>
-<vertex x="162.56" y="0"/>
+<vertex x="162.814" y="106.68"/>
+<vertex x="162.814" y="0"/>
 <vertex x="0" y="0"/>
-<vertex x="0" y="106.807"/>
+<vertex x="0" y="106.68"/>
 </polygon>
 <via x="56.896" y="65.913" extent="1-16" drill="0.35"/>
 <wire x1="83.4883" y1="75.965" x2="83.4883" y2="75.315" width="0.254" layer="1"/>
@@ -8493,20 +8493,20 @@ design rules under a new name.</description>
 <contactref element="LED7" pad="C"/>
 <contactref element="LED8" pad="C"/>
 <polygon width="0.3048" layer="1" isolate="0.6096">
-<vertex x="162.56" y="78.105"/>
+<vertex x="162.814" y="78.105"/>
 <vertex x="148.59" y="78.105"/>
 <vertex x="139.7" y="69.215"/>
 <vertex x="113.157" y="69.215"/>
 <vertex x="104.775" y="60.833"/>
 <vertex x="104.775" y="0"/>
-<vertex x="162.56" y="0"/>
+<vertex x="162.814" y="0"/>
 </polygon>
 <polygon width="0.3048" layer="16" isolate="0.6096">
 <vertex x="113.157" y="69.215"/>
 <vertex x="139.7" y="69.215"/>
 <vertex x="148.59" y="78.105"/>
-<vertex x="162.56" y="78.105"/>
-<vertex x="162.56" y="0"/>
+<vertex x="162.814" y="78.105"/>
+<vertex x="162.814" y="0"/>
 <vertex x="104.775" y="0"/>
 <vertex x="104.775" y="60.833"/>
 </polygon>
@@ -8585,8 +8585,8 @@ design rules under a new name.</description>
 <vertex x="113.157" y="69.215"/>
 <vertex x="139.7" y="69.215"/>
 <vertex x="148.59" y="78.105"/>
-<vertex x="162.56" y="78.105"/>
-<vertex x="162.56" y="0"/>
+<vertex x="162.814" y="78.105"/>
+<vertex x="162.814" y="0"/>
 <vertex x="104.775" y="0"/>
 <vertex x="104.775" y="60.833"/>
 </polygon>
@@ -8594,8 +8594,8 @@ design rules under a new name.</description>
 <vertex x="113.157" y="69.215"/>
 <vertex x="139.7" y="69.215"/>
 <vertex x="148.59" y="78.105"/>
-<vertex x="162.56" y="78.105"/>
-<vertex x="162.56" y="0"/>
+<vertex x="162.814" y="78.105"/>
+<vertex x="162.814" y="0"/>
 <vertex x="104.775" y="0"/>
 <vertex x="104.775" y="60.833"/>
 </polygon>
