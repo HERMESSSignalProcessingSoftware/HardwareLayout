@@ -3,3 +3,5 @@ CAMOutputs/
 *.s#*
 *.zip
 *.cam
+*.job
+*.pro
