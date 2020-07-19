@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -36738,7 +36738,7 @@ NRST:
 <label x="101.6" y="73.66" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
-<net name="3V3REF3" class="0">
+<net name="3V3REF" class="0">
 <segment>
 <pinref part="U_STM32F779" gate="G$1" pin="VREF+"/>
 <wire x1="238.76" y1="358.14" x2="238.76" y2="363.22" width="0.1524" layer="91"/>
@@ -39017,7 +39017,7 @@ https://www.hbm.com/de/7163/die-wheatstonesche-brueckenschaltung-kurz-erklaert/ 
 <wire x1="86.36" y1="256.54" x2="76.2" y2="256.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="3V3REF3" class="0">
+<net name="3V3REF" class="0">
 <segment>
 <pinref part="U_ADR366_3" gate="G$1" pin="VOUT"/>
 <label x="60.96" y="264.16" size="1.27" layer="95" rot="R90" xref="yes"/>
