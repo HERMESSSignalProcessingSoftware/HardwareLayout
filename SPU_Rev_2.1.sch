@@ -35807,6 +35807,8 @@ type RDH, grid 15 mm</description>
 <part name="C69" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E/7260-38W" package3d_urn="urn:adsk.eagle:package:23423/1" value="10u"/>
 <part name="C70" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E/7260-38W" package3d_urn="urn:adsk.eagle:package:23423/1" value="10u"/>
 <part name="C71" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E/7260-38W" package3d_urn="urn:adsk.eagle:package:23423/1" value="10u"/>
+<part name="C72" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E/7260-38W" package3d_urn="urn:adsk.eagle:package:23423/1" value="10u"/>
+<part name="C73" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E/7260-38W" package3d_urn="urn:adsk.eagle:package:23423/1" value="10u"/>
 </parts>
 <sheets>
 <sheet>
@@ -37271,10 +37273,10 @@ SWD/JTAG</text>
 <wire x1="254" y1="220.98" x2="254" y2="279.4" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="254" y1="279.4" x2="198.12" y2="279.4" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="198.12" y1="279.4" x2="198.12" y2="220.98" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="287.02" y1="182.88" x2="317.5" y2="182.88" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="317.5" y1="182.88" x2="317.5" y2="279.4" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="287.02" y1="167.64" x2="317.5" y2="167.64" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="317.5" y1="167.64" x2="317.5" y2="279.4" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="317.5" y1="279.4" x2="287.02" y2="279.4" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="287.02" y1="279.4" x2="287.02" y2="182.88" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="287.02" y1="279.4" x2="287.02" y2="167.64" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="203.2" y1="142.24" x2="353.06" y2="142.24" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="353.06" y1="142.24" x2="353.06" y2="45.72" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="353.06" y1="45.72" x2="203.2" y2="45.72" width="0.1524" layer="94" style="shortdash"/>
@@ -38361,6 +38363,14 @@ MODE LINE FILT</text>
 <attribute name="NAME" x="302.9966" y="191.643" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="297.4086" y="191.643" size="1.778" layer="96" rot="R270"/>
 </instance>
+<instance part="C72" gate="G$1" x="299.72" y="185.928" smashed="yes" rot="R90">
+<attribute name="NAME" x="302.9966" y="184.023" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="297.4086" y="184.023" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="C73" gate="G$1" x="299.72" y="178.308" smashed="yes" rot="R90">
+<attribute name="NAME" x="302.9966" y="176.403" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="297.4086" y="176.403" size="1.778" layer="96" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -38516,6 +38526,14 @@ MODE LINE FILT</text>
 <wire x1="307.086" y1="208.28" x2="307.086" y2="201.168" width="0.1524" layer="91"/>
 <junction x="307.086" y="208.28"/>
 <junction x="307.086" y="201.168"/>
+<pinref part="C72" gate="G$1" pin="-"/>
+<wire x1="307.086" y1="193.548" x2="307.086" y2="185.928" width="0.1524" layer="91"/>
+<wire x1="307.086" y1="185.928" x2="304.8" y2="185.928" width="0.1524" layer="91"/>
+<junction x="307.086" y="193.548"/>
+<pinref part="C73" gate="G$1" pin="-"/>
+<wire x1="307.086" y1="185.928" x2="307.086" y2="178.308" width="0.1524" layer="91"/>
+<wire x1="307.086" y1="178.308" x2="304.8" y2="178.308" width="0.1524" layer="91"/>
+<junction x="307.086" y="185.928"/>
 </segment>
 <segment>
 <pinref part="U_OPTO_2" gate="G$1" pin="EMT1"/>
@@ -39140,14 +39158,21 @@ MODE LINE FILT</text>
 <wire x1="294.386" y1="215.9" x2="294.386" y2="208.28" width="0.1524" layer="91"/>
 <junction x="294.386" y="215.9"/>
 <pinref part="C70" gate="G$1" pin="+"/>
-<wire x1="294.64" y1="208.28" x2="297.18" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="294.386" y1="208.28" x2="297.18" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="201.168" x2="294.386" y2="201.168" width="0.1524" layer="91"/>
 <pinref part="C71" gate="G$1" pin="+"/>
 <wire x1="294.386" y1="201.168" x2="294.386" y2="193.548" width="0.1524" layer="91"/>
 <wire x1="294.386" y1="193.548" x2="297.18" y2="193.548" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="208.28" x2="294.386" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="294.386" y1="208.28" x2="294.386" y2="201.168" width="0.1524" layer="91"/>
 <junction x="294.386" y="201.168"/>
+<pinref part="C72" gate="G$1" pin="+"/>
+<wire x1="294.386" y1="193.548" x2="294.386" y2="185.928" width="0.1524" layer="91"/>
+<wire x1="294.386" y1="185.928" x2="297.18" y2="185.928" width="0.1524" layer="91"/>
+<junction x="294.386" y="193.548"/>
+<pinref part="C73" gate="G$1" pin="+"/>
+<wire x1="294.386" y1="185.928" x2="294.386" y2="178.308" width="0.1524" layer="91"/>
+<wire x1="294.386" y1="178.308" x2="297.18" y2="178.308" width="0.1524" layer="91"/>
+<junction x="294.386" y="185.928"/>
 </segment>
 <segment>
 <pinref part="RN12" gate="A" pin="1"/>
@@ -39407,6 +39432,11 @@ MODE LINE FILT</text>
 <pinref part="U_ADC_DMS6" gate="G$1" pin="AVDD"/>
 <pinref part="C55" gate="G$1" pin="1"/>
 <pinref part="R58" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="U_CH340G" gate="G$1" pin="V3"/>
+<wire x1="160.02" y1="96.52" x2="157.48" y2="96.52" width="0.1524" layer="91"/>
+<label x="157.48" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
