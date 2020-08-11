@@ -36062,20 +36062,6 @@ NRST:
 <pinref part="U_STM32F779" gate="G$1" pin="PA0"/>
 </segment>
 </net>
-<net name="OUT_PT_1" class="0">
-<segment>
-<wire x1="335.28" y1="251.46" x2="375.92" y2="251.46" width="0.1524" layer="91"/>
-<label x="375.92" y="251.46" size="1.27" layer="95" xref="yes"/>
-<pinref part="U_STM32F779" gate="G$1" pin="PB1"/>
-</segment>
-</net>
-<net name="OUT_PT_3" class="0">
-<segment>
-<wire x1="335.28" y1="256.54" x2="375.92" y2="256.54" width="0.1524" layer="91"/>
-<label x="375.92" y="256.54" size="1.27" layer="95" xref="yes"/>
-<pinref part="U_STM32F779" gate="G$1" pin="PB0"/>
-</segment>
-</net>
 <net name="SPI2_SCK" class="0">
 <segment>
 <pinref part="U_STM32F779" gate="G$1" pin="PB13"/>
@@ -36132,13 +36118,6 @@ NRST:
 <label x="259.08" y="76.2" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
-<net name="OUT_PT_2" class="0">
-<segment>
-<wire x1="335.28" y1="322.58" x2="368.3" y2="322.58" width="0.1524" layer="91"/>
-<label x="368.3" y="322.58" size="1.27" layer="95" xref="yes"/>
-<pinref part="U_STM32F779" gate="G$1" pin="PA4"/>
-</segment>
-</net>
 <net name="SPI6_SCK" class="0">
 <segment>
 <wire x1="335.28" y1="317.5" x2="340.36" y2="317.5" width="0.1524" layer="91"/>
@@ -36193,153 +36172,6 @@ NRST:
 <wire x1="55.88" y1="231.14" x2="50.8" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="U_STM32F779" gate="G$1" pin="PH10"/>
 <label x="50.8" y="231.14" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="SPI5_SCK" class="0">
-<segment>
-<pinref part="U_STM32F779" gate="G$1" pin="PF7"/>
-<wire x1="111.76" y1="78.74" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
-<label x="111.76" y="76.2" size="1.27" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="SPI5_MISO" class="0">
-<segment>
-<pinref part="U_STM32F779" gate="G$1" pin="PF8"/>
-<wire x1="106.68" y1="78.74" x2="106.68" y2="76.2" width="0.1524" layer="91"/>
-<label x="106.68" y="76.2" size="1.27" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="SPI5_MOSI" class="0">
-<segment>
-<pinref part="U_STM32F779" gate="G$1" pin="PF11"/>
-<wire x1="91.44" y1="78.74" x2="91.44" y2="76.2" width="0.1524" layer="91"/>
-<label x="91.44" y="76.2" size="1.27" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="SPI3_SCK" class="0">
-<segment>
-<pinref part="U_STM32F779" gate="G$1" pin="PC10"/>
-<wire x1="335.28" y1="119.38" x2="340.36" y2="119.38" width="0.1524" layer="91"/>
-<label x="340.36" y="119.38" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="SPI3_MISO" class="0">
-<segment>
-<pinref part="U_STM32F779" gate="G$1" pin="PC11"/>
-<wire x1="335.28" y1="114.3" x2="340.36" y2="114.3" width="0.1524" layer="91"/>
-<label x="340.36" y="114.3" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="SPI3_MOSI" class="0">
-<segment>
-<wire x1="335.28" y1="246.38" x2="340.36" y2="246.38" width="0.1524" layer="91"/>
-<pinref part="U_STM32F779" gate="G$1" pin="PB2"/>
-<label x="340.36" y="246.38" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="SPI4_SCK" class="0">
-<segment>
-<pinref part="U_STM32F779" gate="G$1" pin="PE2"/>
-<wire x1="223.52" y1="78.74" x2="223.52" y2="73.66" width="0.1524" layer="91"/>
-<label x="223.52" y="73.66" size="1.27" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="SPI4_MISO" class="0">
-<segment>
-<pinref part="U_STM32F779" gate="G$1" pin="PE5"/>
-<wire x1="208.28" y1="78.74" x2="208.28" y2="73.66" width="0.1524" layer="91"/>
-<label x="208.28" y="73.66" size="1.27" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="SPI4_MOSI" class="0">
-<segment>
-<pinref part="U_STM32F779" gate="G$1" pin="PE6"/>
-<wire x1="203.2" y1="78.74" x2="203.2" y2="73.66" width="0.1524" layer="91"/>
-<label x="203.2" y="73.66" size="1.27" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="ADC2_RES" class="0">
-<segment>
-<pinref part="U_STM32F779" gate="G$1" pin="PA3"/>
-<wire x1="335.28" y1="327.66" x2="340.36" y2="327.66" width="0.1524" layer="91"/>
-<label x="340.36" y="327.66" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="ADC2_START" class="0">
-<segment>
-<pinref part="U_STM32F779" gate="G$1" pin="PH5"/>
-<wire x1="55.88" y1="205.74" x2="50.8" y2="205.74" width="0.1524" layer="91"/>
-<label x="50.8" y="205.74" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="SPI4_CS" class="0">
-<segment>
-<pinref part="U_STM32F779" gate="G$1" pin="PH4"/>
-<wire x1="55.88" y1="200.66" x2="50.8" y2="200.66" width="0.1524" layer="91"/>
-<label x="50.8" y="200.66" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="ADC2_DRDY" class="0">
-<segment>
-<pinref part="U_STM32F779" gate="G$1" pin="PH3"/>
-<wire x1="55.88" y1="195.58" x2="50.8" y2="195.58" width="0.1524" layer="91"/>
-<label x="50.8" y="195.58" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="ADC3_DRDY" class="0">
-<segment>
-<pinref part="U_STM32F779" gate="G$1" pin="PF12"/>
-<wire x1="86.36" y1="78.74" x2="86.36" y2="73.66" width="0.1524" layer="91"/>
-<label x="86.36" y="73.66" size="1.27" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="SPI5_CS" class="0">
-<segment>
-<pinref part="U_STM32F779" gate="G$1" pin="PF13"/>
-<wire x1="81.28" y1="78.74" x2="81.28" y2="73.66" width="0.1524" layer="91"/>
-<label x="81.28" y="73.66" size="1.27" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="ADC3_START" class="0">
-<segment>
-<pinref part="U_STM32F779" gate="G$1" pin="PF14"/>
-<wire x1="76.2" y1="78.74" x2="76.2" y2="73.66" width="0.1524" layer="91"/>
-<label x="76.2" y="73.66" size="1.27" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="ADC3_RES" class="0">
-<segment>
-<pinref part="U_STM32F779" gate="G$1" pin="PF15"/>
-<wire x1="71.12" y1="78.74" x2="71.12" y2="73.66" width="0.1524" layer="91"/>
-<label x="71.12" y="73.66" size="1.27" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="ADC1_DRDY" class="0">
-<segment>
-<pinref part="U_STM32F779" gate="G$1" pin="PJ0"/>
-<wire x1="71.12" y1="358.14" x2="71.12" y2="363.22" width="0.1524" layer="91"/>
-<label x="71.12" y="363.22" size="1.27" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
-<net name="SPI3_CS" class="0">
-<segment>
-<pinref part="U_STM32F779" gate="G$1" pin="PJ1"/>
-<wire x1="76.2" y1="358.14" x2="76.2" y2="363.22" width="0.1524" layer="91"/>
-<label x="76.2" y="363.22" size="1.27" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
-<net name="ADC1_START" class="0">
-<segment>
-<pinref part="U_STM32F779" gate="G$1" pin="PJ2"/>
-<wire x1="81.28" y1="358.14" x2="81.28" y2="363.22" width="0.1524" layer="91"/>
-<label x="81.28" y="363.22" size="1.27" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
-<net name="ADC1_RES" class="0">
-<segment>
-<pinref part="U_STM32F779" gate="G$1" pin="PJ3"/>
-<wire x1="86.36" y1="358.14" x2="86.36" y2="363.22" width="0.1524" layer="91"/>
-<label x="86.36" y="363.22" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="LO_OPT" class="0">
@@ -36403,90 +36235,6 @@ NRST:
 <pinref part="U_STM32F779" gate="G$1" pin="PI14"/>
 <wire x1="55.88" y1="337.82" x2="50.8" y2="337.82" width="0.1524" layer="91"/>
 <label x="50.8" y="337.82" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="SPI3_CS2" class="0">
-<segment>
-<pinref part="U_STM32F779" gate="G$1" pin="PF2"/>
-<wire x1="137.16" y1="78.74" x2="137.16" y2="73.66" width="0.1524" layer="91"/>
-<label x="137.16" y="73.66" size="1.27" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="SPI4_CS2" class="0">
-<segment>
-<pinref part="U_STM32F779" gate="G$1" pin="PI12"/>
-<wire x1="55.88" y1="327.66" x2="50.8" y2="327.66" width="0.1524" layer="91"/>
-<label x="50.8" y="327.66" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="SPI5_CS2" class="0">
-<segment>
-<pinref part="U_STM32F779" gate="G$1" pin="PI13"/>
-<wire x1="55.88" y1="332.74" x2="50.8" y2="332.74" width="0.1524" layer="91"/>
-<label x="50.8" y="332.74" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="ADC4_RES" class="0">
-<segment>
-<pinref part="U_STM32F779" gate="G$1" pin="PF10"/>
-<wire x1="96.52" y1="78.74" x2="96.52" y2="73.66" width="0.1524" layer="91"/>
-<label x="96.52" y="73.66" size="1.27" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="ADC4_DRDY" class="0">
-<segment>
-<pinref part="U_STM32F779" gate="G$1" pin="PH0"/>
-<wire x1="55.88" y1="180.34" x2="50.8" y2="180.34" width="0.1524" layer="91"/>
-<label x="50.8" y="180.34" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="ADC6_RES" class="0">
-<segment>
-<pinref part="U_STM32F779" gate="G$1" pin="PH1"/>
-<wire x1="50.8" y1="185.42" x2="55.88" y2="185.42" width="0.1524" layer="91"/>
-<label x="50.8" y="185.42" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="ADC5_START" class="0">
-<segment>
-<pinref part="U_STM32F779" gate="G$1" pin="PC0"/>
-<wire x1="335.28" y1="170.18" x2="340.36" y2="170.18" width="0.1524" layer="91"/>
-<label x="340.36" y="170.18" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="ADC5_RES" class="0">
-<segment>
-<pinref part="U_STM32F779" gate="G$1" pin="PC2"/>
-<wire x1="335.28" y1="160.02" x2="340.36" y2="160.02" width="0.1524" layer="91"/>
-<label x="340.36" y="160.02" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="ADC6_START" class="0">
-<segment>
-<pinref part="U_STM32F779" gate="G$1" pin="PC3"/>
-<wire x1="335.28" y1="154.94" x2="340.36" y2="154.94" width="0.1524" layer="91"/>
-<label x="340.36" y="154.94" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="ADC5_DRDY" class="0">
-<segment>
-<pinref part="U_STM32F779" gate="G$1" pin="PA1"/>
-<wire x1="335.28" y1="337.82" x2="340.36" y2="337.82" width="0.1524" layer="91"/>
-<label x="340.36" y="337.82" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="ADC6_DRDY" class="0">
-<segment>
-<pinref part="U_STM32F779" gate="G$1" pin="PA2"/>
-<wire x1="335.28" y1="332.74" x2="340.36" y2="332.74" width="0.1524" layer="91"/>
-<label x="340.36" y="332.74" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="ADC4_START" class="0">
-<segment>
-<pinref part="U_STM32F779" gate="G$1" pin="PF9"/>
-<wire x1="101.6" y1="78.74" x2="101.6" y2="73.66" width="0.1524" layer="91"/>
-<label x="101.6" y="73.66" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="3V3REF" class="0">
