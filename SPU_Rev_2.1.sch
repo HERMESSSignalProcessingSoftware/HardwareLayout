@@ -35546,8 +35546,8 @@ type RDH, grid 15 mm</description>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="C18" library="aSparkFun" deviceset="CAP" device="0603-CAP" value="100n"/>
 <part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_PASTE" device="_SILK"/>
-<part name="U_S70FL01GS_1" library="S70FL01GS" deviceset="S70FL01GS" device="" package3d_urn="urn:adsk.eagle:package:16378380/2"/>
-<part name="U_S70FL01GS_2" library="S70FL01GS" deviceset="S70FL01GS" device="" package3d_urn="urn:adsk.eagle:package:16378380/2"/>
+<part name="U_FLASH1" library="S70FL01GS" deviceset="S70FL01GS" device="" package3d_urn="urn:adsk.eagle:package:16378380/2"/>
+<part name="U_FLASH2" library="S70FL01GS" deviceset="S70FL01GS" device="" package3d_urn="urn:adsk.eagle:package:16378380/2"/>
 <part name="C28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="C29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="C30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
@@ -37268,8 +37268,8 @@ MODE LINE FILT</text>
 <attribute name="NAME" x="50.8" y="142.24" size="1.4224" layer="95" font="vector"/>
 <attribute name="VALUE" x="50.8" y="139.7" size="1.4224" layer="96" font="vector"/>
 </instance>
-<instance part="U_S70FL01GS_1" gate="G$1" x="231.14" y="71.12" smashed="yes"/>
-<instance part="U_S70FL01GS_2" gate="G$1" x="302.26" y="71.12" smashed="yes"/>
+<instance part="U_FLASH1" gate="G$1" x="231.14" y="71.12" smashed="yes"/>
+<instance part="U_FLASH2" gate="G$1" x="302.26" y="71.12" smashed="yes"/>
 <instance part="C28" gate="G$1" x="299.466" y="261.112" smashed="yes" rot="R90">
 <attribute name="NAME" x="299.085" y="262.636" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="304.165" y="262.636" size="1.778" layer="96" rot="R90"/>
@@ -38388,12 +38388,12 @@ MODE LINE FILT</text>
 <wire x1="101.6" y1="157.48" x2="101.6" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U_S70FL01GS_1" gate="G$1" pin="VSS"/>
+<pinref part="U_FLASH1" gate="G$1" pin="VSS"/>
 <wire x1="264.16" y1="71.12" x2="264.16" y2="76.2" width="0.1524" layer="91"/>
 <label x="264.16" y="76.2" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U_S70FL01GS_2" gate="G$1" pin="VSS"/>
+<pinref part="U_FLASH2" gate="G$1" pin="VSS"/>
 <wire x1="335.28" y1="71.12" x2="335.28" y2="76.2" width="0.1524" layer="91"/>
 <label x="335.28" y="76.2" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -39028,12 +39028,12 @@ MODE LINE FILT</text>
 <junction x="86.36" y="119.38"/>
 </segment>
 <segment>
-<pinref part="U_S70FL01GS_1" gate="G$1" pin="VCC"/>
+<pinref part="U_FLASH1" gate="G$1" pin="VCC"/>
 <wire x1="223.52" y1="96.52" x2="220.98" y2="96.52" width="0.1524" layer="91"/>
 <label x="220.98" y="96.52" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U_S70FL01GS_2" gate="G$1" pin="VCC"/>
+<pinref part="U_FLASH2" gate="G$1" pin="VCC"/>
 <wire x1="294.64" y1="96.52" x2="292.1" y2="96.52" width="0.1524" layer="91"/>
 <label x="292.1" y="96.52" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -39534,7 +39534,7 @@ MODE LINE FILT</text>
 </net>
 <net name="FL_1_HLD" class="0">
 <segment>
-<pinref part="U_S70FL01GS_1" gate="G$1" pin="HOLD"/>
+<pinref part="U_FLASH1" gate="G$1" pin="HOLD"/>
 <wire x1="223.52" y1="101.6" x2="220.98" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="101.6" x2="220.98" y2="114.3" width="0.1524" layer="91"/>
 <label x="220.98" y="114.3" size="1.27" layer="95" rot="R90" xref="yes"/>
@@ -39542,7 +39542,7 @@ MODE LINE FILT</text>
 </net>
 <net name="FL_1_RES" class="0">
 <segment>
-<pinref part="U_S70FL01GS_1" gate="G$1" pin="RESET"/>
+<pinref part="U_FLASH1" gate="G$1" pin="RESET"/>
 <wire x1="223.52" y1="91.44" x2="218.44" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="91.44" x2="218.44" y2="114.3" width="0.1524" layer="91"/>
 <label x="218.44" y="114.3" size="1.27" layer="95" rot="R90" xref="yes"/>
@@ -39550,7 +39550,7 @@ MODE LINE FILT</text>
 </net>
 <net name="FL_1_CS2" class="0">
 <segment>
-<pinref part="U_S70FL01GS_1" gate="G$1" pin="CS2"/>
+<pinref part="U_FLASH1" gate="G$1" pin="CS2"/>
 <wire x1="223.52" y1="76.2" x2="215.9" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="76.2" x2="215.9" y2="114.3" width="0.1524" layer="91"/>
 <label x="215.9" y="114.3" size="1.27" layer="95" rot="R90" xref="yes"/>
@@ -39558,7 +39558,7 @@ MODE LINE FILT</text>
 </net>
 <net name="FL_1_CS1" class="0">
 <segment>
-<pinref part="U_S70FL01GS_1" gate="G$1" pin="CS1"/>
+<pinref part="U_FLASH1" gate="G$1" pin="CS1"/>
 <wire x1="223.52" y1="71.12" x2="213.36" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="71.12" x2="213.36" y2="114.3" width="0.1524" layer="91"/>
 <label x="213.36" y="114.3" size="1.27" layer="95" rot="R90" xref="yes"/>
@@ -39566,7 +39566,7 @@ MODE LINE FILT</text>
 </net>
 <net name="SPI6_MISO" class="0">
 <segment>
-<pinref part="U_S70FL01GS_1" gate="G$1" pin="SO"/>
+<pinref part="U_FLASH1" gate="G$1" pin="SO"/>
 <wire x1="223.52" y1="66.04" x2="210.82" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="66.04" x2="210.82" y2="114.3" width="0.1524" layer="91"/>
 <label x="210.82" y="114.3" size="1.27" layer="95" rot="R90" xref="yes"/>
@@ -39574,7 +39574,7 @@ MODE LINE FILT</text>
 </net>
 <net name="SPI6_SCK" class="0">
 <segment>
-<pinref part="U_S70FL01GS_1" gate="G$1" pin="SCK"/>
+<pinref part="U_FLASH1" gate="G$1" pin="SCK"/>
 <wire x1="264.16" y1="101.6" x2="264.16" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="106.68" x2="223.52" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="106.68" x2="223.52" y2="114.3" width="0.1524" layer="91"/>
@@ -39585,7 +39585,7 @@ MODE LINE FILT</text>
 <segment>
 <wire x1="226.06" y1="109.22" x2="266.7" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="109.22" x2="266.7" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="U_S70FL01GS_1" gate="G$1" pin="SI"/>
+<pinref part="U_FLASH1" gate="G$1" pin="SI"/>
 <wire x1="266.7" y1="96.52" x2="264.16" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="109.22" x2="226.06" y2="114.3" width="0.1524" layer="91"/>
 <label x="226.06" y="114.3" size="1.27" layer="95" rot="R90" xref="yes"/>
@@ -39593,7 +39593,7 @@ MODE LINE FILT</text>
 </net>
 <net name="FL_1_WP" class="0">
 <segment>
-<pinref part="U_S70FL01GS_1" gate="G$1" pin="WP"/>
+<pinref part="U_FLASH1" gate="G$1" pin="WP"/>
 <wire x1="264.16" y1="66.04" x2="269.24" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="66.04" x2="269.24" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="111.76" x2="228.6" y2="111.76" width="0.1524" layer="91"/>
@@ -39603,7 +39603,7 @@ MODE LINE FILT</text>
 </net>
 <net name="SPI2_MISO" class="0">
 <segment>
-<pinref part="U_S70FL01GS_2" gate="G$1" pin="SO"/>
+<pinref part="U_FLASH2" gate="G$1" pin="SO"/>
 <wire x1="294.64" y1="66.04" x2="281.94" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="66.04" x2="281.94" y2="114.3" width="0.1524" layer="91"/>
 <label x="281.94" y="114.3" size="1.27" layer="95" rot="R90" xref="yes"/>
@@ -39611,7 +39611,7 @@ MODE LINE FILT</text>
 </net>
 <net name="FL_2_CS1" class="0">
 <segment>
-<pinref part="U_S70FL01GS_2" gate="G$1" pin="CS1"/>
+<pinref part="U_FLASH2" gate="G$1" pin="CS1"/>
 <wire x1="294.64" y1="71.12" x2="284.48" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="71.12" x2="284.48" y2="114.3" width="0.1524" layer="91"/>
 <label x="284.48" y="114.3" size="1.27" layer="95" rot="R90" xref="yes"/>
@@ -39619,7 +39619,7 @@ MODE LINE FILT</text>
 </net>
 <net name="FL_2_CS2" class="0">
 <segment>
-<pinref part="U_S70FL01GS_2" gate="G$1" pin="CS2"/>
+<pinref part="U_FLASH2" gate="G$1" pin="CS2"/>
 <wire x1="294.64" y1="76.2" x2="287.02" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="76.2" x2="287.02" y2="114.3" width="0.1524" layer="91"/>
 <label x="287.02" y="114.3" size="1.27" layer="95" rot="R90" xref="yes"/>
@@ -39627,7 +39627,7 @@ MODE LINE FILT</text>
 </net>
 <net name="FL_2_RES" class="0">
 <segment>
-<pinref part="U_S70FL01GS_2" gate="G$1" pin="RESET"/>
+<pinref part="U_FLASH2" gate="G$1" pin="RESET"/>
 <wire x1="294.64" y1="91.44" x2="289.56" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="91.44" x2="289.56" y2="114.3" width="0.1524" layer="91"/>
 <label x="289.56" y="114.3" size="1.27" layer="95" rot="R90" xref="yes"/>
@@ -39635,7 +39635,7 @@ MODE LINE FILT</text>
 </net>
 <net name="FL_2_HLD" class="0">
 <segment>
-<pinref part="U_S70FL01GS_2" gate="G$1" pin="HOLD"/>
+<pinref part="U_FLASH2" gate="G$1" pin="HOLD"/>
 <wire x1="294.64" y1="101.6" x2="292.1" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="101.6" x2="292.1" y2="114.3" width="0.1524" layer="91"/>
 <label x="292.1" y="114.3" size="1.27" layer="95" rot="R90" xref="yes"/>
@@ -39643,7 +39643,7 @@ MODE LINE FILT</text>
 </net>
 <net name="SPI2_SCK" class="0">
 <segment>
-<pinref part="U_S70FL01GS_2" gate="G$1" pin="SCK"/>
+<pinref part="U_FLASH2" gate="G$1" pin="SCK"/>
 <wire x1="335.28" y1="101.6" x2="335.28" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="335.28" y1="106.68" x2="294.64" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="106.68" x2="294.64" y2="114.3" width="0.1524" layer="91"/>
@@ -39654,7 +39654,7 @@ MODE LINE FILT</text>
 <segment>
 <wire x1="297.18" y1="109.22" x2="337.82" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="337.82" y1="109.22" x2="337.82" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="U_S70FL01GS_2" gate="G$1" pin="SI"/>
+<pinref part="U_FLASH2" gate="G$1" pin="SI"/>
 <wire x1="337.82" y1="96.52" x2="335.28" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="109.22" x2="297.18" y2="114.3" width="0.1524" layer="91"/>
 <label x="297.18" y="114.3" size="1.27" layer="95" rot="R90" xref="yes"/>
@@ -39662,7 +39662,7 @@ MODE LINE FILT</text>
 </net>
 <net name="FL_2_WP" class="0">
 <segment>
-<pinref part="U_S70FL01GS_2" gate="G$1" pin="WP"/>
+<pinref part="U_FLASH2" gate="G$1" pin="WP"/>
 <wire x1="335.28" y1="66.04" x2="340.36" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="66.04" x2="340.36" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="111.76" x2="299.72" y2="111.76" width="0.1524" layer="91"/>
