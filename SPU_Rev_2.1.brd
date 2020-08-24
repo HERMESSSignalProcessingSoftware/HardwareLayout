@@ -240,7 +240,7 @@
 <text x="97.282" y="37.465" size="1.016" layer="25" font="vector" ratio="15">h = 9.9 mm</text>
 <wire x1="5.08" y1="101.6" x2="132.715" y2="101.6" width="0.1524" layer="25"/>
 <text x="55.245" y="21.082" size="5.08" layer="25" font="vector" ratio="15" rot="R90">HERMESS</text>
-<text x="58.166" y="21.082" size="2.286" layer="25" font="vector" ratio="15" rot="R90">SPU Rev 2.1</text>
+<text x="58.166" y="21.082" size="2.286" layer="25" font="vector" ratio="15" rot="R90">SPU Rev 2.2</text>
 <wire x1="5.08" y1="101.6" x2="132.715" y2="101.6" width="0.1524" layer="26"/>
 <wire x1="132.715" y1="101.6" x2="132.715" y2="0" width="0.1524" layer="26"/>
 <wire x1="127.635" y1="96.52" x2="10.16" y2="96.52" width="0.1524" layer="26"/>
@@ -10231,6 +10231,31 @@ design rules under a new name.</description>
 <wire x1="20.828" y1="13.081" x2="20.828" y2="13.0683" width="0.254" layer="16"/>
 <wire x1="22.0218" y1="11.8745" x2="23.114" y2="11.8745" width="0.254" layer="16"/>
 <wire x1="20.828" y1="13.0683" x2="22.0218" y2="11.8745" width="0.254" layer="16"/>
+<contactref element="U_ADC_DMS6" pad="1"/>
+<contactref element="C54" pad="1"/>
+<contactref element="R57" pad="1"/>
+<wire x1="20.0787" y1="18.1356" x2="20.0787" y2="16.8402" width="0.2032" layer="1"/>
+<wire x1="20.9423" y1="18.9992" x2="20.0787" y2="18.1356" width="0.2032" layer="1"/>
+<wire x1="20.0787" y1="16.8402" x2="20.07" y2="16.7608" width="0.2032" layer="1"/>
+<wire x1="20.9423" y1="18.9992" x2="21.043" y2="19.05" width="0.2032" layer="1"/>
+<wire x1="20.9423" y1="19.2151" x2="22.4536" y2="20.7264" width="0.2032" layer="1"/>
+<wire x1="22.4536" y1="20.7264" x2="22.606" y2="20.867" width="0.2032" layer="1"/>
+<wire x1="20.9423" y1="19.2151" x2="21.043" y2="19.05" width="0.2032" layer="1"/>
+<contactref element="U_ADC_DMS5" pad="1"/>
+<contactref element="C47" pad="1"/>
+<contactref element="R50" pad="1"/>
+<wire x1="34.544" y1="17.4879" x2="34.544" y2="16.8402" width="0.2032" layer="1"/>
+<wire x1="36.2712" y1="19.2151" x2="34.544" y2="17.4879" width="0.2032" layer="1"/>
+<wire x1="34.544" y1="16.8402" x2="34.548" y2="16.7608" width="0.2032" layer="1"/>
+<wire x1="36.2712" y1="19.2151" x2="36.283" y2="19.304" width="0.2032" layer="1"/>
+<wire x1="36.4871" y1="19.431" x2="36.4871" y2="20.9423" width="0.2032" layer="1"/>
+<wire x1="36.4871" y1="20.9423" x2="36.449" y2="20.994" width="0.2032" layer="1"/>
+<wire x1="36.4871" y1="19.431" x2="36.283" y2="19.304" width="0.2032" layer="1"/>
+<wire x1="36.449" y1="20.994" x2="34.886" y2="20.994" width="0.2032" layer="1"/>
+<wire x1="34.29" y1="21.59" x2="34.29" y2="23.239" width="0.2032" layer="1"/>
+<wire x1="34.886" y1="20.994" x2="34.29" y2="21.59" width="0.2032" layer="1"/>
+<wire x1="21.043" y1="19.05" x2="21.043" y2="20.068" width="0.2032" layer="1"/>
+<wire x1="21.043" y1="20.068" x2="20.828" y2="20.283" width="0.2032" layer="1"/>
 </signal>
 <signal name="DAPI_TX">
 <contactref element="U_STM32F779" pad="43"/>
@@ -13020,18 +13045,6 @@ design rules under a new name.</description>
 <wire x1="45.1231" y1="9.271" x2="44.235" y2="8.3829" width="0.2032" layer="1"/>
 <wire x1="44.235" y1="8.3829" x2="44.235" y2="7.366" width="0.2032" layer="1"/>
 </signal>
-<signal name="N$127">
-<contactref element="U_ADC_DMS5" pad="1"/>
-<contactref element="C47" pad="1"/>
-<contactref element="R50" pad="1"/>
-<wire x1="34.544" y1="17.4879" x2="34.544" y2="16.8402" width="0.2032" layer="1"/>
-<wire x1="36.2712" y1="19.2151" x2="34.544" y2="17.4879" width="0.2032" layer="1"/>
-<wire x1="34.544" y1="16.8402" x2="34.548" y2="16.7608" width="0.2032" layer="1"/>
-<wire x1="36.2712" y1="19.2151" x2="36.283" y2="19.304" width="0.2032" layer="1"/>
-<wire x1="36.4871" y1="19.431" x2="36.4871" y2="20.9423" width="0.2032" layer="1"/>
-<wire x1="36.4871" y1="20.9423" x2="36.449" y2="20.994" width="0.2032" layer="1"/>
-<wire x1="36.4871" y1="19.431" x2="36.283" y2="19.304" width="0.2032" layer="1"/>
-</signal>
 <signal name="N$114">
 <contactref element="U_ADC_DMS5" pad="9"/>
 <contactref element="C50" pad="2"/>
@@ -13177,18 +13190,6 @@ design rules under a new name.</description>
 <wire x1="33.2486" y1="22.2377" x2="33.2486" y2="22.4536" width="0.2032" layer="16"/>
 <wire x1="31.9532" y1="20.9423" x2="33.2486" y2="22.2377" width="0.2032" layer="16"/>
 <wire x1="33.2486" y1="22.4536" x2="33.44" y2="22.479" width="0.2032" layer="16"/>
-</signal>
-<signal name="N$141">
-<contactref element="U_ADC_DMS6" pad="1"/>
-<contactref element="C54" pad="1"/>
-<contactref element="R57" pad="1"/>
-<wire x1="20.0787" y1="18.1356" x2="20.0787" y2="16.8402" width="0.2032" layer="1"/>
-<wire x1="20.9423" y1="18.9992" x2="20.0787" y2="18.1356" width="0.2032" layer="1"/>
-<wire x1="20.0787" y1="16.8402" x2="20.07" y2="16.7608" width="0.2032" layer="1"/>
-<wire x1="20.9423" y1="18.9992" x2="21.043" y2="19.05" width="0.2032" layer="1"/>
-<wire x1="20.9423" y1="19.2151" x2="22.4536" y2="20.7264" width="0.2032" layer="1"/>
-<wire x1="22.4536" y1="20.7264" x2="22.606" y2="20.867" width="0.2032" layer="1"/>
-<wire x1="20.9423" y1="19.2151" x2="21.043" y2="19.05" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$128">
 <contactref element="U_ADC_DMS6" pad="9"/>

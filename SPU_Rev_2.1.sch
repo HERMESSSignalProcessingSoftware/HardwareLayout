@@ -39349,6 +39349,26 @@ MODE LINE FILT</text>
 <wire x1="160.02" y1="96.52" x2="157.48" y2="96.52" width="0.1524" layer="91"/>
 <label x="157.48" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<wire x1="134.62" y1="-314.96" x2="119.38" y2="-314.96" width="0.1524" layer="91"/>
+<label x="114.3" y="-314.96" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="119.38" y1="-314.96" x2="114.3" y2="-314.96" width="0.1524" layer="91"/>
+<junction x="119.38" y="-314.96"/>
+<wire x1="114.3" y1="-314.96" x2="114.3" y2="-320.04" width="0.1524" layer="91"/>
+<pinref part="U_ADC_DMS6" gate="G$1" pin="DVDD"/>
+<pinref part="C54" gate="G$1" pin="1"/>
+<pinref part="R57" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<wire x1="215.9" y1="-213.36" x2="215.9" y2="-228.6" width="0.1524" layer="91"/>
+<label x="215.9" y="-233.68" size="1.27" layer="95" rot="R270" xref="yes"/>
+<wire x1="215.9" y1="-228.6" x2="215.9" y2="-233.68" width="0.1524" layer="91"/>
+<junction x="215.9" y="-228.6"/>
+<wire x1="215.9" y1="-233.68" x2="220.98" y2="-233.68" width="0.1524" layer="91"/>
+<pinref part="U_ADC_DMS5" gate="G$1" pin="DVDD"/>
+<pinref part="C47" gate="G$1" pin="1"/>
+<pinref part="R50" gate="G$1" pin="1"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -41220,18 +41240,6 @@ MODE LINE FILT</text>
 <pinref part="R52" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$127" class="0">
-<segment>
-<wire x1="215.9" y1="-213.36" x2="215.9" y2="-228.6" width="0.1524" layer="91"/>
-<label x="215.9" y="-233.68" size="1.27" layer="95" rot="R270" xref="yes"/>
-<wire x1="215.9" y1="-228.6" x2="215.9" y2="-233.68" width="0.1524" layer="91"/>
-<junction x="215.9" y="-228.6"/>
-<wire x1="215.9" y1="-233.68" x2="220.98" y2="-233.68" width="0.1524" layer="91"/>
-<pinref part="U_ADC_DMS5" gate="G$1" pin="DVDD"/>
-<pinref part="C47" gate="G$1" pin="1"/>
-<pinref part="R50" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="N$128" class="0">
 <segment>
 <wire x1="101.6" y1="-350.52" x2="104.14" y2="-350.52" width="0.1524" layer="91"/>
@@ -41342,18 +41350,6 @@ MODE LINE FILT</text>
 <wire x1="210.82" y1="-335.28" x2="198.12" y2="-335.28" width="0.1524" layer="91"/>
 <pinref part="U_ADC_DMS6" gate="G$1" pin="!CS"/>
 <pinref part="R59" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$141" class="0">
-<segment>
-<wire x1="134.62" y1="-314.96" x2="119.38" y2="-314.96" width="0.1524" layer="91"/>
-<label x="114.3" y="-314.96" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="119.38" y1="-314.96" x2="114.3" y2="-314.96" width="0.1524" layer="91"/>
-<junction x="119.38" y="-314.96"/>
-<wire x1="114.3" y1="-314.96" x2="114.3" y2="-320.04" width="0.1524" layer="91"/>
-<pinref part="U_ADC_DMS6" gate="G$1" pin="DVDD"/>
-<pinref part="C54" gate="G$1" pin="1"/>
-<pinref part="R57" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="DMS31" class="0">
