@@ -36663,7 +36663,7 @@ NRST:
  Mirror </text>
 <text x="241.046" y="94.488" size="5.08" layer="94">Prog
 SWD/JTAG</text>
-<text x="130.556" y="163.068" size="5.08" layer="94">GPIO</text>
+<text x="135.636" y="161.798" size="5.08" layer="94">GPIO</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="20.32" y="2.54" smashed="yes"/>
