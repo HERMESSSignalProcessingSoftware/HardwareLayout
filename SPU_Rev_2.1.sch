@@ -35573,6 +35573,75 @@ type RDH, grid 15 mm</description>
 <wire x1="-1.27" y1="7.112" x2="0" y2="8.382" width="0.508" layer="21"/>
 <wire x1="1.27" y1="7.112" x2="0" y2="8.382" width="0.508" layer="21"/>
 </package>
+<package name="PLR135-T6">
+<pad name="GND" x="0" y="0" drill="1"/>
+<pad name="VCC" x="2.54" y="0" drill="1"/>
+<pad name="VOUT" x="-2.54" y="0" drill="1"/>
+<pad name="NC1" x="-2.54" y="5.207" drill="1"/>
+<pad name="NC2" x="2.54" y="5.207" drill="1"/>
+<wire x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="21"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="7.62" width="0.254" layer="21"/>
+<wire x1="5.08" y1="7.62" x2="2.54" y2="7.62" width="0.254" layer="21"/>
+<wire x1="2.54" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="21"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-2.54" width="0.254" layer="21"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.508" layer="21"/>
+<wire x1="2.54" y1="10.16" x2="-2.54" y2="10.16" width="0.508" layer="21"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.508" layer="21"/>
+<wire x1="0" y1="6.35" x2="0" y2="2.54" width="0.508" layer="21"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="3.81" width="0.508" layer="21"/>
+<wire x1="0" y1="2.54" x2="-1.27" y2="3.81" width="0.508" layer="21"/>
+<dimension x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" x3="0" y3="-3.81" textsize="0.254" layer="21" width="0.0254"/>
+<dimension x1="5.08" y1="-2.54" x2="5.08" y2="7.62" x3="6.35" y3="2.54" textsize="0.254" layer="21" width="0.0254"/>
+</package>
+<package name="PLR135-T7">
+<pad name="GND" x="0" y="0" drill="1"/>
+<pad name="VCC" x="2.54" y="0" drill="1"/>
+<pad name="VOUT" x="-2.54" y="0" drill="1"/>
+<wire x1="-5.842" y1="-2.54" x2="5.842" y2="-2.54" width="0.254" layer="21"/>
+<wire x1="5.842" y1="-2.54" x2="5.842" y2="11.303" width="0.254" layer="21"/>
+<wire x1="5.842" y1="11.303" x2="2.54" y2="11.303" width="0.254" layer="21"/>
+<wire x1="2.54" y1="11.303" x2="-2.54" y2="11.303" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="11.303" x2="-5.842" y2="11.303" width="0.254" layer="21"/>
+<wire x1="-5.842" y1="11.303" x2="-5.842" y2="-2.54" width="0.254" layer="21"/>
+<wire x1="2.54" y1="11.303" x2="2.54" y2="9.906" width="0.508" layer="21"/>
+<wire x1="2.54" y1="9.906" x2="-2.54" y2="9.906" width="0.508" layer="21"/>
+<wire x1="-2.54" y1="9.906" x2="-2.54" y2="11.303" width="0.508" layer="21"/>
+<wire x1="0" y1="8.382" x2="0" y2="2.54" width="0.508" layer="21"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="3.81" width="0.508" layer="21"/>
+<wire x1="0" y1="2.54" x2="-1.27" y2="3.81" width="0.508" layer="21"/>
+<wire x1="-5.08" y1="5.08" x2="-4.318" y2="5.08" width="0.0254" layer="20"/>
+<wire x1="-4.318" y1="5.08" x2="-4.318" y2="2.54" width="0.0254" layer="20"/>
+<wire x1="-4.318" y1="2.54" x2="-5.08" y2="2.54" width="0.0254" layer="20"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="5.08" width="0.0254" layer="20"/>
+<wire x1="4.318" y1="5.08" x2="4.318" y2="2.54" width="0.0254" layer="20"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="2.54" width="0.0254" layer="20"/>
+<wire x1="4.318" y1="5.08" x2="5.08" y2="5.08" width="0.0254" layer="20"/>
+<wire x1="4.318" y1="2.54" x2="5.08" y2="2.54" width="0.0254" layer="20"/>
+<text x="-5.715" y="12.319" size="1.778" layer="25">&gt;NAME</text>
+<rectangle x1="-5.715" y1="1.905" x2="-3.81" y2="5.715" layer="32"/>
+<rectangle x1="3.81" y1="1.905" x2="5.715" y2="5.715" layer="32"/>
+</package>
+<package name="PLR135-T1">
+<pad name="GND" x="0" y="0" drill="1"/>
+<pad name="VCC" x="2.54" y="0" drill="1"/>
+<pad name="VOUT" x="-2.54" y="0" drill="1"/>
+<wire x1="-5.842" y1="-2.54" x2="5.842" y2="-2.54" width="0.254" layer="21"/>
+<wire x1="5.842" y1="-2.54" x2="5.842" y2="10.668" width="0.254" layer="21"/>
+<wire x1="5.842" y1="10.668" x2="2.54" y2="10.668" width="0.254" layer="21"/>
+<wire x1="2.54" y1="10.668" x2="-2.54" y2="10.668" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="10.668" x2="-5.842" y2="10.668" width="0.254" layer="21"/>
+<wire x1="-5.842" y1="10.668" x2="-5.842" y2="-2.54" width="0.254" layer="21"/>
+<wire x1="2.54" y1="10.668" x2="2.54" y2="9.271" width="0.508" layer="21"/>
+<wire x1="2.54" y1="9.271" x2="-2.54" y2="9.271" width="0.508" layer="21"/>
+<wire x1="-2.54" y1="9.271" x2="-2.54" y2="10.668" width="0.508" layer="21"/>
+<wire x1="0" y1="8.382" x2="0" y2="2.54" width="0.508" layer="21"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="3.81" width="0.508" layer="21"/>
+<wire x1="0" y1="2.54" x2="-1.27" y2="3.81" width="0.508" layer="21"/>
+<text x="-5.715" y="12.319" size="1.778" layer="25">&gt;NAME</text>
+<hole x="-3.81" y="3.81" drill="2.6"/>
+<hole x="3.81" y="3.81" drill="2.6"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PLT131">
@@ -35584,6 +35653,17 @@ type RDH, grid 15 mm</description>
 <wire x1="17.78" y1="7.62" x2="-17.78" y2="7.62" width="0.508" layer="94"/>
 <wire x1="-17.78" y1="7.62" x2="-17.78" y2="-7.62" width="0.508" layer="94"/>
 <text x="-6.35" y="3.556" size="2.032" layer="94">Transmitter</text>
+</symbol>
+<symbol name="PLR135">
+<pin name="VCC" x="-12.7" y="-7.62" length="middle" rot="R90"/>
+<pin name="GND" x="0" y="-7.62" length="middle" rot="R90"/>
+<pin name="VOUT" x="12.7" y="-7.62" length="middle" rot="R90"/>
+<wire x1="-17.78" y1="-2.54" x2="17.78" y2="-2.54" width="0.508" layer="94"/>
+<wire x1="17.78" y1="-2.54" x2="17.78" y2="12.7" width="0.508" layer="94"/>
+<wire x1="17.78" y1="12.7" x2="-17.78" y2="12.7" width="0.508" layer="94"/>
+<wire x1="-17.78" y1="12.7" x2="-17.78" y2="-2.54" width="0.508" layer="94"/>
+<text x="-5.588" y="8.89" size="2.032" layer="94">Receiver</text>
+<text x="-17.78" y="15.24" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -35607,6 +35687,44 @@ type RDH, grid 15 mm</description>
 <connect gate="G$1" pin="GND" pad="GND"/>
 <connect gate="G$1" pin="VCC" pad="VCC"/>
 <connect gate="G$1" pin="VIN" pad="VIN"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PLR135">
+<description>&lt;b&gt;PLR153-T6 optic receiver 650nm&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="PLR135" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="T6" package="PLR135-T6">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+<connect gate="G$1" pin="VOUT" pad="VOUT"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="T7" package="PLR135-T7">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+<connect gate="G$1" pin="VOUT" pad="VOUT"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="PLR135-T1">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+<connect gate="G$1" pin="VOUT" pad="VOUT"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -35899,7 +36017,6 @@ type RDH, grid 15 mm</description>
 <part name="C60" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E/7260-38W" package3d_urn="urn:adsk.eagle:package:23423/1" value="10u"/>
 <part name="C61" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E/7260-38W" package3d_urn="urn:adsk.eagle:package:23423/1" value="10u"/>
 <part name="C62" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E/7260-38W" package3d_urn="urn:adsk.eagle:package:23423/1" value="10u"/>
-<part name="C63" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E/7260-38W" package3d_urn="urn:adsk.eagle:package:23423/1" value="10u"/>
 <part name="C64" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E/7260-38W" package3d_urn="urn:adsk.eagle:package:23423/1" value="10u"/>
 <part name="C65" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E/7260-38W" package3d_urn="urn:adsk.eagle:package:23423/1" value="10u"/>
 <part name="C66" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E/7260-38W" package3d_urn="urn:adsk.eagle:package:23423/1" value="10u"/>
@@ -35917,6 +36034,8 @@ type RDH, grid 15 mm</description>
 <part name="C76" library="aSparkFun" deviceset="CAP" device="0603-CAP" value="100n"/>
 <part name="U$8" library="everlight-fiber-optics-spdif" deviceset="PLT131" device="PLT131-T1" value="PLT131PLT131-T1"/>
 <part name="C77" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2"/>
+<part name="U$9" library="everlight-fiber-optics-spdif" deviceset="PLR135" device=""/>
+<part name="C78" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -36660,6 +36779,13 @@ NRST:
 <label x="50.8" y="281.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
+<net name="LWL_IN" class="0">
+<segment>
+<pinref part="U_STM32F779" gate="G$1" pin="PI8"/>
+<wire x1="55.88" y1="307.34" x2="50.8" y2="307.34" width="0.1524" layer="91"/>
+<label x="50.8" y="307.34" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -36720,6 +36846,13 @@ SWD/JTAG</text>
 <instance part="C77" gate="G$1" x="96.52" y="156.21" smashed="yes" rot="R90">
 <attribute name="NAME" x="96.139" y="157.734" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="101.219" y="157.734" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="U$9" gate="G$1" x="53.34" y="167.64" smashed="yes">
+<attribute name="NAME" x="35.56" y="182.88" size="1.778" layer="95"/>
+</instance>
+<instance part="C78" gate="G$1" x="45.72" y="156.21" smashed="yes" rot="R90">
+<attribute name="NAME" x="45.339" y="157.734" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="50.419" y="157.734" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -36871,6 +37004,13 @@ SWD/JTAG</text>
 <wire x1="101.6" y1="156.21" x2="104.14" y2="156.21" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="156.21" x2="104.14" y2="160.02" width="0.1524" layer="91"/>
 <label x="104.14" y="156.21" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="GND"/>
+<wire x1="53.34" y1="160.02" x2="53.34" y2="156.21" width="0.1524" layer="91"/>
+<pinref part="C78" gate="G$1" pin="2"/>
+<wire x1="53.34" y1="156.21" x2="50.8" y2="156.21" width="0.1524" layer="91"/>
+<label x="53.34" y="156.21" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="28V" class="0">
@@ -37061,6 +37201,13 @@ SWD/JTAG</text>
 <wire x1="91.44" y1="160.02" x2="91.44" y2="156.21" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="156.21" x2="93.98" y2="156.21" width="0.1524" layer="91"/>
 <label x="91.44" y="156.21" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<wire x1="40.64" y1="160.02" x2="40.64" y2="156.21" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="156.21" x2="43.18" y2="156.21" width="0.1524" layer="91"/>
+<label x="40.64" y="156.21" size="1.27" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$9" gate="G$1" pin="VCC"/>
+<pinref part="C78" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="TDI" class="0">
@@ -37458,6 +37605,13 @@ SWD/JTAG</text>
 <pinref part="U$8" gate="G$1" pin="VIN"/>
 <wire x1="78.74" y1="160.02" x2="78.74" y2="157.48" width="0.1524" layer="91"/>
 <label x="78.74" y="157.48" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="LWL_IN" class="0">
+<segment>
+<pinref part="U$9" gate="G$1" pin="VOUT"/>
+<wire x1="66.04" y1="156.21" x2="66.04" y2="160.02" width="0.1524" layer="91"/>
+<label x="66.04" y="156.21" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -38576,10 +38730,6 @@ MODE LINE FILT</text>
 <attribute name="NAME" x="24.765" y="201.3966" size="1.778" layer="95"/>
 <attribute name="VALUE" x="24.765" y="195.8086" size="1.778" layer="96"/>
 </instance>
-<instance part="C63" gate="G$1" x="101.6" y="213.36" smashed="yes">
-<attribute name="NAME" x="99.695" y="210.0834" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="99.695" y="215.6714" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="C64" gate="G$1" x="109.22" y="213.36" smashed="yes">
 <attribute name="NAME" x="107.315" y="210.0834" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="107.315" y="215.6714" size="1.778" layer="96" rot="R180"/>
@@ -38731,8 +38881,6 @@ MODE LINE FILT</text>
 <pinref part="C65" gate="G$1" pin="-"/>
 <wire x1="101.6" y1="203.2" x2="101.6" y2="205.74" width="0.1524" layer="91"/>
 <junction x="101.6" y="205.74"/>
-<pinref part="C63" gate="G$1" pin="-"/>
-<wire x1="101.6" y1="205.74" x2="101.6" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U_FLASH1" gate="G$1" pin="VSS"/>
@@ -39780,11 +39928,8 @@ MODE LINE FILT</text>
 <wire x1="114.3" y1="195.58" x2="114.3" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="C64" gate="G$1" pin="+"/>
 <wire x1="114.3" y1="215.9" x2="109.22" y2="215.9" width="0.1524" layer="91"/>
-<pinref part="C63" gate="G$1" pin="+"/>
-<wire x1="109.22" y1="215.9" x2="101.6" y2="215.9" width="0.1524" layer="91"/>
 <junction x="109.22" y="215.9"/>
-<wire x1="101.6" y1="215.9" x2="93.98" y2="215.9" width="0.1524" layer="91"/>
-<junction x="101.6" y="215.9"/>
+<wire x1="109.22" y1="215.9" x2="93.98" y2="215.9" width="0.1524" layer="91"/>
 <junction x="93.98" y="215.9"/>
 </segment>
 <segment>
