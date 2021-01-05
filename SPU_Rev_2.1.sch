@@ -35867,17 +35867,17 @@ type RDH, grid 15 mm</description>
 <part name="RN_A_PT2" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARC" package3d_urn="urn:adsk.eagle:package:24926/1" value="47"/>
 <part name="RN_B_PT2" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARC" package3d_urn="urn:adsk.eagle:package:24926/1" value="47"/>
 <part name="U_ADC_PT3" library="ads11xx" deviceset="ADS1147" device="TSSOP20" package3d_urn="urn:adsk.eagle:package:4349/2"/>
-<part name="R_REF_PT3" library="++Bedrahtet" deviceset="R-EU_" device="R0603"/>
-<part name="R_R1_PT3" library="++Bedrahtet" deviceset="R-EU_" device="R0603"/>
-<part name="R_R2_PT3" library="++Bedrahtet" deviceset="R-EU_" device="R0603"/>
-<part name="C_RDIFF_PT3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2"/>
+<part name="R_REF_PT3" library="++Bedrahtet" deviceset="R-EU_" device="R0603" value="1k62"/>
+<part name="R_R1_PT3" library="++Bedrahtet" deviceset="R-EU_" device="R0603" value="3k16"/>
+<part name="R_R2_PT3" library="++Bedrahtet" deviceset="R-EU_" device="R0603" value="inf"/>
+<part name="C_RDIFF_PT3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
 <part name="C_RCM1_PT3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2"/>
 <part name="C_RCM2_PT3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2"/>
-<part name="R_I1_PT3" library="++Bedrahtet" deviceset="R-EU_" device="R0603"/>
-<part name="R_I2_PT3" library="++Bedrahtet" deviceset="R-EU_" device="R0603"/>
-<part name="C_IDIFF_PT3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2"/>
-<part name="C_ICM1_PT3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2"/>
-<part name="C_ICM2_PT3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2"/>
+<part name="R_I1_PT3" library="++Bedrahtet" deviceset="R-EU_" device="R0603" value="5k"/>
+<part name="R_I2_PT3" library="++Bedrahtet" deviceset="R-EU_" device="R0603" value="5k"/>
+<part name="C_IDIFF_PT3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="47n"/>
+<part name="C_ICM1_PT3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4n7"/>
+<part name="C_ICM2_PT3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4n7"/>
 <part name="C_VREF_PT3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1u"/>
 <part name="C_DVDD_PT3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
 <part name="C_AVDD_PT3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
@@ -38157,23 +38157,23 @@ MODE LINE FILT</text>
 <attribute name="NAME" x="86.36" y="-302.26" size="1.778" layer="95"/>
 </instance>
 <instance part="R_REF_PT3" gate="G$1" x="22.86" y="-271.78" smashed="yes" rot="R90">
-<attribute name="NAME" x="20.5994" y="-281.94" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="26.162" y="-275.59" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="20.32" y="-268.9606" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="20.32" y="-272.288" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R_R1_PT3" gate="G$1" x="30.48" y="-266.7" smashed="yes" rot="R180">
-<attribute name="NAME" x="26.67" y="-265.2014" size="1.778" layer="95"/>
-<attribute name="VALUE" x="34.29" y="-263.398" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="24.13" y="-261.3914" size="1.778" layer="95"/>
+<attribute name="VALUE" x="24.13" y="-264.922" size="1.778" layer="96"/>
 </instance>
 <instance part="R_R2_PT3" gate="G$1" x="30.48" y="-276.86" smashed="yes" rot="R180">
-<attribute name="NAME" x="26.67" y="-280.4414" size="1.778" layer="95"/>
-<attribute name="VALUE" x="34.29" y="-273.558" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="24.13" y="-280.4414" size="1.778" layer="95"/>
+<attribute name="VALUE" x="24.13" y="-282.702" size="1.778" layer="96"/>
 </instance>
 <instance part="C_RDIFF_PT3" gate="G$1" x="35.56" y="-270.51" smashed="yes">
-<attribute name="NAME" x="38.608" y="-272.161" size="1.778" layer="95"/>
-<attribute name="VALUE" x="37.084" y="-275.209" size="1.778" layer="96"/>
+<attribute name="NAME" x="38.608" y="-270.891" size="1.778" layer="95"/>
+<attribute name="VALUE" x="38.354" y="-273.939" size="1.778" layer="96"/>
 </instance>
 <instance part="C_RCM1_PT3" gate="G$1" x="40.64" y="-261.62" smashed="yes">
-<attribute name="NAME" x="37.592" y="-259.969" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="42.418" y="-260.731" size="1.778" layer="95"/>
 <attribute name="VALUE" x="42.164" y="-266.319" size="1.778" layer="96"/>
 </instance>
 <instance part="C_RCM2_PT3" gate="G$1" x="40.64" y="-279.4" smashed="yes">
@@ -38181,16 +38181,16 @@ MODE LINE FILT</text>
 <attribute name="VALUE" x="42.164" y="-284.099" size="1.778" layer="96"/>
 </instance>
 <instance part="R_I1_PT3" gate="G$1" x="40.64" y="-292.1" smashed="yes" rot="R180">
-<attribute name="NAME" x="36.83" y="-290.6014" size="1.778" layer="95"/>
-<attribute name="VALUE" x="44.45" y="-288.798" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="36.83" y="-288.0614" size="1.778" layer="95"/>
+<attribute name="VALUE" x="36.83" y="-290.322" size="1.778" layer="96"/>
 </instance>
 <instance part="R_I2_PT3" gate="G$1" x="40.64" y="-302.26" smashed="yes" rot="R180">
 <attribute name="NAME" x="36.83" y="-305.8414" size="1.778" layer="95"/>
-<attribute name="VALUE" x="44.45" y="-298.958" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="36.83" y="-308.102" size="1.778" layer="96"/>
 </instance>
 <instance part="C_IDIFF_PT3" gate="G$1" x="45.72" y="-295.91" smashed="yes">
-<attribute name="NAME" x="48.768" y="-297.561" size="1.778" layer="95"/>
-<attribute name="VALUE" x="47.244" y="-300.609" size="1.778" layer="96"/>
+<attribute name="NAME" x="42.672" y="-295.529" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="42.926" y="-297.561" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C_ICM1_PT3" gate="G$1" x="50.8" y="-287.02" smashed="yes">
 <attribute name="NAME" x="51.816" y="-286.766" size="1.778" layer="95"/>
@@ -38660,7 +38660,7 @@ MODE LINE FILT</text>
 </instance>
 <instance part="R57" gate="G$1" x="114.3" y="-325.12" smashed="yes" rot="R270">
 <attribute name="NAME" x="112.8014" y="-328.93" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="110.998" y="-321.31" size="1.778" layer="96" rot="R270"/>
+<attribute name="VALUE" x="110.998" y="-317.5" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="R58" gate="G$1" x="205.74" y="-340.36" smashed="yes">
 <attribute name="NAME" x="209.55" y="-341.8586" size="1.778" layer="95" rot="R180"/>
