@@ -35811,9 +35811,9 @@ type RDH, grid 15 mm</description>
 <part name="LED6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:6240557/1" value="1V9"/>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="680"/>
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="330"/>
-<part name="LED7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:6240557/1"/>
+<part name="LED7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:6240557/1" value="1V9"/>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4k7"/>
-<part name="LED8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:6240557/1"/>
+<part name="LED8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:6240557/1" value="1V9"/>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="470"/>
 <part name="U_ADR366_3" library="ADR360" deviceset="ADR36*" device="UJZ" technology="_" value="ADR366WAUJZ"/>
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100k"/>
@@ -35827,7 +35827,7 @@ type RDH, grid 15 mm</description>
 <part name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="99M"/>
 <part name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
-<part name="JP_MS" library="aSparkFun" deviceset="M02" device="PTH"/>
+<part name="JP_MS" library="aSparkFun" deviceset="M02" device="PTH" value="x"/>
 <part name="D11" library="diodes" deviceset="DZ" device="MELF" value="3V6"/>
 <part name="D12" library="diodes" deviceset="DZ" device="MELF" value="3V6"/>
 <part name="SJ_MS" library="aSparkFun" deviceset="SOLDERJUMPER" device="NO" value=""/>
@@ -35885,7 +35885,7 @@ type RDH, grid 15 mm</description>
 <part name="RN_B_PT3" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARC" package3d_urn="urn:adsk.eagle:package:24926/1" value="47"/>
 <part name="X_MIRROR" library="con-ept-One27" deviceset="403-5X026-5X" device=""/>
 <part name="X_MIRROR1" library="con-ept-One27" deviceset="403-5X026-5X" device=""/>
-<part name="X_PROG" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA10-2" device="" package3d_urn="urn:adsk.eagle:package:8331/1"/>
+<part name="X_PROG" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA10-2" device="" package3d_urn="urn:adsk.eagle:package:8331/1" value="x"/>
 <part name="X_RXSM-DAPI" library="con-ept-One27" deviceset="403-5X020-5X" device=""/>
 <part name="U_ADC_DMS1" library="ads11xx" deviceset="ADS1147" device="TSSOP20" package3d_urn="urn:adsk.eagle:package:4349/2"/>
 <part name="GND3" library="52101-101-REV-A" library_urn="urn:adsk.eagle:library:15662110" deviceset="SUPPLY0_GND_" device=""/>
@@ -36253,7 +36253,7 @@ NRST:
 <wire x1="251.46" y1="373.38" x2="251.46" y2="375.92" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PRD_ON" class="0">
+<net name="PDR_ON" class="0">
 <segment>
 <pinref part="U_STM32F779" gate="G$1" pin="PDR_ON"/>
 <pinref part="R9" gate="G$1" pin="1"/>
@@ -37646,14 +37646,14 @@ SWD/JTAG</text>
 <wire x1="139.446" y1="217.17" x2="139.446" y2="213.868" width="0.1524" layer="94"/>
 <wire x1="139.446" y1="213.868" x2="134.366" y2="213.868" width="0.1524" layer="94"/>
 <text x="49.784" y="137.16" size="1.27" layer="94">LM78L05ACMX/NOPB</text>
-<wire x1="127.508" y1="191.262" x2="157.734" y2="191.516" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="157.734" y1="191.516" x2="157.48" y2="169.418" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="157.48" y1="169.418" x2="127.254" y2="169.164" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="127.254" y1="169.164" x2="127.508" y2="191.262" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="181.356" y1="143.002" x2="181.61" y2="168.91" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="181.61" y1="168.91" x2="157.988" y2="168.91" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="181.356" y1="143.002" x2="157.734" y2="143.002" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="157.734" y1="143.002" x2="157.988" y2="168.91" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="127" y1="191.77" x2="157.48" y2="191.77" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="157.48" y1="191.77" x2="157.48" y2="168.91" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="157.48" y1="168.91" x2="127" y2="168.91" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="127" y1="168.91" x2="127" y2="191.77" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="181.61" y1="143.51" x2="181.61" y2="168.91" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="181.61" y1="168.91" x2="158.75" y2="168.91" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="181.61" y1="143.51" x2="158.75" y2="143.51" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="158.75" y1="143.51" x2="158.75" y2="168.91" width="0.1524" layer="94" style="shortdash"/>
 <text x="208.026" y="213.106" size="5.08" layer="94">RS422 driver</text>
 <text x="180.34" y="291.592" size="7.62" layer="94">logic side    &lt;-&gt;  RXSM side</text>
 <wire x1="177.038" y1="288.798" x2="245.364" y2="289.052" width="0.1524" layer="94" style="shortdash"/>
@@ -37725,6 +37725,31 @@ MODE LINE FILT</text>
 <text x="68.58" y="-347.98" size="1.27" layer="97">3dB attenuation @ 1989Hz</text>
 <text x="40.64" y="-370.84" size="1.27" layer="97">WE-SL3 SMT COMMON
 MODE LINE FILT</text>
+<wire x1="96.52" y1="137.16" x2="190.5" y2="137.16" width="0.4572" layer="88"/>
+<wire x1="190.5" y1="137.16" x2="190.5" y2="60.96" width="0.4572" layer="88"/>
+<wire x1="190.5" y1="60.96" x2="96.52" y2="60.96" width="0.4572" layer="88"/>
+<wire x1="96.52" y1="60.96" x2="96.52" y2="137.16" width="0.4572" layer="88"/>
+<wire x1="87.63" y1="143.51" x2="87.63" y2="96.52" width="0.4572" layer="88"/>
+<wire x1="87.63" y1="96.52" x2="31.75" y2="96.52" width="0.4572" layer="88"/>
+<wire x1="31.75" y1="96.52" x2="31.75" y2="143.51" width="0.4572" layer="88"/>
+<wire x1="31.75" y1="143.51" x2="87.63" y2="143.51" width="0.4572" layer="88"/>
+<wire x1="24.13" y1="181.61" x2="97.79" y2="181.61" width="0.4572" layer="88"/>
+<wire x1="97.79" y1="181.61" x2="97.79" y2="147.32" width="0.4572" layer="88"/>
+<wire x1="97.79" y1="147.32" x2="24.13" y2="147.32" width="0.4572" layer="88"/>
+<wire x1="24.13" y1="147.32" x2="24.13" y2="181.61" width="0.4572" layer="88"/>
+<wire x1="382.27" y1="288.29" x2="466.09" y2="288.29" width="0.4572" layer="88"/>
+<wire x1="466.09" y1="288.29" x2="466.09" y2="298.45" width="0.4572" layer="88"/>
+<wire x1="466.09" y1="298.45" x2="382.27" y2="298.45" width="0.4572" layer="88"/>
+<wire x1="382.27" y1="298.45" x2="382.27" y2="288.29" width="0.4572" layer="88"/>
+<text x="387.35" y="290.83" size="5.08" layer="88">functionality confirmed</text>
+<wire x1="123.19" y1="193.04" x2="184.15" y2="193.04" width="0.4572" layer="88"/>
+<wire x1="184.15" y1="193.04" x2="184.15" y2="139.7" width="0.4572" layer="88"/>
+<wire x1="184.15" y1="139.7" x2="123.19" y2="139.7" width="0.4572" layer="88"/>
+<wire x1="123.19" y1="139.7" x2="123.19" y2="193.04" width="0.4572" layer="88"/>
+<wire x1="200.66" y1="212.09" x2="273.05" y2="212.09" width="0.4572" layer="88"/>
+<wire x1="273.05" y1="212.09" x2="273.05" y2="154.94" width="0.4572" layer="88"/>
+<wire x1="273.05" y1="154.94" x2="200.66" y2="154.94" width="0.4572" layer="88"/>
+<wire x1="200.66" y1="154.94" x2="200.66" y2="212.09" width="0.4572" layer="88"/>
 </plain>
 <instances>
 <instance part="U_CH340G" gate="G$1" x="168.91" y="107.95" smashed="yes"/>
@@ -42287,11 +42312,58 @@ User LED 1 - 4</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="206,3,153.416,206.248,GND,,,,,"/>
-<approved hash="206,3,153.416,196.088,GND,,,,,"/>
-<approved hash="206,3,152.4,256.54,GND,,,,,"/>
-<approved hash="206,3,152.4,246.38,GND,,,,,"/>
-<approved hash="206,3,145.288,162.814,GND,,,,,"/>
+<approved hash="102,2,254,30.48,VSS,GND,,,,"/>
+<approved hash="102,2,254,33.02,VDD,3V3,,,,"/>
+<approved hash="102,2,254,25.4,GND1,GND,,,,"/>
+<approved hash="102,3,58.42,264.16,VOUT,3V3REF,,,,"/>
+<approved hash="202,3,76.2,203.2,U_TRACODCDC,RMT_ON_OFF,,,,"/>
+<approved hash="202,3,76.2,198.12,U_TRACODCDC,TRIM,,,,"/>
+<approved hash="104,3,217.424,209.042,U_MAX488P,VCC,5V-28V,,,"/>
+<approved hash="104,3,232.664,209.042,U_MAX488P,GND,28VGND,,,"/>
+<approved hash="104,3,35.56,264.16,U_ADR366_3,VIN,5V,,,"/>
+<approved hash="206,3,152.146,213.868,GND,,,,,"/>
+<approved hash="206,3,152.146,203.708,GND,,,,,"/>
+<approved hash="206,3,151.13,264.16,GND,,,,,"/>
+<approved hash="206,3,151.13,254,GND,,,,,"/>
+<approved hash="206,3,146.558,171.704,GND,,,,,"/>
+<approved hash="208,2,254,22.86,GND,sup,,,,"/>
+<approved hash="208,2,254,30.48,GND,sup,,,,"/>
+<approved hash="208,2,254,25.4,GND,sup,,,,"/>
+<approved hash="208,3,152.146,213.868,GND,out,,,,"/>
+<approved hash="208,3,152.146,203.708,GND,out,,,,"/>
+<approved hash="208,3,151.13,264.16,GND,out,,,,"/>
+<approved hash="208,3,151.13,254,GND,out,,,,"/>
+<approved hash="208,3,146.558,171.704,GND,out,,,,"/>
+<approved hash="208,3,375.92,-142.24,GND,sup,,,,"/>
+<approved hash="208,3,353.06,-129.54,GND,sup,,,,"/>
+<approved hash="208,3,358.14,-165.1,GND,sup,,,,"/>
+<approved hash="208,3,320.04,-154.94,GND,sup,,,,"/>
+<approved hash="208,3,464.82,-144.78,GND,sup,,,,"/>
+<approved hash="208,3,375.92,-200.66,GND,sup,,,,"/>
+<approved hash="208,3,353.06,-187.96,GND,sup,,,,"/>
+<approved hash="208,3,358.14,-223.52,GND,sup,,,,"/>
+<approved hash="208,3,320.04,-213.36,GND,sup,,,,"/>
+<approved hash="208,3,464.82,-203.2,GND,sup,,,,"/>
+<approved hash="208,3,375.92,-259.08,GND,sup,,,,"/>
+<approved hash="208,3,353.06,-246.38,GND,sup,,,,"/>
+<approved hash="208,3,358.14,-281.94,GND,sup,,,,"/>
+<approved hash="208,3,320.04,-271.78,GND,sup,,,,"/>
+<approved hash="208,3,464.82,-261.62,GND,sup,,,,"/>
+<approved hash="208,3,375.92,-317.5,GND,sup,,,,"/>
+<approved hash="208,3,353.06,-304.8,GND,sup,,,,"/>
+<approved hash="208,3,358.14,-340.36,GND,sup,,,,"/>
+<approved hash="208,3,320.04,-330.2,GND,sup,,,,"/>
+<approved hash="208,3,464.82,-320.04,GND,sup,,,,"/>
+<approved hash="208,3,254,-226.06,GND,sup,,,,"/>
+<approved hash="208,3,241.3,-248.92,GND,sup,,,,"/>
+<approved hash="208,3,276.86,-243.84,GND,sup,,,,"/>
+<approved hash="208,3,266.7,-281.94,GND,sup,,,,"/>
+<approved hash="208,3,256.54,-137.16,GND,sup,,,,"/>
+<approved hash="208,3,121.92,-353.06,GND,sup,,,,"/>
+<approved hash="208,3,99.06,-340.36,GND,sup,,,,"/>
+<approved hash="208,3,104.14,-375.92,GND,sup,,,,"/>
+<approved hash="208,3,66.04,-365.76,GND,sup,,,,"/>
+<approved hash="208,3,210.82,-355.6,GND,sup,,,,"/>
 <approved hash="210,2,152.298,92.6084,G$2,FRAME1,DINA4_L,,,"/>
 </errors>
 </schematic>
