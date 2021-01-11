@@ -35786,7 +35786,7 @@ type RDH, grid 15 mm</description>
 <part name="U_OPTO_1" library="Opto-Electronic" library_urn="urn:adsk.eagle:library:16378487" deviceset="MOCD207M" device="SOIC-8" package3d_urn="urn:adsk.eagle:package:16378512/1"/>
 <part name="RN11" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="EXBS8V" package3d_urn="urn:adsk.eagle:package:24925/1" value="3k"/>
 <part name="U_OPTO_2" library="Opto-Electronic" library_urn="urn:adsk.eagle:library:16378487" deviceset="MOCD207M" device="SOIC-8" package3d_urn="urn:adsk.eagle:package:16378512/1"/>
-<part name="RN12" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="EXBS8V" package3d_urn="urn:adsk.eagle:package:24925/1" value="300"/>
+<part name="RN12" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="EXBS8V" package3d_urn="urn:adsk.eagle:package:24925/1" value="1k"/>
 <part name="U_MAX488" library="maxim" library_urn="urn:adsk.eagle:library:269" deviceset="MAX488" device="CSA" package3d_urn="urn:adsk.eagle:package:17511/1"/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="500"/>
 <part name="D5" library="diodes" deviceset="DZ" device="MELF" value="6V"/>
@@ -36033,9 +36033,9 @@ type RDH, grid 15 mm</description>
 <part name="U$7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="MICROSD" device="" package3d_urn="urn:adsk.eagle:package:6240723/1"/>
 <part name="C76" library="aSparkFun" deviceset="CAP" device="0603-CAP" value="100n"/>
 <part name="U$8" library="everlight-fiber-optics-spdif" deviceset="PLT131" device="PLT131-T1" value="PLT131PLT131-T1"/>
-<part name="C77" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2"/>
+<part name="C77" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100n"/>
 <part name="U$9" library="everlight-fiber-optics-spdif" deviceset="PLR135" device=""/>
-<part name="C78" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2"/>
+<part name="C78" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100n"/>
 </parts>
 <sheets>
 <sheet>
@@ -37750,6 +37750,14 @@ MODE LINE FILT</text>
 <wire x1="273.05" y1="212.09" x2="273.05" y2="154.94" width="0.4572" layer="88"/>
 <wire x1="273.05" y1="154.94" x2="200.66" y2="154.94" width="0.4572" layer="88"/>
 <wire x1="200.66" y1="154.94" x2="200.66" y2="212.09" width="0.4572" layer="88"/>
+<wire x1="123.19" y1="195.58" x2="182.88" y2="195.58" width="0.4572" layer="88"/>
+<wire x1="182.88" y1="195.58" x2="182.88" y2="288.29" width="0.4572" layer="88"/>
+<wire x1="182.88" y1="288.29" x2="123.19" y2="288.29" width="0.4572" layer="88"/>
+<wire x1="123.19" y1="288.29" x2="123.19" y2="195.58" width="0.4572" layer="88"/>
+<wire x1="405.13" y1="-280.67" x2="438.15" y2="-280.67" width="0.4572" layer="88"/>
+<wire x1="438.15" y1="-280.67" x2="438.15" y2="-322.58" width="0.4572" layer="88"/>
+<wire x1="438.15" y1="-322.58" x2="405.13" y2="-322.58" width="0.4572" layer="88"/>
+<wire x1="405.13" y1="-322.58" x2="405.13" y2="-280.67" width="0.4572" layer="88"/>
 </plain>
 <instances>
 <instance part="U_CH340G" gate="G$1" x="168.91" y="107.95" smashed="yes"/>
