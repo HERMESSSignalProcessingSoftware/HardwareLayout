@@ -214,76 +214,178 @@
 </layers>
 <library>
 <packages>
-<package name="THL_20WI_SERIES">
-<description>TRACO POWER DC/DC converter THL 20WI Series created by Mario Blunk - electronics &amp; IT engineering at www.train-z.de</description>
-<wire x1="-12.7" y1="12.7" x2="12.7" y2="12.7" width="0.127" layer="21"/>
-<wire x1="12.7" y1="12.7" x2="12.7" y2="-12.7" width="0.127" layer="21"/>
-<wire x1="12.7" y1="-12.7" x2="-12.7" y2="-12.7" width="0.127" layer="21"/>
-<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="12.7" width="0.127" layer="21"/>
-<wire x1="-16.51" y1="16.51" x2="16.51" y2="16.51" width="0.127" layer="39"/>
-<wire x1="16.51" y1="16.51" x2="16.51" y2="-16.51" width="0.127" layer="39"/>
-<wire x1="16.51" y1="-16.51" x2="-16.51" y2="-16.51" width="0.127" layer="39"/>
-<wire x1="-16.51" y1="-16.51" x2="-16.51" y2="16.51" width="0.127" layer="39"/>
-<wire x1="-16.51" y1="16.51" x2="16.51" y2="16.51" width="0.127" layer="21"/>
-<wire x1="16.51" y1="16.51" x2="16.51" y2="-16.51" width="0.127" layer="21"/>
-<wire x1="16.51" y1="-16.51" x2="-16.51" y2="-16.51" width="0.127" layer="21"/>
-<wire x1="-16.51" y1="-16.51" x2="-16.51" y2="16.51" width="0.127" layer="21"/>
-<pad name="1" x="-2.54" y="10.16" drill="1.5" diameter="3" shape="square"/>
-<pad name="2" x="2.54" y="10.16" drill="1.5" diameter="3" shape="square"/>
-<pad name="3" x="-10.16" y="-10.16" drill="1.5" diameter="3" shape="square"/>
-<pad name="4" x="0" y="-10.16" drill="1.5" diameter="3" shape="square"/>
-<pad name="5" x="10.16" y="-10.16" drill="1.5" diameter="3" shape="square"/>
-<pad name="6" x="10.16" y="10.16" drill="1.5" diameter="3" shape="square"/>
-<text x="-10.16" y="1.27" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="-10.16" y="-1.27" size="1.27" layer="27" font="vector">&gt;VALUE</text>
-<text x="-13.97" y="13.97" size="1.016" layer="51" font="vector">Keep clear for heat sink clamp !</text>
-<text x="-2.54" y="5.08" size="1.016" layer="51" font="vector" rot="R90">+Vin</text>
-<text x="2.54" y="5.08" size="1.016" layer="51" font="vector" rot="R90">-Vin</text>
-<text x="-10.16" y="-7.62" size="1.016" layer="51" font="vector" rot="R90">+Vout</text>
-<text x="10.16" y="-7.62" size="1.016" layer="51" font="vector" rot="R90">-Vout</text>
-<text x="0" y="-7.62" size="1.016" layer="51" font="vector" rot="R90">Trim</text>
-<text x="10.16" y="0" size="1.016" layer="51" font="vector" rot="R90">Rmt on/off</text>
+<package name="CDFN3225">
+<wire x1="0.635" y1="3.556" x2="0.635" y2="0.381" width="0.127" layer="21"/>
+<wire x1="0.635" y1="0.381" x2="3.302" y2="0.381" width="0.127" layer="21"/>
+<wire x1="3.302" y1="0.381" x2="3.302" y2="3.556" width="0.127" layer="21"/>
+<wire x1="3.302" y1="3.556" x2="0.635" y2="3.556" width="0.127" layer="21"/>
+<smd name="P1" x="1" y="3" dx="1" dy="0.9" layer="1"/>
+<smd name="P2" x="1" y="0.9" dx="1" dy="0.9" layer="1"/>
+<smd name="P3" x="2.9" y="0.9" dx="1" dy="0.9" layer="1"/>
+<smd name="P4" x="2.9" y="3" dx="1" dy="0.9" layer="1"/>
+<text x="0.635" y="3.683" size="0.4064" layer="21">&gt;NAME</text>
+</package>
+<package name="COMMON_MODE_CHOKE">
+<smd name="P$1" x="0" y="5.08" dx="1.27" dy="1.78" layer="1"/>
+<smd name="P$2" x="6.86" y="5.08" dx="1.27" dy="1.78" layer="1"/>
+<smd name="P$3" x="0" y="2.54" dx="1.27" dy="1.78" layer="1"/>
+<smd name="P$4" x="6.86" y="2.54" dx="1.27" dy="1.78" layer="1"/>
+<smd name="P$5" x="0" y="0" dx="1.27" dy="1.78" layer="1"/>
+<smd name="P$6" x="6.86" y="0" dx="1.27" dy="1.78" layer="1"/>
+</package>
+<package name="PSS254_G2">
+<wire x1="0" y1="0" x2="0" y2="5.842" width="0.127" layer="21"/>
+<wire x1="0" y1="5.842" x2="5.08" y2="5.842" width="0.127" layer="21"/>
+<wire x1="5.08" y1="5.842" x2="5.08" y2="0" width="0.127" layer="21"/>
+<wire x1="5.08" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<pad name="1" x="1.27" y="3.048" drill="1" shape="long" rot="R90"/>
+<pad name="2" x="3.81" y="3.048" drill="1" shape="long" rot="R90"/>
+<text x="0" y="6.35" size="1.016" layer="21">&gt;NAME</text>
+<text x="1.27" y="-0.762" size="0.6096" layer="21" align="bottom-center">1</text>
+<text x="3.81" y="-0.762" size="0.6096" layer="21" align="bottom-center">2</text>
+</package>
+<package name="PSS254_G3">
+<wire x1="0" y1="0" x2="0" y2="5.842" width="0.127" layer="21"/>
+<wire x1="0" y1="5.842" x2="7.62" y2="5.842" width="0.127" layer="21"/>
+<wire x1="7.62" y1="5.842" x2="7.62" y2="0" width="0.127" layer="21"/>
+<wire x1="7.62" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<pad name="1" x="1.27" y="3.048" drill="1" shape="long" rot="R90"/>
+<pad name="2" x="3.81" y="3.048" drill="1" shape="long" rot="R90"/>
+<pad name="3" x="6.35" y="3.048" drill="1" shape="long" rot="R90"/>
+<text x="0" y="6.35" size="1.016" layer="21">&gt;NAME</text>
+<text x="1.27" y="-0.762" size="0.6096" layer="21" align="bottom-center">1</text>
+<text x="3.81" y="-0.762" size="0.6096" layer="21" align="bottom-center">2</text>
+<text x="6.35" y="-0.762" size="0.6096" layer="21" align="bottom-center">3</text>
 </package>
 </packages>
 <symbols>
-<symbol name="THL_20WI_SERIES">
-<wire x1="-12.7" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="12.7" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-15.24" x2="-12.7" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-15.24" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
-<pin name="+VIN" x="-17.78" y="7.62" length="middle" direction="in"/>
-<pin name="+VOUT" x="15.24" y="7.62" length="middle" direction="pas" rot="R180"/>
-<pin name="-VIN" x="-17.78" y="2.54" length="middle" direction="in"/>
-<pin name="-VOUT" x="15.24" y="2.54" length="middle" direction="pas" rot="R180"/>
-<pin name="RMT_ON_OFF" x="15.24" y="-5.08" length="middle" direction="in" rot="R180"/>
-<pin name="TRIM" x="15.24" y="-10.16" length="middle" direction="in" rot="R180"/>
-<text x="-10.16" y="-17.78" size="1.4224" layer="95" font="vector">&gt;NAME</text>
-<text x="-10.16" y="-20.32" size="1.4224" layer="96" font="vector">&gt;VALUE</text>
-<text x="-5.08" y="10.16" size="1.4224" layer="94" font="vector">DC/DC</text>
+<symbol name="CRYSTAL_IC">
+<wire x1="0" y1="-1.016" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="1.524" y1="0.381" x2="-1.524" y2="0.381" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="0.381" x2="-1.524" y2="-0.381" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="-0.381" x2="1.524" y2="-0.381" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-0.381" x2="1.524" y2="0.381" width="0.254" layer="94"/>
+<wire x1="1.778" y1="-1.016" x2="-1.778" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="1.778" y1="1.016" x2="-1.778" y2="1.016" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<pin name="GND" x="7.62" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="OUT" x="7.62" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="STDBY" x="7.62" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="VDD" x="7.62" y="5.08" visible="pin" length="short" rot="R180"/>
+<text x="-5.08" y="8.128" size="1.27" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-8.128" size="1.27" layer="96" align="top-left">&gt;VALUE</text>
+</symbol>
+<symbol name="INDUCTOR">
+<rectangle x1="-3.81" y1="-0.889" x2="3.81" y2="0.889" layer="94"/>
+<rectangle x1="-3.81" y1="4.191" x2="3.81" y2="5.969" layer="94"/>
+<rectangle x1="-3.81" y1="-5.969" x2="3.81" y2="-4.191" layer="94"/>
+<wire x1="-3.81" y1="1.651" x2="3.81" y2="1.651" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="6.731" x2="3.81" y2="6.731" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-3.429" x2="3.81" y2="-3.429" width="0.254" layer="94"/>
+<pin name="1" x="-7.62" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="2" x="7.62" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="3" x="-7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="4" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="5" x="-7.62" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="6" x="7.62" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<text x="-3.81" y="7.366" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.937" y="-8.128" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="PSS254_G2">
+<wire x1="-6.35" y1="-2.54" x2="1.27" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="-6.35" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-2.54" width="0.4064" layer="94"/>
+<pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<text x="-6.35" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="PSS254_G3">
+<wire x1="-6.35" y1="-5.08" x2="1.27" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="1.27" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="-6.35" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-5.08" width="0.4064" layer="94"/>
+<pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="3" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<text x="-6.35" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="THL_20WI_SERIES" prefix="IC" uservalue="yes">
-<description>TRACO POWER DC/DC converter THL 20WI Series
-created by Mario Blunk - electronics &amp; IT engineering
-at www.train-z.de</description>
+<deviceset name="COMMON_MODE_CHOKE">
+<description>WE-SL3 SMT COMMON MODE LINE FILT</description>
 <gates>
-<gate name="G$1" symbol="THL_20WI_SERIES" x="0" y="0"/>
+<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="THL_20WI_SERIES">
+<device name="" package="COMMON_MODE_CHOKE">
 <connects>
-<connect gate="G$1" pin="+VIN" pad="1"/>
-<connect gate="G$1" pin="+VOUT" pad="3"/>
-<connect gate="G$1" pin="-VIN" pad="2"/>
-<connect gate="G$1" pin="-VOUT" pad="5"/>
-<connect gate="G$1" pin="RMT_ON_OFF" pad="6"/>
-<connect gate="G$1" pin="TRIM" pad="4"/>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+<connect gate="G$1" pin="5" pad="P$5"/>
+<connect gate="G$1" pin="6" pad="P$6"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="HEAT-SINK" value="NO" constant="no"/>
-</technology>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DSC1001CI1-004.0960T">
+<gates>
+<gate name="G$1" symbol="CRYSTAL_IC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CDFN3225">
+<connects>
+<connect gate="G$1" pin="GND" pad="P2"/>
+<connect gate="G$1" pin="OUT" pad="P3"/>
+<connect gate="G$1" pin="STDBY" pad="P1"/>
+<connect gate="G$1" pin="VDD" pad="P4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PSS254_G2" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="PSS254_G2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PSS254_G2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PSS254_G3" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="PSS254_G3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PSS254_G3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>

@@ -30767,6 +30767,86 @@ D = Direct mounting &lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="con-jae">
+<packages>
+<package name="IL-AG5-10P-S3T2">
+<wire x1="0" y1="0" x2="28.3" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="9.5" width="0.127" layer="21"/>
+<wire x1="28.3" y1="0" x2="28.3" y2="9.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="11" x2="26.8" y2="11" width="0.127" layer="21"/>
+<wire x1="0" y1="9.5" x2="1.5" y2="11" width="0.127" layer="21" curve="-90"/>
+<wire x1="26.8" y1="11" x2="28.3" y2="9.5" width="0.127" layer="21" curve="-90"/>
+<pad name="P$1" x="2.9" y="4.6" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$2" x="5.4" y="4.6" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$3" x="7.9" y="4.6" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$4" x="10.4" y="4.6" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$5" x="12.9" y="4.6" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$6" x="15.4" y="4.6" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$7" x="17.9" y="4.6" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$8" x="20.4" y="4.6" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$9" x="22.9" y="4.6" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$10" x="25.4" y="4.6" drill="0.8" shape="long" rot="R90"/>
+<circle x="2.9" y="6.6" radius="0.282840625" width="0.127" layer="21"/>
+<text x="1.5" y="11.5" size="1.27" layer="21">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="10P">
+<pin name="P$1" x="-2.54" y="12.7" visible="pad" length="middle"/>
+<pin name="P$2" x="-2.54" y="10.16" visible="pad" length="middle"/>
+<pin name="P$3" x="-2.54" y="7.62" visible="pad" length="middle"/>
+<pin name="P$4" x="-2.54" y="5.08" visible="pad" length="middle"/>
+<pin name="P$5" x="-2.54" y="2.54" visible="pad" length="middle"/>
+<pin name="P$6" x="15.24" y="2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="P$7" x="15.24" y="5.08" visible="pad" length="middle" rot="R180"/>
+<pin name="P$8" x="15.24" y="7.62" visible="pad" length="middle" rot="R180"/>
+<pin name="P$9" x="15.24" y="10.16" visible="pad" length="middle" rot="R180"/>
+<pin name="P$10" x="15.24" y="12.7" visible="pad" length="middle" rot="R180"/>
+<wire x1="0" y1="15.24" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="12.7" y2="0" width="0.254" layer="94"/>
+<wire x1="12.7" y1="0" x2="12.7" y2="15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="15.24" x2="0" y2="15.24" width="0.254" layer="94"/>
+<text x="0" y="15.748" size="1.27" layer="95">&gt;NAME</text>
+<text x="0" y="-0.508" size="1.27" layer="96" align="top-left">&gt;VALUE</text>
+<circle x="2.54" y="12.7" radius="0.762" width="0.254" layer="94"/>
+<circle x="2.54" y="10.16" radius="0.762" width="0.254" layer="94"/>
+<circle x="2.54" y="7.62" radius="0.762" width="0.254" layer="94"/>
+<circle x="2.54" y="5.08" radius="0.762" width="0.254" layer="94"/>
+<circle x="2.54" y="2.54" radius="0.762" width="0.254" layer="94"/>
+<circle x="10.16" y="12.7" radius="0.762" width="0.254" layer="94"/>
+<circle x="10.16" y="10.16" radius="0.762" width="0.254" layer="94"/>
+<circle x="10.16" y="7.62" radius="0.762" width="0.254" layer="94"/>
+<circle x="10.16" y="5.08" radius="0.762" width="0.254" layer="94"/>
+<circle x="10.16" y="2.54" radius="0.762" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="IL-AG5-10P-S3T2">
+<gates>
+<gate name="G$1" symbol="10P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="IL-AG5-10P-S3T2">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$10" pad="P$10"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+<connect gate="G$1" pin="P$4" pad="P$4"/>
+<connect gate="G$1" pin="P$5" pad="P$5"/>
+<connect gate="G$1" pin="P$6" pad="P$6"/>
+<connect gate="G$1" pin="P$7" pad="P$7"/>
+<connect gate="G$1" pin="P$8" pad="P$8"/>
+<connect gate="G$1" pin="P$9" pad="P$9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -30845,6 +30925,7 @@ D = Direct mounting &lt;p&gt;
 <part name="R80" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="9k09 1%"/>
 <part name="R81" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="9k09 1%"/>
 <part name="R82" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="820 0.1%"/>
+<part name="CON" library="con-jae" deviceset="IL-AG5-10P-S3T2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -31050,6 +31131,10 @@ D = Direct mounting &lt;p&gt;
 <instance part="R82" gate="G$1" x="38.1" y="73.66" smashed="yes" rot="MR90">
 <attribute name="NAME" x="39.5986" y="69.85" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="34.798" y="69.85" size="1.778" layer="96" rot="MR90"/>
+</instance>
+<instance part="CON" gate="G$1" x="264.16" y="68.58" smashed="yes">
+<attribute name="NAME" x="264.16" y="84.328" size="1.27" layer="95"/>
+<attribute name="VALUE" x="264.16" y="68.072" size="1.27" layer="96" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -31285,6 +31370,11 @@ D = Direct mounting &lt;p&gt;
 <wire x1="45.72" y1="68.58" x2="38.1" y2="68.58" width="0.1524" layer="91"/>
 <junction x="38.1" y="68.58"/>
 </segment>
+<segment>
+<pinref part="CON" gate="G$1" pin="P$6"/>
+<wire x1="279.4" y1="71.12" x2="284.48" y2="71.12" width="0.1524" layer="91"/>
+<label x="284.48" y="71.12" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="SG_CLK" class="0">
 <segment>
@@ -31377,6 +31467,11 @@ D = Direct mounting &lt;p&gt;
 <wire x1="35.56" y1="208.28" x2="35.56" y2="213.36" width="0.1524" layer="91"/>
 <label x="35.56" y="213.36" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="CON" gate="G$1" pin="P$3"/>
+<wire x1="261.62" y1="76.2" x2="256.54" y2="76.2" width="0.1524" layer="91"/>
+<label x="256.54" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="SG1_AIN2" class="0">
 <segment>
@@ -31384,12 +31479,22 @@ D = Direct mounting &lt;p&gt;
 <wire x1="40.64" y1="208.28" x2="40.64" y2="213.36" width="0.1524" layer="91"/>
 <label x="40.64" y="213.36" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="CON" gate="G$1" pin="P$2"/>
+<wire x1="261.62" y1="78.74" x2="256.54" y2="78.74" width="0.1524" layer="91"/>
+<label x="256.54" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="SG1_AIN1" class="0">
 <segment>
 <pinref part="U$6" gate="G$1" pin="6"/>
 <wire x1="45.72" y1="208.28" x2="45.72" y2="213.36" width="0.1524" layer="91"/>
 <label x="45.72" y="213.36" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="CON" gate="G$1" pin="P$1"/>
+<wire x1="261.62" y1="81.28" x2="256.54" y2="81.28" width="0.1524" layer="91"/>
+<label x="256.54" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$81" class="0">
@@ -31517,6 +31622,11 @@ D = Direct mounting &lt;p&gt;
 <wire x1="218.44" y1="208.28" x2="218.44" y2="213.36" width="0.1524" layer="91"/>
 <label x="218.44" y="213.36" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="CON" gate="G$1" pin="P$8"/>
+<wire x1="279.4" y1="76.2" x2="284.48" y2="76.2" width="0.1524" layer="91"/>
+<label x="284.48" y="76.2" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="SG2_AIN2" class="0">
 <segment>
@@ -31524,12 +31634,22 @@ D = Direct mounting &lt;p&gt;
 <wire x1="223.52" y1="208.28" x2="223.52" y2="213.36" width="0.1524" layer="91"/>
 <label x="223.52" y="213.36" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="CON" gate="G$1" pin="P$9"/>
+<wire x1="279.4" y1="78.74" x2="284.48" y2="78.74" width="0.1524" layer="91"/>
+<label x="284.48" y="78.74" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="SG2_AIN1" class="0">
 <segment>
 <pinref part="U$7" gate="G$1" pin="6"/>
 <wire x1="228.6" y1="208.28" x2="228.6" y2="213.36" width="0.1524" layer="91"/>
 <label x="228.6" y="213.36" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="CON" gate="G$1" pin="P$10"/>
+<wire x1="279.4" y1="81.28" x2="284.48" y2="81.28" width="0.1524" layer="91"/>
+<label x="284.48" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$88" class="0">
@@ -31580,6 +31700,11 @@ D = Direct mounting &lt;p&gt;
 <junction x="43.18" y="35.56"/>
 <label x="35.56" y="35.56" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="CON" gate="G$1" pin="P$5"/>
+<wire x1="261.62" y1="71.12" x2="256.54" y2="71.12" width="0.1524" layer="91"/>
+<label x="256.54" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="TEMP_AIN1" class="0">
 <segment>
@@ -31591,6 +31716,11 @@ D = Direct mounting &lt;p&gt;
 <wire x1="43.18" y1="53.34" x2="43.18" y2="43.18" width="0.1524" layer="91"/>
 <junction x="43.18" y="43.18"/>
 <label x="35.56" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="CON" gate="G$1" pin="P$4"/>
+<wire x1="261.62" y1="73.66" x2="256.54" y2="73.66" width="0.1524" layer="91"/>
+<label x="256.54" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$91" class="0">
@@ -31629,6 +31759,11 @@ D = Direct mounting &lt;p&gt;
 <junction x="38.1" y="78.74"/>
 <wire x1="38.1" y1="78.74" x2="38.1" y2="81.28" width="0.1524" layer="91"/>
 <label x="38.1" y="81.28" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="CON" gate="G$1" pin="P$7"/>
+<wire x1="279.4" y1="73.66" x2="284.48" y2="73.66" width="0.1524" layer="91"/>
+<label x="284.48" y="73.66" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SCLK" class="0">
@@ -31880,6 +32015,13 @@ D = Direct mounting &lt;p&gt;
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="X1" library="con-subd" library_urn="urn:adsk.eagle:library:189" deviceset="F15" device="HP" package3d_urn="urn:adsk.eagle:package:10231/1"/>
 <part name="CN1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="USB" device="MINIB" package3d_urn="urn:adsk.eagle:package:6240633/1"/>
+<part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2k2"/>
+<part name="U_LT1" library="aSparkFun" deviceset="LT1528" device=""/>
+<part name="C28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
+<part name="C29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
+<part name="C30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E/7260-38W" package3d_urn="urn:adsk.eagle:package:23423/1" value="10u"/>
+<part name="C31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E/7260-38W" package3d_urn="urn:adsk.eagle:package:23423/1" value="10u"/>
+<part name="C32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E/7260-38W" package3d_urn="urn:adsk.eagle:package:23423/1" value="10u"/>
 </parts>
 <sheets>
 <sheet>
@@ -32049,9 +32191,9 @@ D = Direct mounting &lt;p&gt;
 <attribute name="NAME" x="340.741" y="67.056" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="335.661" y="67.056" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R27" gate="G$1" x="335.28" y="116.84" smashed="yes" rot="MR90" grouprefs="DAPI">
-<attribute name="NAME" x="336.7786" y="113.03" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="331.978" y="113.03" size="1.778" layer="96" rot="MR90"/>
+<instance part="R27" gate="G$1" x="327.66" y="116.84" smashed="yes" rot="MR90" grouprefs="DAPI">
+<attribute name="NAME" x="329.1586" y="113.03" size="1.778" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="324.358" y="113.03" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="C24" gate="G$1" x="279.4" y="177.8" smashed="yes" grouprefs="DAPI">
 <attribute name="NAME" x="280.924" y="178.181" size="1.778" layer="95"/>
@@ -32220,6 +32362,10 @@ D = Direct mounting &lt;p&gt;
 <instance part="CN1" gate="G$1" x="200.66" y="129.54" smashed="yes" grouprefs="DAPI">
 <attribute name="NAME" x="190.5" y="138.176" size="1.27" layer="95"/>
 <attribute name="VALUE" x="190.5" y="119.38" size="1.27" layer="96"/>
+</instance>
+<instance part="R24" gate="G$1" x="335.28" y="116.84" smashed="yes" rot="MR90">
+<attribute name="NAME" x="336.7786" y="113.03" size="1.778" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="331.978" y="113.03" size="1.778" layer="96" rot="MR90"/>
 </instance>
 </instances>
 <busses>
@@ -32642,6 +32788,14 @@ D = Direct mounting &lt;p&gt;
 <wire x1="165.1" y1="27.94" x2="165.1" y2="30.48" width="0.1524" layer="91" grouprefs="SG_CLK"/>
 <junction x="165.1" y="27.94" grouprefs="SG_CLK"/>
 <label x="165.1" y="30.48" size="1.27" layer="95" rot="R90" xref="yes" grouprefs="SG_CLK"/>
+<wire x1="165.1" y1="27.94" x2="165.1" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="STDBY"/>
+<wire x1="165.1" y1="20.32" x2="162.56" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R27" gate="G$1" pin="2"/>
+<wire x1="327.66" y1="121.92" x2="327.66" y2="124.46" width="0.1524" layer="91"/>
+<label x="327.66" y="124.46" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="VCCINT" class="0">
@@ -32814,22 +32968,15 @@ D = Direct mounting &lt;p&gt;
 <wire x1="233.68" y1="104.14" x2="251.46" y2="104.14" width="0.1524" layer="91" grouprefs="DAPI"/>
 </segment>
 </net>
-<net name="N$23" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="DOUT"/>
-<pinref part="R27" gate="G$1" pin="1"/>
-<wire x1="335.28" y1="109.22" x2="335.28" y2="111.76" width="0.1524" layer="91" grouprefs="DAPI"/>
-</segment>
-</net>
 <net name="EED" class="0">
 <segment>
-<pinref part="R27" gate="G$1" pin="2"/>
-<wire x1="335.28" y1="121.92" x2="337.82" y2="121.92" width="0.1524" layer="91" grouprefs="DAPI"/>
 <pinref part="U$3" gate="G$1" pin="DIN"/>
-<wire x1="337.82" y1="121.92" x2="337.82" y2="109.22" width="0.1524" layer="91" grouprefs="DAPI"/>
-<wire x1="337.82" y1="121.92" x2="337.82" y2="124.46" width="0.1524" layer="91" grouprefs="DAPI"/>
-<junction x="337.82" y="121.92" grouprefs="DAPI"/>
+<wire x1="337.82" y1="124.46" x2="337.82" y2="121.92" width="0.1524" layer="91" grouprefs="DAPI"/>
 <label x="337.82" y="124.46" size="1.27" layer="95" rot="R90" xref="yes" grouprefs="DAPI"/>
+<pinref part="R24" gate="G$1" pin="2"/>
+<wire x1="337.82" y1="121.92" x2="337.82" y2="109.22" width="0.1524" layer="91" grouprefs="DAPI"/>
+<wire x1="335.28" y1="121.92" x2="337.82" y2="121.92" width="0.1524" layer="91"/>
+<junction x="337.82" y="121.92"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="EEDATA"/>
@@ -33706,12 +33853,23 @@ D = Direct mounting &lt;p&gt;
 <label x="116.84" y="50.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="DOUT"/>
+<pinref part="R24" gate="G$1" pin="1"/>
+<wire x1="335.28" y1="109.22" x2="335.28" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="R27" gate="G$1" pin="1"/>
+<wire x1="327.66" y1="111.76" x2="327.66" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="109.22" x2="335.28" y2="109.22" width="0.1524" layer="91"/>
+<junction x="335.28" y="109.22"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
 <description>Interfaces</description>
 <plain>
-<text x="54.864" y="154.94" size="1.27" layer="94" grouprefs="POWER">LM78L05ACMX/NOPB</text>
+<text x="59.944" y="119.38" size="1.27" layer="94" grouprefs="POWER">LM78L05ACMX/NOPB</text>
 <text x="86.36" y="234.95" size="1.27" layer="94" grouprefs="POWER">Trim:
   up:
     R=(12775/U_out) - 2050
@@ -33771,14 +33929,14 @@ D = Direct mounting &lt;p&gt;
 <attribute name="NAME" x="313.055" y="46.355" size="1.524" layer="95" rot="R90"/>
 <attribute name="VALUE" x="318.4525" y="46.355" size="1.524" layer="96" rot="R90"/>
 </instance>
-<instance part="U_7805" gate="G$1" x="63.754" y="144.526" smashed="yes" grouprefs="POWER"/>
-<instance part="C42" gate="G$1" x="56.134" y="126.746" smashed="yes" rot="R270" grouprefs="POWER">
-<attribute name="NAME" x="56.515" y="125.222" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="51.435" y="125.222" size="1.778" layer="96" rot="R270"/>
+<instance part="U_7805" gate="G$1" x="68.834" y="108.966" smashed="yes" grouprefs="POWER"/>
+<instance part="C42" gate="G$1" x="61.214" y="91.186" smashed="yes" rot="R270" grouprefs="POWER">
+<attribute name="NAME" x="61.595" y="89.662" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="56.515" y="89.662" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="C43" gate="G$1" x="71.374" y="126.746" smashed="yes" rot="R270" grouprefs="POWER">
-<attribute name="NAME" x="71.755" y="125.222" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="66.675" y="125.222" size="1.778" layer="96" rot="R270"/>
+<instance part="C43" gate="G$1" x="76.454" y="91.186" smashed="yes" rot="R270" grouprefs="POWER">
+<attribute name="NAME" x="76.835" y="89.662" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="71.755" y="89.662" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="R15" gate="G$1" x="345.44" y="43.18" smashed="yes" rot="R90" grouprefs="TM">
 <attribute name="NAME" x="343.9414" y="39.37" size="1.778" layer="95" rot="R90"/>
@@ -33953,6 +34111,27 @@ D = Direct mounting &lt;p&gt;
 <attribute name="VALUE" x="280.035" y="93.345" size="1.778" layer="96"/>
 <attribute name="NAME" x="280.67" y="120.65" size="1.778" layer="95"/>
 </instance>
+<instance part="U_LT1" gate="G$1" x="76.2" y="138.43" smashed="yes"/>
+<instance part="C28" gate="G$1" x="48.26" y="140.97" smashed="yes" rot="R180">
+<attribute name="NAME" x="46.736" y="140.589" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="46.736" y="145.669" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C29" gate="G$1" x="83.82" y="140.97" smashed="yes" rot="R180">
+<attribute name="NAME" x="82.296" y="140.589" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="82.296" y="145.669" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C30" gate="G$1" x="38.1" y="143.51" smashed="yes">
+<attribute name="NAME" x="36.195" y="140.2334" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="36.195" y="145.8214" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C31" gate="G$1" x="91.44" y="143.51" smashed="yes">
+<attribute name="NAME" x="89.535" y="140.2334" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="89.535" y="145.8214" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C32" gate="G$1" x="99.06" y="143.51" smashed="yes">
+<attribute name="NAME" x="97.155" y="140.2334" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="97.155" y="145.8214" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -34082,6 +34261,25 @@ D = Direct mounting &lt;p&gt;
 <junction x="360.68" y="218.44" grouprefs="LEDS"/>
 <label x="363.22" y="218.44" size="1.27" layer="95" xref="yes" grouprefs="LEDS"/>
 </segment>
+<segment>
+<pinref part="U_LT1" gate="G$1" pin="GND"/>
+<wire x1="66.04" y1="138.43" x2="66.04" y2="133.35" width="0.1524" layer="91"/>
+<label x="66.04" y="133.35" size="1.27" layer="95" xref="yes"/>
+<pinref part="C28" gate="G$1" pin="1"/>
+<wire x1="66.04" y1="138.43" x2="48.26" y2="138.43" width="0.1524" layer="91"/>
+<junction x="66.04" y="138.43"/>
+<pinref part="C29" gate="G$1" pin="1"/>
+<wire x1="66.04" y1="138.43" x2="83.82" y2="138.43" width="0.1524" layer="91"/>
+<pinref part="C31" gate="G$1" pin="-"/>
+<wire x1="83.82" y1="138.43" x2="91.44" y2="138.43" width="0.1524" layer="91"/>
+<junction x="83.82" y="138.43"/>
+<pinref part="C30" gate="G$1" pin="-"/>
+<wire x1="38.1" y1="138.43" x2="48.26" y2="138.43" width="0.1524" layer="91"/>
+<junction x="48.26" y="138.43"/>
+<pinref part="C32" gate="G$1" pin="-"/>
+<wire x1="91.44" y1="138.43" x2="99.06" y2="138.43" width="0.1524" layer="91"/>
+<junction x="91.44" y="138.43"/>
+</segment>
 </net>
 <net name="3V3" class="0">
 <segment>
@@ -34154,6 +34352,20 @@ D = Direct mounting &lt;p&gt;
 <wire x1="335.28" y1="208.28" x2="332.74" y2="208.28" width="0.1524" layer="91" grouprefs="LEDS"/>
 <label x="332.74" y="208.28" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="LEDS"/>
 </segment>
+<segment>
+<pinref part="U_LT1" gate="G$1" pin="SHDN"/>
+<wire x1="50.8" y1="151.13" x2="48.26" y2="151.13" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="151.13" x2="48.26" y2="156.21" width="0.1524" layer="91"/>
+<pinref part="U_LT1" gate="G$1" pin="IN"/>
+<wire x1="48.26" y1="156.21" x2="50.8" y2="156.21" width="0.1524" layer="91"/>
+<label x="48.26" y="156.21" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="C28" gate="G$1" pin="2"/>
+<wire x1="48.26" y1="146.05" x2="48.26" y2="151.13" width="0.1524" layer="91"/>
+<junction x="48.26" y="151.13"/>
+<wire x1="48.26" y1="151.13" x2="38.1" y2="151.13" width="0.1524" layer="91"/>
+<pinref part="C30" gate="G$1" pin="+"/>
+<wire x1="38.1" y1="151.13" x2="38.1" y2="146.05" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="28V" class="0">
 <segment>
@@ -34179,8 +34391,8 @@ D = Direct mounting &lt;p&gt;
 <segment>
 <pinref part="C42" gate="G$1" pin="2"/>
 <pinref part="U_7805" gate="G$1" pin="VIN"/>
-<wire x1="51.054" y1="126.746" x2="51.054" y2="136.906" width="0.1524" layer="91" grouprefs="POWER"/>
-<label x="51.054" y="126.746" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="POWER"/>
+<wire x1="56.134" y1="91.186" x2="56.134" y2="101.346" width="0.1524" layer="91" grouprefs="POWER"/>
+<label x="56.134" y="91.186" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="POWER"/>
 </segment>
 <segment>
 <pinref part="R12" gate="G$1" pin="1"/>
@@ -34239,12 +34451,12 @@ D = Direct mounting &lt;p&gt;
 <segment>
 <pinref part="C42" gate="G$1" pin="1"/>
 <pinref part="C43" gate="G$1" pin="2"/>
-<wire x1="58.674" y1="126.746" x2="63.754" y2="126.746" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="63.754" y1="91.186" x2="68.834" y2="91.186" width="0.1524" layer="91" grouprefs="POWER"/>
 <pinref part="U_7805" gate="G$1" pin="GND"/>
-<wire x1="63.754" y1="126.746" x2="66.294" y2="126.746" width="0.1524" layer="91" grouprefs="POWER"/>
-<wire x1="63.754" y1="136.906" x2="63.754" y2="126.746" width="0.1524" layer="91" grouprefs="POWER"/>
-<junction x="63.754" y="126.746" grouprefs="POWER"/>
-<label x="63.754" y="133.096" size="1.27" layer="95" xref="yes" grouprefs="POWER"/>
+<wire x1="68.834" y1="91.186" x2="71.374" y2="91.186" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="68.834" y1="101.346" x2="68.834" y2="91.186" width="0.1524" layer="91" grouprefs="POWER"/>
+<junction x="68.834" y="91.186" grouprefs="POWER"/>
+<label x="68.834" y="97.536" size="1.27" layer="95" xref="yes" grouprefs="POWER"/>
 </segment>
 <segment>
 <pinref part="U_MAX488" gate="P" pin="GND"/>
@@ -34402,10 +34614,10 @@ D = Direct mounting &lt;p&gt;
 <net name="5V-28V" class="0">
 <segment>
 <pinref part="C43" gate="G$1" pin="1"/>
-<wire x1="73.914" y1="126.746" x2="76.454" y2="126.746" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="78.994" y1="91.186" x2="81.534" y2="91.186" width="0.1524" layer="91" grouprefs="POWER"/>
 <pinref part="U_7805" gate="G$1" pin="VOUT"/>
-<wire x1="76.454" y1="126.746" x2="76.454" y2="136.906" width="0.1524" layer="91" grouprefs="POWER"/>
-<label x="76.454" y="126.746" size="1.27" layer="95" xref="yes" grouprefs="POWER"/>
+<wire x1="81.534" y1="91.186" x2="81.534" y2="101.346" width="0.1524" layer="91" grouprefs="POWER"/>
+<label x="81.534" y="91.186" size="1.27" layer="95" xref="yes" grouprefs="POWER"/>
 </segment>
 <segment>
 <pinref part="U_MAX488" gate="P" pin="VCC"/>
@@ -34561,7 +34773,7 @@ D = Direct mounting &lt;p&gt;
 <label x="271.78" y="109.22" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="CON_RXSM"/>
 </segment>
 </net>
-<net name="LED_4" class="0">
+<net name="LED4" class="0">
 <segment>
 <pinref part="RN10" gate="D" pin="1"/>
 <wire x1="335.28" y1="198.12" x2="332.74" y2="198.12" width="0.1524" layer="91" grouprefs="LEDS"/>
@@ -34657,6 +34869,26 @@ D = Direct mounting &lt;p&gt;
 <pinref part="PROBES" gate="G$1" pin="3"/>
 <wire x1="261.62" y1="10.16" x2="254" y2="10.16" width="0.1524" layer="91" grouprefs="CON_PROBES"/>
 <label x="254" y="10.16" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="CON_PROBES"/>
+</segment>
+</net>
+<net name="VCCINT" class="0">
+<segment>
+<pinref part="U_LT1" gate="G$1" pin="OUT"/>
+<wire x1="81.28" y1="156.21" x2="83.82" y2="156.21" width="0.1524" layer="91"/>
+<pinref part="U_LT1" gate="G$1" pin="SENSE"/>
+<wire x1="83.82" y1="156.21" x2="83.82" y2="151.13" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="151.13" x2="81.28" y2="151.13" width="0.1524" layer="91"/>
+<label x="83.82" y="156.21" size="1.27" layer="95" xref="yes"/>
+<pinref part="C29" gate="G$1" pin="2"/>
+<wire x1="83.82" y1="146.05" x2="83.82" y2="151.13" width="0.1524" layer="91"/>
+<junction x="83.82" y="151.13"/>
+<pinref part="C31" gate="G$1" pin="+"/>
+<wire x1="91.44" y1="146.05" x2="91.44" y2="151.13" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="151.13" x2="83.82" y2="151.13" width="0.1524" layer="91"/>
+<pinref part="C32" gate="G$1" pin="+"/>
+<wire x1="99.06" y1="146.05" x2="99.06" y2="151.13" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="151.13" x2="91.44" y2="151.13" width="0.1524" layer="91"/>
+<junction x="91.44" y="151.13"/>
 </segment>
 </net>
 </nets>
