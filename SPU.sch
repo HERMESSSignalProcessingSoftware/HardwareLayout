@@ -30853,7 +30853,18 @@ D = Direct mounting &lt;p&gt;
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.254" drill="0.2032">
+<clearance class="0" value="0.2032"/>
+</class>
+<class number="1" name="28V" width="0.508" drill="0.2032">
+<clearance class="1" value="0.635"/>
+</class>
+<class number="2" name="5v" width="0.635" drill="0.2032">
+<clearance class="2" value="0.254"/>
+</class>
+<class number="3" name="28vClearExcept" width="0.635" drill="0.2032">
+<clearance class="1" value="0.508"/>
+<clearance class="3" value="0.1778"/>
 </class>
 </classes>
 <modules>
@@ -30884,7 +30895,6 @@ D = Direct mounting &lt;p&gt;
 <part name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k 0.1%"/>
 <part name="C30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
-<part name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
 <part name="C31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="C32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="C33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
@@ -30899,7 +30909,6 @@ D = Direct mounting &lt;p&gt;
 <part name="R69" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k 0.1%"/>
 <part name="C47" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="R70" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
-<part name="R71" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
 <part name="C48" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="C49" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="C50" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
@@ -30910,7 +30919,6 @@ D = Direct mounting &lt;p&gt;
 <part name="ADC_TEMP" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
 <part name="C51" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="R75" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
-<part name="R76" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
 <part name="C52" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="R77" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4k7"/>
 <part name="C53" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="6n8"/>
@@ -30968,10 +30976,6 @@ D = Direct mounting &lt;p&gt;
 <attribute name="NAME" x="155.448" y="206.2226" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 <attribute name="VALUE" x="149.352" y="206.248" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R28" gate="G$1" x="152.4" y="200.66" smashed="yes" rot="MR0">
-<attribute name="NAME" x="155.448" y="201.1426" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
-<attribute name="VALUE" x="149.352" y="201.168" size="1.778" layer="96" rot="MR0"/>
-</instance>
 <instance part="C31" gate="G$1" x="63.5" y="162.56" smashed="yes">
 <attribute name="NAME" x="65.024" y="162.941" size="1.778" layer="95"/>
 <attribute name="VALUE" x="65.024" y="157.861" size="1.778" layer="96"/>
@@ -31028,10 +31032,6 @@ D = Direct mounting &lt;p&gt;
 <attribute name="NAME" x="338.328" y="206.2226" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 <attribute name="VALUE" x="332.232" y="206.248" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R71" gate="G$1" x="335.28" y="200.66" smashed="yes" rot="MR0">
-<attribute name="NAME" x="338.328" y="201.1426" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
-<attribute name="VALUE" x="332.232" y="201.168" size="1.778" layer="96" rot="MR0"/>
-</instance>
 <instance part="C48" gate="G$1" x="246.38" y="162.56" smashed="yes">
 <attribute name="NAME" x="247.904" y="162.941" size="1.778" layer="95"/>
 <attribute name="VALUE" x="247.904" y="157.861" size="1.778" layer="96"/>
@@ -31071,10 +31071,6 @@ D = Direct mounting &lt;p&gt;
 <instance part="R75" gate="G$1" x="152.4" y="93.98" smashed="yes" rot="MR0">
 <attribute name="NAME" x="155.448" y="94.4626" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 <attribute name="VALUE" x="149.352" y="94.488" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="R76" gate="G$1" x="152.4" y="88.9" smashed="yes" rot="MR0">
-<attribute name="NAME" x="155.448" y="89.3826" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
-<attribute name="VALUE" x="149.352" y="89.408" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="C52" gate="G$1" x="71.12" y="104.14" smashed="yes">
 <attribute name="NAME" x="72.644" y="104.521" size="1.778" layer="95"/>
@@ -31421,13 +31417,6 @@ D = Direct mounting &lt;p&gt;
 <label x="165.1" y="78.74" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$36" class="0">
-<segment>
-<pinref part="R28" gate="G$1" pin="2"/>
-<pinref part="ADC_SG1" gate="G$1" pin="!DRDY"/>
-<wire x1="147.32" y1="200.66" x2="144.78" y2="200.66" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$38" class="0">
 <segment>
 <pinref part="R31" gate="G$1" pin="2"/>
@@ -31534,13 +31523,6 @@ D = Direct mounting &lt;p&gt;
 <wire x1="261.62" y1="177.8" x2="254" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$42" class="0">
-<segment>
-<pinref part="R71" gate="G$1" pin="2"/>
-<pinref part="ADC_SG2" gate="G$1" pin="!DRDY"/>
-<wire x1="330.2" y1="200.66" x2="327.66" y2="200.66" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$43" class="0">
 <segment>
 <pinref part="R70" gate="G$1" pin="2"/>
@@ -31593,13 +31575,6 @@ D = Direct mounting &lt;p&gt;
 <wire x1="223.52" y1="193.04" x2="223.52" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="R72" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="157.48" x2="233.68" y2="157.48" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$85" class="0">
-<segment>
-<pinref part="R76" gate="G$1" pin="2"/>
-<pinref part="ADC_TEMP" gate="G$1" pin="!DRDY"/>
-<wire x1="147.32" y1="88.9" x2="144.78" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$86" class="0">
@@ -31819,9 +31794,9 @@ D = Direct mounting &lt;p&gt;
 </net>
 <net name="SG1_DRDY" class="0">
 <segment>
-<pinref part="R28" gate="G$1" pin="1"/>
-<wire x1="157.48" y1="200.66" x2="165.1" y2="200.66" width="0.1524" layer="91"/>
 <label x="165.1" y="200.66" size="1.27" layer="95" xref="yes"/>
+<pinref part="ADC_SG1" gate="G$1" pin="!DRDY"/>
+<wire x1="144.78" y1="200.66" x2="165.1" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SG2_CS" class="0">
@@ -31833,9 +31808,11 @@ D = Direct mounting &lt;p&gt;
 </net>
 <net name="SG2_DRDY" class="0">
 <segment>
-<pinref part="R71" gate="G$1" pin="1"/>
-<wire x1="340.36" y1="200.66" x2="347.98" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="200.66" x2="342.9" y2="200.66" width="0.1524" layer="91"/>
 <label x="347.98" y="200.66" size="1.27" layer="95" xref="yes"/>
+<pinref part="ADC_SG2" gate="G$1" pin="!DRDY"/>
+<wire x1="342.9" y1="200.66" x2="347.98" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="200.66" x2="340.36" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TEMP_CS" class="0">
@@ -31847,9 +31824,9 @@ D = Direct mounting &lt;p&gt;
 </net>
 <net name="TEMP_DRDY" class="0">
 <segment>
-<pinref part="R76" gate="G$1" pin="1"/>
-<wire x1="157.48" y1="88.9" x2="165.1" y2="88.9" width="0.1524" layer="91"/>
 <label x="165.1" y="88.9" size="1.27" layer="95" xref="yes"/>
+<pinref part="ADC_TEMP" gate="G$1" pin="!DRDY"/>
+<wire x1="144.78" y1="88.9" x2="165.1" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SG1_CS" class="0">
@@ -31879,7 +31856,6 @@ D = Direct mounting &lt;p&gt;
 <parts>
 <part name="U_LT1528" library="aSparkFun" deviceset="LT1528" device=""/>
 <part name="U_TRACODCDC" library="traco_thl_tel_series" deviceset="THL_20WI_SERIES" device="" value="THN10-2411WIR"/>
-<part name="C34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="C35" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="C36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="C37" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
@@ -31891,7 +31867,7 @@ D = Direct mounting &lt;p&gt;
 <part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="500"/>
 <part name="D5" library="diodes" deviceset="DZ" device="MELF" value="5V6"/>
 <part name="U_7805" library="m-pad-2.1" deviceset="LM78L05ACMX/NOPB" device=""/>
-<part name="C42" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
+<part name="C42" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100n"/>
 <part name="C43" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="R15" library="rcl" deviceset="R-EU_" device="R0805" value="500"/>
 <part name="C44" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="~0"/>
@@ -31981,37 +31957,18 @@ D = Direct mounting &lt;p&gt;
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10n"/>
 <part name="PROBES" library="selfmade" deviceset="PSS254_G3" device=""/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
-<part name="R34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
 <part name="R35" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
 <part name="R36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
-<part name="R37" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
-<part name="R38" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
-<part name="R39" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
 <part name="R40" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
 <part name="R41" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
-<part name="R42" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
-<part name="R43" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
-<part name="R44" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
 <part name="R45" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
 <part name="R46" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
-<part name="R47" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
-<part name="R48" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
-<part name="R49" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
 <part name="R50" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
 <part name="R51" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
-<part name="R52" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
-<part name="R53" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
-<part name="R54" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
 <part name="R55" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
 <part name="R56" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
-<part name="R57" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
-<part name="R58" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
-<part name="R59" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
 <part name="R60" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
 <part name="R61" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
-<part name="R62" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
-<part name="R63" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
-<part name="R67" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="X1" library="con-subd" library_urn="urn:adsk.eagle:library:189" deviceset="F15" device="HP" package3d_urn="urn:adsk.eagle:package:10231/1"/>
 <part name="CN1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="USB" device="MINIB" package3d_urn="urn:adsk.eagle:package:6240633/1"/>
@@ -32235,10 +32192,6 @@ D = Direct mounting &lt;p&gt;
 <attribute name="NAME" x="166.37" y="19.2786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="166.37" y="14.478" size="1.778" layer="96"/>
 </instance>
-<instance part="R34" gate="G$1" x="55.88" y="205.74" smashed="yes" rot="MR0">
-<attribute name="NAME" x="59.69" y="207.2386" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="59.69" y="202.438" size="1.778" layer="96" rot="MR0"/>
-</instance>
 <instance part="R35" gate="G$1" x="132.08" y="233.68" smashed="yes" rot="MR0">
 <attribute name="NAME" x="135.128" y="234.1626" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 <attribute name="VALUE" x="129.032" y="234.188" size="1.778" layer="96" rot="MR0"/>
@@ -32246,18 +32199,6 @@ D = Direct mounting &lt;p&gt;
 <instance part="R36" gate="G$1" x="132.08" y="236.22" smashed="yes" rot="MR0">
 <attribute name="NAME" x="135.128" y="236.7026" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 <attribute name="VALUE" x="129.032" y="236.728" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="R37" gate="G$1" x="132.08" y="220.98" smashed="yes" rot="MR0">
-<attribute name="NAME" x="135.128" y="221.4626" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
-<attribute name="VALUE" x="129.032" y="221.488" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="R38" gate="G$1" x="132.08" y="218.44" smashed="yes" rot="MR0">
-<attribute name="NAME" x="135.128" y="218.9226" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
-<attribute name="VALUE" x="129.032" y="218.948" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="R39" gate="G$1" x="132.08" y="215.9" smashed="yes" rot="MR0">
-<attribute name="NAME" x="135.128" y="216.3826" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
-<attribute name="VALUE" x="129.032" y="216.408" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R40" gate="G$1" x="132.08" y="213.36" smashed="yes" rot="MR0">
 <attribute name="NAME" x="135.128" y="213.8426" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
@@ -32267,18 +32208,6 @@ D = Direct mounting &lt;p&gt;
 <attribute name="NAME" x="135.128" y="211.3026" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 <attribute name="VALUE" x="129.032" y="211.328" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R42" gate="G$1" x="53.34" y="172.72" smashed="yes" rot="MR0">
-<attribute name="NAME" x="56.388" y="173.2026" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
-<attribute name="VALUE" x="50.292" y="173.228" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="R43" gate="G$1" x="53.34" y="170.18" smashed="yes" rot="MR0">
-<attribute name="NAME" x="56.388" y="170.6626" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
-<attribute name="VALUE" x="50.292" y="170.688" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="R44" gate="G$1" x="53.34" y="167.64" smashed="yes" rot="MR0">
-<attribute name="NAME" x="56.388" y="168.1226" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
-<attribute name="VALUE" x="50.292" y="168.148" size="1.778" layer="96" rot="MR0"/>
-</instance>
 <instance part="R45" gate="G$1" x="149.86" y="182.88" smashed="yes" rot="MR0">
 <attribute name="NAME" x="152.908" y="183.3626" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 <attribute name="VALUE" x="146.812" y="183.388" size="1.778" layer="96" rot="MR0"/>
@@ -32286,18 +32215,6 @@ D = Direct mounting &lt;p&gt;
 <instance part="R46" gate="G$1" x="53.34" y="165.1" smashed="yes" rot="MR0">
 <attribute name="NAME" x="56.388" y="165.5826" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 <attribute name="VALUE" x="50.292" y="165.608" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="R47" gate="G$1" x="38.1" y="129.54" smashed="yes" rot="MR0">
-<attribute name="NAME" x="41.148" y="130.0226" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
-<attribute name="VALUE" x="35.052" y="130.048" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="R48" gate="G$1" x="38.1" y="127" smashed="yes" rot="MR0">
-<attribute name="NAME" x="41.148" y="127.4826" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
-<attribute name="VALUE" x="35.052" y="127.508" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="R49" gate="G$1" x="38.1" y="124.46" smashed="yes" rot="MR0">
-<attribute name="NAME" x="41.148" y="124.9426" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
-<attribute name="VALUE" x="35.052" y="124.968" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R50" gate="G$1" x="53.34" y="121.92" smashed="yes" rot="MR0">
 <attribute name="NAME" x="56.388" y="122.4026" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
@@ -32307,18 +32224,6 @@ D = Direct mounting &lt;p&gt;
 <attribute name="NAME" x="56.388" y="119.8626" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 <attribute name="VALUE" x="50.292" y="119.888" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R52" gate="G$1" x="132.08" y="134.62" smashed="yes" rot="MR0">
-<attribute name="NAME" x="135.128" y="135.1026" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
-<attribute name="VALUE" x="129.032" y="135.128" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="R53" gate="G$1" x="132.08" y="132.08" smashed="yes" rot="MR0">
-<attribute name="NAME" x="135.128" y="132.5626" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
-<attribute name="VALUE" x="129.032" y="132.588" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="R54" gate="G$1" x="132.08" y="129.54" smashed="yes" rot="MR0">
-<attribute name="NAME" x="135.128" y="130.0226" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
-<attribute name="VALUE" x="129.032" y="130.048" size="1.778" layer="96" rot="MR0"/>
-</instance>
 <instance part="R55" gate="G$1" x="132.08" y="137.16" smashed="yes" rot="MR0">
 <attribute name="NAME" x="135.128" y="137.6426" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 <attribute name="VALUE" x="129.032" y="137.668" size="1.778" layer="96" rot="MR0"/>
@@ -32327,18 +32232,6 @@ D = Direct mounting &lt;p&gt;
 <attribute name="NAME" x="135.128" y="140.1826" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 <attribute name="VALUE" x="129.032" y="140.208" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R57" gate="G$1" x="53.34" y="86.36" smashed="yes" rot="MR0">
-<attribute name="NAME" x="56.388" y="86.8426" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
-<attribute name="VALUE" x="50.292" y="86.868" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="R58" gate="G$1" x="53.34" y="83.82" smashed="yes" rot="MR0">
-<attribute name="NAME" x="56.388" y="84.3026" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
-<attribute name="VALUE" x="50.292" y="84.328" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="R59" gate="G$1" x="132.08" y="96.52" smashed="yes" rot="MR0">
-<attribute name="NAME" x="135.128" y="97.0026" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
-<attribute name="VALUE" x="129.032" y="97.028" size="1.778" layer="96" rot="MR0"/>
-</instance>
 <instance part="R60" gate="G$1" x="132.08" y="93.98" smashed="yes" rot="MR0">
 <attribute name="NAME" x="135.128" y="94.4626" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 <attribute name="VALUE" x="129.032" y="94.488" size="1.778" layer="96" rot="MR0"/>
@@ -32346,18 +32239,6 @@ D = Direct mounting &lt;p&gt;
 <instance part="R61" gate="G$1" x="132.08" y="91.44" smashed="yes" rot="MR0">
 <attribute name="NAME" x="135.128" y="91.9226" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 <attribute name="VALUE" x="129.032" y="91.948" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="R62" gate="G$1" x="53.34" y="53.34" smashed="yes" rot="MR0">
-<attribute name="NAME" x="56.388" y="53.8226" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
-<attribute name="VALUE" x="50.292" y="53.848" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="R63" gate="G$1" x="53.34" y="50.8" smashed="yes" rot="MR0">
-<attribute name="NAME" x="56.388" y="51.2826" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
-<attribute name="VALUE" x="50.292" y="51.308" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="R67" gate="G$1" x="53.34" y="48.26" smashed="yes" rot="MR0">
-<attribute name="NAME" x="56.388" y="48.7426" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
-<attribute name="VALUE" x="50.292" y="48.768" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="CN1" gate="G$1" x="200.66" y="129.54" smashed="yes" grouprefs="DAPI">
 <attribute name="NAME" x="190.5" y="138.176" size="1.27" layer="95"/>
@@ -33220,19 +33101,11 @@ D = Direct mounting &lt;p&gt;
 <pinref part="R14" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$44" class="0">
-<segment>
-<pinref part="SF2_M2S010TQ1" gate="G$1" pin="DDRIO47NB0"/>
-<wire x1="63.5" y1="208.28" x2="63.5" y2="205.74" width="0.1524" layer="91"/>
-<pinref part="R34" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="205.74" x2="60.96" y2="205.74" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="ADC_START" class="0">
 <segment>
-<pinref part="R34" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="205.74" x2="48.26" y2="205.74" width="0.1524" layer="91"/>
-<label x="48.26" y="205.74" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="58.42" y="208.28" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="SF2_M2S010TQ1" gate="G$1" pin="DDRIO47NB0"/>
+<wire x1="58.42" y1="208.28" x2="63.5" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$45" class="0">
@@ -33249,27 +33122,6 @@ D = Direct mounting &lt;p&gt;
 <wire x1="124.46" y1="236.22" x2="127" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$53" class="0">
-<segment>
-<pinref part="SF2_M2S010TQ1" gate="G$1" pin="DDRIO55PB0/CCC_NE0_CLKI3"/>
-<pinref part="R37" gate="G$1" pin="2"/>
-<wire x1="124.46" y1="220.98" x2="127" y2="220.98" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$54" class="0">
-<segment>
-<pinref part="SF2_M2S010TQ1" gate="G$1" pin="DDRIO59NB0/GB4"/>
-<pinref part="R38" gate="G$1" pin="2"/>
-<wire x1="124.46" y1="218.44" x2="127" y2="218.44" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$57" class="0">
-<segment>
-<pinref part="SF2_M2S010TQ1" gate="G$1" pin="DDRIO60NB0/CCC_NE1_CLKI3"/>
-<pinref part="R39" gate="G$1" pin="2"/>
-<wire x1="124.46" y1="215.9" x2="127" y2="215.9" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$46" class="0">
 <segment>
 <pinref part="SF2_M2S010TQ1" gate="G$1" pin="DDRIO59PB0/GB0"/>
@@ -33282,27 +33134,6 @@ D = Direct mounting &lt;p&gt;
 <pinref part="SF2_M2S010TQ1" gate="G$1" pin="DDRIO63PB0"/>
 <pinref part="R41" gate="G$1" pin="2"/>
 <wire x1="124.46" y1="210.82" x2="127" y2="210.82" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$58" class="0">
-<segment>
-<pinref part="SF2_M2S010TQ1" gate="G$2" pin="MSIO2NB2/USB_NXT_B"/>
-<pinref part="R42" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="172.72" x2="58.42" y2="172.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$59" class="0">
-<segment>
-<pinref part="SF2_M2S010TQ1" gate="G$2" pin="MSIO3PB2/USB_DATA0_B"/>
-<pinref part="R43" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="170.18" x2="58.42" y2="170.18" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$60" class="0">
-<segment>
-<pinref part="SF2_M2S010TQ1" gate="G$2" pin="MSIO4PB2/USB_DATA2_B"/>
-<pinref part="R44" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="167.64" x2="58.42" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP1_SCLK" class="0">
@@ -33349,23 +33180,23 @@ D = Direct mounting &lt;p&gt;
 </net>
 <net name="STAMP1_CS_SG1" class="0">
 <segment>
-<pinref part="R37" gate="G$1" pin="1"/>
-<wire x1="137.16" y1="220.98" x2="142.24" y2="220.98" width="0.1524" layer="91"/>
 <label x="142.24" y="220.98" size="1.27" layer="95" xref="yes"/>
+<pinref part="SF2_M2S010TQ1" gate="G$1" pin="DDRIO55PB0/CCC_NE0_CLKI3"/>
+<wire x1="142.24" y1="220.98" x2="124.46" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP1_CS_SG2" class="0">
 <segment>
-<pinref part="R38" gate="G$1" pin="1"/>
-<wire x1="137.16" y1="218.44" x2="142.24" y2="218.44" width="0.1524" layer="91"/>
 <label x="142.24" y="218.44" size="1.27" layer="95" xref="yes"/>
+<pinref part="SF2_M2S010TQ1" gate="G$1" pin="DDRIO59NB0/GB4"/>
+<wire x1="142.24" y1="218.44" x2="124.46" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP1_CS_TEMP" class="0">
 <segment>
-<pinref part="R39" gate="G$1" pin="1"/>
-<wire x1="137.16" y1="215.9" x2="142.24" y2="215.9" width="0.1524" layer="91"/>
 <label x="142.24" y="215.9" size="1.27" layer="95" xref="yes"/>
+<pinref part="SF2_M2S010TQ1" gate="G$1" pin="DDRIO60NB0/CCC_NE1_CLKI3"/>
+<wire x1="142.24" y1="215.9" x2="124.46" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP2_SCLK" class="0">
@@ -33412,23 +33243,25 @@ D = Direct mounting &lt;p&gt;
 </net>
 <net name="STAMP2_CS_SG1" class="0">
 <segment>
-<pinref part="R42" gate="G$1" pin="2"/>
-<wire x1="48.26" y1="172.72" x2="45.72" y2="172.72" width="0.1524" layer="91"/>
 <label x="45.72" y="172.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="SF2_M2S010TQ1" gate="G$2" pin="MSIO2NB2/USB_NXT_B"/>
+<wire x1="45.72" y1="172.72" x2="63.5" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP2_CS_SG2" class="0">
 <segment>
-<pinref part="R43" gate="G$1" pin="2"/>
-<wire x1="48.26" y1="170.18" x2="45.72" y2="170.18" width="0.1524" layer="91"/>
 <label x="45.72" y="170.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="SF2_M2S010TQ1" gate="G$2" pin="MSIO3PB2/USB_DATA0_B"/>
+<wire x1="63.5" y1="170.18" x2="60.96" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="170.18" x2="58.42" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="170.18" x2="58.42" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP2_CS_TEMP" class="0">
 <segment>
-<pinref part="R44" gate="G$1" pin="2"/>
-<wire x1="48.26" y1="167.64" x2="45.72" y2="167.64" width="0.1524" layer="91"/>
 <label x="45.72" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="SF2_M2S010TQ1" gate="G$2" pin="MSIO4PB2/USB_DATA2_B"/>
+<wire x1="45.72" y1="167.64" x2="63.5" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$49" class="0">
@@ -33474,27 +33307,6 @@ D = Direct mounting &lt;p&gt;
 <wire x1="144.78" y1="182.88" x2="142.24" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$61" class="0">
-<segment>
-<pinref part="R47" gate="G$1" pin="1"/>
-<pinref part="SF2_M2S010TQ1" gate="G$4" pin="MSIO104NB4/GB7"/>
-<wire x1="43.18" y1="129.54" x2="63.5" y2="129.54" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$62" class="0">
-<segment>
-<pinref part="R48" gate="G$1" pin="1"/>
-<pinref part="SF2_M2S010TQ1" gate="G$4" pin="MSIO104PB4/GB3"/>
-<wire x1="43.18" y1="127" x2="63.5" y2="127" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$63" class="0">
-<segment>
-<pinref part="R49" gate="G$1" pin="1"/>
-<pinref part="SF2_M2S010TQ1" gate="G$4" pin="MSIO105PB4/CCC_NE0_CLKI0"/>
-<wire x1="43.18" y1="124.46" x2="63.5" y2="124.46" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="STAMP3_DRDY_SG2" class="0">
 <segment>
 <pinref part="SF2_M2S010TQ1" gate="G$4" pin="MSIO102PB4"/>
@@ -33511,23 +33323,27 @@ D = Direct mounting &lt;p&gt;
 </net>
 <net name="STAMP3_CS_SG1" class="0">
 <segment>
-<pinref part="R47" gate="G$1" pin="2"/>
-<wire x1="33.02" y1="129.54" x2="30.48" y2="129.54" width="0.1524" layer="91"/>
 <label x="30.48" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="SF2_M2S010TQ1" gate="G$4" pin="MSIO104NB4/GB7"/>
+<wire x1="30.48" y1="129.54" x2="63.5" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP3_CS_SG2" class="0">
 <segment>
-<pinref part="R48" gate="G$1" pin="2"/>
-<wire x1="33.02" y1="127" x2="30.48" y2="127" width="0.1524" layer="91"/>
 <label x="30.48" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="SF2_M2S010TQ1" gate="G$4" pin="MSIO104PB4/GB3"/>
+<wire x1="43.18" y1="127" x2="45.72" y2="127" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="127" x2="63.5" y2="127" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="127" x2="43.18" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP3_CS_TEMP" class="0">
 <segment>
-<pinref part="R49" gate="G$1" pin="2"/>
-<wire x1="33.02" y1="124.46" x2="30.48" y2="124.46" width="0.1524" layer="91"/>
 <label x="30.48" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="SF2_M2S010TQ1" gate="G$4" pin="MSIO105PB4/CCC_NE0_CLKI0"/>
+<wire x1="43.18" y1="124.46" x2="45.72" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="124.46" x2="63.5" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="124.46" x2="43.18" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$64" class="0">
@@ -33542,27 +33358,6 @@ D = Direct mounting &lt;p&gt;
 <pinref part="R51" gate="G$1" pin="1"/>
 <pinref part="SF2_M2S010TQ1" gate="G$4" pin="MSIO106PB4"/>
 <wire x1="58.42" y1="119.38" x2="63.5" y2="119.38" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$66" class="0">
-<segment>
-<pinref part="SF2_M2S010TQ1" gate="G$4" pin="MSIO109NB4"/>
-<pinref part="R54" gate="G$1" pin="2"/>
-<wire x1="124.46" y1="129.54" x2="127" y2="129.54" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$67" class="0">
-<segment>
-<pinref part="SF2_M2S010TQ1" gate="G$4" pin="MSIO109PB4"/>
-<pinref part="R53" gate="G$1" pin="2"/>
-<wire x1="124.46" y1="132.08" x2="127" y2="132.08" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$68" class="0">
-<segment>
-<pinref part="SF2_M2S010TQ1" gate="G$4" pin="MSIO108NB4"/>
-<pinref part="R52" gate="G$1" pin="2"/>
-<wire x1="124.46" y1="134.62" x2="127" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$69" class="0">
@@ -33623,44 +33418,23 @@ D = Direct mounting &lt;p&gt;
 </net>
 <net name="STAMP4_CS_SG1" class="0">
 <segment>
-<pinref part="R54" gate="G$1" pin="1"/>
-<wire x1="137.16" y1="129.54" x2="142.24" y2="129.54" width="0.1524" layer="91"/>
 <label x="142.24" y="129.54" size="1.27" layer="95" xref="yes"/>
+<pinref part="SF2_M2S010TQ1" gate="G$4" pin="MSIO109NB4"/>
+<wire x1="124.46" y1="129.54" x2="142.24" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP4_CS_SG2" class="0">
 <segment>
-<pinref part="R53" gate="G$1" pin="1"/>
-<wire x1="137.16" y1="132.08" x2="142.24" y2="132.08" width="0.1524" layer="91"/>
 <label x="142.24" y="132.08" size="1.27" layer="95" xref="yes"/>
+<pinref part="SF2_M2S010TQ1" gate="G$4" pin="MSIO109PB4"/>
+<wire x1="124.46" y1="132.08" x2="142.24" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP4_CS_TEMP" class="0">
 <segment>
-<pinref part="R52" gate="G$1" pin="1"/>
-<wire x1="137.16" y1="134.62" x2="142.24" y2="134.62" width="0.1524" layer="91"/>
 <label x="142.24" y="134.62" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$71" class="0">
-<segment>
-<pinref part="R57" gate="G$1" pin="1"/>
-<pinref part="SF2_M2S010TQ1" gate="G$5" pin="MSIOD93NB6"/>
-<wire x1="58.42" y1="86.36" x2="63.5" y2="86.36" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$72" class="0">
-<segment>
-<pinref part="R58" gate="G$1" pin="1"/>
-<pinref part="SF2_M2S010TQ1" gate="G$5" pin="MSIOD93PB6"/>
-<wire x1="58.42" y1="83.82" x2="63.5" y2="83.82" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$73" class="0">
-<segment>
-<pinref part="SF2_M2S010TQ1" gate="G$5" pin="MSIOD96PB6"/>
-<pinref part="R59" gate="G$1" pin="2"/>
-<wire x1="124.46" y1="96.52" x2="127" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="SF2_M2S010TQ1" gate="G$4" pin="MSIO108NB4"/>
+<wire x1="124.46" y1="134.62" x2="142.24" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP5_SCLK" class="0">
@@ -33707,24 +33481,24 @@ D = Direct mounting &lt;p&gt;
 </net>
 <net name="STAMP5_CS_SG1" class="0">
 <segment>
-<pinref part="R57" gate="G$1" pin="2"/>
-<wire x1="48.26" y1="86.36" x2="45.72" y2="86.36" width="0.1524" layer="91"/>
 <label x="45.72" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="SF2_M2S010TQ1" gate="G$5" pin="MSIOD93NB6"/>
+<wire x1="45.72" y1="86.36" x2="63.5" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP5_CS_SG2" class="0">
 <segment>
-<pinref part="R58" gate="G$1" pin="2"/>
-<wire x1="48.26" y1="83.82" x2="45.72" y2="83.82" width="0.1524" layer="91"/>
 <label x="45.72" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="SF2_M2S010TQ1" gate="G$5" pin="MSIOD93PB6"/>
+<wire x1="45.72" y1="83.82" x2="63.5" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP5_CS_TEMP" class="0">
 <segment>
 <wire x1="142.24" y1="106.68" x2="142.24" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="R59" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="96.52" x2="137.16" y2="96.52" width="0.1524" layer="91"/>
 <label x="142.24" y="96.52" size="1.27" layer="95" xref="yes"/>
+<pinref part="SF2_M2S010TQ1" gate="G$5" pin="MSIOD96PB6"/>
+<wire x1="142.24" y1="96.52" x2="124.46" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$74" class="0">
@@ -33739,27 +33513,6 @@ D = Direct mounting &lt;p&gt;
 <pinref part="R61" gate="G$1" pin="2"/>
 <pinref part="SF2_M2S010TQ1" gate="G$5" pin="MSIOD98NB6"/>
 <wire x1="127" y1="91.44" x2="124.46" y2="91.44" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$76" class="0">
-<segment>
-<pinref part="R62" gate="G$1" pin="1"/>
-<pinref part="SF2_M2S010TQ1" gate="G$6" pin="MSIO67NB7"/>
-<wire x1="58.42" y1="53.34" x2="63.5" y2="53.34" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$77" class="0">
-<segment>
-<pinref part="R63" gate="G$1" pin="1"/>
-<pinref part="SF2_M2S010TQ1" gate="G$6" pin="MSIO67PB7"/>
-<wire x1="58.42" y1="50.8" x2="63.5" y2="50.8" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$78" class="0">
-<segment>
-<pinref part="SF2_M2S010TQ1" gate="G$6" pin="MSIO71NB7"/>
-<pinref part="R67" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="48.26" x2="58.42" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP6_SCLK" class="0">
@@ -33799,23 +33552,23 @@ D = Direct mounting &lt;p&gt;
 </net>
 <net name="STAMP6_CS_SG1" class="0">
 <segment>
-<pinref part="R62" gate="G$1" pin="2"/>
-<wire x1="48.26" y1="53.34" x2="45.72" y2="53.34" width="0.1524" layer="91"/>
 <label x="45.72" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="SF2_M2S010TQ1" gate="G$6" pin="MSIO67NB7"/>
+<wire x1="45.72" y1="53.34" x2="63.5" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP6_CS_SG2" class="0">
 <segment>
-<pinref part="R63" gate="G$1" pin="2"/>
-<wire x1="48.26" y1="50.8" x2="45.72" y2="50.8" width="0.1524" layer="91"/>
 <label x="45.72" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="SF2_M2S010TQ1" gate="G$6" pin="MSIO67PB7"/>
+<wire x1="45.72" y1="50.8" x2="63.5" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP6_CS_TEMP" class="0">
 <segment>
-<pinref part="R67" gate="G$1" pin="2"/>
-<wire x1="48.26" y1="48.26" x2="45.72" y2="48.26" width="0.1524" layer="91"/>
 <label x="45.72" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="SF2_M2S010TQ1" gate="G$6" pin="MSIO71NB7"/>
+<wire x1="45.72" y1="48.26" x2="63.5" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP6_MISO" class="0">
@@ -33827,30 +33580,30 @@ D = Direct mounting &lt;p&gt;
 </net>
 <net name="HB_STAMPS" class="0">
 <segment>
-<pinref part="SF2_M2S010TQ1" gate="G$6" pin="MSIO76NB7"/>
-<wire x1="109.22" y1="58.42" x2="116.84" y2="58.42" width="0.1524" layer="91"/>
-<label x="116.84" y="58.42" size="1.27" layer="95" xref="yes"/>
+<label x="116.84" y="50.8" size="1.27" layer="95" xref="yes"/>
+<wire x1="116.84" y1="50.8" x2="109.22" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="SF2_M2S010TQ1" gate="G$6" pin="MSIO77PB7"/>
 </segment>
 </net>
 <net name="HB_STORAGE" class="0">
 <segment>
-<pinref part="SF2_M2S010TQ1" gate="G$6" pin="MSIO76PB7"/>
-<wire x1="109.22" y1="55.88" x2="116.84" y2="55.88" width="0.1524" layer="91"/>
-<label x="116.84" y="55.88" size="1.27" layer="95" xref="yes"/>
+<label x="116.84" y="53.34" size="1.27" layer="95" xref="yes"/>
+<pinref part="SF2_M2S010TQ1" gate="G$6" pin="MSIO77NB7"/>
+<wire x1="116.84" y1="53.34" x2="109.22" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="HB_MSS" class="0">
 <segment>
-<pinref part="SF2_M2S010TQ1" gate="G$6" pin="MSIO77NB7"/>
-<wire x1="109.22" y1="53.34" x2="116.84" y2="53.34" width="0.1524" layer="91"/>
-<label x="116.84" y="53.34" size="1.27" layer="95" xref="yes"/>
+<label x="116.84" y="55.88" size="1.27" layer="95" xref="yes"/>
+<pinref part="SF2_M2S010TQ1" gate="G$6" pin="MSIO76PB7"/>
+<wire x1="116.84" y1="55.88" x2="109.22" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED4" class="0">
 <segment>
-<pinref part="SF2_M2S010TQ1" gate="G$6" pin="MSIO77PB7"/>
-<wire x1="109.22" y1="50.8" x2="116.84" y2="50.8" width="0.1524" layer="91"/>
-<label x="116.84" y="50.8" size="1.27" layer="95" xref="yes"/>
+<label x="116.84" y="58.42" size="1.27" layer="95" xref="yes"/>
+<wire x1="116.84" y1="58.42" x2="109.22" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="SF2_M2S010TQ1" gate="G$6" pin="MSIO76NB7"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -33881,10 +33634,6 @@ D = Direct mounting &lt;p&gt;
 <instance part="U_TRACODCDC" gate="G$1" x="66.04" y="226.06" smashed="yes" grouprefs="POWER">
 <attribute name="NAME" x="55.88" y="208.28" size="1.4224" layer="95" font="vector"/>
 <attribute name="VALUE" x="55.88" y="205.74" size="1.4224" layer="96" font="vector"/>
-</instance>
-<instance part="C34" gate="G$1" x="38.1" y="228.6" smashed="yes" rot="R180" grouprefs="POWER">
-<attribute name="NAME" x="36.576" y="228.219" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="36.576" y="233.299" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C35" gate="G$1" x="91.44" y="228.6" smashed="yes" rot="R180" grouprefs="POWER">
 <attribute name="NAME" x="89.916" y="228.219" size="1.778" layer="95" rot="R180"/>
@@ -34306,7 +34055,7 @@ D = Direct mounting &lt;p&gt;
 <label x="332.74" y="218.44" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="LEDS"/>
 </segment>
 </net>
-<net name="5V" class="0">
+<net name="5V" class="2">
 <segment>
 <pinref part="U_LT1528" gate="G$1" pin="SHDN"/>
 <wire x1="50.8" y1="189.23" x2="48.26" y2="189.23" width="0.1524" layer="91" grouprefs="POWER"/>
@@ -34367,15 +34116,12 @@ D = Direct mounting &lt;p&gt;
 <wire x1="38.1" y1="151.13" x2="38.1" y2="146.05" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="28V" class="0">
+<net name="28V" class="1">
 <segment>
 <pinref part="U_TRACODCDC" gate="G$1" pin="+VIN"/>
 <label x="45.72" y="233.68" size="1.27" layer="95" rot="R90" xref="yes" grouprefs="POWER"/>
-<pinref part="C34" gate="G$1" pin="2"/>
-<wire x1="38.1" y1="233.68" x2="48.26" y2="233.68" width="0.1524" layer="91" grouprefs="POWER"/>
 <pinref part="C38" gate="G$1" pin="+"/>
-<wire x1="27.94" y1="233.68" x2="38.1" y2="233.68" width="0.1524" layer="91" grouprefs="POWER"/>
-<junction x="38.1" y="233.68" grouprefs="POWER"/>
+<wire x1="27.94" y1="233.68" x2="48.26" y2="233.68" width="0.1524" layer="91" grouprefs="POWER"/>
 <pinref part="C62" gate="G$1" pin="+"/>
 <pinref part="C61" gate="G$1" pin="+"/>
 <wire x1="27.94" y1="213.36" x2="17.78" y2="213.36" width="0.1524" layer="91" grouprefs="POWER"/>
@@ -34425,19 +34171,15 @@ D = Direct mounting &lt;p&gt;
 <label x="297.18" y="116.84" size="1.27" layer="95" xref="yes" grouprefs="CON_RXSM"/>
 </segment>
 </net>
-<net name="28VGND" class="0">
+<net name="28VGND" class="2">
 <segment>
 <pinref part="U_TRACODCDC" gate="G$1" pin="-VIN"/>
 <label x="45.72" y="228.6" size="1.27" layer="95" rot="R270" xref="yes" grouprefs="POWER"/>
 <wire x1="48.26" y1="228.6" x2="40.64" y2="228.6" width="0.1524" layer="91" grouprefs="POWER"/>
-<pinref part="C34" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="226.06" x2="38.1" y2="223.52" width="0.1524" layer="91" grouprefs="POWER"/>
-<wire x1="38.1" y1="223.52" x2="40.64" y2="223.52" width="0.1524" layer="91" grouprefs="POWER"/>
 <wire x1="40.64" y1="223.52" x2="40.64" y2="228.6" width="0.1524" layer="91" grouprefs="POWER"/>
 <pinref part="C38" gate="G$1" pin="-"/>
 <wire x1="27.94" y1="226.06" x2="27.94" y2="223.52" width="0.1524" layer="91" grouprefs="POWER"/>
-<wire x1="27.94" y1="223.52" x2="38.1" y2="223.52" width="0.1524" layer="91" grouprefs="POWER"/>
-<junction x="38.1" y="223.52" grouprefs="POWER"/>
+<wire x1="27.94" y1="223.52" x2="40.64" y2="223.52" width="0.1524" layer="91" grouprefs="POWER"/>
 <wire x1="27.94" y1="223.52" x2="17.78" y2="223.52" width="0.1524" layer="91" grouprefs="POWER"/>
 <junction x="27.94" y="223.52" grouprefs="POWER"/>
 <pinref part="C60" gate="G$1" pin="-"/>
@@ -34514,7 +34256,7 @@ D = Direct mounting &lt;p&gt;
 <label x="271.78" y="99.06" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="CON_RXSM"/>
 </segment>
 </net>
-<net name="EXP_IN_P" class="0">
+<net name="EXP_IN_P" class="3">
 <segment>
 <pinref part="U_MAX488" gate="G$1" pin="A"/>
 <wire x1="340.36" y1="58.42" x2="340.36" y2="60.96" width="0.1524" layer="91" grouprefs="TM"/>
@@ -34532,7 +34274,7 @@ D = Direct mounting &lt;p&gt;
 <label x="297.18" y="106.68" size="1.27" layer="95" xref="yes" grouprefs="CON_RXSM"/>
 </segment>
 </net>
-<net name="EXP_IN_N" class="0">
+<net name="EXP_IN_N" class="3">
 <segment>
 <pinref part="U_MAX488" gate="G$1" pin="B"/>
 <wire x1="340.36" y1="53.34" x2="340.36" y2="38.1" width="0.1524" layer="91" grouprefs="TM"/>
@@ -34550,7 +34292,7 @@ D = Direct mounting &lt;p&gt;
 <label x="297.18" y="104.14" size="1.27" layer="95" xref="yes" grouprefs="CON_RXSM"/>
 </segment>
 </net>
-<net name="EXP_OUT_N" class="0">
+<net name="EXP_OUT_N" class="3">
 <segment>
 <pinref part="U_MAX488" gate="G$1" pin="Z"/>
 <wire x1="340.36" y1="68.58" x2="360.68" y2="68.58" width="0.1524" layer="91" grouprefs="TM"/>
@@ -34562,7 +34304,7 @@ D = Direct mounting &lt;p&gt;
 <label x="271.78" y="101.6" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="CON_RXSM"/>
 </segment>
 </net>
-<net name="EXP_OUT_P" class="0">
+<net name="EXP_OUT_P" class="3">
 <segment>
 <pinref part="U_MAX488" gate="G$1" pin="Y"/>
 <wire x1="340.36" y1="73.66" x2="360.68" y2="73.66" width="0.1524" layer="91" grouprefs="TM"/>
@@ -34611,7 +34353,7 @@ D = Direct mounting &lt;p&gt;
 <label x="248.92" y="43.18" size="1.27" layer="95" rot="R270" xref="yes" grouprefs="TM"/>
 </segment>
 </net>
-<net name="5V-28V" class="0">
+<net name="5V-28V" class="2">
 <segment>
 <pinref part="C43" gate="G$1" pin="1"/>
 <wire x1="78.994" y1="91.186" x2="81.534" y2="91.186" width="0.1524" layer="91" grouprefs="POWER"/>
@@ -34656,7 +34398,7 @@ D = Direct mounting &lt;p&gt;
 <junction x="83.82" y="210.82" grouprefs="POWER"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="N$1" class="3">
 <segment>
 <pinref part="R10" gate="G$1" pin="1"/>
 <pinref part="R15" gate="G$1" pin="2"/>
@@ -34737,7 +34479,7 @@ D = Direct mounting &lt;p&gt;
 <wire x1="335.28" y1="147.32" x2="337.82" y2="147.32" width="0.1524" layer="91" grouprefs="LO_SODS_SOE"/>
 </segment>
 </net>
-<net name="RXSM_SODS" class="0">
+<net name="RXSM_SODS" class="2">
 <segment>
 <pinref part="U_OPTO_5" gate="G$1" pin="C2"/>
 <wire x1="337.82" y1="137.16" x2="335.28" y2="137.16" width="0.1524" layer="91" grouprefs="LO_SODS_SOE"/>
@@ -34749,7 +34491,7 @@ D = Direct mounting &lt;p&gt;
 <label x="271.78" y="111.76" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="CON_RXSM"/>
 </segment>
 </net>
-<net name="RXSM_LO" class="0">
+<net name="RXSM_LO" class="2">
 <segment>
 <pinref part="U_OPTO_5" gate="G$1" pin="C1"/>
 <wire x1="337.82" y1="142.24" x2="335.28" y2="142.24" width="0.1524" layer="91" grouprefs="LO_SODS_SOE"/>
@@ -34761,7 +34503,7 @@ D = Direct mounting &lt;p&gt;
 <label x="271.78" y="106.68" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="CON_RXSM"/>
 </segment>
 </net>
-<net name="RXSM_SOE" class="0">
+<net name="RXSM_SOE" class="2">
 <segment>
 <pinref part="U_OPTO_3" gate="G$1" pin="C1"/>
 <wire x1="337.82" y1="111.76" x2="335.28" y2="111.76" width="0.1524" layer="91" grouprefs="LO_SODS_SOE"/>
@@ -34843,14 +34585,14 @@ D = Direct mounting &lt;p&gt;
 <wire x1="345.44" y1="218.44" x2="347.98" y2="218.44" width="0.1524" layer="91" grouprefs="LEDS"/>
 </segment>
 </net>
-<net name="N$55" class="0">
+<net name="N$55" class="3">
 <segment>
 <pinref part="R20" gate="G$1" pin="1"/>
 <pinref part="LED7" gate="G$1" pin="A"/>
 <wire x1="345.44" y1="231.14" x2="347.98" y2="231.14" width="0.1524" layer="91" grouprefs="LEDS"/>
 </segment>
 </net>
-<net name="N$56" class="0">
+<net name="N$56" class="3">
 <segment>
 <pinref part="LED8" gate="G$1" pin="A"/>
 <pinref part="R21" gate="G$1" pin="1"/>
@@ -35473,52 +35215,30 @@ D = Direct mounting &lt;p&gt;
 </sheet>
 </sheets>
 <errors>
-<approved hash="102,2,58.42,264.16,VOUT,3V3REF,,,,"/>
-<approved hash="202,2,76.2,203.2,U_TRACODCDC,RMT_ON_OFF,,,,"/>
-<approved hash="202,2,76.2,198.12,U_TRACODCDC,TRIM,,,,"/>
-<approved hash="104,2,217.424,209.042,U_MAX488P,VCC,5V-28V,,,"/>
-<approved hash="104,2,232.664,209.042,U_MAX488P,GND,28VGND,,,"/>
-<approved hash="104,2,35.56,264.16,U_ADR366_3,VIN,5V,,,"/>
-<approved hash="206,2,152.146,213.868,GND,,,,,"/>
-<approved hash="206,2,152.146,203.708,GND,,,,,"/>
-<approved hash="206,2,151.13,264.16,GND,,,,,"/>
-<approved hash="206,2,151.13,254,GND,,,,,"/>
-<approved hash="206,2,146.558,171.704,GND,,,,,"/>
-<approved hash="208,2,152.146,213.868,GND,out,,,,"/>
-<approved hash="208,2,152.146,203.708,GND,out,,,,"/>
-<approved hash="208,2,151.13,264.16,GND,out,,,,"/>
-<approved hash="208,2,151.13,254,GND,out,,,,"/>
-<approved hash="208,2,146.558,171.704,GND,out,,,,"/>
-<approved hash="208,2,375.92,-142.24,GND,sup,,,,"/>
-<approved hash="208,2,353.06,-129.54,GND,sup,,,,"/>
-<approved hash="208,2,358.14,-165.1,GND,sup,,,,"/>
-<approved hash="208,2,320.04,-154.94,GND,sup,,,,"/>
-<approved hash="208,2,464.82,-144.78,GND,sup,,,,"/>
-<approved hash="208,2,375.92,-200.66,GND,sup,,,,"/>
-<approved hash="208,2,353.06,-187.96,GND,sup,,,,"/>
-<approved hash="208,2,358.14,-223.52,GND,sup,,,,"/>
-<approved hash="208,2,320.04,-213.36,GND,sup,,,,"/>
-<approved hash="208,2,464.82,-203.2,GND,sup,,,,"/>
-<approved hash="208,2,375.92,-259.08,GND,sup,,,,"/>
-<approved hash="208,2,353.06,-246.38,GND,sup,,,,"/>
-<approved hash="208,2,358.14,-281.94,GND,sup,,,,"/>
-<approved hash="208,2,320.04,-271.78,GND,sup,,,,"/>
-<approved hash="208,2,464.82,-261.62,GND,sup,,,,"/>
-<approved hash="208,2,375.92,-317.5,GND,sup,,,,"/>
-<approved hash="208,2,353.06,-304.8,GND,sup,,,,"/>
-<approved hash="208,2,358.14,-340.36,GND,sup,,,,"/>
-<approved hash="208,2,320.04,-330.2,GND,sup,,,,"/>
-<approved hash="208,2,464.82,-320.04,GND,sup,,,,"/>
-<approved hash="208,2,254,-226.06,GND,sup,,,,"/>
-<approved hash="208,2,241.3,-248.92,GND,sup,,,,"/>
-<approved hash="208,2,276.86,-243.84,GND,sup,,,,"/>
-<approved hash="208,2,266.7,-281.94,GND,sup,,,,"/>
-<approved hash="208,2,256.54,-137.16,GND,sup,,,,"/>
-<approved hash="208,2,121.92,-353.06,GND,sup,,,,"/>
-<approved hash="208,2,99.06,-340.36,GND,sup,,,,"/>
-<approved hash="208,2,104.14,-375.92,GND,sup,,,,"/>
-<approved hash="208,2,66.04,-365.76,GND,sup,,,,"/>
-<approved hash="208,2,210.82,-355.6,GND,sup,,,,"/>
+<approved hash="202,2,81.28,220.98,U_TRACODCDC,RMT_ON_OFF,,,,"/>
+<approved hash="104,2,322.58,83.82,U_MAX488P,VCC,5V-28V,,,"/>
+<approved hash="104,2,337.82,83.82,U_MAX488P,GND,28VGND,,,"/>
+<approved hash="104,1,210.82,134.62,CN1,VBUS,N$16,,,"/>
+<approved hash="206,2,271.78,50.8,GND,,,,,"/>
+<approved hash="206,2,358.14,101.6,GND,,,,,"/>
+<approved hash="206,2,358.14,111.76,GND,,,,,"/>
+<approved hash="206,2,358.14,132.08,GND,,,,,"/>
+<approved hash="206,2,358.14,142.24,GND,,,,,"/>
+<approved hash="213,3,109.22,215.9,ADC_START,in,,,,"/>
+<approved hash="213,3,134.62,203.2,MOSI,in,,,,"/>
+<approved hash="213,3,134.62,205.74,SCLK,in,,,,"/>
+<approved hash="213,3,134.62,190.5,SG1_CS,in,,,,"/>
+<approved hash="213,3,134.62,187.96,SG2_CS,in,,,,"/>
+<approved hash="213,3,106.68,215.9,SG_CLK,in,,,,"/>
+<approved hash="213,3,134.62,185.42,TEMP_CS,in,,,,"/>
+<approved hash="113,2,193.571,130.071,FRAME1,,,,,"/>
+<approved hash="113,1,193.571,130.071,FRAME3,,,,,"/>
+<approved hash="113,1,277.097,23.0861,WP,,,,,"/>
+<approved hash="113,2,263.112,14.1961,PROBES,,,,,"/>
+<approved hash="113,3,193.571,130.071,FRAME2,,,,,"/>
+<approved hash="113,2,284.48,109.473,X1,,,,,"/>
+<approved hash="113,1,202.565,130.899,CN1,,,,,"/>
+<approved hash="113,1@STAMP,193.571,130.071,FRAME2,,,,,"/>
 </errors>
 </schematic>
 </drawing>
