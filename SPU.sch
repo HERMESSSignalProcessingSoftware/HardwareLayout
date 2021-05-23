@@ -39356,13 +39356,6 @@ D = Direct mounting &lt;p&gt;
 <approved hash="206,2,358.14,111.76,GND,,,,,"/>
 <approved hash="206,2,358.14,132.08,GND,,,,,"/>
 <approved hash="206,2,358.14,142.24,GND,,,,,"/>
-<approved hash="213,3,109.22,215.9,ADC_START,in,,,,"/>
-<approved hash="213,3,134.62,203.2,MOSI,in,,,,"/>
-<approved hash="213,3,134.62,205.74,SCLK,in,,,,"/>
-<approved hash="213,3,134.62,190.5,SG1_CS,in,,,,"/>
-<approved hash="213,3,134.62,187.96,SG2_CS,in,,,,"/>
-<approved hash="213,3,106.68,215.9,SG_CLK,in,,,,"/>
-<approved hash="213,3,134.62,185.42,TEMP_CS,in,,,,"/>
 <approved hash="113,2,193.571,130.071,FRAME1,,,,,"/>
 <approved hash="113,1,193.571,130.071,FRAME3,,,,,"/>
 <approved hash="113,1,277.097,23.0861,WP,,,,,"/>
@@ -39370,6 +39363,11 @@ D = Direct mounting &lt;p&gt;
 <approved hash="113,3,193.571,130.071,FRAME2,,,,,"/>
 <approved hash="113,2,284.48,109.473,X1,,,,,"/>
 <approved hash="113,1,202.565,130.899,CN1,,,,,"/>
+<approved hash="113,4,193.571,130.071,FRAME4,,,,,"/>
+<approved hash="113,5,193.571,130.071,FRAME6,,,,,"/>
+<approved hash="113,6,193.571,130.071,FRAME8,,,,,"/>
+<approved hash="113,7,193.571,130.071,FRAME7,,,,,"/>
+<approved hash="113,8,193.571,130.071,FRAME10,,,,,"/>
 </errors>
 </schematic>
 </drawing>
