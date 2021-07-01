@@ -34848,6 +34848,7 @@ D = Direct mounting &lt;p&gt;
 <sheet>
 <description>STAMP 2</description>
 <plain>
+<text x="165.1" y="238.76" size="6.4516" layer="94">STAMP 2</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0" smashed="yes">
@@ -35748,6 +35749,7 @@ D = Direct mounting &lt;p&gt;
 <sheet>
 <description>STAMP 3</description>
 <plain>
+<text x="162.56" y="238.76" size="6.4516" layer="94">STAMP 3</text>
 </plain>
 <instances>
 <instance part="FRAME6" gate="G$1" x="0" y="0" smashed="yes">
@@ -36648,6 +36650,7 @@ D = Direct mounting &lt;p&gt;
 <sheet>
 <description>STAMP 4</description>
 <plain>
+<text x="162.56" y="236.22" size="6.4516" layer="94">STAMP 4</text>
 </plain>
 <instances>
 <instance part="FRAME8" gate="G$1" x="0" y="0" smashed="yes">
@@ -37548,6 +37551,7 @@ D = Direct mounting &lt;p&gt;
 <sheet>
 <description>STAMP 5</description>
 <plain>
+<text x="165.1" y="236.22" size="6.4516" layer="94">STAMP 5</text>
 </plain>
 <instances>
 <instance part="FRAME7" gate="G$1" x="0" y="0" smashed="yes">
@@ -38448,6 +38452,7 @@ D = Direct mounting &lt;p&gt;
 <sheet>
 <description>STAMP 6</description>
 <plain>
+<text x="162.56" y="236.22" size="6.4516" layer="94">STAMP 6</text>
 </plain>
 <instances>
 <instance part="FRAME10" gate="G$1" x="0" y="0" smashed="yes">
