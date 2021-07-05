@@ -226,7 +226,7 @@
 <hole x="80" y="125" drill="5"/>
 <hole x="155" y="65" drill="5"/>
 <hole x="80" y="5" drill="5"/>
-<text x="85.09" y="64.77" size="2.54" layer="21" rot="R90">HERMESS SPU Rev 3.0</text>
+<text x="85.09" y="43.18" size="3.81" layer="21" rot="R90">HERMESS SPU Rev 3.1</text>
 <dimension x1="160" y1="130" x2="160.02" y2="0" x3="182.870196875" y3="65.003515625" textsize="1.778" layer="47"/>
 <dimension x1="0" y1="0" x2="160" y2="0" x3="80" y3="-17.78" textsize="1.778" layer="47"/>
 <dimension x1="88.9" y1="1.27" x2="99.695" y2="1.27" x3="94.2975" y3="-5.08" textsize="1.778" layer="47"/>
@@ -239,6 +239,11 @@
 <dimension x1="80" y1="125" x2="155" y2="125" x3="117.5" y3="140.801603125" textsize="1.778" layer="47"/>
 <dimension x1="0" y1="0" x2="5" y2="5" x3="2.5" y3="-8.89" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="3.232234375" y1="3.232234375" x2="6.767765625" y2="6.767765625" x3="6.767765625" y3="6.767765625" textsize="1.778" layer="47" dtype="diameter"/>
+<text x="83.9978" y="114.6302" size="1.778" layer="21">REMOVE WRITE PROTECT (WP) BEFORE FLIGHT
+Put after launch</text>
+<text x="143.51" y="123.19" size="3.81" layer="21">N↑</text>
+<text x="17.78" y="123.19" size="3.81" layer="22" rot="MR0">N↑</text>
+<text x="104.0892" y="109.982" size="6.4516" layer="21">→</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -6255,7 +6260,6 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="148.59" y="95.25" size="1.778" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="STAMP1_ADC_SG1" library="ads11xx" package="TSSOP28" package3d_urn="urn:adsk.eagle:package:17526348/1" value="ADS1148QPWRQ1" x="13.97" y="35.56" smashed="yes" rot="MR0">
-<attribute name="NAME" x="13.97" y="41.3774" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="13.97" y="30.025" size="1.27" layer="28" rot="MR0" align="top-center"/>
 </element>
 <element name="C33" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n" x="19.685" y="40.259" smashed="yes" rot="MR180">
@@ -6320,7 +6324,6 @@ design rules under a new name.</description>
 </element>
 <element name="U$6" library="selfmade" package="COMMON_MODE_CHOKE" value="COMMON_MODE_CHOKE" x="21.59" y="20.32" smashed="yes" rot="MR270"/>
 <element name="STAMP1_ADC_SG2" library="ads11xx" package="TSSOP28" package3d_urn="urn:adsk.eagle:package:17526348/1" value="ADS1148QPWRQ1" x="34.798" y="12.446" smashed="yes" rot="MR180">
-<attribute name="NAME" x="34.798" y="6.6286" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="34.798" y="17.981" size="1.27" layer="28" rot="MR180" align="top-center"/>
 </element>
 <element name="C49" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n" x="28.956" y="8.636" smashed="yes" rot="MR180">
@@ -6385,7 +6388,6 @@ design rules under a new name.</description>
 </element>
 <element name="U$7" library="selfmade" package="COMMON_MODE_CHOKE" value="COMMON_MODE_CHOKE" x="27.94" y="29.21" smashed="yes" rot="MR90"/>
 <element name="STAMP1_ADC_TEMP" library="ads11xx" package="TSSOP28" package3d_urn="urn:adsk.eagle:package:17526348/1" value="ADS1148QPWRQ1" x="33.401" y="29.337" smashed="yes" rot="R180">
-<attribute name="NAME" x="33.401" y="23.5196" size="1.27" layer="25" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="33.401" y="34.872" size="1.27" layer="27" rot="R180" align="top-center"/>
 </element>
 <element name="C55" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n" x="28.067" y="28.829" smashed="yes" rot="R90">
@@ -6472,7 +6474,6 @@ design rules under a new name.</description>
 <attribute name="NAME" x="17.71" y="11.66" size="1.27" layer="21" rot="R90"/>
 </element>
 <element name="STAMP1_ADC_SG5" library="ads11xx" package="TSSOP28" package3d_urn="urn:adsk.eagle:package:17526348/1" value="ADS1148QPWRQ1" x="13.97" y="74.93" smashed="yes" rot="MR0">
-<attribute name="NAME" x="13.97" y="80.7474" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="13.97" y="69.395" size="1.27" layer="28" rot="MR0" align="top-center"/>
 </element>
 <element name="C92" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n" x="19.685" y="79.629" smashed="yes" rot="MR180">
@@ -6537,7 +6538,6 @@ design rules under a new name.</description>
 </element>
 <element name="U$9" library="selfmade" package="COMMON_MODE_CHOKE" value="COMMON_MODE_CHOKE" x="21.59" y="59.69" smashed="yes" rot="MR270"/>
 <element name="STAMP1_ADC_SG6" library="ads11xx" package="TSSOP28" package3d_urn="urn:adsk.eagle:package:17526348/1" value="ADS1148QPWRQ1" x="34.798" y="51.816" smashed="yes" rot="MR180">
-<attribute name="NAME" x="34.798" y="45.9986" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="34.798" y="57.351" size="1.27" layer="28" rot="MR180" align="top-center"/>
 </element>
 <element name="C98" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n" x="28.956" y="48.006" smashed="yes" rot="MR180">
@@ -6602,7 +6602,6 @@ design rules under a new name.</description>
 </element>
 <element name="U$10" library="selfmade" package="COMMON_MODE_CHOKE" value="COMMON_MODE_CHOKE" x="27.94" y="68.58" smashed="yes" rot="MR90"/>
 <element name="STAMP1_ADC_TEMP2" library="ads11xx" package="TSSOP28" package3d_urn="urn:adsk.eagle:package:17526348/1" value="ADS1148QPWRQ1" x="33.401" y="68.707" smashed="yes" rot="R180">
-<attribute name="NAME" x="33.401" y="62.8896" size="1.27" layer="25" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="33.401" y="74.242" size="1.27" layer="27" rot="R180" align="top-center"/>
 </element>
 <element name="C104" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n" x="28.067" y="68.199" smashed="yes" rot="R90">
@@ -6685,11 +6684,10 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="-216.916" y="103.251" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="14.224" y="67.056" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="CON_STAMP3" library="con-jae" package="IL-AG5-10P-S3T2" value="IL-AG5-10P-S3T2" x="29.21" y="49.53" smashed="yes" rot="R90">
+<element name="CON_STAMP2" library="con-jae" package="IL-AG5-10P-S3T2" value="IL-AG5-10P-S3T2" x="29.21" y="49.53" smashed="yes" rot="R90">
 <attribute name="NAME" x="17.71" y="51.03" size="1.27" layer="21" rot="R90"/>
 </element>
 <element name="STAMP1_ADC_SG9" library="ads11xx" package="TSSOP28" package3d_urn="urn:adsk.eagle:package:17526348/1" value="ADS1148QPWRQ1" x="12.7" y="114.3" smashed="yes" rot="MR0">
-<attribute name="NAME" x="12.7" y="120.1174" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="12.7" y="108.765" size="1.27" layer="28" rot="MR0" align="top-center"/>
 </element>
 <element name="C134" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n" x="18.415" y="118.999" smashed="yes" rot="MR180">
@@ -6754,7 +6752,6 @@ design rules under a new name.</description>
 </element>
 <element name="U$13" library="selfmade" package="COMMON_MODE_CHOKE" value="COMMON_MODE_CHOKE" x="20.32" y="99.06" smashed="yes" rot="MR270"/>
 <element name="STAMP1_ADC_SG10" library="ads11xx" package="TSSOP28" package3d_urn="urn:adsk.eagle:package:17526348/1" value="ADS1148QPWRQ1" x="33.528" y="91.186" smashed="yes" rot="MR180">
-<attribute name="NAME" x="33.528" y="85.3686" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="33.528" y="96.721" size="1.27" layer="28" rot="MR180" align="top-center"/>
 </element>
 <element name="C140" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n" x="27.686" y="87.376" smashed="yes" rot="MR180">
@@ -6819,7 +6816,6 @@ design rules under a new name.</description>
 </element>
 <element name="U$14" library="selfmade" package="COMMON_MODE_CHOKE" value="COMMON_MODE_CHOKE" x="26.67" y="107.95" smashed="yes" rot="MR90"/>
 <element name="STAMP1_ADC_TEMP4" library="ads11xx" package="TSSOP28" package3d_urn="urn:adsk.eagle:package:17526348/1" value="ADS1148QPWRQ1" x="32.131" y="108.077" smashed="yes" rot="R180">
-<attribute name="NAME" x="32.131" y="102.2596" size="1.27" layer="25" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="32.131" y="113.612" size="1.27" layer="27" rot="R180" align="top-center"/>
 </element>
 <element name="C146" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n" x="26.797" y="107.569" smashed="yes" rot="R90">
@@ -6902,11 +6898,10 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="-218.186" y="142.621" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="12.954" y="106.426" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="CON_STAMP5" library="con-jae" package="IL-AG5-10P-S3T2" value="IL-AG5-10P-S3T2" x="27.94" y="88.9" smashed="yes" rot="R90">
+<element name="CON_STAMP3" library="con-jae" package="IL-AG5-10P-S3T2" value="IL-AG5-10P-S3T2" x="27.94" y="88.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="16.44" y="90.4" size="1.27" layer="21" rot="R90"/>
 </element>
 <element name="STAMP1_ADC_SG11" library="ads11xx" package="TSSOP28" package3d_urn="urn:adsk.eagle:package:17526348/1" value="ADS1148QPWRQ1" x="44.45" y="35.56" smashed="yes" rot="MR0">
-<attribute name="NAME" x="44.45" y="41.3774" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="44.45" y="30.025" size="1.27" layer="28" rot="MR0" align="top-center"/>
 </element>
 <element name="C155" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n" x="50.165" y="40.259" smashed="yes" rot="MR180">
@@ -6971,7 +6966,6 @@ design rules under a new name.</description>
 </element>
 <element name="U$15" library="selfmade" package="COMMON_MODE_CHOKE" value="COMMON_MODE_CHOKE" x="52.07" y="20.32" smashed="yes" rot="MR270"/>
 <element name="STAMP1_ADC_SG12" library="ads11xx" package="TSSOP28" package3d_urn="urn:adsk.eagle:package:17526348/1" value="ADS1148QPWRQ1" x="65.278" y="12.446" smashed="yes" rot="MR180">
-<attribute name="NAME" x="65.278" y="6.6286" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="65.278" y="17.981" size="1.27" layer="28" rot="MR180" align="top-center"/>
 </element>
 <element name="C161" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n" x="59.436" y="8.636" smashed="yes" rot="MR180">
@@ -7036,7 +7030,6 @@ design rules under a new name.</description>
 </element>
 <element name="U$16" library="selfmade" package="COMMON_MODE_CHOKE" value="COMMON_MODE_CHOKE" x="58.42" y="29.21" smashed="yes" rot="MR90"/>
 <element name="STAMP1_ADC_TEMP5" library="ads11xx" package="TSSOP28" package3d_urn="urn:adsk.eagle:package:17526348/1" value="ADS1148QPWRQ1" x="63.881" y="29.337" smashed="yes" rot="R180">
-<attribute name="NAME" x="63.881" y="23.5196" size="1.27" layer="25" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="63.881" y="34.872" size="1.27" layer="27" rot="R180" align="top-center"/>
 </element>
 <element name="C167" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n" x="58.547" y="28.829" smashed="yes" rot="R90">
@@ -7119,11 +7112,10 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="-186.436" y="63.881" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="44.704" y="27.686" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="CON_STAMP6" library="con-jae" package="IL-AG5-10P-S3T2" value="IL-AG5-10P-S3T2" x="59.69" y="10.16" smashed="yes" rot="R90">
+<element name="CON_STAMP4" library="con-jae" package="IL-AG5-10P-S3T2" value="IL-AG5-10P-S3T2" x="59.69" y="10.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="48.19" y="11.66" size="1.27" layer="21" rot="R90"/>
 </element>
 <element name="STAMP1_ADC_SG7" library="ads11xx" package="TSSOP28" package3d_urn="urn:adsk.eagle:package:17526348/1" value="ADS1148QPWRQ1" x="44.45" y="74.93" smashed="yes" rot="MR0">
-<attribute name="NAME" x="44.45" y="80.7474" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="44.45" y="69.395" size="1.27" layer="28" rot="MR0" align="top-center"/>
 </element>
 <element name="C113" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n" x="50.165" y="79.629" smashed="yes" rot="MR180">
@@ -7188,7 +7180,6 @@ design rules under a new name.</description>
 </element>
 <element name="U$11" library="selfmade" package="COMMON_MODE_CHOKE" value="COMMON_MODE_CHOKE" x="52.07" y="59.69" smashed="yes" rot="MR270"/>
 <element name="STAMP1_ADC_SG8" library="ads11xx" package="TSSOP28" package3d_urn="urn:adsk.eagle:package:17526348/1" value="ADS1148QPWRQ1" x="65.278" y="51.816" smashed="yes" rot="MR180">
-<attribute name="NAME" x="65.278" y="45.9986" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="65.278" y="57.351" size="1.27" layer="28" rot="MR180" align="top-center"/>
 </element>
 <element name="C119" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n" x="59.436" y="48.006" smashed="yes" rot="MR180">
@@ -7253,7 +7244,6 @@ design rules under a new name.</description>
 </element>
 <element name="U$12" library="selfmade" package="COMMON_MODE_CHOKE" value="COMMON_MODE_CHOKE" x="58.42" y="68.58" smashed="yes" rot="MR90"/>
 <element name="STAMP1_ADC_TEMP3" library="ads11xx" package="TSSOP28" package3d_urn="urn:adsk.eagle:package:17526348/1" value="ADS1148QPWRQ1" x="63.881" y="68.707" smashed="yes" rot="R180">
-<attribute name="NAME" x="63.881" y="62.8896" size="1.27" layer="25" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="63.881" y="74.242" size="1.27" layer="27" rot="R180" align="top-center"/>
 </element>
 <element name="C125" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n" x="58.547" y="68.199" smashed="yes" rot="R90">
@@ -7336,11 +7326,10 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="-186.436" y="103.251" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="44.704" y="67.056" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="CON_STAMP4" library="con-jae" package="IL-AG5-10P-S3T2" value="IL-AG5-10P-S3T2" x="59.69" y="49.53" smashed="yes" rot="R90">
+<element name="CON_STAMP5" library="con-jae" package="IL-AG5-10P-S3T2" value="IL-AG5-10P-S3T2" x="59.69" y="49.53" smashed="yes" rot="R90">
 <attribute name="NAME" x="48.19" y="51.03" size="1.27" layer="21" rot="R90"/>
 </element>
 <element name="STAMP1_ADC_SG15" library="ads11xx" package="TSSOP28" package3d_urn="urn:adsk.eagle:package:17526348/1" value="ADS1148QPWRQ1" x="43.18" y="114.3" smashed="yes" rot="MR0">
-<attribute name="NAME" x="43.18" y="120.1174" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="43.18" y="108.765" size="1.27" layer="28" rot="MR0" align="top-center"/>
 </element>
 <element name="C197" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n" x="48.895" y="118.999" smashed="yes" rot="MR180">
@@ -7405,7 +7394,6 @@ design rules under a new name.</description>
 </element>
 <element name="U$19" library="selfmade" package="COMMON_MODE_CHOKE" value="COMMON_MODE_CHOKE" x="50.8" y="99.06" smashed="yes" rot="MR270"/>
 <element name="STAMP1_ADC_SG16" library="ads11xx" package="TSSOP28" package3d_urn="urn:adsk.eagle:package:17526348/1" value="ADS1148QPWRQ1" x="64.008" y="91.186" smashed="yes" rot="MR180">
-<attribute name="NAME" x="64.008" y="85.3686" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="64.008" y="96.721" size="1.27" layer="28" rot="MR180" align="top-center"/>
 </element>
 <element name="C203" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n" x="58.166" y="87.376" smashed="yes" rot="MR180">
@@ -7470,7 +7458,6 @@ design rules under a new name.</description>
 </element>
 <element name="U$20" library="selfmade" package="COMMON_MODE_CHOKE" value="COMMON_MODE_CHOKE" x="57.15" y="107.95" smashed="yes" rot="MR90"/>
 <element name="STAMP1_ADC_TEMP7" library="ads11xx" package="TSSOP28" package3d_urn="urn:adsk.eagle:package:17526348/1" value="ADS1148QPWRQ1" x="62.611" y="108.077" smashed="yes" rot="R180">
-<attribute name="NAME" x="62.611" y="102.2596" size="1.27" layer="25" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="62.611" y="113.612" size="1.27" layer="27" rot="R180" align="top-center"/>
 </element>
 <element name="C209" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n" x="57.277" y="107.569" smashed="yes" rot="R90">
@@ -7553,7 +7540,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="-187.706" y="142.621" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="43.434" y="106.426" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="CON_STAMP8" library="con-jae" package="IL-AG5-10P-S3T2" value="IL-AG5-10P-S3T2" x="58.42" y="88.9" smashed="yes" rot="R90">
+<element name="CON_STAMP6" library="con-jae" package="IL-AG5-10P-S3T2" value="IL-AG5-10P-S3T2" x="58.42" y="88.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="46.92" y="90.4" size="1.27" layer="21" rot="R90"/>
 </element>
 </elements>
@@ -7806,7 +7793,7 @@ design rules under a new name.</description>
 <wire x1="30.141" y1="48.241" x2="31.9263" y2="48.241" width="0.254" layer="16"/>
 <wire x1="37.6697" y1="52.141" x2="39.253" y2="52.141" width="0.254" layer="16"/>
 <wire x1="39.253" y1="52.141" x2="39.751" y2="52.639" width="0.254" layer="16"/>
-<contactref element="CON_STAMP3" pad="P$7"/>
+<contactref element="CON_STAMP2" pad="P$7"/>
 <wire x1="16.764" y1="67.371" x2="16.764" y2="69.662" width="0.254" layer="1"/>
 <wire x1="37.38885" y1="64.822175" x2="37.38885" y2="64.141825" width="0.254" layer="1"/>
 <wire x1="37.211" y1="63.053" x2="37.211" y2="63.963975" width="0.254" layer="1"/>
@@ -7865,7 +7852,7 @@ design rules under a new name.</description>
 <wire x1="28.871" y1="87.611" x2="30.6563" y2="87.611" width="0.254" layer="16"/>
 <wire x1="36.3997" y1="91.511" x2="37.983" y2="91.511" width="0.254" layer="16"/>
 <wire x1="37.983" y1="91.511" x2="38.481" y2="92.009" width="0.254" layer="16"/>
-<contactref element="CON_STAMP5" pad="P$7"/>
+<contactref element="CON_STAMP3" pad="P$7"/>
 <wire x1="15.494" y1="106.741" x2="15.494" y2="109.032" width="0.254" layer="1"/>
 <wire x1="36.11885" y1="104.192175" x2="36.11885" y2="103.511825" width="0.254" layer="1"/>
 <wire x1="35.941" y1="102.423" x2="35.941" y2="103.333975" width="0.254" layer="1"/>
@@ -7925,7 +7912,7 @@ design rules under a new name.</description>
 <wire x1="60.621" y1="8.871" x2="62.4063" y2="8.871" width="0.254" layer="16"/>
 <wire x1="68.1497" y1="12.771" x2="69.733" y2="12.771" width="0.254" layer="16"/>
 <wire x1="69.733" y1="12.771" x2="70.231" y2="13.269" width="0.254" layer="16"/>
-<contactref element="CON_STAMP6" pad="P$7"/>
+<contactref element="CON_STAMP4" pad="P$7"/>
 <wire x1="47.244" y1="28.001" x2="47.244" y2="30.292" width="0.254" layer="1"/>
 <wire x1="67.86885" y1="25.452175" x2="67.86885" y2="24.771825" width="0.254" layer="1"/>
 <wire x1="67.691" y1="23.683" x2="67.691" y2="24.593975" width="0.254" layer="1"/>
@@ -7986,7 +7973,7 @@ design rules under a new name.</description>
 <wire x1="60.621" y1="48.241" x2="62.4063" y2="48.241" width="0.254" layer="16"/>
 <wire x1="68.1497" y1="52.141" x2="69.733" y2="52.141" width="0.254" layer="16"/>
 <wire x1="69.733" y1="52.141" x2="70.231" y2="52.639" width="0.254" layer="16"/>
-<contactref element="CON_STAMP4" pad="P$7"/>
+<contactref element="CON_STAMP5" pad="P$7"/>
 <wire x1="47.244" y1="67.371" x2="47.244" y2="69.662" width="0.254" layer="1"/>
 <wire x1="67.691" y1="63.053" x2="67.691" y2="63.963975" width="0.254" layer="1"/>
 <wire x1="66.7527" y1="65.132" x2="66.7527" y2="65.782" width="0.254" layer="1"/>
@@ -8040,7 +8027,7 @@ design rules under a new name.</description>
 <wire x1="59.351" y1="87.611" x2="61.1363" y2="87.611" width="0.254" layer="16"/>
 <wire x1="66.8797" y1="91.511" x2="68.463" y2="91.511" width="0.254" layer="16"/>
 <wire x1="68.463" y1="91.511" x2="68.961" y2="92.009" width="0.254" layer="16"/>
-<contactref element="CON_STAMP8" pad="P$7"/>
+<contactref element="CON_STAMP6" pad="P$7"/>
 <wire x1="45.974" y1="106.741" x2="45.974" y2="109.032" width="0.254" layer="1"/>
 <wire x1="66.59885" y1="104.192175" x2="66.59885" y2="103.511825" width="0.254" layer="1"/>
 <wire x1="66.421" y1="102.423" x2="66.421" y2="103.333975" width="0.254" layer="1"/>
@@ -13608,19 +13595,19 @@ design rules under a new name.</description>
 </signal>
 <signal name="STAMP2_SG1_AIN3">
 <contactref element="U$9" pad="P$2"/>
-<contactref element="CON_STAMP3" pad="P$3"/>
+<contactref element="CON_STAMP2" pad="P$3"/>
 <wire x1="16.51" y1="52.83" x2="21.11" y2="57.43" width="0.254" layer="16"/>
 <wire x1="21.11" y1="57.43" x2="24.61" y2="57.43" width="0.254" layer="16"/>
 </signal>
 <signal name="STAMP2_SG1_AIN2">
 <contactref element="U$9" pad="P$4"/>
-<contactref element="CON_STAMP3" pad="P$2"/>
+<contactref element="CON_STAMP2" pad="P$2"/>
 <wire x1="19.05" y1="52.83" x2="21.15" y2="54.93" width="0.254" layer="16"/>
 <wire x1="21.15" y1="54.93" x2="24.61" y2="54.93" width="0.254" layer="16"/>
 </signal>
 <signal name="STAMP2_SG1_AIN1">
 <contactref element="U$9" pad="P$6"/>
-<contactref element="CON_STAMP3" pad="P$1"/>
+<contactref element="CON_STAMP2" pad="P$1"/>
 <wire x1="21.59" y1="52.83" x2="24.21" y2="52.83" width="0.254" layer="16"/>
 <wire x1="24.21" y1="52.83" x2="24.61" y2="52.43" width="0.254" layer="16"/>
 </signal>
@@ -13746,7 +13733,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="STAMP2_SG2_AIN3">
 <contactref element="U$10" pad="P$2"/>
-<contactref element="CON_STAMP3" pad="P$8"/>
+<contactref element="CON_STAMP2" pad="P$8"/>
 <wire x1="24.61" y1="69.93" x2="27.01056875" y2="69.93" width="0.254" layer="16"/>
 <wire x1="27.01056875" y1="69.93" x2="27.16396875" y2="69.7766" width="0.254" layer="16"/>
 <wire x1="27.16396875" y1="69.7766" x2="27.75083125" y2="69.7766" width="0.254" layer="16"/>
@@ -13756,7 +13743,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="STAMP2_SG2_AIN2">
 <contactref element="U$10" pad="P$4"/>
-<contactref element="CON_STAMP3" pad="P$9"/>
+<contactref element="CON_STAMP2" pad="P$9"/>
 <wire x1="24.61" y1="72.43" x2="26.6528" y2="74.4728" width="0.254" layer="16"/>
 <wire x1="29.931975" y1="75.44" x2="30.48" y2="75.44" width="0.254" layer="16"/>
 <wire x1="26.6528" y1="74.4728" x2="28.964775" y2="74.4728" width="0.254" layer="16"/>
@@ -13764,7 +13751,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="STAMP2_SG2_AIN1">
 <contactref element="U$10" pad="P$6"/>
-<contactref element="CON_STAMP3" pad="P$10"/>
+<contactref element="CON_STAMP2" pad="P$10"/>
 <wire x1="24.61" y1="74.93" x2="27.43" y2="74.93" width="0.254" layer="16"/>
 <wire x1="27.43" y1="74.93" x2="27.94" y2="75.44" width="0.254" layer="16"/>
 </signal>
@@ -13818,7 +13805,7 @@ design rules under a new name.</description>
 <signal name="STAMP2_TEMP_AIN2">
 <contactref element="STAMP1_ADC_TEMP2" pad="18"/>
 <contactref element="R96" pad="2"/>
-<contactref element="CON_STAMP3" pad="P$5"/>
+<contactref element="CON_STAMP2" pad="P$5"/>
 <wire x1="30.8" y1="61.976" x2="25.064" y2="61.976" width="0.254" layer="1"/>
 <wire x1="25.064" y1="61.976" x2="24.61" y2="62.43" width="0.254" layer="1"/>
 <via x="23.1796" y="66.2816" extent="1-16" drill="0.35"/>
@@ -13838,7 +13825,7 @@ design rules under a new name.</description>
 <signal name="STAMP2_TEMP_AIN1">
 <contactref element="R95" pad="2"/>
 <contactref element="STAMP1_ADC_TEMP2" pad="11"/>
-<contactref element="CON_STAMP3" pad="P$4"/>
+<contactref element="CON_STAMP2" pad="P$4"/>
 <wire x1="35.15655" y1="73.272175" x2="35.349975" y2="73.4656" width="0.254" layer="1"/>
 <wire x1="35.349975" y1="73.4656" x2="37.195425" y2="73.4656" width="0.254" layer="1"/>
 <wire x1="29.593225" y1="54.0768" x2="29.3998" y2="54.270225" width="0.254" layer="1"/>
@@ -13921,7 +13908,7 @@ design rules under a new name.</description>
 <signal name="STAMP2_TEMP_AIN3">
 <contactref element="R97" pad="2"/>
 <contactref element="R99" pad="2"/>
-<contactref element="CON_STAMP3" pad="P$6"/>
+<contactref element="CON_STAMP2" pad="P$6"/>
 <wire x1="16.764" y1="65.471" x2="14.605" y2="65.471" width="0.254" layer="1"/>
 <wire x1="16.764" y1="65.471" x2="24.069" y2="65.471" width="0.254" layer="1"/>
 <wire x1="24.069" y1="65.471" x2="24.61" y2="64.93" width="0.254" layer="1"/>
@@ -13980,19 +13967,19 @@ design rules under a new name.</description>
 </signal>
 <signal name="STAMP3_SG1_AIN3">
 <contactref element="U$13" pad="P$2"/>
-<contactref element="CON_STAMP5" pad="P$3"/>
+<contactref element="CON_STAMP3" pad="P$3"/>
 <wire x1="15.24" y1="92.2" x2="19.84" y2="96.8" width="0.254" layer="16"/>
 <wire x1="19.84" y1="96.8" x2="23.34" y2="96.8" width="0.254" layer="16"/>
 </signal>
 <signal name="STAMP3_SG1_AIN2">
 <contactref element="U$13" pad="P$4"/>
-<contactref element="CON_STAMP5" pad="P$2"/>
+<contactref element="CON_STAMP3" pad="P$2"/>
 <wire x1="17.78" y1="92.2" x2="19.88" y2="94.3" width="0.254" layer="16"/>
 <wire x1="19.88" y1="94.3" x2="23.34" y2="94.3" width="0.254" layer="16"/>
 </signal>
 <signal name="STAMP3_SG1_AIN1">
 <contactref element="U$13" pad="P$6"/>
-<contactref element="CON_STAMP5" pad="P$1"/>
+<contactref element="CON_STAMP3" pad="P$1"/>
 <wire x1="20.32" y1="92.2" x2="22.94" y2="92.2" width="0.254" layer="16"/>
 <wire x1="22.94" y1="92.2" x2="23.34" y2="91.8" width="0.254" layer="16"/>
 </signal>
@@ -14119,7 +14106,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="STAMP3_SG2_AIN3">
 <contactref element="U$14" pad="P$2"/>
-<contactref element="CON_STAMP5" pad="P$8"/>
+<contactref element="CON_STAMP3" pad="P$8"/>
 <wire x1="31.75" y1="114.81" x2="27.9634" y2="111.0234" width="0.254" layer="16"/>
 <wire x1="23.867" y1="109.827" x2="23.34" y2="109.3" width="0.254" layer="16"/>
 <wire x1="26.68123125" y1="111.0234" x2="25.48483125" y2="109.827" width="0.254" layer="16"/>
@@ -14128,7 +14115,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="STAMP3_SG2_AIN2">
 <contactref element="U$14" pad="P$4"/>
-<contactref element="CON_STAMP5" pad="P$9"/>
+<contactref element="CON_STAMP3" pad="P$9"/>
 <wire x1="23.34" y1="111.8" x2="25.3828" y2="113.8428" width="0.254" layer="16"/>
 <wire x1="28.661975" y1="114.81" x2="29.21" y2="114.81" width="0.254" layer="16"/>
 <wire x1="25.3828" y1="113.8428" x2="27.694775" y2="113.8428" width="0.254" layer="16"/>
@@ -14136,7 +14123,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="STAMP3_SG2_AIN1">
 <contactref element="U$14" pad="P$6"/>
-<contactref element="CON_STAMP5" pad="P$10"/>
+<contactref element="CON_STAMP3" pad="P$10"/>
 <wire x1="23.34" y1="114.3" x2="26.16" y2="114.3" width="0.254" layer="16"/>
 <wire x1="26.16" y1="114.3" x2="26.67" y2="114.81" width="0.254" layer="16"/>
 </signal>
@@ -14190,7 +14177,7 @@ design rules under a new name.</description>
 <signal name="STAMP3_TEMP_AIN2">
 <contactref element="STAMP1_ADC_TEMP4" pad="18"/>
 <contactref element="R134" pad="2"/>
-<contactref element="CON_STAMP5" pad="P$5"/>
+<contactref element="CON_STAMP3" pad="P$5"/>
 <wire x1="29.53" y1="101.346" x2="23.794" y2="101.346" width="0.254" layer="1"/>
 <wire x1="23.794" y1="101.346" x2="23.34" y2="101.8" width="0.254" layer="1"/>
 <via x="21.9096" y="105.6516" extent="1-16" drill="0.35"/>
@@ -14210,7 +14197,7 @@ design rules under a new name.</description>
 <signal name="STAMP3_TEMP_AIN1">
 <contactref element="R133" pad="2"/>
 <contactref element="STAMP1_ADC_TEMP4" pad="11"/>
-<contactref element="CON_STAMP5" pad="P$4"/>
+<contactref element="CON_STAMP3" pad="P$4"/>
 <wire x1="33.88655" y1="112.642175" x2="34.079975" y2="112.8356" width="0.254" layer="1"/>
 <wire x1="34.079975" y1="112.8356" x2="35.925425" y2="112.8356" width="0.254" layer="1"/>
 <wire x1="28.323225" y1="93.4468" x2="28.1298" y2="93.640225" width="0.254" layer="1"/>
@@ -14293,7 +14280,7 @@ design rules under a new name.</description>
 <signal name="STAMP3_TEMP_AIN3">
 <contactref element="R135" pad="2"/>
 <contactref element="R137" pad="2"/>
-<contactref element="CON_STAMP5" pad="P$6"/>
+<contactref element="CON_STAMP3" pad="P$6"/>
 <wire x1="15.494" y1="104.841" x2="13.335" y2="104.841" width="0.254" layer="1"/>
 <wire x1="15.494" y1="104.841" x2="22.799" y2="104.841" width="0.254" layer="1"/>
 <wire x1="22.799" y1="104.841" x2="23.34" y2="104.3" width="0.254" layer="1"/>
@@ -14352,19 +14339,19 @@ design rules under a new name.</description>
 </signal>
 <signal name="STAMP4_SG1_AIN3">
 <contactref element="U$15" pad="P$2"/>
-<contactref element="CON_STAMP6" pad="P$3"/>
+<contactref element="CON_STAMP4" pad="P$3"/>
 <wire x1="46.99" y1="13.46" x2="51.59" y2="18.06" width="0.254" layer="16"/>
 <wire x1="51.59" y1="18.06" x2="55.09" y2="18.06" width="0.254" layer="16"/>
 </signal>
 <signal name="STAMP4_SG1_AIN2">
 <contactref element="U$15" pad="P$4"/>
-<contactref element="CON_STAMP6" pad="P$2"/>
+<contactref element="CON_STAMP4" pad="P$2"/>
 <wire x1="49.53" y1="13.46" x2="51.63" y2="15.56" width="0.254" layer="16"/>
 <wire x1="51.63" y1="15.56" x2="55.09" y2="15.56" width="0.254" layer="16"/>
 </signal>
 <signal name="STAMP4_SG1_AIN1">
 <contactref element="U$15" pad="P$6"/>
-<contactref element="CON_STAMP6" pad="P$1"/>
+<contactref element="CON_STAMP4" pad="P$1"/>
 <wire x1="52.07" y1="13.46" x2="54.69" y2="13.46" width="0.254" layer="16"/>
 <wire x1="54.69" y1="13.46" x2="55.09" y2="13.06" width="0.254" layer="16"/>
 </signal>
@@ -14489,7 +14476,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="STAMP4_SG2_AIN3">
 <contactref element="U$16" pad="P$2"/>
-<contactref element="CON_STAMP6" pad="P$8"/>
+<contactref element="CON_STAMP4" pad="P$8"/>
 <wire x1="59.5582" y1="32.1282" x2="63.5" y2="36.07" width="0.254" layer="16"/>
 <wire x1="58.07576875" y1="32.1282" x2="59.5582" y2="32.1282" width="0.254" layer="16"/>
 <wire x1="55.09" y1="30.56" x2="56.50756875" y2="30.56" width="0.254" layer="16"/>
@@ -14497,7 +14484,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="STAMP4_SG2_AIN2">
 <contactref element="U$16" pad="P$4"/>
-<contactref element="CON_STAMP6" pad="P$9"/>
+<contactref element="CON_STAMP4" pad="P$9"/>
 <wire x1="55.09" y1="33.06" x2="57.1328" y2="35.1028" width="0.254" layer="16"/>
 <wire x1="60.411975" y1="36.07" x2="60.96" y2="36.07" width="0.254" layer="16"/>
 <wire x1="57.1328" y1="35.1028" x2="59.444775" y2="35.1028" width="0.254" layer="16"/>
@@ -14505,7 +14492,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="STAMP4_SG2_AIN1">
 <contactref element="U$16" pad="P$6"/>
-<contactref element="CON_STAMP6" pad="P$10"/>
+<contactref element="CON_STAMP4" pad="P$10"/>
 <wire x1="55.09" y1="35.56" x2="57.91" y2="35.56" width="0.254" layer="16"/>
 <wire x1="57.91" y1="35.56" x2="58.42" y2="36.07" width="0.254" layer="16"/>
 </signal>
@@ -14559,7 +14546,7 @@ design rules under a new name.</description>
 <signal name="STAMP4_TEMP_AIN2">
 <contactref element="STAMP1_ADC_TEMP5" pad="18"/>
 <contactref element="R153" pad="2"/>
-<contactref element="CON_STAMP6" pad="P$5"/>
+<contactref element="CON_STAMP4" pad="P$5"/>
 <wire x1="61.28" y1="22.606" x2="55.544" y2="22.606" width="0.254" layer="1"/>
 <wire x1="55.544" y1="22.606" x2="55.09" y2="23.06" width="0.254" layer="1"/>
 <via x="53.6596" y="26.9116" extent="1-16" drill="0.35"/>
@@ -14579,7 +14566,7 @@ design rules under a new name.</description>
 <signal name="STAMP4_TEMP_AIN1">
 <contactref element="R152" pad="2"/>
 <contactref element="STAMP1_ADC_TEMP5" pad="11"/>
-<contactref element="CON_STAMP6" pad="P$4"/>
+<contactref element="CON_STAMP4" pad="P$4"/>
 <wire x1="65.63655" y1="33.902175" x2="65.829975" y2="34.0956" width="0.254" layer="1"/>
 <wire x1="65.829975" y1="34.0956" x2="67.675425" y2="34.0956" width="0.254" layer="1"/>
 <wire x1="60.073225" y1="14.7068" x2="59.8798" y2="14.900225" width="0.254" layer="1"/>
@@ -14662,7 +14649,7 @@ design rules under a new name.</description>
 <signal name="STAMP4_TEMP_AIN3">
 <contactref element="R154" pad="2"/>
 <contactref element="R156" pad="2"/>
-<contactref element="CON_STAMP6" pad="P$6"/>
+<contactref element="CON_STAMP4" pad="P$6"/>
 <wire x1="47.244" y1="26.101" x2="45.085" y2="26.101" width="0.254" layer="1"/>
 <wire x1="47.244" y1="26.101" x2="54.549" y2="26.101" width="0.254" layer="1"/>
 <wire x1="54.549" y1="26.101" x2="55.09" y2="25.56" width="0.254" layer="1"/>
@@ -14721,19 +14708,19 @@ design rules under a new name.</description>
 </signal>
 <signal name="STAMP5_SG1_AIN3">
 <contactref element="U$11" pad="P$2"/>
-<contactref element="CON_STAMP4" pad="P$3"/>
+<contactref element="CON_STAMP5" pad="P$3"/>
 <wire x1="46.99" y1="52.83" x2="51.59" y2="57.43" width="0.254" layer="16"/>
 <wire x1="51.59" y1="57.43" x2="55.09" y2="57.43" width="0.254" layer="16"/>
 </signal>
 <signal name="STAMP5_SG1_AIN2">
 <contactref element="U$11" pad="P$4"/>
-<contactref element="CON_STAMP4" pad="P$2"/>
+<contactref element="CON_STAMP5" pad="P$2"/>
 <wire x1="49.53" y1="52.83" x2="51.63" y2="54.93" width="0.254" layer="16"/>
 <wire x1="51.63" y1="54.93" x2="55.09" y2="54.93" width="0.254" layer="16"/>
 </signal>
 <signal name="STAMP5_SG1_AIN1">
 <contactref element="U$11" pad="P$6"/>
-<contactref element="CON_STAMP4" pad="P$1"/>
+<contactref element="CON_STAMP5" pad="P$1"/>
 <wire x1="52.07" y1="52.83" x2="54.69" y2="52.83" width="0.254" layer="16"/>
 <wire x1="54.69" y1="52.83" x2="55.09" y2="52.43" width="0.254" layer="16"/>
 </signal>
@@ -14859,7 +14846,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="STAMP5_SG2_AIN3">
 <contactref element="U$12" pad="P$2"/>
-<contactref element="CON_STAMP4" pad="P$8"/>
+<contactref element="CON_STAMP5" pad="P$8"/>
 <wire x1="59.1518" y1="71.0918" x2="63.5" y2="75.44" width="0.254" layer="16"/>
 <wire x1="58.38056875" y1="71.0918" x2="59.1518" y2="71.0918" width="0.254" layer="16"/>
 <wire x1="55.09" y1="69.93" x2="57.21876875" y2="69.93" width="0.254" layer="16"/>
@@ -14867,7 +14854,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="STAMP5_SG2_AIN2">
 <contactref element="U$12" pad="P$4"/>
-<contactref element="CON_STAMP4" pad="P$9"/>
+<contactref element="CON_STAMP5" pad="P$9"/>
 <wire x1="55.09" y1="72.43" x2="57.1328" y2="74.4728" width="0.254" layer="16"/>
 <wire x1="60.411975" y1="75.44" x2="60.96" y2="75.44" width="0.254" layer="16"/>
 <wire x1="57.1328" y1="74.4728" x2="59.444775" y2="74.4728" width="0.254" layer="16"/>
@@ -14875,7 +14862,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="STAMP5_SG2_AIN1">
 <contactref element="U$12" pad="P$6"/>
-<contactref element="CON_STAMP4" pad="P$10"/>
+<contactref element="CON_STAMP5" pad="P$10"/>
 <wire x1="55.09" y1="74.93" x2="57.91" y2="74.93" width="0.254" layer="16"/>
 <wire x1="57.91" y1="74.93" x2="58.42" y2="75.44" width="0.254" layer="16"/>
 </signal>
@@ -14929,7 +14916,7 @@ design rules under a new name.</description>
 <signal name="STAMP5_TEMP_AIN2">
 <contactref element="STAMP1_ADC_TEMP3" pad="18"/>
 <contactref element="R115" pad="2"/>
-<contactref element="CON_STAMP4" pad="P$5"/>
+<contactref element="CON_STAMP5" pad="P$5"/>
 <wire x1="61.28" y1="61.976" x2="55.544" y2="61.976" width="0.254" layer="1"/>
 <wire x1="55.544" y1="61.976" x2="55.09" y2="62.43" width="0.254" layer="1"/>
 <via x="53.6596" y="66.2816" extent="1-16" drill="0.35"/>
@@ -14949,7 +14936,7 @@ design rules under a new name.</description>
 <signal name="STAMP5_TEMP_AIN1">
 <contactref element="R114" pad="2"/>
 <contactref element="STAMP1_ADC_TEMP3" pad="11"/>
-<contactref element="CON_STAMP4" pad="P$4"/>
+<contactref element="CON_STAMP5" pad="P$4"/>
 <wire x1="65.63655" y1="73.272175" x2="65.829975" y2="73.4656" width="0.254" layer="1"/>
 <wire x1="65.829975" y1="73.4656" x2="67.675425" y2="73.4656" width="0.254" layer="1"/>
 <wire x1="60.073225" y1="54.0768" x2="59.8798" y2="54.270225" width="0.254" layer="1"/>
@@ -15032,7 +15019,7 @@ design rules under a new name.</description>
 <signal name="STAMP5_TEMP_AIN3">
 <contactref element="R116" pad="2"/>
 <contactref element="R118" pad="2"/>
-<contactref element="CON_STAMP4" pad="P$6"/>
+<contactref element="CON_STAMP5" pad="P$6"/>
 <wire x1="47.244" y1="65.471" x2="45.085" y2="65.471" width="0.254" layer="1"/>
 <wire x1="47.244" y1="65.471" x2="54.549" y2="65.471" width="0.254" layer="1"/>
 <wire x1="54.549" y1="65.471" x2="55.09" y2="64.93" width="0.254" layer="1"/>
@@ -15091,19 +15078,19 @@ design rules under a new name.</description>
 </signal>
 <signal name="STAMP6_SG1_AIN3">
 <contactref element="U$19" pad="P$2"/>
-<contactref element="CON_STAMP8" pad="P$3"/>
+<contactref element="CON_STAMP6" pad="P$3"/>
 <wire x1="45.72" y1="92.2" x2="50.32" y2="96.8" width="0.254" layer="16"/>
 <wire x1="50.32" y1="96.8" x2="53.82" y2="96.8" width="0.254" layer="16"/>
 </signal>
 <signal name="STAMP6_SG1_AIN2">
 <contactref element="U$19" pad="P$4"/>
-<contactref element="CON_STAMP8" pad="P$2"/>
+<contactref element="CON_STAMP6" pad="P$2"/>
 <wire x1="48.26" y1="92.2" x2="50.36" y2="94.3" width="0.254" layer="16"/>
 <wire x1="50.36" y1="94.3" x2="53.82" y2="94.3" width="0.254" layer="16"/>
 </signal>
 <signal name="STAMP6_SG1_AIN1">
 <contactref element="U$19" pad="P$6"/>
-<contactref element="CON_STAMP8" pad="P$1"/>
+<contactref element="CON_STAMP6" pad="P$1"/>
 <wire x1="50.8" y1="92.2" x2="53.42" y2="92.2" width="0.254" layer="16"/>
 <wire x1="53.42" y1="92.2" x2="53.82" y2="91.8" width="0.254" layer="16"/>
 </signal>
@@ -15229,7 +15216,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="STAMP6_SG2_AIN3">
 <contactref element="U$20" pad="P$2"/>
-<contactref element="CON_STAMP8" pad="P$8"/>
+<contactref element="CON_STAMP6" pad="P$8"/>
 <wire x1="57.8818" y1="110.4618" x2="62.23" y2="114.81" width="0.254" layer="16"/>
 <wire x1="57.23756875" y1="110.4618" x2="57.8818" y2="110.4618" width="0.254" layer="16"/>
 <wire x1="53.82" y1="109.3" x2="56.07576875" y2="109.3" width="0.254" layer="16"/>
@@ -15237,7 +15224,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="STAMP6_SG2_AIN2">
 <contactref element="U$20" pad="P$4"/>
-<contactref element="CON_STAMP8" pad="P$9"/>
+<contactref element="CON_STAMP6" pad="P$9"/>
 <wire x1="53.82" y1="111.8" x2="55.8628" y2="113.8428" width="0.254" layer="16"/>
 <wire x1="59.141975" y1="114.81" x2="59.69" y2="114.81" width="0.254" layer="16"/>
 <wire x1="55.8628" y1="113.8428" x2="58.174775" y2="113.8428" width="0.254" layer="16"/>
@@ -15245,7 +15232,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="STAMP6_SG2_AIN1">
 <contactref element="U$20" pad="P$6"/>
-<contactref element="CON_STAMP8" pad="P$10"/>
+<contactref element="CON_STAMP6" pad="P$10"/>
 <wire x1="53.82" y1="114.3" x2="56.64" y2="114.3" width="0.254" layer="16"/>
 <wire x1="56.64" y1="114.3" x2="57.15" y2="114.81" width="0.254" layer="16"/>
 </signal>
@@ -15299,7 +15286,7 @@ design rules under a new name.</description>
 <signal name="STAMP6_TEMP_AIN2">
 <contactref element="STAMP1_ADC_TEMP7" pad="18"/>
 <contactref element="R191" pad="2"/>
-<contactref element="CON_STAMP8" pad="P$5"/>
+<contactref element="CON_STAMP6" pad="P$5"/>
 <wire x1="60.01" y1="101.346" x2="54.274" y2="101.346" width="0.254" layer="1"/>
 <wire x1="54.274" y1="101.346" x2="53.82" y2="101.8" width="0.254" layer="1"/>
 <via x="52.3896" y="105.6516" extent="1-16" drill="0.35"/>
@@ -15319,7 +15306,7 @@ design rules under a new name.</description>
 <signal name="STAMP6_TEMP_AIN1">
 <contactref element="R190" pad="2"/>
 <contactref element="STAMP1_ADC_TEMP7" pad="11"/>
-<contactref element="CON_STAMP8" pad="P$4"/>
+<contactref element="CON_STAMP6" pad="P$4"/>
 <wire x1="64.36655" y1="112.642175" x2="64.559975" y2="112.8356" width="0.254" layer="1"/>
 <wire x1="64.559975" y1="112.8356" x2="66.405425" y2="112.8356" width="0.254" layer="1"/>
 <wire x1="58.803225" y1="93.4468" x2="58.6098" y2="93.640225" width="0.254" layer="1"/>
@@ -15402,7 +15389,7 @@ design rules under a new name.</description>
 <signal name="STAMP6_TEMP_AIN3">
 <contactref element="R192" pad="2"/>
 <contactref element="R194" pad="2"/>
-<contactref element="CON_STAMP8" pad="P$6"/>
+<contactref element="CON_STAMP6" pad="P$6"/>
 <wire x1="45.974" y1="104.841" x2="43.815" y2="104.841" width="0.254" layer="1"/>
 <wire x1="45.974" y1="104.841" x2="53.279" y2="104.841" width="0.254" layer="1"/>
 <wire x1="53.279" y1="104.841" x2="53.82" y2="104.3" width="0.254" layer="1"/>
@@ -15418,6 +15405,10 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)

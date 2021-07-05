@@ -31097,7 +31097,7 @@ D = Direct mounting &lt;p&gt;
 <part name="R97" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="9k09 1%"/>
 <part name="R98" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="9k09 1%"/>
 <part name="R99" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="820 0.1%"/>
-<part name="CON_STAMP3" library="con-jae" deviceset="IL-AG5-10P-S3T2" device=""/>
+<part name="CON_STAMP2" library="con-jae" deviceset="IL-AG5-10P-S3T2" device=""/>
 <part name="FRAME6" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="STAMP1_ADC_SG9" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
 <part name="C134" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
@@ -31144,7 +31144,7 @@ D = Direct mounting &lt;p&gt;
 <part name="R135" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="9k09 1%"/>
 <part name="R136" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="9k09 1%"/>
 <part name="R137" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="820 0.1%"/>
-<part name="CON_STAMP5" library="con-jae" deviceset="IL-AG5-10P-S3T2" device=""/>
+<part name="CON_STAMP3" library="con-jae" deviceset="IL-AG5-10P-S3T2" device=""/>
 <part name="FRAME8" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="STAMP1_ADC_SG11" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
 <part name="C155" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
@@ -31191,7 +31191,7 @@ D = Direct mounting &lt;p&gt;
 <part name="R154" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="9k09 1%"/>
 <part name="R155" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="9k09 1%"/>
 <part name="R156" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="820 0.1%"/>
-<part name="CON_STAMP6" library="con-jae" deviceset="IL-AG5-10P-S3T2" device=""/>
+<part name="CON_STAMP4" library="con-jae" deviceset="IL-AG5-10P-S3T2" device=""/>
 <part name="FRAME7" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="STAMP1_ADC_SG7" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
 <part name="C113" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
@@ -31238,7 +31238,7 @@ D = Direct mounting &lt;p&gt;
 <part name="R116" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="9k09 1%"/>
 <part name="R117" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="9k09 1%"/>
 <part name="R118" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="820 0.1%"/>
-<part name="CON_STAMP4" library="con-jae" deviceset="IL-AG5-10P-S3T2" device=""/>
+<part name="CON_STAMP5" library="con-jae" deviceset="IL-AG5-10P-S3T2" device=""/>
 <part name="FRAME10" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="STAMP1_ADC_SG15" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
 <part name="C197" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
@@ -31285,7 +31285,7 @@ D = Direct mounting &lt;p&gt;
 <part name="R192" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="9k09 1%"/>
 <part name="R193" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="9k09 1%"/>
 <part name="R194" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="820 0.1%"/>
-<part name="CON_STAMP8" library="con-jae" deviceset="IL-AG5-10P-S3T2" device=""/>
+<part name="CON_STAMP6" library="con-jae" deviceset="IL-AG5-10P-S3T2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -35036,7 +35036,7 @@ D = Direct mounting &lt;p&gt;
 <attribute name="NAME" x="39.5986" y="72.39" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="34.798" y="72.39" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="CON_STAMP3" gate="G$1" x="264.16" y="71.12" smashed="yes">
+<instance part="CON_STAMP2" gate="G$1" x="264.16" y="71.12" smashed="yes">
 <attribute name="NAME" x="264.16" y="86.868" size="1.27" layer="95"/>
 <attribute name="VALUE" x="264.16" y="70.612" size="1.27" layer="96" align="top-left"/>
 </instance>
@@ -35276,7 +35276,7 @@ D = Direct mounting &lt;p&gt;
 </segment>
 <segment>
 <label x="284.48" y="76.2" size="1.27" layer="95" xref="yes"/>
-<pinref part="CON_STAMP3" gate="G$1" pin="P$7"/>
+<pinref part="CON_STAMP2" gate="G$1" pin="P$7"/>
 <wire x1="284.48" y1="76.2" x2="279.4" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -35365,7 +35365,7 @@ D = Direct mounting &lt;p&gt;
 <label x="35.56" y="215.9" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP3" gate="G$1" pin="P$3"/>
+<pinref part="CON_STAMP2" gate="G$1" pin="P$3"/>
 <wire x1="261.62" y1="78.74" x2="256.54" y2="78.74" width="0.1524" layer="91"/>
 <label x="256.54" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -35377,7 +35377,7 @@ D = Direct mounting &lt;p&gt;
 <label x="40.64" y="215.9" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP3" gate="G$1" pin="P$2"/>
+<pinref part="CON_STAMP2" gate="G$1" pin="P$2"/>
 <wire x1="261.62" y1="81.28" x2="256.54" y2="81.28" width="0.1524" layer="91"/>
 <label x="256.54" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -35389,7 +35389,7 @@ D = Direct mounting &lt;p&gt;
 <label x="45.72" y="215.9" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP3" gate="G$1" pin="P$1"/>
+<pinref part="CON_STAMP2" gate="G$1" pin="P$1"/>
 <wire x1="261.62" y1="83.82" x2="256.54" y2="83.82" width="0.1524" layer="91"/>
 <label x="256.54" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -35506,7 +35506,7 @@ D = Direct mounting &lt;p&gt;
 <label x="218.44" y="215.9" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP3" gate="G$1" pin="P$8"/>
+<pinref part="CON_STAMP2" gate="G$1" pin="P$8"/>
 <wire x1="279.4" y1="78.74" x2="284.48" y2="78.74" width="0.1524" layer="91"/>
 <label x="284.48" y="78.74" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -35518,7 +35518,7 @@ D = Direct mounting &lt;p&gt;
 <label x="223.52" y="215.9" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP3" gate="G$1" pin="P$9"/>
+<pinref part="CON_STAMP2" gate="G$1" pin="P$9"/>
 <wire x1="279.4" y1="81.28" x2="284.48" y2="81.28" width="0.1524" layer="91"/>
 <label x="284.48" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -35530,7 +35530,7 @@ D = Direct mounting &lt;p&gt;
 <label x="228.6" y="215.9" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP3" gate="G$1" pin="P$10"/>
+<pinref part="CON_STAMP2" gate="G$1" pin="P$10"/>
 <wire x1="279.4" y1="83.82" x2="284.48" y2="83.82" width="0.1524" layer="91"/>
 <label x="284.48" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -35584,7 +35584,7 @@ D = Direct mounting &lt;p&gt;
 <label x="35.56" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP3" gate="G$1" pin="P$5"/>
+<pinref part="CON_STAMP2" gate="G$1" pin="P$5"/>
 <wire x1="261.62" y1="73.66" x2="256.54" y2="73.66" width="0.1524" layer="91"/>
 <label x="256.54" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -35601,7 +35601,7 @@ D = Direct mounting &lt;p&gt;
 <label x="35.56" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP3" gate="G$1" pin="P$4"/>
+<pinref part="CON_STAMP2" gate="G$1" pin="P$4"/>
 <wire x1="261.62" y1="76.2" x2="256.54" y2="76.2" width="0.1524" layer="91"/>
 <label x="256.54" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -35645,7 +35645,7 @@ D = Direct mounting &lt;p&gt;
 </segment>
 <segment>
 <label x="284.48" y="73.66" size="1.27" layer="95" xref="yes"/>
-<pinref part="CON_STAMP3" gate="G$1" pin="P$6"/>
+<pinref part="CON_STAMP2" gate="G$1" pin="P$6"/>
 <wire x1="284.48" y1="73.66" x2="279.4" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -35937,7 +35937,7 @@ D = Direct mounting &lt;p&gt;
 <attribute name="NAME" x="39.5986" y="72.39" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="34.798" y="72.39" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="CON_STAMP5" gate="G$1" x="264.16" y="71.12" smashed="yes">
+<instance part="CON_STAMP3" gate="G$1" x="264.16" y="71.12" smashed="yes">
 <attribute name="NAME" x="264.16" y="86.868" size="1.27" layer="95"/>
 <attribute name="VALUE" x="264.16" y="70.612" size="1.27" layer="96" align="top-left"/>
 </instance>
@@ -36177,7 +36177,7 @@ D = Direct mounting &lt;p&gt;
 </segment>
 <segment>
 <label x="284.48" y="76.2" size="1.27" layer="95" xref="yes"/>
-<pinref part="CON_STAMP5" gate="G$1" pin="P$7"/>
+<pinref part="CON_STAMP3" gate="G$1" pin="P$7"/>
 <wire x1="284.48" y1="76.2" x2="279.4" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -36266,7 +36266,7 @@ D = Direct mounting &lt;p&gt;
 <label x="35.56" y="215.9" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP5" gate="G$1" pin="P$3"/>
+<pinref part="CON_STAMP3" gate="G$1" pin="P$3"/>
 <wire x1="261.62" y1="78.74" x2="256.54" y2="78.74" width="0.1524" layer="91"/>
 <label x="256.54" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -36278,7 +36278,7 @@ D = Direct mounting &lt;p&gt;
 <label x="40.64" y="215.9" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP5" gate="G$1" pin="P$2"/>
+<pinref part="CON_STAMP3" gate="G$1" pin="P$2"/>
 <wire x1="261.62" y1="81.28" x2="256.54" y2="81.28" width="0.1524" layer="91"/>
 <label x="256.54" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -36290,7 +36290,7 @@ D = Direct mounting &lt;p&gt;
 <label x="45.72" y="215.9" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP5" gate="G$1" pin="P$1"/>
+<pinref part="CON_STAMP3" gate="G$1" pin="P$1"/>
 <wire x1="261.62" y1="83.82" x2="256.54" y2="83.82" width="0.1524" layer="91"/>
 <label x="256.54" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -36407,7 +36407,7 @@ D = Direct mounting &lt;p&gt;
 <label x="218.44" y="215.9" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP5" gate="G$1" pin="P$8"/>
+<pinref part="CON_STAMP3" gate="G$1" pin="P$8"/>
 <wire x1="279.4" y1="78.74" x2="284.48" y2="78.74" width="0.1524" layer="91"/>
 <label x="284.48" y="78.74" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -36419,7 +36419,7 @@ D = Direct mounting &lt;p&gt;
 <label x="223.52" y="215.9" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP5" gate="G$1" pin="P$9"/>
+<pinref part="CON_STAMP3" gate="G$1" pin="P$9"/>
 <wire x1="279.4" y1="81.28" x2="284.48" y2="81.28" width="0.1524" layer="91"/>
 <label x="284.48" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -36431,7 +36431,7 @@ D = Direct mounting &lt;p&gt;
 <label x="228.6" y="215.9" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP5" gate="G$1" pin="P$10"/>
+<pinref part="CON_STAMP3" gate="G$1" pin="P$10"/>
 <wire x1="279.4" y1="83.82" x2="284.48" y2="83.82" width="0.1524" layer="91"/>
 <label x="284.48" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -36485,7 +36485,7 @@ D = Direct mounting &lt;p&gt;
 <label x="35.56" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP5" gate="G$1" pin="P$5"/>
+<pinref part="CON_STAMP3" gate="G$1" pin="P$5"/>
 <wire x1="261.62" y1="73.66" x2="256.54" y2="73.66" width="0.1524" layer="91"/>
 <label x="256.54" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -36502,7 +36502,7 @@ D = Direct mounting &lt;p&gt;
 <label x="35.56" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP5" gate="G$1" pin="P$4"/>
+<pinref part="CON_STAMP3" gate="G$1" pin="P$4"/>
 <wire x1="261.62" y1="76.2" x2="256.54" y2="76.2" width="0.1524" layer="91"/>
 <label x="256.54" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -36546,7 +36546,7 @@ D = Direct mounting &lt;p&gt;
 </segment>
 <segment>
 <label x="284.48" y="73.66" size="1.27" layer="95" xref="yes"/>
-<pinref part="CON_STAMP5" gate="G$1" pin="P$6"/>
+<pinref part="CON_STAMP3" gate="G$1" pin="P$6"/>
 <wire x1="284.48" y1="73.66" x2="279.4" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -36838,7 +36838,7 @@ D = Direct mounting &lt;p&gt;
 <attribute name="NAME" x="39.5986" y="72.39" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="34.798" y="72.39" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="CON_STAMP6" gate="G$1" x="264.16" y="71.12" smashed="yes">
+<instance part="CON_STAMP4" gate="G$1" x="264.16" y="71.12" smashed="yes">
 <attribute name="NAME" x="264.16" y="86.868" size="1.27" layer="95"/>
 <attribute name="VALUE" x="264.16" y="70.612" size="1.27" layer="96" align="top-left"/>
 </instance>
@@ -37078,7 +37078,7 @@ D = Direct mounting &lt;p&gt;
 </segment>
 <segment>
 <label x="284.48" y="76.2" size="1.27" layer="95" xref="yes"/>
-<pinref part="CON_STAMP6" gate="G$1" pin="P$7"/>
+<pinref part="CON_STAMP4" gate="G$1" pin="P$7"/>
 <wire x1="284.48" y1="76.2" x2="279.4" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -37167,7 +37167,7 @@ D = Direct mounting &lt;p&gt;
 <label x="35.56" y="215.9" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP6" gate="G$1" pin="P$3"/>
+<pinref part="CON_STAMP4" gate="G$1" pin="P$3"/>
 <wire x1="261.62" y1="78.74" x2="256.54" y2="78.74" width="0.1524" layer="91"/>
 <label x="256.54" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -37179,7 +37179,7 @@ D = Direct mounting &lt;p&gt;
 <label x="40.64" y="215.9" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP6" gate="G$1" pin="P$2"/>
+<pinref part="CON_STAMP4" gate="G$1" pin="P$2"/>
 <wire x1="261.62" y1="81.28" x2="256.54" y2="81.28" width="0.1524" layer="91"/>
 <label x="256.54" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -37191,7 +37191,7 @@ D = Direct mounting &lt;p&gt;
 <label x="45.72" y="215.9" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP6" gate="G$1" pin="P$1"/>
+<pinref part="CON_STAMP4" gate="G$1" pin="P$1"/>
 <wire x1="261.62" y1="83.82" x2="256.54" y2="83.82" width="0.1524" layer="91"/>
 <label x="256.54" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -37308,7 +37308,7 @@ D = Direct mounting &lt;p&gt;
 <label x="218.44" y="215.9" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP6" gate="G$1" pin="P$8"/>
+<pinref part="CON_STAMP4" gate="G$1" pin="P$8"/>
 <wire x1="279.4" y1="78.74" x2="284.48" y2="78.74" width="0.1524" layer="91"/>
 <label x="284.48" y="78.74" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -37320,7 +37320,7 @@ D = Direct mounting &lt;p&gt;
 <label x="223.52" y="215.9" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP6" gate="G$1" pin="P$9"/>
+<pinref part="CON_STAMP4" gate="G$1" pin="P$9"/>
 <wire x1="279.4" y1="81.28" x2="284.48" y2="81.28" width="0.1524" layer="91"/>
 <label x="284.48" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -37332,7 +37332,7 @@ D = Direct mounting &lt;p&gt;
 <label x="228.6" y="215.9" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP6" gate="G$1" pin="P$10"/>
+<pinref part="CON_STAMP4" gate="G$1" pin="P$10"/>
 <wire x1="279.4" y1="83.82" x2="284.48" y2="83.82" width="0.1524" layer="91"/>
 <label x="284.48" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -37386,7 +37386,7 @@ D = Direct mounting &lt;p&gt;
 <label x="35.56" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP6" gate="G$1" pin="P$5"/>
+<pinref part="CON_STAMP4" gate="G$1" pin="P$5"/>
 <wire x1="261.62" y1="73.66" x2="256.54" y2="73.66" width="0.1524" layer="91"/>
 <label x="256.54" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -37403,7 +37403,7 @@ D = Direct mounting &lt;p&gt;
 <label x="35.56" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP6" gate="G$1" pin="P$4"/>
+<pinref part="CON_STAMP4" gate="G$1" pin="P$4"/>
 <wire x1="261.62" y1="76.2" x2="256.54" y2="76.2" width="0.1524" layer="91"/>
 <label x="256.54" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -37447,7 +37447,7 @@ D = Direct mounting &lt;p&gt;
 </segment>
 <segment>
 <label x="284.48" y="73.66" size="1.27" layer="95" xref="yes"/>
-<pinref part="CON_STAMP6" gate="G$1" pin="P$6"/>
+<pinref part="CON_STAMP4" gate="G$1" pin="P$6"/>
 <wire x1="284.48" y1="73.66" x2="279.4" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -37739,7 +37739,7 @@ D = Direct mounting &lt;p&gt;
 <attribute name="NAME" x="39.5986" y="72.39" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="34.798" y="72.39" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="CON_STAMP4" gate="G$1" x="264.16" y="71.12" smashed="yes">
+<instance part="CON_STAMP5" gate="G$1" x="264.16" y="71.12" smashed="yes">
 <attribute name="NAME" x="264.16" y="86.868" size="1.27" layer="95"/>
 <attribute name="VALUE" x="264.16" y="70.612" size="1.27" layer="96" align="top-left"/>
 </instance>
@@ -37979,7 +37979,7 @@ D = Direct mounting &lt;p&gt;
 </segment>
 <segment>
 <label x="284.48" y="76.2" size="1.27" layer="95" xref="yes"/>
-<pinref part="CON_STAMP4" gate="G$1" pin="P$7"/>
+<pinref part="CON_STAMP5" gate="G$1" pin="P$7"/>
 <wire x1="284.48" y1="76.2" x2="279.4" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -38068,7 +38068,7 @@ D = Direct mounting &lt;p&gt;
 <label x="35.56" y="215.9" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP4" gate="G$1" pin="P$3"/>
+<pinref part="CON_STAMP5" gate="G$1" pin="P$3"/>
 <wire x1="261.62" y1="78.74" x2="256.54" y2="78.74" width="0.1524" layer="91"/>
 <label x="256.54" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -38080,7 +38080,7 @@ D = Direct mounting &lt;p&gt;
 <label x="40.64" y="215.9" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP4" gate="G$1" pin="P$2"/>
+<pinref part="CON_STAMP5" gate="G$1" pin="P$2"/>
 <wire x1="261.62" y1="81.28" x2="256.54" y2="81.28" width="0.1524" layer="91"/>
 <label x="256.54" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -38092,7 +38092,7 @@ D = Direct mounting &lt;p&gt;
 <label x="45.72" y="215.9" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP4" gate="G$1" pin="P$1"/>
+<pinref part="CON_STAMP5" gate="G$1" pin="P$1"/>
 <wire x1="261.62" y1="83.82" x2="256.54" y2="83.82" width="0.1524" layer="91"/>
 <label x="256.54" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -38209,7 +38209,7 @@ D = Direct mounting &lt;p&gt;
 <label x="218.44" y="215.9" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP4" gate="G$1" pin="P$8"/>
+<pinref part="CON_STAMP5" gate="G$1" pin="P$8"/>
 <wire x1="279.4" y1="78.74" x2="284.48" y2="78.74" width="0.1524" layer="91"/>
 <label x="284.48" y="78.74" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -38221,7 +38221,7 @@ D = Direct mounting &lt;p&gt;
 <label x="223.52" y="215.9" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP4" gate="G$1" pin="P$9"/>
+<pinref part="CON_STAMP5" gate="G$1" pin="P$9"/>
 <wire x1="279.4" y1="81.28" x2="284.48" y2="81.28" width="0.1524" layer="91"/>
 <label x="284.48" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -38233,7 +38233,7 @@ D = Direct mounting &lt;p&gt;
 <label x="228.6" y="215.9" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP4" gate="G$1" pin="P$10"/>
+<pinref part="CON_STAMP5" gate="G$1" pin="P$10"/>
 <wire x1="279.4" y1="83.82" x2="284.48" y2="83.82" width="0.1524" layer="91"/>
 <label x="284.48" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -38287,7 +38287,7 @@ D = Direct mounting &lt;p&gt;
 <label x="35.56" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP4" gate="G$1" pin="P$5"/>
+<pinref part="CON_STAMP5" gate="G$1" pin="P$5"/>
 <wire x1="261.62" y1="73.66" x2="256.54" y2="73.66" width="0.1524" layer="91"/>
 <label x="256.54" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -38304,7 +38304,7 @@ D = Direct mounting &lt;p&gt;
 <label x="35.56" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP4" gate="G$1" pin="P$4"/>
+<pinref part="CON_STAMP5" gate="G$1" pin="P$4"/>
 <wire x1="261.62" y1="76.2" x2="256.54" y2="76.2" width="0.1524" layer="91"/>
 <label x="256.54" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -38348,7 +38348,7 @@ D = Direct mounting &lt;p&gt;
 </segment>
 <segment>
 <label x="284.48" y="73.66" size="1.27" layer="95" xref="yes"/>
-<pinref part="CON_STAMP4" gate="G$1" pin="P$6"/>
+<pinref part="CON_STAMP5" gate="G$1" pin="P$6"/>
 <wire x1="284.48" y1="73.66" x2="279.4" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -38640,7 +38640,7 @@ D = Direct mounting &lt;p&gt;
 <attribute name="NAME" x="39.5986" y="72.39" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="34.798" y="72.39" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="CON_STAMP8" gate="G$1" x="264.16" y="71.12" smashed="yes">
+<instance part="CON_STAMP6" gate="G$1" x="264.16" y="71.12" smashed="yes">
 <attribute name="NAME" x="264.16" y="86.868" size="1.27" layer="95"/>
 <attribute name="VALUE" x="264.16" y="70.612" size="1.27" layer="96" align="top-left"/>
 </instance>
@@ -38880,7 +38880,7 @@ D = Direct mounting &lt;p&gt;
 </segment>
 <segment>
 <label x="284.48" y="76.2" size="1.27" layer="95" xref="yes"/>
-<pinref part="CON_STAMP8" gate="G$1" pin="P$7"/>
+<pinref part="CON_STAMP6" gate="G$1" pin="P$7"/>
 <wire x1="284.48" y1="76.2" x2="279.4" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -38969,7 +38969,7 @@ D = Direct mounting &lt;p&gt;
 <label x="35.56" y="215.9" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP8" gate="G$1" pin="P$3"/>
+<pinref part="CON_STAMP6" gate="G$1" pin="P$3"/>
 <wire x1="261.62" y1="78.74" x2="256.54" y2="78.74" width="0.1524" layer="91"/>
 <label x="256.54" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -38981,7 +38981,7 @@ D = Direct mounting &lt;p&gt;
 <label x="40.64" y="215.9" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP8" gate="G$1" pin="P$2"/>
+<pinref part="CON_STAMP6" gate="G$1" pin="P$2"/>
 <wire x1="261.62" y1="81.28" x2="256.54" y2="81.28" width="0.1524" layer="91"/>
 <label x="256.54" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -38993,7 +38993,7 @@ D = Direct mounting &lt;p&gt;
 <label x="45.72" y="215.9" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP8" gate="G$1" pin="P$1"/>
+<pinref part="CON_STAMP6" gate="G$1" pin="P$1"/>
 <wire x1="261.62" y1="83.82" x2="256.54" y2="83.82" width="0.1524" layer="91"/>
 <label x="256.54" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -39110,7 +39110,7 @@ D = Direct mounting &lt;p&gt;
 <label x="218.44" y="215.9" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP8" gate="G$1" pin="P$8"/>
+<pinref part="CON_STAMP6" gate="G$1" pin="P$8"/>
 <wire x1="279.4" y1="78.74" x2="284.48" y2="78.74" width="0.1524" layer="91"/>
 <label x="284.48" y="78.74" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -39122,7 +39122,7 @@ D = Direct mounting &lt;p&gt;
 <label x="223.52" y="215.9" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP8" gate="G$1" pin="P$9"/>
+<pinref part="CON_STAMP6" gate="G$1" pin="P$9"/>
 <wire x1="279.4" y1="81.28" x2="284.48" y2="81.28" width="0.1524" layer="91"/>
 <label x="284.48" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -39134,7 +39134,7 @@ D = Direct mounting &lt;p&gt;
 <label x="228.6" y="215.9" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP8" gate="G$1" pin="P$10"/>
+<pinref part="CON_STAMP6" gate="G$1" pin="P$10"/>
 <wire x1="279.4" y1="83.82" x2="284.48" y2="83.82" width="0.1524" layer="91"/>
 <label x="284.48" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -39188,7 +39188,7 @@ D = Direct mounting &lt;p&gt;
 <label x="35.56" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP8" gate="G$1" pin="P$5"/>
+<pinref part="CON_STAMP6" gate="G$1" pin="P$5"/>
 <wire x1="261.62" y1="73.66" x2="256.54" y2="73.66" width="0.1524" layer="91"/>
 <label x="256.54" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -39205,7 +39205,7 @@ D = Direct mounting &lt;p&gt;
 <label x="35.56" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON_STAMP8" gate="G$1" pin="P$4"/>
+<pinref part="CON_STAMP6" gate="G$1" pin="P$4"/>
 <wire x1="261.62" y1="76.2" x2="256.54" y2="76.2" width="0.1524" layer="91"/>
 <label x="256.54" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -39249,7 +39249,7 @@ D = Direct mounting &lt;p&gt;
 </segment>
 <segment>
 <label x="284.48" y="73.66" size="1.27" layer="95" xref="yes"/>
-<pinref part="CON_STAMP8" gate="G$1" pin="P$6"/>
+<pinref part="CON_STAMP6" gate="G$1" pin="P$6"/>
 <wire x1="284.48" y1="73.66" x2="279.4" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
