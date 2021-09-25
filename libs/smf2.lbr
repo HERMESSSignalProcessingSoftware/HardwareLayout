@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mic" unit="mic" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -699,6 +699,50 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <text x="-3.048" y="1.778" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.048" y="-3.048" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="SOIC16-NEU-S70KONFORM">
+<circle x="-4" y="-2.75" radius="0.353553125" width="0.1524" layer="21"/>
+<wire x1="-4.94" y1="-4.44" x2="-4.94" y2="-3.94" width="0.2032" layer="51"/>
+<wire x1="4.94" y1="3.17" x2="4.94" y2="-3.94" width="0.2032" layer="51"/>
+<wire x1="4.94" y1="-3.94" x2="4.94" y2="-4.44" width="0.2032" layer="51"/>
+<wire x1="4.94" y1="-4.44" x2="-4.94" y2="-4.44" width="0.2032" layer="51"/>
+<wire x1="-4.94" y1="3.17" x2="4.94" y2="3.17" width="0.2032" layer="51"/>
+<wire x1="4.94" y1="-3.94" x2="-4.94" y2="-3.94" width="0.2032" layer="51"/>
+<wire x1="-4.94" y1="-3.94" x2="-4.94" y2="3.17" width="0.2032" layer="51"/>
+<rectangle x1="-4.69" y1="-5.64" x2="-4.2" y2="-4.54" layer="51"/>
+<rectangle x1="-3.42" y1="-5.64" x2="-2.93" y2="-4.54" layer="51"/>
+<rectangle x1="-2.15" y1="-5.64" x2="-1.66" y2="-4.54" layer="51"/>
+<rectangle x1="-0.88" y1="-5.64" x2="-0.39" y2="-4.54" layer="51"/>
+<rectangle x1="-0.88" y1="3.27" x2="-0.39" y2="4.37" layer="51"/>
+<rectangle x1="-2.15" y1="3.27" x2="-1.66" y2="4.37" layer="51"/>
+<rectangle x1="-3.42" y1="3.27" x2="-2.93" y2="4.37" layer="51"/>
+<rectangle x1="-4.69" y1="3.27" x2="-4.2" y2="4.37" layer="51"/>
+<rectangle x1="0.39" y1="-5.64" x2="0.88" y2="-4.54" layer="51"/>
+<rectangle x1="1.66" y1="-5.64" x2="2.15" y2="-4.54" layer="51"/>
+<rectangle x1="2.93" y1="-5.64" x2="3.42" y2="-4.54" layer="51"/>
+<rectangle x1="4.2" y1="-5.64" x2="4.69" y2="-4.54" layer="51"/>
+<rectangle x1="4.2" y1="3.27" x2="4.69" y2="4.37" layer="51"/>
+<rectangle x1="2.93" y1="3.27" x2="3.42" y2="4.37" layer="51"/>
+<rectangle x1="1.66" y1="3.27" x2="2.15" y2="4.37" layer="51"/>
+<rectangle x1="0.39" y1="3.27" x2="0.88" y2="4.37" layer="51"/>
+<smd name="1" x="-4.445" y="-5.14" dx="0.6" dy="2.2" layer="1"/>
+<smd name="2" x="-3.175" y="-5.14" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="-1.905" y="-5.14" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="-0.635" y="-5.14" dx="0.6" dy="2.2" layer="1"/>
+<text x="-5.207" y="-4.445" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="6.477" y="-4.445" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<smd name="5" x="0.615" y="-5.14" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="1.915" y="-5.14" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="3.165" y="-5.14" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="4.465" y="-5.14" dx="0.6" dy="2.2" layer="1"/>
+<smd name="9" x="4.465" y="4.36" dx="0.6" dy="2.2" layer="1"/>
+<smd name="10" x="3.165" y="4.36" dx="0.6" dy="2.2" layer="1"/>
+<smd name="11" x="1.915" y="4.36" dx="0.6" dy="2.2" layer="1"/>
+<smd name="12" x="0.615" y="4.36" dx="0.6" dy="2.2" layer="1"/>
+<smd name="13" x="-0.635" y="4.36" dx="0.6" dy="2.2" layer="1"/>
+<smd name="14" x="-1.89" y="4.355" dx="0.6" dy="2.2" layer="1"/>
+<smd name="15" x="-3.185" y="4.36" dx="0.6" dy="2.2" layer="1"/>
+<smd name="16" x="-4.435" y="4.36" dx="0.6" dy="2.2" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FTDI2232D">
@@ -958,9 +1002,35 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <text x="2.54" y="35.56" size="1.27" layer="94">General Bank</text>
 <text x="0" y="38.608" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
+<symbol name="S70FL_NEU">
+<wire x1="-12.7" y1="-25.4" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-25.4" x2="-12.7" y2="-25.4" width="0.254" layer="94"/>
+<pin name="CS1#" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="CS2#" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="HOLD#/IO3" x="15.24" y="-10.16" length="middle" rot="R180"/>
+<pin name="RESET#" x="-17.78" y="-2.54" length="middle"/>
+<pin name="SCLK" x="15.24" y="7.62" length="middle" rot="R180"/>
+<pin name="SI/O0" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="SO/O1" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="VCC" x="-17.78" y="7.62" length="middle"/>
+<pin name="VIO/RFU" x="-17.78" y="2.54" length="middle"/>
+<pin name="VSS" x="-17.78" y="5.08" length="middle"/>
+<pin name="WP#/IO2" x="15.24" y="-7.62" length="middle" rot="R180"/>
+<text x="-12.7" y="10.668" size="1.27" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-25.908" size="1.27" layer="96" align="top-left">&gt;VALUE</text>
+<pin name="DNU1" x="-17.78" y="-12.7" length="middle" direction="nc"/>
+<pin name="DNU2" x="-17.78" y="-15.24" length="middle" direction="nc"/>
+<pin name="DNU3" x="-17.78" y="-17.78" length="middle" direction="nc"/>
+<pin name="DNU4" x="-17.78" y="-20.32" length="middle" direction="nc"/>
+<pin name="NC" x="-17.78" y="-22.86" length="middle" direction="nc"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FT2232D">
+<description>&lt;h1&gt;FTDI 2232D &lt;/h1&gt;
+&lt;a href="https://ftdichip.com/wp-content/uploads/2020/08/DS_FT2232D.pdf"&gt;Datenblatt&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="FTDI2232D" x="0" y="0"/>
 </gates>
@@ -980,7 +1050,7 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <connect gate="G$1" pin="ADBUS5" pad="19"/>
 <connect gate="G$1" pin="ADBUS6" pad="17"/>
 <connect gate="G$1" pin="ADBUS7" pad="16"/>
-<connect gate="G$1" pin="AGND" pad="9"/>
+<connect gate="G$1" pin="AGND" pad="45"/>
 <connect gate="G$1" pin="AVCC" pad="46"/>
 <connect gate="G$1" pin="BCBUS0" pad="30"/>
 <connect gate="G$1" pin="BCBUS1" pad="29"/>
@@ -1000,7 +1070,7 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <connect gate="G$1" pin="GND1" pad="18"/>
 <connect gate="G$1" pin="GND2" pad="25"/>
 <connect gate="G$1" pin="GND3" pad="34"/>
-<connect gate="G$1" pin="GND4" pad="45"/>
+<connect gate="G$1" pin="GND4" pad="9"/>
 <connect gate="G$1" pin="PWREN#" pad="41"/>
 <connect gate="G$1" pin="RESET#" pad="4"/>
 <connect gate="G$1" pin="RSTOUT#" pad="5"/>
@@ -1023,6 +1093,9 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 </devices>
 </deviceset>
 <deviceset name="M93C46-WDW6TP">
+<description>&lt;h1&gt;EEPORM M93C46 - WDW6TP&lt;/h1&gt;
+&lt;p&gt;Hersteller: STMicroelectronics&lt;/p&gt;
+&lt;a href="https://www.mouser.de/datasheet/2/389/cd00001142-1795513.pdf"&gt;Datenblatt&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="M93C" x="0" y="0"/>
 </gates>
@@ -1043,32 +1116,10 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 </device>
 </devices>
 </deviceset>
-<deviceset name="S70FL01GSAGM">
-<gates>
-<gate name="G$1" symbol="S70FL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOIC16">
-<connects>
-<connect gate="G$1" pin="CS1#" pad="7"/>
-<connect gate="G$1" pin="CS2#" pad="6"/>
-<connect gate="G$1" pin="HOLD#/IO3" pad="1"/>
-<connect gate="G$1" pin="RESET#" pad="3"/>
-<connect gate="G$1" pin="SCLK" pad="16"/>
-<connect gate="G$1" pin="SI/O0" pad="15"/>
-<connect gate="G$1" pin="SO/O1" pad="8"/>
-<connect gate="G$1" pin="VCC" pad="2"/>
-<connect gate="G$1" pin="VIO/RFU" pad="14"/>
-<connect gate="G$1" pin="VSS" pad="10"/>
-<connect gate="G$1" pin="WP#/IO2" pad="9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="SF2_M2S010TQ144" prefix="SF2_M2S010TQ144">
+<description>&lt;h1&gt; Smart Fusion SoC  &lt;/h1&gt;
+&lt;a href="https://www.microsemi.com/product-directory/soc-fpgas/1692-smartfusion2#documentation"&gt;Dokumente&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://www.microsemi.com/document-portal/doc_download/133134-smartfusion2-tq144-pinouts"&gt;Pin Out TQ144&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="SF2_BANK0" x="5.08" y="93.98"/>
 <gate name="G$2" symbol="SF2_BANK2" x="5.08" y="63.5"/>
@@ -1192,6 +1243,38 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <connect gate="G$7" pin="XTLOSC_AUX_XTAL" pad="68"/>
 <connect gate="G$7" pin="XTLOSC_MAIN_EXTAL" pad="71"/>
 <connect gate="G$7" pin="XTLOSC_MAIN_XTAL" pad="70"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="S70FL01GSAGM_NEU">
+<description>&lt;h1&gt; Memory S70FL01G &lt;/h1&gt;
+&lt;a href="https://www.cypress.com/file/233721/download"&gt;Datenblatt&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="S70FL_NEU" x="0" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="SOIC16-NEU-S70KONFORM">
+<connects>
+<connect gate="G$1" pin="CS1#" pad="7"/>
+<connect gate="G$1" pin="CS2#" pad="6"/>
+<connect gate="G$1" pin="DNU1" pad="4"/>
+<connect gate="G$1" pin="DNU2" pad="5"/>
+<connect gate="G$1" pin="DNU3" pad="11"/>
+<connect gate="G$1" pin="DNU4" pad="12"/>
+<connect gate="G$1" pin="HOLD#/IO3" pad="1"/>
+<connect gate="G$1" pin="NC" pad="13"/>
+<connect gate="G$1" pin="RESET#" pad="3"/>
+<connect gate="G$1" pin="SCLK" pad="16"/>
+<connect gate="G$1" pin="SI/O0" pad="15"/>
+<connect gate="G$1" pin="SO/O1" pad="8"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
+<connect gate="G$1" pin="VIO/RFU" pad="14"/>
+<connect gate="G$1" pin="VSS" pad="10"/>
+<connect gate="G$1" pin="WP#/IO2" pad="9"/>
 </connects>
 <technologies>
 <technology name=""/>
