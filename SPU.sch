@@ -32222,7 +32222,7 @@ www.irf.com&lt;p&gt;
 <part name="R60" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
 <part name="R61" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
-<part name="CN1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="USB" device="MINIB" package3d_urn="urn:adsk.eagle:package:6240633/1"/>
+<part name="USB_CONN" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="USB" device="MINIB" package3d_urn="urn:adsk.eagle:package:6240633/1"/>
 <part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2k2"/>
 <part name="STAMP1_ADC_SG1" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
 <part name="C33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
@@ -32681,7 +32681,7 @@ www.irf.com&lt;p&gt;
 <attribute name="NAME" x="64.008" y="33.5026" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 <attribute name="VALUE" x="57.912" y="33.528" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="CN1" gate="G$1" x="210.82" y="111.76" smashed="yes" grouprefs="DAPI">
+<instance part="USB_CONN" gate="G$1" x="210.82" y="111.76" smashed="yes" grouprefs="DAPI">
 <attribute name="NAME" x="200.66" y="120.396" size="1.27" layer="95"/>
 <attribute name="VALUE" x="200.66" y="101.6" size="1.27" layer="96"/>
 </instance>
@@ -32953,7 +32953,7 @@ www.irf.com&lt;p&gt;
 <label x="210.82" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="GND"/>
+<pinref part="USB_CONN" gate="G$1" pin="GND"/>
 <wire x1="220.98" y1="106.68" x2="223.52" y2="106.68" width="0.1524" layer="91" grouprefs="DAPI"/>
 <label x="223.52" y="106.68" size="1.27" layer="95" xref="yes" grouprefs="DAPI"/>
 </segment>
@@ -34082,7 +34082,7 @@ www.irf.com&lt;p&gt;
 </net>
 <net name="USB_N" class="0">
 <segment>
-<pinref part="CN1" gate="G$1" pin="D-"/>
+<pinref part="USB_CONN" gate="G$1" pin="D-"/>
 <wire x1="220.98" y1="111.76" x2="236.22" y2="111.76" width="0.1524" layer="91" grouprefs="DAPI"/>
 <wire x1="236.22" y1="111.76" x2="236.22" y2="114.3" width="0.1524" layer="91" grouprefs="DAPI"/>
 <pinref part="USB" gate="G$1" pin="DM"/>
@@ -34092,7 +34092,7 @@ www.irf.com&lt;p&gt;
 </net>
 <net name="USB_P" class="0">
 <segment>
-<pinref part="CN1" gate="G$1" pin="D+"/>
+<pinref part="USB_CONN" gate="G$1" pin="D+"/>
 <wire x1="220.98" y1="114.3" x2="233.68" y2="114.3" width="0.1524" layer="91" grouprefs="DAPI"/>
 <wire x1="233.68" y1="114.3" x2="233.68" y2="109.22" width="0.1524" layer="91" grouprefs="DAPI"/>
 <pinref part="USB" gate="G$1" pin="DP"/>
@@ -34102,7 +34102,7 @@ www.irf.com&lt;p&gt;
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="CN1" gate="G$1" pin="VBUS"/>
+<pinref part="USB_CONN" gate="G$1" pin="VBUS"/>
 <pinref part="C21" gate="G$1" pin="2"/>
 <wire x1="220.98" y1="116.84" x2="223.52" y2="116.84" width="0.1524" layer="91" grouprefs="DAPI"/>
 </segment>
