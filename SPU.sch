@@ -37391,24 +37391,7 @@ Crimp ZE05-2022SCF</text>
 <label x="256.54" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="SMASHALL" class="0">
-<segment>
-<pinref part="R95" gate="G$1" pin="2"/>
-<wire x1="45.72" y1="45.72" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="STAMP2_ADC_TEMP" gate="G$1" pin="AIN0/IEXC"/>
-<wire x1="43.18" y1="45.72" x2="35.56" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="55.88" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
-<junction x="43.18" y="45.72"/>
-<label x="35.56" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="CON_STAMP2" gate="G$1" pin="P$4"/>
-<wire x1="261.62" y1="76.2" x2="256.54" y2="76.2" width="0.1524" layer="91"/>
-<label x="256.54" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$110" class="0">
+<net name="S2AT2" class="0">
 <segment>
 <pinref part="C110" gate="G$1" pin="2"/>
 <pinref part="C111" gate="G$1" pin="1"/>
@@ -37421,7 +37404,7 @@ Crimp ZE05-2022SCF</text>
 <wire x1="55.88" y1="71.12" x2="58.42" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$111" class="0">
+<net name="S2AT1" class="0">
 <segment>
 <pinref part="C110" gate="G$1" pin="1"/>
 <pinref part="C112" gate="G$1" pin="2"/>
@@ -37564,6 +37547,23 @@ Crimp ZE05-2022SCF</text>
 <wire x1="228.6" y1="193.04" x2="233.68" y2="193.04" width="0.1524" layer="91"/>
 <junction x="228.6" y="193.04"/>
 <label x="233.68" y="193.04" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="STAMP2_TEMP_AIN1" class="0">
+<segment>
+<pinref part="R95" gate="G$1" pin="2"/>
+<wire x1="45.72" y1="45.72" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="STAMP2_ADC_TEMP" gate="G$1" pin="AIN0/IEXC"/>
+<wire x1="43.18" y1="45.72" x2="35.56" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="55.88" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
+<junction x="43.18" y="45.72"/>
+<label x="35.56" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="CON_STAMP2" gate="G$1" pin="P$4"/>
+<wire x1="261.62" y1="76.2" x2="256.54" y2="76.2" width="0.1524" layer="91"/>
+<label x="256.54" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
