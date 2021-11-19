@@ -32271,7 +32271,7 @@ www.irf.com&lt;p&gt;
 <part name="R82" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="820 0.1%"/>
 <part name="CON_STAMP1" library="con-jae" deviceset="IL-AG5-10P-S3T2" device=""/>
 <part name="FRAME4" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
-<part name="STAMP1_ADC_SG5" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
+<part name="STAMP2_ADC_SG1" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
 <part name="C92" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="R71" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4k7"/>
 <part name="C93" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1u"/>
@@ -32285,7 +32285,7 @@ www.irf.com&lt;p&gt;
 <part name="R85" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="40 1%"/>
 <part name="R86" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k 0.1%"/>
 <part name="U$9" library="selfmade" deviceset="COMMON_MODE_CHOKE" device=""/>
-<part name="STAMP1_ADC_SG6" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
+<part name="STAMP2_ADC_SG2" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
 <part name="C98" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="R87" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4k7"/>
 <part name="C99" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1u"/>
@@ -32299,7 +32299,7 @@ www.irf.com&lt;p&gt;
 <part name="R91" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="40 1%"/>
 <part name="R92" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k 0.1%"/>
 <part name="U$10" library="selfmade" deviceset="COMMON_MODE_CHOKE" device=""/>
-<part name="STAMP1_ADC_TEMP2" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
+<part name="STAMP2_ADC_TEMP" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
 <part name="C104" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="R93" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
 <part name="C105" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
@@ -32318,7 +32318,7 @@ www.irf.com&lt;p&gt;
 <part name="R99" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="820 0.1%"/>
 <part name="CON_STAMP2" library="con-jae" deviceset="IL-AG5-10P-S3T2" device=""/>
 <part name="FRAME6" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
-<part name="STAMP1_ADC_SG9" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
+<part name="STAMP3_ADC_SG1" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
 <part name="C134" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="R119" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4k7"/>
 <part name="C135" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1u"/>
@@ -32332,7 +32332,7 @@ www.irf.com&lt;p&gt;
 <part name="R123" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="40 1%"/>
 <part name="R124" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k 0.1%"/>
 <part name="U$13" library="selfmade" deviceset="COMMON_MODE_CHOKE" device=""/>
-<part name="STAMP1_ADC_SG10" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
+<part name="STAMP3_ADC_SG2" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
 <part name="C140" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="R125" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4k7"/>
 <part name="C141" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1u"/>
@@ -32346,7 +32346,7 @@ www.irf.com&lt;p&gt;
 <part name="R129" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="40 1%"/>
 <part name="R130" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k 0.1%"/>
 <part name="U$14" library="selfmade" deviceset="COMMON_MODE_CHOKE" device=""/>
-<part name="STAMP1_ADC_TEMP4" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
+<part name="STAMP3_ADC_TEMP" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
 <part name="C146" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="R131" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
 <part name="C147" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
@@ -32365,7 +32365,7 @@ www.irf.com&lt;p&gt;
 <part name="R137" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="820 0.1%"/>
 <part name="CON_STAMP3" library="con-jae" deviceset="IL-AG5-10P-S3T2" device=""/>
 <part name="FRAME8" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
-<part name="STAMP1_ADC_SG11" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
+<part name="STAMP4_ADC_SG1" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
 <part name="C155" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="R138" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4k7"/>
 <part name="C156" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1u"/>
@@ -32379,7 +32379,7 @@ www.irf.com&lt;p&gt;
 <part name="R142" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="40 1%"/>
 <part name="R143" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k 0.1%"/>
 <part name="U$15" library="selfmade" deviceset="COMMON_MODE_CHOKE" device=""/>
-<part name="STAMP1_ADC_SG12" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
+<part name="STAMP4_ADC_SG2" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
 <part name="C161" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="R144" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4k7"/>
 <part name="C162" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1u"/>
@@ -32393,7 +32393,7 @@ www.irf.com&lt;p&gt;
 <part name="R148" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="40 1%"/>
 <part name="R149" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k 0.1%"/>
 <part name="U$16" library="selfmade" deviceset="COMMON_MODE_CHOKE" device=""/>
-<part name="STAMP1_ADC_TEMP5" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
+<part name="STAMP4_ADC_TEMP" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
 <part name="C167" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="R150" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
 <part name="C168" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
@@ -32412,7 +32412,7 @@ www.irf.com&lt;p&gt;
 <part name="R156" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="820 0.1%"/>
 <part name="CON_STAMP4" library="con-jae" deviceset="IL-AG5-10P-S3T2" device=""/>
 <part name="FRAME7" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
-<part name="STAMP1_ADC_SG7" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
+<part name="STAMP5_ADC_SG1" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
 <part name="C113" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="R100" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4k7"/>
 <part name="C114" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1u"/>
@@ -32426,7 +32426,7 @@ www.irf.com&lt;p&gt;
 <part name="R104" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="40 1%"/>
 <part name="R105" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k 0.1%"/>
 <part name="U$11" library="selfmade" deviceset="COMMON_MODE_CHOKE" device=""/>
-<part name="STAMP1_ADC_SG8" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
+<part name="STAMP5_ADC_SG2" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
 <part name="C119" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="R106" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4k7"/>
 <part name="C120" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1u"/>
@@ -32440,7 +32440,7 @@ www.irf.com&lt;p&gt;
 <part name="R110" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="40 1%"/>
 <part name="R111" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k 0.1%"/>
 <part name="U$12" library="selfmade" deviceset="COMMON_MODE_CHOKE" device=""/>
-<part name="STAMP1_ADC_TEMP3" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
+<part name="STAMP5_ADC_TEMP" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
 <part name="C125" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="R112" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
 <part name="C126" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
@@ -32459,7 +32459,7 @@ www.irf.com&lt;p&gt;
 <part name="R118" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="820 0.1%"/>
 <part name="CON_STAMP5" library="con-jae" deviceset="IL-AG5-10P-S3T2" device=""/>
 <part name="FRAME10" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
-<part name="STAMP1_ADC_SG15" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
+<part name="STAMP6_ADC_SG1" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
 <part name="C197" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="R176" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4k7"/>
 <part name="C198" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1u"/>
@@ -32473,7 +32473,7 @@ www.irf.com&lt;p&gt;
 <part name="R180" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="40 1%"/>
 <part name="R181" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k 0.1%"/>
 <part name="U$19" library="selfmade" deviceset="COMMON_MODE_CHOKE" device=""/>
-<part name="STAMP1_ADC_SG16" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
+<part name="STAMP6_ADC_SG2" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
 <part name="C203" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="R182" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4k7"/>
 <part name="C204" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1u"/>
@@ -32487,7 +32487,7 @@ www.irf.com&lt;p&gt;
 <part name="R186" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="40 1%"/>
 <part name="R187" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k 0.1%"/>
 <part name="U$20" library="selfmade" deviceset="COMMON_MODE_CHOKE" device=""/>
-<part name="STAMP1_ADC_TEMP7" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
+<part name="STAMP6_ADC_TEMP" library="ads11xx" deviceset="ADS1148QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:17526348/1"/>
 <part name="C209" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="R188" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
 <part name="C210" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
@@ -36676,7 +36676,7 @@ Crimp ZE05-2022SCF</text>
 <attribute name="LAST_DATE_TIME" x="344.17" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="357.505" y="5.08" size="2.54" layer="94"/>
 </instance>
-<instance part="STAMP1_ADC_SG5" gate="G$1" x="86.36" y="149.86" smashed="yes">
+<instance part="STAMP2_ADC_SG1" gate="G$1" x="86.36" y="149.86" smashed="yes">
 <attribute name="NAME" x="86.36" y="221.488" size="1.778" layer="95"/>
 <attribute name="VALUE" x="86.36" y="149.352" size="1.778" layer="96" align="top-left"/>
 </instance>
@@ -36732,7 +36732,7 @@ Crimp ZE05-2022SCF</text>
 <attribute name="NAME" x="33.274" y="199.39" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="48.768" y="199.263" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="STAMP1_ADC_SG6" gate="G$1" x="269.24" y="149.86" smashed="yes">
+<instance part="STAMP2_ADC_SG2" gate="G$1" x="269.24" y="149.86" smashed="yes">
 <attribute name="NAME" x="269.24" y="221.488" size="1.778" layer="95"/>
 <attribute name="VALUE" x="269.24" y="149.352" size="1.778" layer="96" align="top-left"/>
 </instance>
@@ -36788,7 +36788,7 @@ Crimp ZE05-2022SCF</text>
 <attribute name="NAME" x="216.154" y="199.39" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="231.648" y="199.263" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="STAMP1_ADC_TEMP2" gate="G$1" x="86.36" y="38.1" smashed="yes">
+<instance part="STAMP2_ADC_TEMP" gate="G$1" x="86.36" y="38.1" smashed="yes">
 <attribute name="NAME" x="86.36" y="109.728" size="1.778" layer="95"/>
 <attribute name="VALUE" x="86.36" y="37.592" size="1.778" layer="96" align="top-left"/>
 </instance>
@@ -36866,7 +36866,7 @@ Crimp ZE05-2022SCF</text>
 <nets>
 <net name="3V3" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG5" gate="G$1" pin="DVDD"/>
+<pinref part="STAMP2_ADC_SG1" gate="G$1" pin="DVDD"/>
 <pinref part="C92" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="218.44" x2="81.28" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="220.98" x2="71.12" y2="220.98" width="0.1524" layer="91"/>
@@ -36880,7 +36880,7 @@ Crimp ZE05-2022SCF</text>
 <label x="66.04" y="203.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG5" gate="G$1" pin="AVDD"/>
+<pinref part="STAMP2_ADC_SG1" gate="G$1" pin="AVDD"/>
 <pinref part="C94" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="187.96" x2="152.4" y2="187.96" width="0.1524" layer="91"/>
 <junction x="152.4" y="187.96"/>
@@ -36888,7 +36888,7 @@ Crimp ZE05-2022SCF</text>
 <label x="165.1" y="187.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG6" gate="G$1" pin="DVDD"/>
+<pinref part="STAMP2_ADC_SG2" gate="G$1" pin="DVDD"/>
 <pinref part="C98" gate="G$1" pin="1"/>
 <wire x1="264.16" y1="218.44" x2="264.16" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="220.98" x2="254" y2="220.98" width="0.1524" layer="91"/>
@@ -36902,7 +36902,7 @@ Crimp ZE05-2022SCF</text>
 <label x="248.92" y="203.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG6" gate="G$1" pin="AVDD"/>
+<pinref part="STAMP2_ADC_SG2" gate="G$1" pin="AVDD"/>
 <pinref part="C100" gate="G$1" pin="1"/>
 <wire x1="327.66" y1="187.96" x2="335.28" y2="187.96" width="0.1524" layer="91"/>
 <junction x="335.28" y="187.96"/>
@@ -36910,7 +36910,7 @@ Crimp ZE05-2022SCF</text>
 <label x="347.98" y="187.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_TEMP2" gate="G$1" pin="AVDD"/>
+<pinref part="STAMP2_ADC_TEMP" gate="G$1" pin="AVDD"/>
 <pinref part="C104" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="76.2" x2="152.4" y2="76.2" width="0.1524" layer="91"/>
 <junction x="152.4" y="76.2"/>
@@ -36923,7 +36923,7 @@ Crimp ZE05-2022SCF</text>
 <junction x="71.12" y="109.22"/>
 <wire x1="71.12" y1="109.22" x2="66.04" y2="109.22" width="0.1524" layer="91"/>
 <label x="66.04" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="STAMP1_ADC_TEMP2" gate="G$1" pin="DVDD"/>
+<pinref part="STAMP2_ADC_TEMP" gate="G$1" pin="DVDD"/>
 <wire x1="81.28" y1="109.22" x2="81.28" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -36934,7 +36934,7 @@ Crimp ZE05-2022SCF</text>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG5" gate="G$1" pin="DGND/DSS"/>
+<pinref part="STAMP2_ADC_SG1" gate="G$1" pin="DGND/DSS"/>
 <wire x1="81.28" y1="213.36" x2="71.12" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="C92" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="213.36" x2="66.04" y2="213.36" width="0.1524" layer="91"/>
@@ -36942,7 +36942,7 @@ Crimp ZE05-2022SCF</text>
 <label x="66.04" y="213.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG5" gate="G$1" pin="AVSS"/>
+<pinref part="STAMP2_ADC_SG1" gate="G$1" pin="AVSS"/>
 <wire x1="144.78" y1="182.88" x2="147.32" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="182.88" x2="147.32" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="C94" gate="G$1" pin="2"/>
@@ -36958,7 +36958,7 @@ Crimp ZE05-2022SCF</text>
 </segment>
 <segment>
 <pinref part="C93" gate="G$1" pin="2"/>
-<pinref part="STAMP1_ADC_SG5" gate="G$1" pin="VREFCOM"/>
+<pinref part="STAMP2_ADC_SG1" gate="G$1" pin="VREFCOM"/>
 <wire x1="71.12" y1="172.72" x2="81.28" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="172.72" x2="63.5" y2="172.72" width="0.1524" layer="91"/>
 <junction x="71.12" y="172.72"/>
@@ -36978,7 +36978,7 @@ Crimp ZE05-2022SCF</text>
 <label x="30.48" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG6" gate="G$1" pin="DGND/DSS"/>
+<pinref part="STAMP2_ADC_SG2" gate="G$1" pin="DGND/DSS"/>
 <wire x1="264.16" y1="213.36" x2="254" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="C98" gate="G$1" pin="2"/>
 <wire x1="254" y1="213.36" x2="248.92" y2="213.36" width="0.1524" layer="91"/>
@@ -36986,7 +36986,7 @@ Crimp ZE05-2022SCF</text>
 <label x="248.92" y="213.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG6" gate="G$1" pin="AVSS"/>
+<pinref part="STAMP2_ADC_SG2" gate="G$1" pin="AVSS"/>
 <wire x1="327.66" y1="182.88" x2="330.2" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="182.88" x2="330.2" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="C100" gate="G$1" pin="2"/>
@@ -37002,7 +37002,7 @@ Crimp ZE05-2022SCF</text>
 </segment>
 <segment>
 <pinref part="C99" gate="G$1" pin="2"/>
-<pinref part="STAMP1_ADC_SG6" gate="G$1" pin="VREFCOM"/>
+<pinref part="STAMP2_ADC_SG2" gate="G$1" pin="VREFCOM"/>
 <wire x1="254" y1="172.72" x2="264.16" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="254" y1="172.72" x2="246.38" y2="172.72" width="0.1524" layer="91"/>
 <junction x="254" y="172.72"/>
@@ -37022,7 +37022,7 @@ Crimp ZE05-2022SCF</text>
 <label x="213.36" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_TEMP2" gate="G$1" pin="AVSS"/>
+<pinref part="STAMP2_ADC_TEMP" gate="G$1" pin="AVSS"/>
 <wire x1="144.78" y1="71.12" x2="147.32" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="71.12" x2="147.32" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="C104" gate="G$1" pin="2"/>
@@ -37037,8 +37037,8 @@ Crimp ZE05-2022SCF</text>
 <wire x1="71.12" y1="101.6" x2="55.88" y2="101.6" width="0.1524" layer="91"/>
 <junction x="71.12" y="101.6"/>
 <label x="53.34" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="STAMP1_ADC_TEMP2" gate="G$1" pin="DGND/DSS"/>
-<pinref part="STAMP1_ADC_TEMP2" gate="G$1" pin="CLK"/>
+<pinref part="STAMP2_ADC_TEMP" gate="G$1" pin="DGND/DSS"/>
+<pinref part="STAMP2_ADC_TEMP" gate="G$1" pin="CLK"/>
 <wire x1="55.88" y1="101.6" x2="53.34" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="96.52" x2="71.12" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="96.52" x2="71.12" y2="101.6" width="0.1524" layer="91"/>
@@ -37055,7 +37055,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="C109" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="58.42" x2="81.28" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="STAMP1_ADC_TEMP2" gate="G$1" pin="VREFCOM"/>
+<pinref part="STAMP2_ADC_TEMP" gate="G$1" pin="VREFCOM"/>
 <wire x1="81.28" y1="58.42" x2="81.28" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="58.42" x2="60.96" y2="58.42" width="0.1524" layer="91"/>
 <junction x="71.12" y="58.42"/>
@@ -37084,26 +37084,26 @@ Crimp ZE05-2022SCF</text>
 </net>
 <net name="SG_CLK" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG5" gate="G$1" pin="CLK"/>
+<pinref part="STAMP2_ADC_SG1" gate="G$1" pin="CLK"/>
 <wire x1="81.28" y1="208.28" x2="66.04" y2="208.28" width="0.1524" layer="91"/>
 <label x="66.04" y="208.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG6" gate="G$1" pin="CLK"/>
+<pinref part="STAMP2_ADC_SG2" gate="G$1" pin="CLK"/>
 <wire x1="264.16" y1="208.28" x2="248.92" y2="208.28" width="0.1524" layer="91"/>
 <label x="248.92" y="208.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$78" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG5" gate="G$1" pin="!RESET"/>
+<pinref part="STAMP2_ADC_SG1" gate="G$1" pin="!RESET"/>
 <pinref part="R71" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="203.2" x2="78.74" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$85" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG5" gate="G$1" pin="VREFOUT"/>
+<pinref part="STAMP2_ADC_SG1" gate="G$1" pin="VREFOUT"/>
 <wire x1="81.28" y1="177.8" x2="78.74" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="177.8" x2="78.74" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="C93" gate="G$1" pin="1"/>
@@ -37112,17 +37112,17 @@ Crimp ZE05-2022SCF</text>
 </net>
 <net name="ADC_START" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG5" gate="G$1" pin="START"/>
+<pinref part="STAMP2_ADC_SG1" gate="G$1" pin="START"/>
 <wire x1="144.78" y1="193.04" x2="165.1" y2="193.04" width="0.1524" layer="91"/>
 <label x="165.1" y="193.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG6" gate="G$1" pin="START"/>
+<pinref part="STAMP2_ADC_SG2" gate="G$1" pin="START"/>
 <wire x1="327.66" y1="193.04" x2="347.98" y2="193.04" width="0.1524" layer="91"/>
 <label x="347.98" y="193.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_TEMP2" gate="G$1" pin="START"/>
+<pinref part="STAMP2_ADC_TEMP" gate="G$1" pin="START"/>
 <wire x1="144.78" y1="81.28" x2="165.1" y2="81.28" width="0.1524" layer="91"/>
 <label x="165.1" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -37130,7 +37130,7 @@ Crimp ZE05-2022SCF</text>
 <net name="N$93" class="0">
 <segment>
 <pinref part="R83" gate="G$1" pin="2"/>
-<pinref part="STAMP1_ADC_SG5" gate="G$1" pin="DOUT/!DRDY"/>
+<pinref part="STAMP2_ADC_SG1" gate="G$1" pin="DOUT/!DRDY"/>
 <wire x1="147.32" y1="208.28" x2="144.78" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -37141,7 +37141,7 @@ Crimp ZE05-2022SCF</text>
 <wire x1="63.5" y1="160.02" x2="71.12" y2="160.02" width="0.1524" layer="91"/>
 <junction x="63.5" y="160.02"/>
 <wire x1="71.12" y1="160.02" x2="71.12" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="STAMP1_ADC_SG5" gate="G$1" pin="AIN0/IEXC"/>
+<pinref part="STAMP2_ADC_SG1" gate="G$1" pin="AIN0/IEXC"/>
 <wire x1="71.12" y1="167.64" x2="81.28" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="R84" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="160.02" x2="60.96" y2="160.02" width="0.1524" layer="91"/>
@@ -37151,7 +37151,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="C96" gate="G$1" pin="2"/>
 <pinref part="C97" gate="G$1" pin="1"/>
-<pinref part="STAMP1_ADC_SG5" gate="G$1" pin="AIN1/IEXC"/>
+<pinref part="STAMP2_ADC_SG1" gate="G$1" pin="AIN1/IEXC"/>
 <wire x1="81.28" y1="162.56" x2="76.2" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="162.56" x2="76.2" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="152.4" x2="63.5" y2="152.4" width="0.1524" layer="91"/>
@@ -37219,14 +37219,14 @@ Crimp ZE05-2022SCF</text>
 </net>
 <net name="N$98" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG6" gate="G$1" pin="!RESET"/>
+<pinref part="STAMP2_ADC_SG2" gate="G$1" pin="!RESET"/>
 <pinref part="R87" gate="G$1" pin="1"/>
 <wire x1="264.16" y1="203.2" x2="261.62" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$99" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG6" gate="G$1" pin="VREFOUT"/>
+<pinref part="STAMP2_ADC_SG2" gate="G$1" pin="VREFOUT"/>
 <wire x1="264.16" y1="177.8" x2="261.62" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="177.8" x2="261.62" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="C99" gate="G$1" pin="1"/>
@@ -37236,7 +37236,7 @@ Crimp ZE05-2022SCF</text>
 <net name="N$100" class="0">
 <segment>
 <pinref part="R89" gate="G$1" pin="2"/>
-<pinref part="STAMP1_ADC_SG6" gate="G$1" pin="DOUT/!DRDY"/>
+<pinref part="STAMP2_ADC_SG2" gate="G$1" pin="DOUT/!DRDY"/>
 <wire x1="330.2" y1="208.28" x2="327.66" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -37247,7 +37247,7 @@ Crimp ZE05-2022SCF</text>
 <wire x1="246.38" y1="160.02" x2="254" y2="160.02" width="0.1524" layer="91"/>
 <junction x="246.38" y="160.02"/>
 <wire x1="254" y1="160.02" x2="254" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="STAMP1_ADC_SG6" gate="G$1" pin="AIN0/IEXC"/>
+<pinref part="STAMP2_ADC_SG2" gate="G$1" pin="AIN0/IEXC"/>
 <wire x1="254" y1="167.64" x2="264.16" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="R90" gate="G$1" pin="1"/>
 <wire x1="246.38" y1="160.02" x2="243.84" y2="160.02" width="0.1524" layer="91"/>
@@ -37257,7 +37257,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="C102" gate="G$1" pin="2"/>
 <pinref part="C103" gate="G$1" pin="1"/>
-<pinref part="STAMP1_ADC_SG6" gate="G$1" pin="AIN1/IEXC"/>
+<pinref part="STAMP2_ADC_SG2" gate="G$1" pin="AIN1/IEXC"/>
 <wire x1="264.16" y1="162.56" x2="259.08" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="162.56" x2="259.08" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="152.4" x2="246.38" y2="152.4" width="0.1524" layer="91"/>
@@ -37290,7 +37290,7 @@ Crimp ZE05-2022SCF</text>
 <net name="N$105" class="0">
 <segment>
 <pinref part="R93" gate="G$1" pin="2"/>
-<pinref part="STAMP1_ADC_TEMP2" gate="G$1" pin="DOUT/!DRDY"/>
+<pinref part="STAMP2_ADC_TEMP" gate="G$1" pin="DOUT/!DRDY"/>
 <wire x1="147.32" y1="96.52" x2="144.78" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -37298,7 +37298,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="R94" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="91.44" x2="78.74" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="STAMP1_ADC_TEMP2" gate="G$1" pin="!RESET"/>
+<pinref part="STAMP2_ADC_TEMP" gate="G$1" pin="!RESET"/>
 </segment>
 </net>
 <net name="STAMP2_SG2_AIN3" class="0">
@@ -37341,7 +37341,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="C106" gate="G$1" pin="2"/>
 <pinref part="C107" gate="G$1" pin="1"/>
-<pinref part="STAMP1_ADC_TEMP2" gate="G$1" pin="AIN1/IEXC"/>
+<pinref part="STAMP2_ADC_TEMP" gate="G$1" pin="AIN1/IEXC"/>
 <wire x1="81.28" y1="50.8" x2="71.12" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="50.8" x2="71.12" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="45.72" x2="60.96" y2="45.72" width="0.1524" layer="91"/>
@@ -37354,7 +37354,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="C107" gate="G$1" pin="2"/>
 <pinref part="C108" gate="G$1" pin="1"/>
-<pinref part="STAMP1_ADC_TEMP2" gate="G$1" pin="AIN2/IEXC/GPIO2"/>
+<pinref part="STAMP2_ADC_TEMP" gate="G$1" pin="AIN2/IEXC/GPIO2"/>
 <wire x1="144.78" y1="50.8" x2="147.32" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="50.8" x2="147.32" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="35.56" x2="71.12" y2="35.56" width="0.1524" layer="91"/>
@@ -37368,13 +37368,13 @@ Crimp ZE05-2022SCF</text>
 <net name="N$109" class="0">
 <segment>
 <pinref part="C109" gate="G$1" pin="1"/>
-<pinref part="STAMP1_ADC_TEMP2" gate="G$1" pin="VREFOUT"/>
+<pinref part="STAMP2_ADC_TEMP" gate="G$1" pin="VREFOUT"/>
 <wire x1="71.12" y1="66.04" x2="81.28" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP2_TEMP_AIN2" class="0">
 <segment>
-<pinref part="STAMP1_ADC_TEMP2" gate="G$1" pin="AIN3/IEXC/GPIO3"/>
+<pinref part="STAMP2_ADC_TEMP" gate="G$1" pin="AIN3/IEXC/GPIO3"/>
 <wire x1="144.78" y1="55.88" x2="149.86" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="55.88" x2="149.86" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="25.4" x2="43.18" y2="25.4" width="0.1524" layer="91"/>
@@ -37391,11 +37391,11 @@ Crimp ZE05-2022SCF</text>
 <label x="256.54" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="STAMP2_TEMP_AIN1" class="0">
+<net name="SMASHALL" class="0">
 <segment>
 <pinref part="R95" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="45.72" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="STAMP1_ADC_TEMP2" gate="G$1" pin="AIN0/IEXC"/>
+<pinref part="STAMP2_ADC_TEMP" gate="G$1" pin="AIN0/IEXC"/>
 <wire x1="43.18" y1="45.72" x2="35.56" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="55.88" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
@@ -37412,7 +37412,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="C110" gate="G$1" pin="2"/>
 <pinref part="C111" gate="G$1" pin="1"/>
-<pinref part="STAMP1_ADC_TEMP2" gate="G$1" pin="REFN0/GPIO1"/>
+<pinref part="STAMP2_ADC_TEMP" gate="G$1" pin="REFN0/GPIO1"/>
 <wire x1="81.28" y1="81.28" x2="71.12" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="81.28" x2="71.12" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="71.12" x2="58.42" y2="71.12" width="0.1524" layer="91"/>
@@ -37427,7 +37427,7 @@ Crimp ZE05-2022SCF</text>
 <pinref part="C112" gate="G$1" pin="2"/>
 <wire x1="58.42" y1="78.74" x2="66.04" y2="78.74" width="0.1524" layer="91"/>
 <junction x="58.42" y="78.74"/>
-<pinref part="STAMP1_ADC_TEMP2" gate="G$1" pin="REFP0/GPIO0"/>
+<pinref part="STAMP2_ADC_TEMP" gate="G$1" pin="REFP0/GPIO0"/>
 <wire x1="66.04" y1="78.74" x2="66.04" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="86.36" x2="81.28" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="R97" gate="G$1" pin="1"/>
@@ -37453,34 +37453,34 @@ Crimp ZE05-2022SCF</text>
 </net>
 <net name="STAMP2_SCLK" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG5" gate="G$1" pin="SCLK"/>
+<pinref part="STAMP2_ADC_SG1" gate="G$1" pin="SCLK"/>
 <wire x1="144.78" y1="218.44" x2="165.1" y2="218.44" width="0.1524" layer="91"/>
 <label x="165.1" y="218.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG6" gate="G$1" pin="SCLK"/>
+<pinref part="STAMP2_ADC_SG2" gate="G$1" pin="SCLK"/>
 <wire x1="327.66" y1="218.44" x2="347.98" y2="218.44" width="0.1524" layer="91"/>
 <label x="347.98" y="218.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_TEMP2" gate="G$1" pin="SCLK"/>
+<pinref part="STAMP2_ADC_TEMP" gate="G$1" pin="SCLK"/>
 <wire x1="144.78" y1="106.68" x2="165.1" y2="106.68" width="0.1524" layer="91"/>
 <label x="165.1" y="106.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="STAMP2_MOSI" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG5" gate="G$1" pin="DIN"/>
+<pinref part="STAMP2_ADC_SG1" gate="G$1" pin="DIN"/>
 <wire x1="144.78" y1="213.36" x2="165.1" y2="213.36" width="0.1524" layer="91"/>
 <label x="165.1" y="213.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG6" gate="G$1" pin="DIN"/>
+<pinref part="STAMP2_ADC_SG2" gate="G$1" pin="DIN"/>
 <wire x1="327.66" y1="213.36" x2="347.98" y2="213.36" width="0.1524" layer="91"/>
 <label x="347.98" y="213.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_TEMP2" gate="G$1" pin="DIN"/>
+<pinref part="STAMP2_ADC_TEMP" gate="G$1" pin="DIN"/>
 <wire x1="144.78" y1="101.6" x2="165.1" y2="101.6" width="0.1524" layer="91"/>
 <label x="165.1" y="101.6" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -37488,13 +37488,13 @@ Crimp ZE05-2022SCF</text>
 <net name="STAMP2_DRDY_SG1" class="0">
 <segment>
 <label x="165.1" y="203.2" size="1.27" layer="95" xref="yes"/>
-<pinref part="STAMP1_ADC_SG5" gate="G$1" pin="!DRDY"/>
+<pinref part="STAMP2_ADC_SG1" gate="G$1" pin="!DRDY"/>
 <wire x1="144.78" y1="203.2" x2="165.1" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP2_CS_SG2" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG6" gate="G$1" pin="!CS"/>
+<pinref part="STAMP2_ADC_SG2" gate="G$1" pin="!CS"/>
 <wire x1="327.66" y1="198.12" x2="347.98" y2="198.12" width="0.1524" layer="91"/>
 <label x="347.98" y="198.12" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -37503,14 +37503,14 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <wire x1="340.36" y1="203.2" x2="342.9" y2="203.2" width="0.1524" layer="91"/>
 <label x="347.98" y="203.2" size="1.27" layer="95" xref="yes"/>
-<pinref part="STAMP1_ADC_SG6" gate="G$1" pin="!DRDY"/>
+<pinref part="STAMP2_ADC_SG2" gate="G$1" pin="!DRDY"/>
 <wire x1="342.9" y1="203.2" x2="347.98" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="203.2" x2="340.36" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP2_CS_TEMP" class="0">
 <segment>
-<pinref part="STAMP1_ADC_TEMP2" gate="G$1" pin="!CS"/>
+<pinref part="STAMP2_ADC_TEMP" gate="G$1" pin="!CS"/>
 <wire x1="144.78" y1="86.36" x2="165.1" y2="86.36" width="0.1524" layer="91"/>
 <label x="165.1" y="86.36" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -37518,13 +37518,13 @@ Crimp ZE05-2022SCF</text>
 <net name="STAMP2_DRDY_TEMP" class="0">
 <segment>
 <label x="165.1" y="91.44" size="1.27" layer="95" xref="yes"/>
-<pinref part="STAMP1_ADC_TEMP2" gate="G$1" pin="!DRDY"/>
+<pinref part="STAMP2_ADC_TEMP" gate="G$1" pin="!DRDY"/>
 <wire x1="144.78" y1="91.44" x2="165.1" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP2_CS_SG1" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG5" gate="G$1" pin="!CS"/>
+<pinref part="STAMP2_ADC_SG1" gate="G$1" pin="!CS"/>
 <wire x1="144.78" y1="198.12" x2="165.1" y2="198.12" width="0.1524" layer="91"/>
 <label x="165.1" y="198.12" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -37579,7 +37579,7 @@ Crimp ZE05-2022SCF</text>
 <attribute name="LAST_DATE_TIME" x="344.17" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="357.505" y="5.08" size="2.54" layer="94"/>
 </instance>
-<instance part="STAMP1_ADC_SG9" gate="G$1" x="86.36" y="149.86" smashed="yes">
+<instance part="STAMP3_ADC_SG1" gate="G$1" x="86.36" y="149.86" smashed="yes">
 <attribute name="NAME" x="86.36" y="221.488" size="1.778" layer="95"/>
 <attribute name="VALUE" x="86.36" y="149.352" size="1.778" layer="96" align="top-left"/>
 </instance>
@@ -37635,7 +37635,7 @@ Crimp ZE05-2022SCF</text>
 <attribute name="NAME" x="33.274" y="199.39" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="48.768" y="199.263" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="STAMP1_ADC_SG10" gate="G$1" x="269.24" y="149.86" smashed="yes">
+<instance part="STAMP3_ADC_SG2" gate="G$1" x="269.24" y="149.86" smashed="yes">
 <attribute name="NAME" x="269.24" y="221.488" size="1.778" layer="95"/>
 <attribute name="VALUE" x="269.24" y="149.352" size="1.778" layer="96" align="top-left"/>
 </instance>
@@ -37691,7 +37691,7 @@ Crimp ZE05-2022SCF</text>
 <attribute name="NAME" x="216.154" y="199.39" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="231.648" y="199.263" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="STAMP1_ADC_TEMP4" gate="G$1" x="86.36" y="38.1" smashed="yes">
+<instance part="STAMP3_ADC_TEMP" gate="G$1" x="86.36" y="38.1" smashed="yes">
 <attribute name="NAME" x="86.36" y="109.728" size="1.778" layer="95"/>
 <attribute name="VALUE" x="86.36" y="37.592" size="1.778" layer="96" align="top-left"/>
 </instance>
@@ -37769,7 +37769,7 @@ Crimp ZE05-2022SCF</text>
 <nets>
 <net name="3V3" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG9" gate="G$1" pin="DVDD"/>
+<pinref part="STAMP3_ADC_SG1" gate="G$1" pin="DVDD"/>
 <pinref part="C134" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="218.44" x2="81.28" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="220.98" x2="71.12" y2="220.98" width="0.1524" layer="91"/>
@@ -37783,7 +37783,7 @@ Crimp ZE05-2022SCF</text>
 <label x="66.04" y="203.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG9" gate="G$1" pin="AVDD"/>
+<pinref part="STAMP3_ADC_SG1" gate="G$1" pin="AVDD"/>
 <pinref part="C136" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="187.96" x2="152.4" y2="187.96" width="0.1524" layer="91"/>
 <junction x="152.4" y="187.96"/>
@@ -37791,7 +37791,7 @@ Crimp ZE05-2022SCF</text>
 <label x="165.1" y="187.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG10" gate="G$1" pin="DVDD"/>
+<pinref part="STAMP3_ADC_SG2" gate="G$1" pin="DVDD"/>
 <pinref part="C140" gate="G$1" pin="1"/>
 <wire x1="264.16" y1="218.44" x2="264.16" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="220.98" x2="254" y2="220.98" width="0.1524" layer="91"/>
@@ -37805,7 +37805,7 @@ Crimp ZE05-2022SCF</text>
 <label x="248.92" y="203.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG10" gate="G$1" pin="AVDD"/>
+<pinref part="STAMP3_ADC_SG2" gate="G$1" pin="AVDD"/>
 <pinref part="C142" gate="G$1" pin="1"/>
 <wire x1="327.66" y1="187.96" x2="335.28" y2="187.96" width="0.1524" layer="91"/>
 <junction x="335.28" y="187.96"/>
@@ -37813,7 +37813,7 @@ Crimp ZE05-2022SCF</text>
 <label x="347.98" y="187.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_TEMP4" gate="G$1" pin="AVDD"/>
+<pinref part="STAMP3_ADC_TEMP" gate="G$1" pin="AVDD"/>
 <pinref part="C146" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="76.2" x2="152.4" y2="76.2" width="0.1524" layer="91"/>
 <junction x="152.4" y="76.2"/>
@@ -37826,7 +37826,7 @@ Crimp ZE05-2022SCF</text>
 <junction x="71.12" y="109.22"/>
 <wire x1="71.12" y1="109.22" x2="66.04" y2="109.22" width="0.1524" layer="91"/>
 <label x="66.04" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="STAMP1_ADC_TEMP4" gate="G$1" pin="DVDD"/>
+<pinref part="STAMP3_ADC_TEMP" gate="G$1" pin="DVDD"/>
 <wire x1="81.28" y1="109.22" x2="81.28" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -37837,7 +37837,7 @@ Crimp ZE05-2022SCF</text>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG9" gate="G$1" pin="DGND/DSS"/>
+<pinref part="STAMP3_ADC_SG1" gate="G$1" pin="DGND/DSS"/>
 <wire x1="81.28" y1="213.36" x2="71.12" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="C134" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="213.36" x2="66.04" y2="213.36" width="0.1524" layer="91"/>
@@ -37845,7 +37845,7 @@ Crimp ZE05-2022SCF</text>
 <label x="66.04" y="213.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG9" gate="G$1" pin="AVSS"/>
+<pinref part="STAMP3_ADC_SG1" gate="G$1" pin="AVSS"/>
 <wire x1="144.78" y1="182.88" x2="147.32" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="182.88" x2="147.32" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="C136" gate="G$1" pin="2"/>
@@ -37861,7 +37861,7 @@ Crimp ZE05-2022SCF</text>
 </segment>
 <segment>
 <pinref part="C135" gate="G$1" pin="2"/>
-<pinref part="STAMP1_ADC_SG9" gate="G$1" pin="VREFCOM"/>
+<pinref part="STAMP3_ADC_SG1" gate="G$1" pin="VREFCOM"/>
 <wire x1="71.12" y1="172.72" x2="81.28" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="172.72" x2="63.5" y2="172.72" width="0.1524" layer="91"/>
 <junction x="71.12" y="172.72"/>
@@ -37881,7 +37881,7 @@ Crimp ZE05-2022SCF</text>
 <label x="30.48" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG10" gate="G$1" pin="DGND/DSS"/>
+<pinref part="STAMP3_ADC_SG2" gate="G$1" pin="DGND/DSS"/>
 <wire x1="264.16" y1="213.36" x2="254" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="C140" gate="G$1" pin="2"/>
 <wire x1="254" y1="213.36" x2="248.92" y2="213.36" width="0.1524" layer="91"/>
@@ -37889,7 +37889,7 @@ Crimp ZE05-2022SCF</text>
 <label x="248.92" y="213.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG10" gate="G$1" pin="AVSS"/>
+<pinref part="STAMP3_ADC_SG2" gate="G$1" pin="AVSS"/>
 <wire x1="327.66" y1="182.88" x2="330.2" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="182.88" x2="330.2" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="C142" gate="G$1" pin="2"/>
@@ -37905,7 +37905,7 @@ Crimp ZE05-2022SCF</text>
 </segment>
 <segment>
 <pinref part="C141" gate="G$1" pin="2"/>
-<pinref part="STAMP1_ADC_SG10" gate="G$1" pin="VREFCOM"/>
+<pinref part="STAMP3_ADC_SG2" gate="G$1" pin="VREFCOM"/>
 <wire x1="254" y1="172.72" x2="264.16" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="254" y1="172.72" x2="246.38" y2="172.72" width="0.1524" layer="91"/>
 <junction x="254" y="172.72"/>
@@ -37925,7 +37925,7 @@ Crimp ZE05-2022SCF</text>
 <label x="213.36" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_TEMP4" gate="G$1" pin="AVSS"/>
+<pinref part="STAMP3_ADC_TEMP" gate="G$1" pin="AVSS"/>
 <wire x1="144.78" y1="71.12" x2="147.32" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="71.12" x2="147.32" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="C146" gate="G$1" pin="2"/>
@@ -37940,8 +37940,8 @@ Crimp ZE05-2022SCF</text>
 <wire x1="71.12" y1="101.6" x2="55.88" y2="101.6" width="0.1524" layer="91"/>
 <junction x="71.12" y="101.6"/>
 <label x="53.34" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="STAMP1_ADC_TEMP4" gate="G$1" pin="DGND/DSS"/>
-<pinref part="STAMP1_ADC_TEMP4" gate="G$1" pin="CLK"/>
+<pinref part="STAMP3_ADC_TEMP" gate="G$1" pin="DGND/DSS"/>
+<pinref part="STAMP3_ADC_TEMP" gate="G$1" pin="CLK"/>
 <wire x1="55.88" y1="101.6" x2="53.34" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="96.52" x2="71.12" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="96.52" x2="71.12" y2="101.6" width="0.1524" layer="91"/>
@@ -37958,7 +37958,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="C151" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="58.42" x2="81.28" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="STAMP1_ADC_TEMP4" gate="G$1" pin="VREFCOM"/>
+<pinref part="STAMP3_ADC_TEMP" gate="G$1" pin="VREFCOM"/>
 <wire x1="81.28" y1="58.42" x2="81.28" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="58.42" x2="60.96" y2="58.42" width="0.1524" layer="91"/>
 <junction x="71.12" y="58.42"/>
@@ -37987,26 +37987,26 @@ Crimp ZE05-2022SCF</text>
 </net>
 <net name="SG_CLK" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG9" gate="G$1" pin="CLK"/>
+<pinref part="STAMP3_ADC_SG1" gate="G$1" pin="CLK"/>
 <wire x1="81.28" y1="208.28" x2="66.04" y2="208.28" width="0.1524" layer="91"/>
 <label x="66.04" y="208.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG10" gate="G$1" pin="CLK"/>
+<pinref part="STAMP3_ADC_SG2" gate="G$1" pin="CLK"/>
 <wire x1="264.16" y1="208.28" x2="248.92" y2="208.28" width="0.1524" layer="91"/>
 <label x="248.92" y="208.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$133" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG9" gate="G$1" pin="!RESET"/>
+<pinref part="STAMP3_ADC_SG1" gate="G$1" pin="!RESET"/>
 <pinref part="R119" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="203.2" x2="78.74" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$134" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG9" gate="G$1" pin="VREFOUT"/>
+<pinref part="STAMP3_ADC_SG1" gate="G$1" pin="VREFOUT"/>
 <wire x1="81.28" y1="177.8" x2="78.74" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="177.8" x2="78.74" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="C135" gate="G$1" pin="1"/>
@@ -38015,17 +38015,17 @@ Crimp ZE05-2022SCF</text>
 </net>
 <net name="ADC_START" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG9" gate="G$1" pin="START"/>
+<pinref part="STAMP3_ADC_SG1" gate="G$1" pin="START"/>
 <wire x1="144.78" y1="193.04" x2="165.1" y2="193.04" width="0.1524" layer="91"/>
 <label x="165.1" y="193.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG10" gate="G$1" pin="START"/>
+<pinref part="STAMP3_ADC_SG2" gate="G$1" pin="START"/>
 <wire x1="327.66" y1="193.04" x2="347.98" y2="193.04" width="0.1524" layer="91"/>
 <label x="347.98" y="193.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_TEMP4" gate="G$1" pin="START"/>
+<pinref part="STAMP3_ADC_TEMP" gate="G$1" pin="START"/>
 <wire x1="144.78" y1="81.28" x2="165.1" y2="81.28" width="0.1524" layer="91"/>
 <label x="165.1" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -38033,7 +38033,7 @@ Crimp ZE05-2022SCF</text>
 <net name="N$135" class="0">
 <segment>
 <pinref part="R121" gate="G$1" pin="2"/>
-<pinref part="STAMP1_ADC_SG9" gate="G$1" pin="DOUT/!DRDY"/>
+<pinref part="STAMP3_ADC_SG1" gate="G$1" pin="DOUT/!DRDY"/>
 <wire x1="147.32" y1="208.28" x2="144.78" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -38044,7 +38044,7 @@ Crimp ZE05-2022SCF</text>
 <wire x1="63.5" y1="160.02" x2="71.12" y2="160.02" width="0.1524" layer="91"/>
 <junction x="63.5" y="160.02"/>
 <wire x1="71.12" y1="160.02" x2="71.12" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="STAMP1_ADC_SG9" gate="G$1" pin="AIN0/IEXC"/>
+<pinref part="STAMP3_ADC_SG1" gate="G$1" pin="AIN0/IEXC"/>
 <wire x1="71.12" y1="167.64" x2="81.28" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="R122" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="160.02" x2="60.96" y2="160.02" width="0.1524" layer="91"/>
@@ -38054,7 +38054,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="C138" gate="G$1" pin="2"/>
 <pinref part="C139" gate="G$1" pin="1"/>
-<pinref part="STAMP1_ADC_SG9" gate="G$1" pin="AIN1/IEXC"/>
+<pinref part="STAMP3_ADC_SG1" gate="G$1" pin="AIN1/IEXC"/>
 <wire x1="81.28" y1="162.56" x2="76.2" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="162.56" x2="76.2" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="152.4" x2="63.5" y2="152.4" width="0.1524" layer="91"/>
@@ -38122,14 +38122,14 @@ Crimp ZE05-2022SCF</text>
 </net>
 <net name="N$140" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG10" gate="G$1" pin="!RESET"/>
+<pinref part="STAMP3_ADC_SG2" gate="G$1" pin="!RESET"/>
 <pinref part="R125" gate="G$1" pin="1"/>
 <wire x1="264.16" y1="203.2" x2="261.62" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$141" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG10" gate="G$1" pin="VREFOUT"/>
+<pinref part="STAMP3_ADC_SG2" gate="G$1" pin="VREFOUT"/>
 <wire x1="264.16" y1="177.8" x2="261.62" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="177.8" x2="261.62" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="C141" gate="G$1" pin="1"/>
@@ -38139,7 +38139,7 @@ Crimp ZE05-2022SCF</text>
 <net name="N$142" class="0">
 <segment>
 <pinref part="R127" gate="G$1" pin="2"/>
-<pinref part="STAMP1_ADC_SG10" gate="G$1" pin="DOUT/!DRDY"/>
+<pinref part="STAMP3_ADC_SG2" gate="G$1" pin="DOUT/!DRDY"/>
 <wire x1="330.2" y1="208.28" x2="327.66" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -38150,7 +38150,7 @@ Crimp ZE05-2022SCF</text>
 <wire x1="246.38" y1="160.02" x2="254" y2="160.02" width="0.1524" layer="91"/>
 <junction x="246.38" y="160.02"/>
 <wire x1="254" y1="160.02" x2="254" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="STAMP1_ADC_SG10" gate="G$1" pin="AIN0/IEXC"/>
+<pinref part="STAMP3_ADC_SG2" gate="G$1" pin="AIN0/IEXC"/>
 <wire x1="254" y1="167.64" x2="264.16" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="R128" gate="G$1" pin="1"/>
 <wire x1="246.38" y1="160.02" x2="243.84" y2="160.02" width="0.1524" layer="91"/>
@@ -38160,7 +38160,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="C144" gate="G$1" pin="2"/>
 <pinref part="C145" gate="G$1" pin="1"/>
-<pinref part="STAMP1_ADC_SG10" gate="G$1" pin="AIN1/IEXC"/>
+<pinref part="STAMP3_ADC_SG2" gate="G$1" pin="AIN1/IEXC"/>
 <wire x1="264.16" y1="162.56" x2="259.08" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="162.56" x2="259.08" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="152.4" x2="246.38" y2="152.4" width="0.1524" layer="91"/>
@@ -38193,7 +38193,7 @@ Crimp ZE05-2022SCF</text>
 <net name="N$147" class="0">
 <segment>
 <pinref part="R131" gate="G$1" pin="2"/>
-<pinref part="STAMP1_ADC_TEMP4" gate="G$1" pin="DOUT/!DRDY"/>
+<pinref part="STAMP3_ADC_TEMP" gate="G$1" pin="DOUT/!DRDY"/>
 <wire x1="147.32" y1="96.52" x2="144.78" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -38201,7 +38201,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="R132" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="91.44" x2="78.74" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="STAMP1_ADC_TEMP4" gate="G$1" pin="!RESET"/>
+<pinref part="STAMP3_ADC_TEMP" gate="G$1" pin="!RESET"/>
 </segment>
 </net>
 <net name="STAMP3_SG2_AIN3" class="0">
@@ -38244,7 +38244,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="C148" gate="G$1" pin="2"/>
 <pinref part="C149" gate="G$1" pin="1"/>
-<pinref part="STAMP1_ADC_TEMP4" gate="G$1" pin="AIN1/IEXC"/>
+<pinref part="STAMP3_ADC_TEMP" gate="G$1" pin="AIN1/IEXC"/>
 <wire x1="81.28" y1="50.8" x2="71.12" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="50.8" x2="71.12" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="45.72" x2="60.96" y2="45.72" width="0.1524" layer="91"/>
@@ -38257,7 +38257,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="C149" gate="G$1" pin="2"/>
 <pinref part="C150" gate="G$1" pin="1"/>
-<pinref part="STAMP1_ADC_TEMP4" gate="G$1" pin="AIN2/IEXC/GPIO2"/>
+<pinref part="STAMP3_ADC_TEMP" gate="G$1" pin="AIN2/IEXC/GPIO2"/>
 <wire x1="144.78" y1="50.8" x2="147.32" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="50.8" x2="147.32" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="35.56" x2="71.12" y2="35.56" width="0.1524" layer="91"/>
@@ -38271,13 +38271,13 @@ Crimp ZE05-2022SCF</text>
 <net name="N$151" class="0">
 <segment>
 <pinref part="C151" gate="G$1" pin="1"/>
-<pinref part="STAMP1_ADC_TEMP4" gate="G$1" pin="VREFOUT"/>
+<pinref part="STAMP3_ADC_TEMP" gate="G$1" pin="VREFOUT"/>
 <wire x1="71.12" y1="66.04" x2="81.28" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP3_TEMP_AIN2" class="0">
 <segment>
-<pinref part="STAMP1_ADC_TEMP4" gate="G$1" pin="AIN3/IEXC/GPIO3"/>
+<pinref part="STAMP3_ADC_TEMP" gate="G$1" pin="AIN3/IEXC/GPIO3"/>
 <wire x1="144.78" y1="55.88" x2="149.86" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="55.88" x2="149.86" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="25.4" x2="43.18" y2="25.4" width="0.1524" layer="91"/>
@@ -38298,7 +38298,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="R133" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="45.72" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="STAMP1_ADC_TEMP4" gate="G$1" pin="AIN0/IEXC"/>
+<pinref part="STAMP3_ADC_TEMP" gate="G$1" pin="AIN0/IEXC"/>
 <wire x1="43.18" y1="45.72" x2="35.56" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="55.88" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
@@ -38315,7 +38315,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="C152" gate="G$1" pin="2"/>
 <pinref part="C153" gate="G$1" pin="1"/>
-<pinref part="STAMP1_ADC_TEMP4" gate="G$1" pin="REFN0/GPIO1"/>
+<pinref part="STAMP3_ADC_TEMP" gate="G$1" pin="REFN0/GPIO1"/>
 <wire x1="81.28" y1="81.28" x2="71.12" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="81.28" x2="71.12" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="71.12" x2="58.42" y2="71.12" width="0.1524" layer="91"/>
@@ -38330,7 +38330,7 @@ Crimp ZE05-2022SCF</text>
 <pinref part="C154" gate="G$1" pin="2"/>
 <wire x1="58.42" y1="78.74" x2="66.04" y2="78.74" width="0.1524" layer="91"/>
 <junction x="58.42" y="78.74"/>
-<pinref part="STAMP1_ADC_TEMP4" gate="G$1" pin="REFP0/GPIO0"/>
+<pinref part="STAMP3_ADC_TEMP" gate="G$1" pin="REFP0/GPIO0"/>
 <wire x1="66.04" y1="78.74" x2="66.04" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="86.36" x2="81.28" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="R135" gate="G$1" pin="1"/>
@@ -38356,34 +38356,34 @@ Crimp ZE05-2022SCF</text>
 </net>
 <net name="STAMP3_SCLK" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG9" gate="G$1" pin="SCLK"/>
+<pinref part="STAMP3_ADC_SG1" gate="G$1" pin="SCLK"/>
 <wire x1="144.78" y1="218.44" x2="165.1" y2="218.44" width="0.1524" layer="91"/>
 <label x="165.1" y="218.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG10" gate="G$1" pin="SCLK"/>
+<pinref part="STAMP3_ADC_SG2" gate="G$1" pin="SCLK"/>
 <wire x1="327.66" y1="218.44" x2="347.98" y2="218.44" width="0.1524" layer="91"/>
 <label x="347.98" y="218.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_TEMP4" gate="G$1" pin="SCLK"/>
+<pinref part="STAMP3_ADC_TEMP" gate="G$1" pin="SCLK"/>
 <wire x1="144.78" y1="106.68" x2="165.1" y2="106.68" width="0.1524" layer="91"/>
 <label x="165.1" y="106.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="STAMP3_MOSI" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG9" gate="G$1" pin="DIN"/>
+<pinref part="STAMP3_ADC_SG1" gate="G$1" pin="DIN"/>
 <wire x1="144.78" y1="213.36" x2="165.1" y2="213.36" width="0.1524" layer="91"/>
 <label x="165.1" y="213.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG10" gate="G$1" pin="DIN"/>
+<pinref part="STAMP3_ADC_SG2" gate="G$1" pin="DIN"/>
 <wire x1="327.66" y1="213.36" x2="347.98" y2="213.36" width="0.1524" layer="91"/>
 <label x="347.98" y="213.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_TEMP4" gate="G$1" pin="DIN"/>
+<pinref part="STAMP3_ADC_TEMP" gate="G$1" pin="DIN"/>
 <wire x1="144.78" y1="101.6" x2="165.1" y2="101.6" width="0.1524" layer="91"/>
 <label x="165.1" y="101.6" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -38391,13 +38391,13 @@ Crimp ZE05-2022SCF</text>
 <net name="STAMP3_DRDY_SG1" class="0">
 <segment>
 <label x="165.1" y="203.2" size="1.27" layer="95" xref="yes"/>
-<pinref part="STAMP1_ADC_SG9" gate="G$1" pin="!DRDY"/>
+<pinref part="STAMP3_ADC_SG1" gate="G$1" pin="!DRDY"/>
 <wire x1="144.78" y1="203.2" x2="165.1" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP3_CS_SG2" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG10" gate="G$1" pin="!CS"/>
+<pinref part="STAMP3_ADC_SG2" gate="G$1" pin="!CS"/>
 <wire x1="327.66" y1="198.12" x2="347.98" y2="198.12" width="0.1524" layer="91"/>
 <label x="347.98" y="198.12" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -38406,14 +38406,14 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <wire x1="340.36" y1="203.2" x2="342.9" y2="203.2" width="0.1524" layer="91"/>
 <label x="347.98" y="203.2" size="1.27" layer="95" xref="yes"/>
-<pinref part="STAMP1_ADC_SG10" gate="G$1" pin="!DRDY"/>
+<pinref part="STAMP3_ADC_SG2" gate="G$1" pin="!DRDY"/>
 <wire x1="342.9" y1="203.2" x2="347.98" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="203.2" x2="340.36" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP3_CS_TEMP" class="0">
 <segment>
-<pinref part="STAMP1_ADC_TEMP4" gate="G$1" pin="!CS"/>
+<pinref part="STAMP3_ADC_TEMP" gate="G$1" pin="!CS"/>
 <wire x1="144.78" y1="86.36" x2="165.1" y2="86.36" width="0.1524" layer="91"/>
 <label x="165.1" y="86.36" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -38421,13 +38421,13 @@ Crimp ZE05-2022SCF</text>
 <net name="STAMP3_DRDY_TEMP" class="0">
 <segment>
 <label x="165.1" y="91.44" size="1.27" layer="95" xref="yes"/>
-<pinref part="STAMP1_ADC_TEMP4" gate="G$1" pin="!DRDY"/>
+<pinref part="STAMP3_ADC_TEMP" gate="G$1" pin="!DRDY"/>
 <wire x1="144.78" y1="91.44" x2="165.1" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP3_CS_SG1" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG9" gate="G$1" pin="!CS"/>
+<pinref part="STAMP3_ADC_SG1" gate="G$1" pin="!CS"/>
 <wire x1="144.78" y1="198.12" x2="165.1" y2="198.12" width="0.1524" layer="91"/>
 <label x="165.1" y="198.12" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -38482,7 +38482,7 @@ Crimp ZE05-2022SCF</text>
 <attribute name="LAST_DATE_TIME" x="344.17" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="357.505" y="5.08" size="2.54" layer="94"/>
 </instance>
-<instance part="STAMP1_ADC_SG11" gate="G$1" x="86.36" y="149.86" smashed="yes">
+<instance part="STAMP4_ADC_SG1" gate="G$1" x="86.36" y="149.86" smashed="yes">
 <attribute name="NAME" x="86.36" y="221.488" size="1.778" layer="95"/>
 <attribute name="VALUE" x="86.36" y="149.352" size="1.778" layer="96" align="top-left"/>
 </instance>
@@ -38538,7 +38538,7 @@ Crimp ZE05-2022SCF</text>
 <attribute name="NAME" x="33.274" y="199.39" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="48.768" y="199.263" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="STAMP1_ADC_SG12" gate="G$1" x="269.24" y="149.86" smashed="yes">
+<instance part="STAMP4_ADC_SG2" gate="G$1" x="269.24" y="149.86" smashed="yes">
 <attribute name="NAME" x="269.24" y="221.488" size="1.778" layer="95"/>
 <attribute name="VALUE" x="269.24" y="149.352" size="1.778" layer="96" align="top-left"/>
 </instance>
@@ -38594,7 +38594,7 @@ Crimp ZE05-2022SCF</text>
 <attribute name="NAME" x="216.154" y="199.39" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="231.648" y="199.263" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="STAMP1_ADC_TEMP5" gate="G$1" x="86.36" y="38.1" smashed="yes">
+<instance part="STAMP4_ADC_TEMP" gate="G$1" x="86.36" y="38.1" smashed="yes">
 <attribute name="NAME" x="86.36" y="109.728" size="1.778" layer="95"/>
 <attribute name="VALUE" x="86.36" y="37.592" size="1.778" layer="96" align="top-left"/>
 </instance>
@@ -38672,7 +38672,7 @@ Crimp ZE05-2022SCF</text>
 <nets>
 <net name="3V3" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG11" gate="G$1" pin="DVDD"/>
+<pinref part="STAMP4_ADC_SG1" gate="G$1" pin="DVDD"/>
 <pinref part="C155" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="218.44" x2="81.28" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="220.98" x2="71.12" y2="220.98" width="0.1524" layer="91"/>
@@ -38686,7 +38686,7 @@ Crimp ZE05-2022SCF</text>
 <label x="66.04" y="203.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG11" gate="G$1" pin="AVDD"/>
+<pinref part="STAMP4_ADC_SG1" gate="G$1" pin="AVDD"/>
 <pinref part="C157" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="187.96" x2="152.4" y2="187.96" width="0.1524" layer="91"/>
 <junction x="152.4" y="187.96"/>
@@ -38694,7 +38694,7 @@ Crimp ZE05-2022SCF</text>
 <label x="165.1" y="187.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG12" gate="G$1" pin="DVDD"/>
+<pinref part="STAMP4_ADC_SG2" gate="G$1" pin="DVDD"/>
 <pinref part="C161" gate="G$1" pin="1"/>
 <wire x1="264.16" y1="218.44" x2="264.16" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="220.98" x2="254" y2="220.98" width="0.1524" layer="91"/>
@@ -38708,7 +38708,7 @@ Crimp ZE05-2022SCF</text>
 <label x="248.92" y="203.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG12" gate="G$1" pin="AVDD"/>
+<pinref part="STAMP4_ADC_SG2" gate="G$1" pin="AVDD"/>
 <pinref part="C163" gate="G$1" pin="1"/>
 <wire x1="327.66" y1="187.96" x2="335.28" y2="187.96" width="0.1524" layer="91"/>
 <junction x="335.28" y="187.96"/>
@@ -38716,7 +38716,7 @@ Crimp ZE05-2022SCF</text>
 <label x="347.98" y="187.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_TEMP5" gate="G$1" pin="AVDD"/>
+<pinref part="STAMP4_ADC_TEMP" gate="G$1" pin="AVDD"/>
 <pinref part="C167" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="76.2" x2="152.4" y2="76.2" width="0.1524" layer="91"/>
 <junction x="152.4" y="76.2"/>
@@ -38729,7 +38729,7 @@ Crimp ZE05-2022SCF</text>
 <junction x="71.12" y="109.22"/>
 <wire x1="71.12" y1="109.22" x2="66.04" y2="109.22" width="0.1524" layer="91"/>
 <label x="66.04" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="STAMP1_ADC_TEMP5" gate="G$1" pin="DVDD"/>
+<pinref part="STAMP4_ADC_TEMP" gate="G$1" pin="DVDD"/>
 <wire x1="81.28" y1="109.22" x2="81.28" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -38740,7 +38740,7 @@ Crimp ZE05-2022SCF</text>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG11" gate="G$1" pin="DGND/DSS"/>
+<pinref part="STAMP4_ADC_SG1" gate="G$1" pin="DGND/DSS"/>
 <wire x1="81.28" y1="213.36" x2="71.12" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="C155" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="213.36" x2="66.04" y2="213.36" width="0.1524" layer="91"/>
@@ -38748,7 +38748,7 @@ Crimp ZE05-2022SCF</text>
 <label x="66.04" y="213.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG11" gate="G$1" pin="AVSS"/>
+<pinref part="STAMP4_ADC_SG1" gate="G$1" pin="AVSS"/>
 <wire x1="144.78" y1="182.88" x2="147.32" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="182.88" x2="147.32" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="C157" gate="G$1" pin="2"/>
@@ -38764,7 +38764,7 @@ Crimp ZE05-2022SCF</text>
 </segment>
 <segment>
 <pinref part="C156" gate="G$1" pin="2"/>
-<pinref part="STAMP1_ADC_SG11" gate="G$1" pin="VREFCOM"/>
+<pinref part="STAMP4_ADC_SG1" gate="G$1" pin="VREFCOM"/>
 <wire x1="71.12" y1="172.72" x2="81.28" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="172.72" x2="63.5" y2="172.72" width="0.1524" layer="91"/>
 <junction x="71.12" y="172.72"/>
@@ -38784,7 +38784,7 @@ Crimp ZE05-2022SCF</text>
 <label x="30.48" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG12" gate="G$1" pin="DGND/DSS"/>
+<pinref part="STAMP4_ADC_SG2" gate="G$1" pin="DGND/DSS"/>
 <wire x1="264.16" y1="213.36" x2="254" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="C161" gate="G$1" pin="2"/>
 <wire x1="254" y1="213.36" x2="248.92" y2="213.36" width="0.1524" layer="91"/>
@@ -38792,7 +38792,7 @@ Crimp ZE05-2022SCF</text>
 <label x="248.92" y="213.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG12" gate="G$1" pin="AVSS"/>
+<pinref part="STAMP4_ADC_SG2" gate="G$1" pin="AVSS"/>
 <wire x1="327.66" y1="182.88" x2="330.2" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="182.88" x2="330.2" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="C163" gate="G$1" pin="2"/>
@@ -38808,7 +38808,7 @@ Crimp ZE05-2022SCF</text>
 </segment>
 <segment>
 <pinref part="C162" gate="G$1" pin="2"/>
-<pinref part="STAMP1_ADC_SG12" gate="G$1" pin="VREFCOM"/>
+<pinref part="STAMP4_ADC_SG2" gate="G$1" pin="VREFCOM"/>
 <wire x1="254" y1="172.72" x2="264.16" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="254" y1="172.72" x2="246.38" y2="172.72" width="0.1524" layer="91"/>
 <junction x="254" y="172.72"/>
@@ -38828,7 +38828,7 @@ Crimp ZE05-2022SCF</text>
 <label x="213.36" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_TEMP5" gate="G$1" pin="AVSS"/>
+<pinref part="STAMP4_ADC_TEMP" gate="G$1" pin="AVSS"/>
 <wire x1="144.78" y1="71.12" x2="147.32" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="71.12" x2="147.32" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="C167" gate="G$1" pin="2"/>
@@ -38843,8 +38843,8 @@ Crimp ZE05-2022SCF</text>
 <wire x1="71.12" y1="101.6" x2="55.88" y2="101.6" width="0.1524" layer="91"/>
 <junction x="71.12" y="101.6"/>
 <label x="53.34" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="STAMP1_ADC_TEMP5" gate="G$1" pin="DGND/DSS"/>
-<pinref part="STAMP1_ADC_TEMP5" gate="G$1" pin="CLK"/>
+<pinref part="STAMP4_ADC_TEMP" gate="G$1" pin="DGND/DSS"/>
+<pinref part="STAMP4_ADC_TEMP" gate="G$1" pin="CLK"/>
 <wire x1="55.88" y1="101.6" x2="53.34" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="96.52" x2="71.12" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="96.52" x2="71.12" y2="101.6" width="0.1524" layer="91"/>
@@ -38861,7 +38861,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="C172" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="58.42" x2="81.28" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="STAMP1_ADC_TEMP5" gate="G$1" pin="VREFCOM"/>
+<pinref part="STAMP4_ADC_TEMP" gate="G$1" pin="VREFCOM"/>
 <wire x1="81.28" y1="58.42" x2="81.28" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="58.42" x2="60.96" y2="58.42" width="0.1524" layer="91"/>
 <junction x="71.12" y="58.42"/>
@@ -38890,26 +38890,26 @@ Crimp ZE05-2022SCF</text>
 </net>
 <net name="SG_CLK" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG11" gate="G$1" pin="CLK"/>
+<pinref part="STAMP4_ADC_SG1" gate="G$1" pin="CLK"/>
 <wire x1="81.28" y1="208.28" x2="66.04" y2="208.28" width="0.1524" layer="91"/>
 <label x="66.04" y="208.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG12" gate="G$1" pin="CLK"/>
+<pinref part="STAMP4_ADC_SG2" gate="G$1" pin="CLK"/>
 <wire x1="264.16" y1="208.28" x2="248.92" y2="208.28" width="0.1524" layer="91"/>
 <label x="248.92" y="208.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$154" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG11" gate="G$1" pin="!RESET"/>
+<pinref part="STAMP4_ADC_SG1" gate="G$1" pin="!RESET"/>
 <pinref part="R138" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="203.2" x2="78.74" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$155" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG11" gate="G$1" pin="VREFOUT"/>
+<pinref part="STAMP4_ADC_SG1" gate="G$1" pin="VREFOUT"/>
 <wire x1="81.28" y1="177.8" x2="78.74" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="177.8" x2="78.74" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="C156" gate="G$1" pin="1"/>
@@ -38918,17 +38918,17 @@ Crimp ZE05-2022SCF</text>
 </net>
 <net name="ADC_START" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG11" gate="G$1" pin="START"/>
+<pinref part="STAMP4_ADC_SG1" gate="G$1" pin="START"/>
 <wire x1="144.78" y1="193.04" x2="165.1" y2="193.04" width="0.1524" layer="91"/>
 <label x="165.1" y="193.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG12" gate="G$1" pin="START"/>
+<pinref part="STAMP4_ADC_SG2" gate="G$1" pin="START"/>
 <wire x1="327.66" y1="193.04" x2="347.98" y2="193.04" width="0.1524" layer="91"/>
 <label x="347.98" y="193.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_TEMP5" gate="G$1" pin="START"/>
+<pinref part="STAMP4_ADC_TEMP" gate="G$1" pin="START"/>
 <wire x1="144.78" y1="81.28" x2="165.1" y2="81.28" width="0.1524" layer="91"/>
 <label x="165.1" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -38936,7 +38936,7 @@ Crimp ZE05-2022SCF</text>
 <net name="N$156" class="0">
 <segment>
 <pinref part="R140" gate="G$1" pin="2"/>
-<pinref part="STAMP1_ADC_SG11" gate="G$1" pin="DOUT/!DRDY"/>
+<pinref part="STAMP4_ADC_SG1" gate="G$1" pin="DOUT/!DRDY"/>
 <wire x1="147.32" y1="208.28" x2="144.78" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -38947,7 +38947,7 @@ Crimp ZE05-2022SCF</text>
 <wire x1="63.5" y1="160.02" x2="71.12" y2="160.02" width="0.1524" layer="91"/>
 <junction x="63.5" y="160.02"/>
 <wire x1="71.12" y1="160.02" x2="71.12" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="STAMP1_ADC_SG11" gate="G$1" pin="AIN0/IEXC"/>
+<pinref part="STAMP4_ADC_SG1" gate="G$1" pin="AIN0/IEXC"/>
 <wire x1="71.12" y1="167.64" x2="81.28" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="R141" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="160.02" x2="60.96" y2="160.02" width="0.1524" layer="91"/>
@@ -38957,7 +38957,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="C159" gate="G$1" pin="2"/>
 <pinref part="C160" gate="G$1" pin="1"/>
-<pinref part="STAMP1_ADC_SG11" gate="G$1" pin="AIN1/IEXC"/>
+<pinref part="STAMP4_ADC_SG1" gate="G$1" pin="AIN1/IEXC"/>
 <wire x1="81.28" y1="162.56" x2="76.2" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="162.56" x2="76.2" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="152.4" x2="63.5" y2="152.4" width="0.1524" layer="91"/>
@@ -39025,14 +39025,14 @@ Crimp ZE05-2022SCF</text>
 </net>
 <net name="N$161" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG12" gate="G$1" pin="!RESET"/>
+<pinref part="STAMP4_ADC_SG2" gate="G$1" pin="!RESET"/>
 <pinref part="R144" gate="G$1" pin="1"/>
 <wire x1="264.16" y1="203.2" x2="261.62" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$162" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG12" gate="G$1" pin="VREFOUT"/>
+<pinref part="STAMP4_ADC_SG2" gate="G$1" pin="VREFOUT"/>
 <wire x1="264.16" y1="177.8" x2="261.62" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="177.8" x2="261.62" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="C162" gate="G$1" pin="1"/>
@@ -39042,7 +39042,7 @@ Crimp ZE05-2022SCF</text>
 <net name="N$163" class="0">
 <segment>
 <pinref part="R146" gate="G$1" pin="2"/>
-<pinref part="STAMP1_ADC_SG12" gate="G$1" pin="DOUT/!DRDY"/>
+<pinref part="STAMP4_ADC_SG2" gate="G$1" pin="DOUT/!DRDY"/>
 <wire x1="330.2" y1="208.28" x2="327.66" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -39053,7 +39053,7 @@ Crimp ZE05-2022SCF</text>
 <wire x1="246.38" y1="160.02" x2="254" y2="160.02" width="0.1524" layer="91"/>
 <junction x="246.38" y="160.02"/>
 <wire x1="254" y1="160.02" x2="254" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="STAMP1_ADC_SG12" gate="G$1" pin="AIN0/IEXC"/>
+<pinref part="STAMP4_ADC_SG2" gate="G$1" pin="AIN0/IEXC"/>
 <wire x1="254" y1="167.64" x2="264.16" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="R147" gate="G$1" pin="1"/>
 <wire x1="246.38" y1="160.02" x2="243.84" y2="160.02" width="0.1524" layer="91"/>
@@ -39063,7 +39063,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="C165" gate="G$1" pin="2"/>
 <pinref part="C166" gate="G$1" pin="1"/>
-<pinref part="STAMP1_ADC_SG12" gate="G$1" pin="AIN1/IEXC"/>
+<pinref part="STAMP4_ADC_SG2" gate="G$1" pin="AIN1/IEXC"/>
 <wire x1="264.16" y1="162.56" x2="259.08" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="162.56" x2="259.08" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="152.4" x2="246.38" y2="152.4" width="0.1524" layer="91"/>
@@ -39096,7 +39096,7 @@ Crimp ZE05-2022SCF</text>
 <net name="N$168" class="0">
 <segment>
 <pinref part="R150" gate="G$1" pin="2"/>
-<pinref part="STAMP1_ADC_TEMP5" gate="G$1" pin="DOUT/!DRDY"/>
+<pinref part="STAMP4_ADC_TEMP" gate="G$1" pin="DOUT/!DRDY"/>
 <wire x1="147.32" y1="96.52" x2="144.78" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -39104,7 +39104,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="R151" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="91.44" x2="78.74" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="STAMP1_ADC_TEMP5" gate="G$1" pin="!RESET"/>
+<pinref part="STAMP4_ADC_TEMP" gate="G$1" pin="!RESET"/>
 </segment>
 </net>
 <net name="STAMP4_SG2_AIN3" class="0">
@@ -39147,7 +39147,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="C169" gate="G$1" pin="2"/>
 <pinref part="C170" gate="G$1" pin="1"/>
-<pinref part="STAMP1_ADC_TEMP5" gate="G$1" pin="AIN1/IEXC"/>
+<pinref part="STAMP4_ADC_TEMP" gate="G$1" pin="AIN1/IEXC"/>
 <wire x1="81.28" y1="50.8" x2="71.12" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="50.8" x2="71.12" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="45.72" x2="60.96" y2="45.72" width="0.1524" layer="91"/>
@@ -39160,7 +39160,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="C170" gate="G$1" pin="2"/>
 <pinref part="C171" gate="G$1" pin="1"/>
-<pinref part="STAMP1_ADC_TEMP5" gate="G$1" pin="AIN2/IEXC/GPIO2"/>
+<pinref part="STAMP4_ADC_TEMP" gate="G$1" pin="AIN2/IEXC/GPIO2"/>
 <wire x1="144.78" y1="50.8" x2="147.32" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="50.8" x2="147.32" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="35.56" x2="71.12" y2="35.56" width="0.1524" layer="91"/>
@@ -39174,13 +39174,13 @@ Crimp ZE05-2022SCF</text>
 <net name="N$172" class="0">
 <segment>
 <pinref part="C172" gate="G$1" pin="1"/>
-<pinref part="STAMP1_ADC_TEMP5" gate="G$1" pin="VREFOUT"/>
+<pinref part="STAMP4_ADC_TEMP" gate="G$1" pin="VREFOUT"/>
 <wire x1="71.12" y1="66.04" x2="81.28" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP4_TEMP_AIN2" class="0">
 <segment>
-<pinref part="STAMP1_ADC_TEMP5" gate="G$1" pin="AIN3/IEXC/GPIO3"/>
+<pinref part="STAMP4_ADC_TEMP" gate="G$1" pin="AIN3/IEXC/GPIO3"/>
 <wire x1="144.78" y1="55.88" x2="149.86" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="55.88" x2="149.86" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="25.4" x2="43.18" y2="25.4" width="0.1524" layer="91"/>
@@ -39201,7 +39201,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="R152" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="45.72" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="STAMP1_ADC_TEMP5" gate="G$1" pin="AIN0/IEXC"/>
+<pinref part="STAMP4_ADC_TEMP" gate="G$1" pin="AIN0/IEXC"/>
 <wire x1="43.18" y1="45.72" x2="35.56" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="55.88" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
@@ -39218,7 +39218,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="C173" gate="G$1" pin="2"/>
 <pinref part="C174" gate="G$1" pin="1"/>
-<pinref part="STAMP1_ADC_TEMP5" gate="G$1" pin="REFN0/GPIO1"/>
+<pinref part="STAMP4_ADC_TEMP" gate="G$1" pin="REFN0/GPIO1"/>
 <wire x1="81.28" y1="81.28" x2="71.12" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="81.28" x2="71.12" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="71.12" x2="58.42" y2="71.12" width="0.1524" layer="91"/>
@@ -39233,7 +39233,7 @@ Crimp ZE05-2022SCF</text>
 <pinref part="C175" gate="G$1" pin="2"/>
 <wire x1="58.42" y1="78.74" x2="66.04" y2="78.74" width="0.1524" layer="91"/>
 <junction x="58.42" y="78.74"/>
-<pinref part="STAMP1_ADC_TEMP5" gate="G$1" pin="REFP0/GPIO0"/>
+<pinref part="STAMP4_ADC_TEMP" gate="G$1" pin="REFP0/GPIO0"/>
 <wire x1="66.04" y1="78.74" x2="66.04" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="86.36" x2="81.28" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="R154" gate="G$1" pin="1"/>
@@ -39259,34 +39259,34 @@ Crimp ZE05-2022SCF</text>
 </net>
 <net name="STAMP4_SCLK" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG11" gate="G$1" pin="SCLK"/>
+<pinref part="STAMP4_ADC_SG1" gate="G$1" pin="SCLK"/>
 <wire x1="144.78" y1="218.44" x2="165.1" y2="218.44" width="0.1524" layer="91"/>
 <label x="165.1" y="218.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG12" gate="G$1" pin="SCLK"/>
+<pinref part="STAMP4_ADC_SG2" gate="G$1" pin="SCLK"/>
 <wire x1="327.66" y1="218.44" x2="347.98" y2="218.44" width="0.1524" layer="91"/>
 <label x="347.98" y="218.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_TEMP5" gate="G$1" pin="SCLK"/>
+<pinref part="STAMP4_ADC_TEMP" gate="G$1" pin="SCLK"/>
 <wire x1="144.78" y1="106.68" x2="165.1" y2="106.68" width="0.1524" layer="91"/>
 <label x="165.1" y="106.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="STAMP4_MOSI" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG11" gate="G$1" pin="DIN"/>
+<pinref part="STAMP4_ADC_SG1" gate="G$1" pin="DIN"/>
 <wire x1="144.78" y1="213.36" x2="165.1" y2="213.36" width="0.1524" layer="91"/>
 <label x="165.1" y="213.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG12" gate="G$1" pin="DIN"/>
+<pinref part="STAMP4_ADC_SG2" gate="G$1" pin="DIN"/>
 <wire x1="327.66" y1="213.36" x2="347.98" y2="213.36" width="0.1524" layer="91"/>
 <label x="347.98" y="213.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_TEMP5" gate="G$1" pin="DIN"/>
+<pinref part="STAMP4_ADC_TEMP" gate="G$1" pin="DIN"/>
 <wire x1="144.78" y1="101.6" x2="165.1" y2="101.6" width="0.1524" layer="91"/>
 <label x="165.1" y="101.6" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -39294,13 +39294,13 @@ Crimp ZE05-2022SCF</text>
 <net name="STAMP4_DRDY_SG1" class="0">
 <segment>
 <label x="165.1" y="203.2" size="1.27" layer="95" xref="yes"/>
-<pinref part="STAMP1_ADC_SG11" gate="G$1" pin="!DRDY"/>
+<pinref part="STAMP4_ADC_SG1" gate="G$1" pin="!DRDY"/>
 <wire x1="144.78" y1="203.2" x2="165.1" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP4_CS_SG2" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG12" gate="G$1" pin="!CS"/>
+<pinref part="STAMP4_ADC_SG2" gate="G$1" pin="!CS"/>
 <wire x1="327.66" y1="198.12" x2="347.98" y2="198.12" width="0.1524" layer="91"/>
 <label x="347.98" y="198.12" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -39309,14 +39309,14 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <wire x1="340.36" y1="203.2" x2="342.9" y2="203.2" width="0.1524" layer="91"/>
 <label x="347.98" y="203.2" size="1.27" layer="95" xref="yes"/>
-<pinref part="STAMP1_ADC_SG12" gate="G$1" pin="!DRDY"/>
+<pinref part="STAMP4_ADC_SG2" gate="G$1" pin="!DRDY"/>
 <wire x1="342.9" y1="203.2" x2="347.98" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="203.2" x2="340.36" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP4_CS_TEMP" class="0">
 <segment>
-<pinref part="STAMP1_ADC_TEMP5" gate="G$1" pin="!CS"/>
+<pinref part="STAMP4_ADC_TEMP" gate="G$1" pin="!CS"/>
 <wire x1="144.78" y1="86.36" x2="165.1" y2="86.36" width="0.1524" layer="91"/>
 <label x="165.1" y="86.36" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -39324,13 +39324,13 @@ Crimp ZE05-2022SCF</text>
 <net name="STAMP4_DRDY_TEMP" class="0">
 <segment>
 <label x="165.1" y="91.44" size="1.27" layer="95" xref="yes"/>
-<pinref part="STAMP1_ADC_TEMP5" gate="G$1" pin="!DRDY"/>
+<pinref part="STAMP4_ADC_TEMP" gate="G$1" pin="!DRDY"/>
 <wire x1="144.78" y1="91.44" x2="165.1" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP4_CS_SG1" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG11" gate="G$1" pin="!CS"/>
+<pinref part="STAMP4_ADC_SG1" gate="G$1" pin="!CS"/>
 <wire x1="144.78" y1="198.12" x2="165.1" y2="198.12" width="0.1524" layer="91"/>
 <label x="165.1" y="198.12" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -39385,7 +39385,7 @@ Crimp ZE05-2022SCF</text>
 <attribute name="LAST_DATE_TIME" x="344.17" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="357.505" y="5.08" size="2.54" layer="94"/>
 </instance>
-<instance part="STAMP1_ADC_SG7" gate="G$1" x="86.36" y="149.86" smashed="yes">
+<instance part="STAMP5_ADC_SG1" gate="G$1" x="86.36" y="149.86" smashed="yes">
 <attribute name="NAME" x="86.36" y="221.488" size="1.778" layer="95"/>
 <attribute name="VALUE" x="86.36" y="149.352" size="1.778" layer="96" align="top-left"/>
 </instance>
@@ -39441,7 +39441,7 @@ Crimp ZE05-2022SCF</text>
 <attribute name="NAME" x="33.274" y="199.39" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="48.768" y="199.263" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="STAMP1_ADC_SG8" gate="G$1" x="269.24" y="149.86" smashed="yes">
+<instance part="STAMP5_ADC_SG2" gate="G$1" x="269.24" y="149.86" smashed="yes">
 <attribute name="NAME" x="269.24" y="221.488" size="1.778" layer="95"/>
 <attribute name="VALUE" x="269.24" y="149.352" size="1.778" layer="96" align="top-left"/>
 </instance>
@@ -39497,7 +39497,7 @@ Crimp ZE05-2022SCF</text>
 <attribute name="NAME" x="216.154" y="199.39" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="231.648" y="199.263" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="STAMP1_ADC_TEMP3" gate="G$1" x="86.36" y="38.1" smashed="yes">
+<instance part="STAMP5_ADC_TEMP" gate="G$1" x="86.36" y="38.1" smashed="yes">
 <attribute name="NAME" x="86.36" y="109.728" size="1.778" layer="95"/>
 <attribute name="VALUE" x="86.36" y="37.592" size="1.778" layer="96" align="top-left"/>
 </instance>
@@ -39575,7 +39575,7 @@ Crimp ZE05-2022SCF</text>
 <nets>
 <net name="3V3" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG7" gate="G$1" pin="DVDD"/>
+<pinref part="STAMP5_ADC_SG1" gate="G$1" pin="DVDD"/>
 <pinref part="C113" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="218.44" x2="81.28" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="220.98" x2="71.12" y2="220.98" width="0.1524" layer="91"/>
@@ -39589,7 +39589,7 @@ Crimp ZE05-2022SCF</text>
 <label x="66.04" y="203.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG7" gate="G$1" pin="AVDD"/>
+<pinref part="STAMP5_ADC_SG1" gate="G$1" pin="AVDD"/>
 <pinref part="C115" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="187.96" x2="152.4" y2="187.96" width="0.1524" layer="91"/>
 <junction x="152.4" y="187.96"/>
@@ -39597,7 +39597,7 @@ Crimp ZE05-2022SCF</text>
 <label x="165.1" y="187.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG8" gate="G$1" pin="DVDD"/>
+<pinref part="STAMP5_ADC_SG2" gate="G$1" pin="DVDD"/>
 <pinref part="C119" gate="G$1" pin="1"/>
 <wire x1="264.16" y1="218.44" x2="264.16" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="220.98" x2="254" y2="220.98" width="0.1524" layer="91"/>
@@ -39611,7 +39611,7 @@ Crimp ZE05-2022SCF</text>
 <label x="248.92" y="203.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG8" gate="G$1" pin="AVDD"/>
+<pinref part="STAMP5_ADC_SG2" gate="G$1" pin="AVDD"/>
 <pinref part="C121" gate="G$1" pin="1"/>
 <wire x1="327.66" y1="187.96" x2="335.28" y2="187.96" width="0.1524" layer="91"/>
 <junction x="335.28" y="187.96"/>
@@ -39619,7 +39619,7 @@ Crimp ZE05-2022SCF</text>
 <label x="347.98" y="187.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_TEMP3" gate="G$1" pin="AVDD"/>
+<pinref part="STAMP5_ADC_TEMP" gate="G$1" pin="AVDD"/>
 <pinref part="C125" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="76.2" x2="152.4" y2="76.2" width="0.1524" layer="91"/>
 <junction x="152.4" y="76.2"/>
@@ -39632,7 +39632,7 @@ Crimp ZE05-2022SCF</text>
 <junction x="71.12" y="109.22"/>
 <wire x1="71.12" y1="109.22" x2="66.04" y2="109.22" width="0.1524" layer="91"/>
 <label x="66.04" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="STAMP1_ADC_TEMP3" gate="G$1" pin="DVDD"/>
+<pinref part="STAMP5_ADC_TEMP" gate="G$1" pin="DVDD"/>
 <wire x1="81.28" y1="109.22" x2="81.28" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -39643,7 +39643,7 @@ Crimp ZE05-2022SCF</text>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG7" gate="G$1" pin="DGND/DSS"/>
+<pinref part="STAMP5_ADC_SG1" gate="G$1" pin="DGND/DSS"/>
 <wire x1="81.28" y1="213.36" x2="71.12" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="C113" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="213.36" x2="66.04" y2="213.36" width="0.1524" layer="91"/>
@@ -39651,7 +39651,7 @@ Crimp ZE05-2022SCF</text>
 <label x="66.04" y="213.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG7" gate="G$1" pin="AVSS"/>
+<pinref part="STAMP5_ADC_SG1" gate="G$1" pin="AVSS"/>
 <wire x1="144.78" y1="182.88" x2="147.32" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="182.88" x2="147.32" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="C115" gate="G$1" pin="2"/>
@@ -39667,7 +39667,7 @@ Crimp ZE05-2022SCF</text>
 </segment>
 <segment>
 <pinref part="C114" gate="G$1" pin="2"/>
-<pinref part="STAMP1_ADC_SG7" gate="G$1" pin="VREFCOM"/>
+<pinref part="STAMP5_ADC_SG1" gate="G$1" pin="VREFCOM"/>
 <wire x1="71.12" y1="172.72" x2="81.28" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="172.72" x2="63.5" y2="172.72" width="0.1524" layer="91"/>
 <junction x="71.12" y="172.72"/>
@@ -39687,7 +39687,7 @@ Crimp ZE05-2022SCF</text>
 <label x="30.48" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG8" gate="G$1" pin="DGND/DSS"/>
+<pinref part="STAMP5_ADC_SG2" gate="G$1" pin="DGND/DSS"/>
 <wire x1="264.16" y1="213.36" x2="254" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="C119" gate="G$1" pin="2"/>
 <wire x1="254" y1="213.36" x2="248.92" y2="213.36" width="0.1524" layer="91"/>
@@ -39695,7 +39695,7 @@ Crimp ZE05-2022SCF</text>
 <label x="248.92" y="213.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG8" gate="G$1" pin="AVSS"/>
+<pinref part="STAMP5_ADC_SG2" gate="G$1" pin="AVSS"/>
 <wire x1="327.66" y1="182.88" x2="330.2" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="182.88" x2="330.2" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="C121" gate="G$1" pin="2"/>
@@ -39711,7 +39711,7 @@ Crimp ZE05-2022SCF</text>
 </segment>
 <segment>
 <pinref part="C120" gate="G$1" pin="2"/>
-<pinref part="STAMP1_ADC_SG8" gate="G$1" pin="VREFCOM"/>
+<pinref part="STAMP5_ADC_SG2" gate="G$1" pin="VREFCOM"/>
 <wire x1="254" y1="172.72" x2="264.16" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="254" y1="172.72" x2="246.38" y2="172.72" width="0.1524" layer="91"/>
 <junction x="254" y="172.72"/>
@@ -39731,7 +39731,7 @@ Crimp ZE05-2022SCF</text>
 <label x="213.36" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_TEMP3" gate="G$1" pin="AVSS"/>
+<pinref part="STAMP5_ADC_TEMP" gate="G$1" pin="AVSS"/>
 <wire x1="144.78" y1="71.12" x2="147.32" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="71.12" x2="147.32" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="C125" gate="G$1" pin="2"/>
@@ -39746,8 +39746,8 @@ Crimp ZE05-2022SCF</text>
 <wire x1="71.12" y1="101.6" x2="55.88" y2="101.6" width="0.1524" layer="91"/>
 <junction x="71.12" y="101.6"/>
 <label x="53.34" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="STAMP1_ADC_TEMP3" gate="G$1" pin="DGND/DSS"/>
-<pinref part="STAMP1_ADC_TEMP3" gate="G$1" pin="CLK"/>
+<pinref part="STAMP5_ADC_TEMP" gate="G$1" pin="DGND/DSS"/>
+<pinref part="STAMP5_ADC_TEMP" gate="G$1" pin="CLK"/>
 <wire x1="55.88" y1="101.6" x2="53.34" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="96.52" x2="71.12" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="96.52" x2="71.12" y2="101.6" width="0.1524" layer="91"/>
@@ -39764,7 +39764,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="C130" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="58.42" x2="81.28" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="STAMP1_ADC_TEMP3" gate="G$1" pin="VREFCOM"/>
+<pinref part="STAMP5_ADC_TEMP" gate="G$1" pin="VREFCOM"/>
 <wire x1="81.28" y1="58.42" x2="81.28" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="58.42" x2="60.96" y2="58.42" width="0.1524" layer="91"/>
 <junction x="71.12" y="58.42"/>
@@ -39793,26 +39793,26 @@ Crimp ZE05-2022SCF</text>
 </net>
 <net name="SG_CLK" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG7" gate="G$1" pin="CLK"/>
+<pinref part="STAMP5_ADC_SG1" gate="G$1" pin="CLK"/>
 <wire x1="81.28" y1="208.28" x2="66.04" y2="208.28" width="0.1524" layer="91"/>
 <label x="66.04" y="208.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG8" gate="G$1" pin="CLK"/>
+<pinref part="STAMP5_ADC_SG2" gate="G$1" pin="CLK"/>
 <wire x1="264.16" y1="208.28" x2="248.92" y2="208.28" width="0.1524" layer="91"/>
 <label x="248.92" y="208.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$112" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG7" gate="G$1" pin="!RESET"/>
+<pinref part="STAMP5_ADC_SG1" gate="G$1" pin="!RESET"/>
 <pinref part="R100" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="203.2" x2="78.74" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$113" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG7" gate="G$1" pin="VREFOUT"/>
+<pinref part="STAMP5_ADC_SG1" gate="G$1" pin="VREFOUT"/>
 <wire x1="81.28" y1="177.8" x2="78.74" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="177.8" x2="78.74" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="C114" gate="G$1" pin="1"/>
@@ -39821,17 +39821,17 @@ Crimp ZE05-2022SCF</text>
 </net>
 <net name="ADC_START" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG7" gate="G$1" pin="START"/>
+<pinref part="STAMP5_ADC_SG1" gate="G$1" pin="START"/>
 <wire x1="144.78" y1="193.04" x2="165.1" y2="193.04" width="0.1524" layer="91"/>
 <label x="165.1" y="193.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG8" gate="G$1" pin="START"/>
+<pinref part="STAMP5_ADC_SG2" gate="G$1" pin="START"/>
 <wire x1="327.66" y1="193.04" x2="347.98" y2="193.04" width="0.1524" layer="91"/>
 <label x="347.98" y="193.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_TEMP3" gate="G$1" pin="START"/>
+<pinref part="STAMP5_ADC_TEMP" gate="G$1" pin="START"/>
 <wire x1="144.78" y1="81.28" x2="165.1" y2="81.28" width="0.1524" layer="91"/>
 <label x="165.1" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -39839,7 +39839,7 @@ Crimp ZE05-2022SCF</text>
 <net name="N$114" class="0">
 <segment>
 <pinref part="R102" gate="G$1" pin="2"/>
-<pinref part="STAMP1_ADC_SG7" gate="G$1" pin="DOUT/!DRDY"/>
+<pinref part="STAMP5_ADC_SG1" gate="G$1" pin="DOUT/!DRDY"/>
 <wire x1="147.32" y1="208.28" x2="144.78" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -39850,7 +39850,7 @@ Crimp ZE05-2022SCF</text>
 <wire x1="63.5" y1="160.02" x2="71.12" y2="160.02" width="0.1524" layer="91"/>
 <junction x="63.5" y="160.02"/>
 <wire x1="71.12" y1="160.02" x2="71.12" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="STAMP1_ADC_SG7" gate="G$1" pin="AIN0/IEXC"/>
+<pinref part="STAMP5_ADC_SG1" gate="G$1" pin="AIN0/IEXC"/>
 <wire x1="71.12" y1="167.64" x2="81.28" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="R103" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="160.02" x2="60.96" y2="160.02" width="0.1524" layer="91"/>
@@ -39860,7 +39860,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="C117" gate="G$1" pin="2"/>
 <pinref part="C118" gate="G$1" pin="1"/>
-<pinref part="STAMP1_ADC_SG7" gate="G$1" pin="AIN1/IEXC"/>
+<pinref part="STAMP5_ADC_SG1" gate="G$1" pin="AIN1/IEXC"/>
 <wire x1="81.28" y1="162.56" x2="76.2" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="162.56" x2="76.2" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="152.4" x2="63.5" y2="152.4" width="0.1524" layer="91"/>
@@ -39928,14 +39928,14 @@ Crimp ZE05-2022SCF</text>
 </net>
 <net name="N$119" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG8" gate="G$1" pin="!RESET"/>
+<pinref part="STAMP5_ADC_SG2" gate="G$1" pin="!RESET"/>
 <pinref part="R106" gate="G$1" pin="1"/>
 <wire x1="264.16" y1="203.2" x2="261.62" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$120" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG8" gate="G$1" pin="VREFOUT"/>
+<pinref part="STAMP5_ADC_SG2" gate="G$1" pin="VREFOUT"/>
 <wire x1="264.16" y1="177.8" x2="261.62" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="177.8" x2="261.62" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="C120" gate="G$1" pin="1"/>
@@ -39945,7 +39945,7 @@ Crimp ZE05-2022SCF</text>
 <net name="N$121" class="0">
 <segment>
 <pinref part="R108" gate="G$1" pin="2"/>
-<pinref part="STAMP1_ADC_SG8" gate="G$1" pin="DOUT/!DRDY"/>
+<pinref part="STAMP5_ADC_SG2" gate="G$1" pin="DOUT/!DRDY"/>
 <wire x1="330.2" y1="208.28" x2="327.66" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -39956,7 +39956,7 @@ Crimp ZE05-2022SCF</text>
 <wire x1="246.38" y1="160.02" x2="254" y2="160.02" width="0.1524" layer="91"/>
 <junction x="246.38" y="160.02"/>
 <wire x1="254" y1="160.02" x2="254" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="STAMP1_ADC_SG8" gate="G$1" pin="AIN0/IEXC"/>
+<pinref part="STAMP5_ADC_SG2" gate="G$1" pin="AIN0/IEXC"/>
 <wire x1="254" y1="167.64" x2="264.16" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="R109" gate="G$1" pin="1"/>
 <wire x1="246.38" y1="160.02" x2="243.84" y2="160.02" width="0.1524" layer="91"/>
@@ -39966,7 +39966,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="C123" gate="G$1" pin="2"/>
 <pinref part="C124" gate="G$1" pin="1"/>
-<pinref part="STAMP1_ADC_SG8" gate="G$1" pin="AIN1/IEXC"/>
+<pinref part="STAMP5_ADC_SG2" gate="G$1" pin="AIN1/IEXC"/>
 <wire x1="264.16" y1="162.56" x2="259.08" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="162.56" x2="259.08" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="152.4" x2="246.38" y2="152.4" width="0.1524" layer="91"/>
@@ -39999,7 +39999,7 @@ Crimp ZE05-2022SCF</text>
 <net name="N$126" class="0">
 <segment>
 <pinref part="R112" gate="G$1" pin="2"/>
-<pinref part="STAMP1_ADC_TEMP3" gate="G$1" pin="DOUT/!DRDY"/>
+<pinref part="STAMP5_ADC_TEMP" gate="G$1" pin="DOUT/!DRDY"/>
 <wire x1="147.32" y1="96.52" x2="144.78" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -40007,7 +40007,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="R113" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="91.44" x2="78.74" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="STAMP1_ADC_TEMP3" gate="G$1" pin="!RESET"/>
+<pinref part="STAMP5_ADC_TEMP" gate="G$1" pin="!RESET"/>
 </segment>
 </net>
 <net name="STAMP5_SG2_AIN3" class="0">
@@ -40050,7 +40050,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="C127" gate="G$1" pin="2"/>
 <pinref part="C128" gate="G$1" pin="1"/>
-<pinref part="STAMP1_ADC_TEMP3" gate="G$1" pin="AIN1/IEXC"/>
+<pinref part="STAMP5_ADC_TEMP" gate="G$1" pin="AIN1/IEXC"/>
 <wire x1="81.28" y1="50.8" x2="71.12" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="50.8" x2="71.12" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="45.72" x2="60.96" y2="45.72" width="0.1524" layer="91"/>
@@ -40063,7 +40063,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="C128" gate="G$1" pin="2"/>
 <pinref part="C129" gate="G$1" pin="1"/>
-<pinref part="STAMP1_ADC_TEMP3" gate="G$1" pin="AIN2/IEXC/GPIO2"/>
+<pinref part="STAMP5_ADC_TEMP" gate="G$1" pin="AIN2/IEXC/GPIO2"/>
 <wire x1="144.78" y1="50.8" x2="147.32" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="50.8" x2="147.32" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="35.56" x2="71.12" y2="35.56" width="0.1524" layer="91"/>
@@ -40077,13 +40077,13 @@ Crimp ZE05-2022SCF</text>
 <net name="N$130" class="0">
 <segment>
 <pinref part="C130" gate="G$1" pin="1"/>
-<pinref part="STAMP1_ADC_TEMP3" gate="G$1" pin="VREFOUT"/>
+<pinref part="STAMP5_ADC_TEMP" gate="G$1" pin="VREFOUT"/>
 <wire x1="71.12" y1="66.04" x2="81.28" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP5_TEMP_AIN2" class="0">
 <segment>
-<pinref part="STAMP1_ADC_TEMP3" gate="G$1" pin="AIN3/IEXC/GPIO3"/>
+<pinref part="STAMP5_ADC_TEMP" gate="G$1" pin="AIN3/IEXC/GPIO3"/>
 <wire x1="144.78" y1="55.88" x2="149.86" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="55.88" x2="149.86" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="25.4" x2="43.18" y2="25.4" width="0.1524" layer="91"/>
@@ -40104,7 +40104,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="R114" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="45.72" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="STAMP1_ADC_TEMP3" gate="G$1" pin="AIN0/IEXC"/>
+<pinref part="STAMP5_ADC_TEMP" gate="G$1" pin="AIN0/IEXC"/>
 <wire x1="43.18" y1="45.72" x2="35.56" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="55.88" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
@@ -40121,7 +40121,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="C131" gate="G$1" pin="2"/>
 <pinref part="C132" gate="G$1" pin="1"/>
-<pinref part="STAMP1_ADC_TEMP3" gate="G$1" pin="REFN0/GPIO1"/>
+<pinref part="STAMP5_ADC_TEMP" gate="G$1" pin="REFN0/GPIO1"/>
 <wire x1="81.28" y1="81.28" x2="71.12" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="81.28" x2="71.12" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="71.12" x2="58.42" y2="71.12" width="0.1524" layer="91"/>
@@ -40136,7 +40136,7 @@ Crimp ZE05-2022SCF</text>
 <pinref part="C133" gate="G$1" pin="2"/>
 <wire x1="58.42" y1="78.74" x2="66.04" y2="78.74" width="0.1524" layer="91"/>
 <junction x="58.42" y="78.74"/>
-<pinref part="STAMP1_ADC_TEMP3" gate="G$1" pin="REFP0/GPIO0"/>
+<pinref part="STAMP5_ADC_TEMP" gate="G$1" pin="REFP0/GPIO0"/>
 <wire x1="66.04" y1="78.74" x2="66.04" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="86.36" x2="81.28" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="R116" gate="G$1" pin="1"/>
@@ -40162,34 +40162,34 @@ Crimp ZE05-2022SCF</text>
 </net>
 <net name="STAMP5_SCLK" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG7" gate="G$1" pin="SCLK"/>
+<pinref part="STAMP5_ADC_SG1" gate="G$1" pin="SCLK"/>
 <wire x1="144.78" y1="218.44" x2="165.1" y2="218.44" width="0.1524" layer="91"/>
 <label x="165.1" y="218.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG8" gate="G$1" pin="SCLK"/>
+<pinref part="STAMP5_ADC_SG2" gate="G$1" pin="SCLK"/>
 <wire x1="327.66" y1="218.44" x2="347.98" y2="218.44" width="0.1524" layer="91"/>
 <label x="347.98" y="218.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_TEMP3" gate="G$1" pin="SCLK"/>
+<pinref part="STAMP5_ADC_TEMP" gate="G$1" pin="SCLK"/>
 <wire x1="144.78" y1="106.68" x2="165.1" y2="106.68" width="0.1524" layer="91"/>
 <label x="165.1" y="106.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="STAMP5_MOSI" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG7" gate="G$1" pin="DIN"/>
+<pinref part="STAMP5_ADC_SG1" gate="G$1" pin="DIN"/>
 <wire x1="144.78" y1="213.36" x2="165.1" y2="213.36" width="0.1524" layer="91"/>
 <label x="165.1" y="213.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG8" gate="G$1" pin="DIN"/>
+<pinref part="STAMP5_ADC_SG2" gate="G$1" pin="DIN"/>
 <wire x1="327.66" y1="213.36" x2="347.98" y2="213.36" width="0.1524" layer="91"/>
 <label x="347.98" y="213.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_TEMP3" gate="G$1" pin="DIN"/>
+<pinref part="STAMP5_ADC_TEMP" gate="G$1" pin="DIN"/>
 <wire x1="144.78" y1="101.6" x2="165.1" y2="101.6" width="0.1524" layer="91"/>
 <label x="165.1" y="101.6" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -40197,13 +40197,13 @@ Crimp ZE05-2022SCF</text>
 <net name="STAMP5_DRDY_SG1" class="0">
 <segment>
 <label x="165.1" y="203.2" size="1.27" layer="95" xref="yes"/>
-<pinref part="STAMP1_ADC_SG7" gate="G$1" pin="!DRDY"/>
+<pinref part="STAMP5_ADC_SG1" gate="G$1" pin="!DRDY"/>
 <wire x1="144.78" y1="203.2" x2="165.1" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP5_CS_SG2" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG8" gate="G$1" pin="!CS"/>
+<pinref part="STAMP5_ADC_SG2" gate="G$1" pin="!CS"/>
 <wire x1="327.66" y1="198.12" x2="347.98" y2="198.12" width="0.1524" layer="91"/>
 <label x="347.98" y="198.12" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -40212,14 +40212,14 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <wire x1="340.36" y1="203.2" x2="342.9" y2="203.2" width="0.1524" layer="91"/>
 <label x="347.98" y="203.2" size="1.27" layer="95" xref="yes"/>
-<pinref part="STAMP1_ADC_SG8" gate="G$1" pin="!DRDY"/>
+<pinref part="STAMP5_ADC_SG2" gate="G$1" pin="!DRDY"/>
 <wire x1="342.9" y1="203.2" x2="347.98" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="203.2" x2="340.36" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP5_CS_TEMP" class="0">
 <segment>
-<pinref part="STAMP1_ADC_TEMP3" gate="G$1" pin="!CS"/>
+<pinref part="STAMP5_ADC_TEMP" gate="G$1" pin="!CS"/>
 <wire x1="144.78" y1="86.36" x2="165.1" y2="86.36" width="0.1524" layer="91"/>
 <label x="165.1" y="86.36" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -40227,13 +40227,13 @@ Crimp ZE05-2022SCF</text>
 <net name="STAMP5_DRDY_TEMP" class="0">
 <segment>
 <label x="165.1" y="91.44" size="1.27" layer="95" xref="yes"/>
-<pinref part="STAMP1_ADC_TEMP3" gate="G$1" pin="!DRDY"/>
+<pinref part="STAMP5_ADC_TEMP" gate="G$1" pin="!DRDY"/>
 <wire x1="144.78" y1="91.44" x2="165.1" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP5_CS_SG1" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG7" gate="G$1" pin="!CS"/>
+<pinref part="STAMP5_ADC_SG1" gate="G$1" pin="!CS"/>
 <wire x1="144.78" y1="198.12" x2="165.1" y2="198.12" width="0.1524" layer="91"/>
 <label x="165.1" y="198.12" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -40288,7 +40288,7 @@ Crimp ZE05-2022SCF</text>
 <attribute name="LAST_DATE_TIME" x="344.17" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="357.505" y="5.08" size="2.54" layer="94"/>
 </instance>
-<instance part="STAMP1_ADC_SG15" gate="G$1" x="86.36" y="149.86" smashed="yes">
+<instance part="STAMP6_ADC_SG1" gate="G$1" x="86.36" y="149.86" smashed="yes">
 <attribute name="NAME" x="86.36" y="221.488" size="1.778" layer="95"/>
 <attribute name="VALUE" x="86.36" y="149.352" size="1.778" layer="96" align="top-left"/>
 </instance>
@@ -40344,7 +40344,7 @@ Crimp ZE05-2022SCF</text>
 <attribute name="NAME" x="33.274" y="199.39" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="48.768" y="199.263" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="STAMP1_ADC_SG16" gate="G$1" x="269.24" y="149.86" smashed="yes">
+<instance part="STAMP6_ADC_SG2" gate="G$1" x="269.24" y="149.86" smashed="yes">
 <attribute name="NAME" x="269.24" y="221.488" size="1.778" layer="95"/>
 <attribute name="VALUE" x="269.24" y="149.352" size="1.778" layer="96" align="top-left"/>
 </instance>
@@ -40400,7 +40400,7 @@ Crimp ZE05-2022SCF</text>
 <attribute name="NAME" x="216.154" y="199.39" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="231.648" y="199.263" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="STAMP1_ADC_TEMP7" gate="G$1" x="86.36" y="38.1" smashed="yes">
+<instance part="STAMP6_ADC_TEMP" gate="G$1" x="86.36" y="38.1" smashed="yes">
 <attribute name="NAME" x="86.36" y="109.728" size="1.778" layer="95"/>
 <attribute name="VALUE" x="86.36" y="37.592" size="1.778" layer="96" align="top-left"/>
 </instance>
@@ -40478,7 +40478,7 @@ Crimp ZE05-2022SCF</text>
 <nets>
 <net name="3V3" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG15" gate="G$1" pin="DVDD"/>
+<pinref part="STAMP6_ADC_SG1" gate="G$1" pin="DVDD"/>
 <pinref part="C197" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="218.44" x2="81.28" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="220.98" x2="71.12" y2="220.98" width="0.1524" layer="91"/>
@@ -40492,7 +40492,7 @@ Crimp ZE05-2022SCF</text>
 <label x="66.04" y="203.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG15" gate="G$1" pin="AVDD"/>
+<pinref part="STAMP6_ADC_SG1" gate="G$1" pin="AVDD"/>
 <pinref part="C199" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="187.96" x2="152.4" y2="187.96" width="0.1524" layer="91"/>
 <junction x="152.4" y="187.96"/>
@@ -40500,7 +40500,7 @@ Crimp ZE05-2022SCF</text>
 <label x="165.1" y="187.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG16" gate="G$1" pin="DVDD"/>
+<pinref part="STAMP6_ADC_SG2" gate="G$1" pin="DVDD"/>
 <pinref part="C203" gate="G$1" pin="1"/>
 <wire x1="264.16" y1="218.44" x2="264.16" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="220.98" x2="254" y2="220.98" width="0.1524" layer="91"/>
@@ -40514,7 +40514,7 @@ Crimp ZE05-2022SCF</text>
 <label x="248.92" y="203.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG16" gate="G$1" pin="AVDD"/>
+<pinref part="STAMP6_ADC_SG2" gate="G$1" pin="AVDD"/>
 <pinref part="C205" gate="G$1" pin="1"/>
 <wire x1="327.66" y1="187.96" x2="335.28" y2="187.96" width="0.1524" layer="91"/>
 <junction x="335.28" y="187.96"/>
@@ -40522,7 +40522,7 @@ Crimp ZE05-2022SCF</text>
 <label x="347.98" y="187.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_TEMP7" gate="G$1" pin="AVDD"/>
+<pinref part="STAMP6_ADC_TEMP" gate="G$1" pin="AVDD"/>
 <pinref part="C209" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="76.2" x2="152.4" y2="76.2" width="0.1524" layer="91"/>
 <junction x="152.4" y="76.2"/>
@@ -40535,7 +40535,7 @@ Crimp ZE05-2022SCF</text>
 <junction x="71.12" y="109.22"/>
 <wire x1="71.12" y1="109.22" x2="66.04" y2="109.22" width="0.1524" layer="91"/>
 <label x="66.04" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="STAMP1_ADC_TEMP7" gate="G$1" pin="DVDD"/>
+<pinref part="STAMP6_ADC_TEMP" gate="G$1" pin="DVDD"/>
 <wire x1="81.28" y1="109.22" x2="81.28" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -40546,7 +40546,7 @@ Crimp ZE05-2022SCF</text>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG15" gate="G$1" pin="DGND/DSS"/>
+<pinref part="STAMP6_ADC_SG1" gate="G$1" pin="DGND/DSS"/>
 <wire x1="81.28" y1="213.36" x2="71.12" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="C197" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="213.36" x2="66.04" y2="213.36" width="0.1524" layer="91"/>
@@ -40554,7 +40554,7 @@ Crimp ZE05-2022SCF</text>
 <label x="66.04" y="213.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG15" gate="G$1" pin="AVSS"/>
+<pinref part="STAMP6_ADC_SG1" gate="G$1" pin="AVSS"/>
 <wire x1="144.78" y1="182.88" x2="147.32" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="182.88" x2="147.32" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="C199" gate="G$1" pin="2"/>
@@ -40570,7 +40570,7 @@ Crimp ZE05-2022SCF</text>
 </segment>
 <segment>
 <pinref part="C198" gate="G$1" pin="2"/>
-<pinref part="STAMP1_ADC_SG15" gate="G$1" pin="VREFCOM"/>
+<pinref part="STAMP6_ADC_SG1" gate="G$1" pin="VREFCOM"/>
 <wire x1="71.12" y1="172.72" x2="81.28" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="172.72" x2="63.5" y2="172.72" width="0.1524" layer="91"/>
 <junction x="71.12" y="172.72"/>
@@ -40590,7 +40590,7 @@ Crimp ZE05-2022SCF</text>
 <label x="30.48" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG16" gate="G$1" pin="DGND/DSS"/>
+<pinref part="STAMP6_ADC_SG2" gate="G$1" pin="DGND/DSS"/>
 <wire x1="264.16" y1="213.36" x2="254" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="C203" gate="G$1" pin="2"/>
 <wire x1="254" y1="213.36" x2="248.92" y2="213.36" width="0.1524" layer="91"/>
@@ -40598,7 +40598,7 @@ Crimp ZE05-2022SCF</text>
 <label x="248.92" y="213.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG16" gate="G$1" pin="AVSS"/>
+<pinref part="STAMP6_ADC_SG2" gate="G$1" pin="AVSS"/>
 <wire x1="327.66" y1="182.88" x2="330.2" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="182.88" x2="330.2" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="C205" gate="G$1" pin="2"/>
@@ -40614,7 +40614,7 @@ Crimp ZE05-2022SCF</text>
 </segment>
 <segment>
 <pinref part="C204" gate="G$1" pin="2"/>
-<pinref part="STAMP1_ADC_SG16" gate="G$1" pin="VREFCOM"/>
+<pinref part="STAMP6_ADC_SG2" gate="G$1" pin="VREFCOM"/>
 <wire x1="254" y1="172.72" x2="264.16" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="254" y1="172.72" x2="246.38" y2="172.72" width="0.1524" layer="91"/>
 <junction x="254" y="172.72"/>
@@ -40634,7 +40634,7 @@ Crimp ZE05-2022SCF</text>
 <label x="213.36" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_TEMP7" gate="G$1" pin="AVSS"/>
+<pinref part="STAMP6_ADC_TEMP" gate="G$1" pin="AVSS"/>
 <wire x1="144.78" y1="71.12" x2="147.32" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="71.12" x2="147.32" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="C209" gate="G$1" pin="2"/>
@@ -40649,8 +40649,8 @@ Crimp ZE05-2022SCF</text>
 <wire x1="71.12" y1="101.6" x2="55.88" y2="101.6" width="0.1524" layer="91"/>
 <junction x="71.12" y="101.6"/>
 <label x="53.34" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="STAMP1_ADC_TEMP7" gate="G$1" pin="DGND/DSS"/>
-<pinref part="STAMP1_ADC_TEMP7" gate="G$1" pin="CLK"/>
+<pinref part="STAMP6_ADC_TEMP" gate="G$1" pin="DGND/DSS"/>
+<pinref part="STAMP6_ADC_TEMP" gate="G$1" pin="CLK"/>
 <wire x1="55.88" y1="101.6" x2="53.34" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="96.52" x2="71.12" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="96.52" x2="71.12" y2="101.6" width="0.1524" layer="91"/>
@@ -40667,7 +40667,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="C214" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="58.42" x2="81.28" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="STAMP1_ADC_TEMP7" gate="G$1" pin="VREFCOM"/>
+<pinref part="STAMP6_ADC_TEMP" gate="G$1" pin="VREFCOM"/>
 <wire x1="81.28" y1="58.42" x2="81.28" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="58.42" x2="60.96" y2="58.42" width="0.1524" layer="91"/>
 <junction x="71.12" y="58.42"/>
@@ -40696,26 +40696,26 @@ Crimp ZE05-2022SCF</text>
 </net>
 <net name="SG_CLK" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG15" gate="G$1" pin="CLK"/>
+<pinref part="STAMP6_ADC_SG1" gate="G$1" pin="CLK"/>
 <wire x1="81.28" y1="208.28" x2="66.04" y2="208.28" width="0.1524" layer="91"/>
 <label x="66.04" y="208.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG16" gate="G$1" pin="CLK"/>
+<pinref part="STAMP6_ADC_SG2" gate="G$1" pin="CLK"/>
 <wire x1="264.16" y1="208.28" x2="248.92" y2="208.28" width="0.1524" layer="91"/>
 <label x="248.92" y="208.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$196" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG15" gate="G$1" pin="!RESET"/>
+<pinref part="STAMP6_ADC_SG1" gate="G$1" pin="!RESET"/>
 <pinref part="R176" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="203.2" x2="78.74" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$197" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG15" gate="G$1" pin="VREFOUT"/>
+<pinref part="STAMP6_ADC_SG1" gate="G$1" pin="VREFOUT"/>
 <wire x1="81.28" y1="177.8" x2="78.74" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="177.8" x2="78.74" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="C198" gate="G$1" pin="1"/>
@@ -40724,17 +40724,17 @@ Crimp ZE05-2022SCF</text>
 </net>
 <net name="ADC_START" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG15" gate="G$1" pin="START"/>
+<pinref part="STAMP6_ADC_SG1" gate="G$1" pin="START"/>
 <wire x1="144.78" y1="193.04" x2="165.1" y2="193.04" width="0.1524" layer="91"/>
 <label x="165.1" y="193.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG16" gate="G$1" pin="START"/>
+<pinref part="STAMP6_ADC_SG2" gate="G$1" pin="START"/>
 <wire x1="327.66" y1="193.04" x2="347.98" y2="193.04" width="0.1524" layer="91"/>
 <label x="347.98" y="193.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_TEMP7" gate="G$1" pin="START"/>
+<pinref part="STAMP6_ADC_TEMP" gate="G$1" pin="START"/>
 <wire x1="144.78" y1="81.28" x2="165.1" y2="81.28" width="0.1524" layer="91"/>
 <label x="165.1" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -40742,7 +40742,7 @@ Crimp ZE05-2022SCF</text>
 <net name="N$198" class="0">
 <segment>
 <pinref part="R178" gate="G$1" pin="2"/>
-<pinref part="STAMP1_ADC_SG15" gate="G$1" pin="DOUT/!DRDY"/>
+<pinref part="STAMP6_ADC_SG1" gate="G$1" pin="DOUT/!DRDY"/>
 <wire x1="147.32" y1="208.28" x2="144.78" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -40753,7 +40753,7 @@ Crimp ZE05-2022SCF</text>
 <wire x1="63.5" y1="160.02" x2="71.12" y2="160.02" width="0.1524" layer="91"/>
 <junction x="63.5" y="160.02"/>
 <wire x1="71.12" y1="160.02" x2="71.12" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="STAMP1_ADC_SG15" gate="G$1" pin="AIN0/IEXC"/>
+<pinref part="STAMP6_ADC_SG1" gate="G$1" pin="AIN0/IEXC"/>
 <wire x1="71.12" y1="167.64" x2="81.28" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="R179" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="160.02" x2="60.96" y2="160.02" width="0.1524" layer="91"/>
@@ -40763,7 +40763,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="C201" gate="G$1" pin="2"/>
 <pinref part="C202" gate="G$1" pin="1"/>
-<pinref part="STAMP1_ADC_SG15" gate="G$1" pin="AIN1/IEXC"/>
+<pinref part="STAMP6_ADC_SG1" gate="G$1" pin="AIN1/IEXC"/>
 <wire x1="81.28" y1="162.56" x2="76.2" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="162.56" x2="76.2" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="152.4" x2="63.5" y2="152.4" width="0.1524" layer="91"/>
@@ -40831,14 +40831,14 @@ Crimp ZE05-2022SCF</text>
 </net>
 <net name="N$203" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG16" gate="G$1" pin="!RESET"/>
+<pinref part="STAMP6_ADC_SG2" gate="G$1" pin="!RESET"/>
 <pinref part="R182" gate="G$1" pin="1"/>
 <wire x1="264.16" y1="203.2" x2="261.62" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$204" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG16" gate="G$1" pin="VREFOUT"/>
+<pinref part="STAMP6_ADC_SG2" gate="G$1" pin="VREFOUT"/>
 <wire x1="264.16" y1="177.8" x2="261.62" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="177.8" x2="261.62" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="C204" gate="G$1" pin="1"/>
@@ -40848,7 +40848,7 @@ Crimp ZE05-2022SCF</text>
 <net name="N$205" class="0">
 <segment>
 <pinref part="R184" gate="G$1" pin="2"/>
-<pinref part="STAMP1_ADC_SG16" gate="G$1" pin="DOUT/!DRDY"/>
+<pinref part="STAMP6_ADC_SG2" gate="G$1" pin="DOUT/!DRDY"/>
 <wire x1="330.2" y1="208.28" x2="327.66" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -40859,7 +40859,7 @@ Crimp ZE05-2022SCF</text>
 <wire x1="246.38" y1="160.02" x2="254" y2="160.02" width="0.1524" layer="91"/>
 <junction x="246.38" y="160.02"/>
 <wire x1="254" y1="160.02" x2="254" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="STAMP1_ADC_SG16" gate="G$1" pin="AIN0/IEXC"/>
+<pinref part="STAMP6_ADC_SG2" gate="G$1" pin="AIN0/IEXC"/>
 <wire x1="254" y1="167.64" x2="264.16" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="R185" gate="G$1" pin="1"/>
 <wire x1="246.38" y1="160.02" x2="243.84" y2="160.02" width="0.1524" layer="91"/>
@@ -40869,7 +40869,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="C207" gate="G$1" pin="2"/>
 <pinref part="C208" gate="G$1" pin="1"/>
-<pinref part="STAMP1_ADC_SG16" gate="G$1" pin="AIN1/IEXC"/>
+<pinref part="STAMP6_ADC_SG2" gate="G$1" pin="AIN1/IEXC"/>
 <wire x1="264.16" y1="162.56" x2="259.08" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="162.56" x2="259.08" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="152.4" x2="246.38" y2="152.4" width="0.1524" layer="91"/>
@@ -40902,7 +40902,7 @@ Crimp ZE05-2022SCF</text>
 <net name="N$210" class="0">
 <segment>
 <pinref part="R188" gate="G$1" pin="2"/>
-<pinref part="STAMP1_ADC_TEMP7" gate="G$1" pin="DOUT/!DRDY"/>
+<pinref part="STAMP6_ADC_TEMP" gate="G$1" pin="DOUT/!DRDY"/>
 <wire x1="147.32" y1="96.52" x2="144.78" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -40910,7 +40910,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="R189" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="91.44" x2="78.74" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="STAMP1_ADC_TEMP7" gate="G$1" pin="!RESET"/>
+<pinref part="STAMP6_ADC_TEMP" gate="G$1" pin="!RESET"/>
 </segment>
 </net>
 <net name="STAMP6_SG2_AIN3" class="0">
@@ -40953,7 +40953,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="C211" gate="G$1" pin="2"/>
 <pinref part="C212" gate="G$1" pin="1"/>
-<pinref part="STAMP1_ADC_TEMP7" gate="G$1" pin="AIN1/IEXC"/>
+<pinref part="STAMP6_ADC_TEMP" gate="G$1" pin="AIN1/IEXC"/>
 <wire x1="81.28" y1="50.8" x2="71.12" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="50.8" x2="71.12" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="45.72" x2="60.96" y2="45.72" width="0.1524" layer="91"/>
@@ -40966,7 +40966,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="C212" gate="G$1" pin="2"/>
 <pinref part="C213" gate="G$1" pin="1"/>
-<pinref part="STAMP1_ADC_TEMP7" gate="G$1" pin="AIN2/IEXC/GPIO2"/>
+<pinref part="STAMP6_ADC_TEMP" gate="G$1" pin="AIN2/IEXC/GPIO2"/>
 <wire x1="144.78" y1="50.8" x2="147.32" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="50.8" x2="147.32" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="35.56" x2="71.12" y2="35.56" width="0.1524" layer="91"/>
@@ -40980,13 +40980,13 @@ Crimp ZE05-2022SCF</text>
 <net name="N$214" class="0">
 <segment>
 <pinref part="C214" gate="G$1" pin="1"/>
-<pinref part="STAMP1_ADC_TEMP7" gate="G$1" pin="VREFOUT"/>
+<pinref part="STAMP6_ADC_TEMP" gate="G$1" pin="VREFOUT"/>
 <wire x1="71.12" y1="66.04" x2="81.28" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP6_TEMP_AIN2" class="0">
 <segment>
-<pinref part="STAMP1_ADC_TEMP7" gate="G$1" pin="AIN3/IEXC/GPIO3"/>
+<pinref part="STAMP6_ADC_TEMP" gate="G$1" pin="AIN3/IEXC/GPIO3"/>
 <wire x1="144.78" y1="55.88" x2="149.86" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="55.88" x2="149.86" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="25.4" x2="43.18" y2="25.4" width="0.1524" layer="91"/>
@@ -41007,7 +41007,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="R190" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="45.72" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="STAMP1_ADC_TEMP7" gate="G$1" pin="AIN0/IEXC"/>
+<pinref part="STAMP6_ADC_TEMP" gate="G$1" pin="AIN0/IEXC"/>
 <wire x1="43.18" y1="45.72" x2="35.56" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="55.88" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
@@ -41024,7 +41024,7 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <pinref part="C215" gate="G$1" pin="2"/>
 <pinref part="C216" gate="G$1" pin="1"/>
-<pinref part="STAMP1_ADC_TEMP7" gate="G$1" pin="REFN0/GPIO1"/>
+<pinref part="STAMP6_ADC_TEMP" gate="G$1" pin="REFN0/GPIO1"/>
 <wire x1="81.28" y1="81.28" x2="71.12" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="81.28" x2="71.12" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="71.12" x2="58.42" y2="71.12" width="0.1524" layer="91"/>
@@ -41039,7 +41039,7 @@ Crimp ZE05-2022SCF</text>
 <pinref part="C217" gate="G$1" pin="2"/>
 <wire x1="58.42" y1="78.74" x2="66.04" y2="78.74" width="0.1524" layer="91"/>
 <junction x="58.42" y="78.74"/>
-<pinref part="STAMP1_ADC_TEMP7" gate="G$1" pin="REFP0/GPIO0"/>
+<pinref part="STAMP6_ADC_TEMP" gate="G$1" pin="REFP0/GPIO0"/>
 <wire x1="66.04" y1="78.74" x2="66.04" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="86.36" x2="81.28" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="R192" gate="G$1" pin="1"/>
@@ -41065,34 +41065,34 @@ Crimp ZE05-2022SCF</text>
 </net>
 <net name="STAMP6_SCLK" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG15" gate="G$1" pin="SCLK"/>
+<pinref part="STAMP6_ADC_SG1" gate="G$1" pin="SCLK"/>
 <wire x1="144.78" y1="218.44" x2="165.1" y2="218.44" width="0.1524" layer="91"/>
 <label x="165.1" y="218.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG16" gate="G$1" pin="SCLK"/>
+<pinref part="STAMP6_ADC_SG2" gate="G$1" pin="SCLK"/>
 <wire x1="327.66" y1="218.44" x2="347.98" y2="218.44" width="0.1524" layer="91"/>
 <label x="347.98" y="218.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_TEMP7" gate="G$1" pin="SCLK"/>
+<pinref part="STAMP6_ADC_TEMP" gate="G$1" pin="SCLK"/>
 <wire x1="144.78" y1="106.68" x2="165.1" y2="106.68" width="0.1524" layer="91"/>
 <label x="165.1" y="106.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="STAMP6_MOSI" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG15" gate="G$1" pin="DIN"/>
+<pinref part="STAMP6_ADC_SG1" gate="G$1" pin="DIN"/>
 <wire x1="144.78" y1="213.36" x2="165.1" y2="213.36" width="0.1524" layer="91"/>
 <label x="165.1" y="213.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_SG16" gate="G$1" pin="DIN"/>
+<pinref part="STAMP6_ADC_SG2" gate="G$1" pin="DIN"/>
 <wire x1="327.66" y1="213.36" x2="347.98" y2="213.36" width="0.1524" layer="91"/>
 <label x="347.98" y="213.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STAMP1_ADC_TEMP7" gate="G$1" pin="DIN"/>
+<pinref part="STAMP6_ADC_TEMP" gate="G$1" pin="DIN"/>
 <wire x1="144.78" y1="101.6" x2="165.1" y2="101.6" width="0.1524" layer="91"/>
 <label x="165.1" y="101.6" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -41100,13 +41100,13 @@ Crimp ZE05-2022SCF</text>
 <net name="STAMP6_DRDY_SG1" class="0">
 <segment>
 <label x="165.1" y="203.2" size="1.27" layer="95" xref="yes"/>
-<pinref part="STAMP1_ADC_SG15" gate="G$1" pin="!DRDY"/>
+<pinref part="STAMP6_ADC_SG1" gate="G$1" pin="!DRDY"/>
 <wire x1="144.78" y1="203.2" x2="165.1" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP6_CS_SG2" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG16" gate="G$1" pin="!CS"/>
+<pinref part="STAMP6_ADC_SG2" gate="G$1" pin="!CS"/>
 <wire x1="327.66" y1="198.12" x2="347.98" y2="198.12" width="0.1524" layer="91"/>
 <label x="347.98" y="198.12" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -41115,14 +41115,14 @@ Crimp ZE05-2022SCF</text>
 <segment>
 <wire x1="340.36" y1="203.2" x2="342.9" y2="203.2" width="0.1524" layer="91"/>
 <label x="347.98" y="203.2" size="1.27" layer="95" xref="yes"/>
-<pinref part="STAMP1_ADC_SG16" gate="G$1" pin="!DRDY"/>
+<pinref part="STAMP6_ADC_SG2" gate="G$1" pin="!DRDY"/>
 <wire x1="342.9" y1="203.2" x2="347.98" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="203.2" x2="340.36" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP6_CS_TEMP" class="0">
 <segment>
-<pinref part="STAMP1_ADC_TEMP7" gate="G$1" pin="!CS"/>
+<pinref part="STAMP6_ADC_TEMP" gate="G$1" pin="!CS"/>
 <wire x1="144.78" y1="86.36" x2="165.1" y2="86.36" width="0.1524" layer="91"/>
 <label x="165.1" y="86.36" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -41130,13 +41130,13 @@ Crimp ZE05-2022SCF</text>
 <net name="STAMP6_DRDY_TEMP" class="0">
 <segment>
 <label x="165.1" y="91.44" size="1.27" layer="95" xref="yes"/>
-<pinref part="STAMP1_ADC_TEMP7" gate="G$1" pin="!DRDY"/>
+<pinref part="STAMP6_ADC_TEMP" gate="G$1" pin="!DRDY"/>
 <wire x1="144.78" y1="91.44" x2="165.1" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAMP6_CS_SG1" class="0">
 <segment>
-<pinref part="STAMP1_ADC_SG15" gate="G$1" pin="!CS"/>
+<pinref part="STAMP6_ADC_SG1" gate="G$1" pin="!CS"/>
 <wire x1="144.78" y1="198.12" x2="165.1" y2="198.12" width="0.1524" layer="91"/>
 <label x="165.1" y="198.12" size="1.27" layer="95" xref="yes"/>
 </segment>
