@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
@@ -249,8 +249,10 @@ Put after launch</text>
 <wire x1="152.4" y1="129.54" x2="160.02" y2="129.54" width="0.1524" layer="21"/>
 <wire x1="160.02" y1="129.54" x2="160.02" y2="123.19" width="0.1524" layer="21"/>
 <wire x1="160.02" y1="123.19" x2="0" y2="123.19" width="0.1524" layer="21"/>
-<wire x1="23.368" y1="0.254" x2="23.622" y2="0.254" width="0.254" layer="21"/>
 <dimension x1="143.002" y1="127.762" x2="132.207" y2="127.7366" x3="137.58531875" y3="135.899965625" textsize="1.778" layer="47"/>
+<text x="150.622" y="3.302" size="1.778" layer="22" rot="MR0">J. Lusky, R. Grimsmann</text>
+<text x="21.59" y="3.302" size="1.778" layer="22" rot="MR0">Nov. 2021</text>
+<text x="6.858" y="119.126" size="1.778" layer="22" rot="MR270">Short 5V - GND to activate FLOMESS MODE</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -8800,7 +8802,6 @@ einem neuen Namen ab.</description>
 <via x="91.44" y="88.138" extent="1-16" drill="0.35"/>
 <via x="39.878" y="108.204" extent="1-16" drill="0.35"/>
 <via x="3.556" y="59.436" extent="1-16" drill="0.35"/>
-<via x="3.556" y="61.976" extent="1-16" drill="0.35"/>
 <via x="12.446" y="12.446" extent="1-16" drill="0.35"/>
 <via x="12.446" y="15.24" extent="1-16" drill="0.35"/>
 <via x="12.446" y="17.78" extent="1-16" drill="0.35"/>
@@ -8825,7 +8826,6 @@ einem neuen Namen ab.</description>
 <via x="12.446" y="68.072" extent="1-16" drill="0.35"/>
 <via x="12.446" y="70.612" extent="1-16" drill="0.35"/>
 <via x="12.446" y="73.152" extent="1-16" drill="0.35"/>
-<via x="3.556" y="8.382" extent="1-16" drill="0.35"/>
 <via x="3.556" y="10.922" extent="1-16" drill="0.35"/>
 <via x="3.556" y="13.462" extent="1-16" drill="0.35"/>
 <via x="3.556" y="16.002" extent="1-16" drill="0.35"/>
@@ -8848,8 +8848,6 @@ einem neuen Namen ab.</description>
 <via x="29.972" y="49.022" extent="1-16" drill="0.35"/>
 <via x="29.972" y="51.816" extent="1-16" drill="0.35"/>
 <via x="3.556" y="119.126" extent="1-16" drill="0.35"/>
-<via x="3.556" y="121.666" extent="1-16" drill="0.35"/>
-<via x="3.556" y="68.072" extent="1-16" drill="0.35"/>
 <via x="3.556" y="70.612" extent="1-16" drill="0.35"/>
 <via x="3.556" y="73.152" extent="1-16" drill="0.35"/>
 <via x="3.556" y="75.692" extent="1-16" drill="0.35"/>
@@ -8885,7 +8883,6 @@ einem neuen Namen ab.</description>
 <via x="12.192" y="112.268" extent="1-16" drill="0.35"/>
 <via x="12.192" y="114.808" extent="1-16" drill="0.35"/>
 <via x="12.192" y="117.348" extent="1-16" drill="0.35"/>
-<via x="8.89" y="127" extent="1-16" drill="0.35"/>
 <via x="11.43" y="127" extent="1-16" drill="0.35"/>
 <via x="13.97" y="127" extent="1-16" drill="0.35"/>
 <via x="16.51" y="127" extent="1-16" drill="0.35"/>
@@ -8912,8 +8909,6 @@ einem neuen Namen ab.</description>
 <via x="69.85" y="127" extent="1-16" drill="0.35"/>
 <via x="72.39" y="127" extent="1-16" drill="0.35"/>
 <via x="74.93" y="127" extent="1-16" drill="0.35"/>
-<via x="77.47" y="127" extent="1-16" drill="0.35"/>
-<via x="82.296" y="127.254" extent="1-16" drill="0.35"/>
 <via x="84.836" y="127.254" extent="1-16" drill="0.35"/>
 <via x="87.376" y="127.254" extent="1-16" drill="0.35"/>
 <via x="89.916" y="127.254" extent="1-16" drill="0.35"/>
@@ -8933,8 +8928,8 @@ einem neuen Namen ab.</description>
 <via x="125.476" y="127.254" extent="1-16" drill="0.35"/>
 <via x="128.016" y="127.254" extent="1-16" drill="0.35"/>
 <via x="130.556" y="127.254" extent="1-16" drill="0.35"/>
-<via x="135.636" y="127.254" extent="1-16" drill="0.35"/>
-<via x="138.176" y="127.254" extent="1-16" drill="0.35"/>
+<via x="136.398" y="127.254" extent="1-16" drill="0.35"/>
+<via x="139.192" y="127.254" extent="1-16" drill="0.35"/>
 <via x="22.606" y="82.804" extent="1-16" drill="0.35"/>
 <via x="25.654" y="84.074" extent="1-16" drill="0.35"/>
 <via x="28.194" y="84.074" extent="1-16" drill="0.35"/>
@@ -9048,7 +9043,6 @@ einem neuen Namen ab.</description>
 <via x="84.074" y="59.182" extent="1-16" drill="0.35"/>
 <via x="84.074" y="62.738" extent="1-16" drill="0.35"/>
 <via x="75.438" y="66.802" extent="1-16" drill="0.35"/>
-<via x="8.636" y="5.842" extent="1-16" drill="0.35"/>
 <via x="11.176" y="5.842" extent="1-16" drill="0.35"/>
 <via x="13.716" y="5.842" extent="1-16" drill="0.35"/>
 <via x="16.256" y="5.842" extent="1-16" drill="0.35"/>
@@ -9115,7 +9109,6 @@ einem neuen Namen ab.</description>
 <via x="150.876" y="121.412" extent="1-16" drill="0.35"/>
 <via x="157.226" y="82.042" extent="1-16" drill="0.35"/>
 <via x="157.226" y="84.582" extent="1-16" drill="0.35"/>
-<via x="157.48" y="121.666" extent="1-16" drill="0.35"/>
 <via x="157.48" y="116.078" extent="1-16" drill="0.35"/>
 <via x="157.226" y="87.122" extent="1-16" drill="0.35"/>
 <via x="157.226" y="89.662" extent="1-16" drill="0.35"/>
@@ -9202,6 +9195,7 @@ einem neuen Namen ab.</description>
 <via x="57.658" y="22.098" extent="1-16" drill="0.35"/>
 <via x="60.198" y="22.098" extent="1-16" drill="0.35"/>
 <via x="36.83" y="76.454" extent="1-16" drill="0.35"/>
+<via x="157.48" y="121.158" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="3V3">
 <contactref element="R26" pad="1"/>
