@@ -36138,12 +36138,7 @@ Crimp ZE05-2022SCF</text>
 <pinref part="Y1J2" gate="1" pin="1"/>
 </segment>
 </net>
-<net name="AUX_EXTAL" class="0">
-<segment>
-<pinref part="SF2_M2S010TQ1" gate="G$7" pin="XTLOSC_AUX_EXTAL"/>
-<wire x1="200.66" y1="152.4" x2="205.74" y2="152.4" width="0.1524" layer="91"/>
-<label x="205.74" y="152.4" size="1.27" layer="95" xref="yes"/>
-</segment>
+<net name="MAIN_EXTAL" class="0">
 <segment>
 <wire x1="243.84" y1="154.94" x2="228.6" y2="154.94" width="0.1524" layer="91"/>
 <label x="228.6" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -36154,13 +36149,13 @@ Crimp ZE05-2022SCF</text>
 <label x="299.72" y="142.24" size="1.27" layer="95" rot="R90" xref="yes"/>
 <pinref part="Y1J2" gate="1" pin="2"/>
 </segment>
-</net>
-<net name="AUX_XTAL" class="0">
 <segment>
-<pinref part="SF2_M2S010TQ1" gate="G$7" pin="XTLOSC_AUX_XTAL"/>
-<wire x1="200.66" y1="149.86" x2="205.74" y2="149.86" width="0.1524" layer="91"/>
-<label x="205.74" y="149.86" size="1.27" layer="95" xref="yes"/>
+<pinref part="SF2_M2S010TQ1" gate="G$7" pin="XTLOSC_MAIN_EXTAL"/>
+<wire x1="200.66" y1="147.32" x2="203.2" y2="147.32" width="0.1524" layer="91"/>
+<label x="203.2" y="147.32" size="1.27" layer="95" xref="yes"/>
 </segment>
+</net>
+<net name="MAIN_XTAL" class="0">
 <segment>
 <wire x1="231.14" y1="149.86" x2="228.6" y2="149.86" width="0.1524" layer="91"/>
 <label x="228.6" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -36170,6 +36165,11 @@ Crimp ZE05-2022SCF</text>
 <wire x1="259.08" y1="142.24" x2="256.54" y2="142.24" width="0.1524" layer="91"/>
 <label x="256.54" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="Y1J1" gate="1" pin="1"/>
+</segment>
+<segment>
+<pinref part="SF2_M2S010TQ1" gate="G$7" pin="XTLOSC_MAIN_XTAL"/>
+<wire x1="200.66" y1="144.78" x2="203.2" y2="144.78" width="0.1524" layer="91"/>
+<label x="203.2" y="144.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="NET_U" class="0">
