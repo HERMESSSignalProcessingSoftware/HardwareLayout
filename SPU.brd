@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
@@ -9196,6 +9196,10 @@ einem neuen Namen ab.</description>
 <via x="60.198" y="22.098" extent="1-16" drill="0.35"/>
 <via x="36.83" y="76.454" extent="1-16" drill="0.35"/>
 <via x="157.48" y="121.158" extent="1-16" drill="0.35"/>
+<via x="67.1" y="81.9" extent="1-16" drill="0.35"/>
+<via x="62.2" y="85.1" extent="1-16" drill="0.35"/>
+<via x="37.6" y="97.7" extent="1-16" drill="0.35"/>
+<via x="54.073" y="107" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="3V3">
 <contactref element="R26" pad="1"/>
@@ -9556,7 +9560,6 @@ einem neuen Namen ab.</description>
 <via x="36.83" y="28.194" extent="1-16" drill="0.35"/>
 <wire x1="42.23" y1="21.402" x2="43.18" y2="22.352" width="0.381" layer="16"/>
 <wire x1="42.23" y1="21.402" x2="42.23" y2="21.082" width="0.381" layer="16"/>
-<wire x1="44.887" y1="23.622" x2="44.958" y2="23.622" width="0.381" layer="16"/>
 <wire x1="44.958" y1="23.622" x2="45.974" y2="23.622" width="0.381" layer="16"/>
 <wire x1="45.974" y1="23.622" x2="46.736" y2="24.384" width="0.381" layer="16"/>
 <wire x1="46.736" y1="24.384" x2="46.736" y2="27.432" width="0.381" layer="16"/>
@@ -9730,7 +9733,6 @@ einem neuen Namen ab.</description>
 <wire x1="59.944" y1="75.946" x2="59.944" y2="77.534" width="0.254" layer="1"/>
 <wire x1="59.944" y1="77.534" x2="59.97" y2="77.56" width="0.254" layer="1"/>
 <via x="70.104" y="82.042" extent="1-16" drill="0.35"/>
-<wire x1="70.104" y1="82.042" x2="70.231" y2="81.915" width="0.254" layer="16"/>
 <wire x1="71.628" y1="73.406" x2="71.12" y2="73.406" width="0.254" layer="16"/>
 <wire x1="73.279" y1="77.343" x2="73.406" y2="77.47" width="0.254" layer="16"/>
 <wire x1="73.406" y1="79.308225" x2="73.406" y2="77.47" width="0.254" layer="16"/>
@@ -9963,7 +9965,6 @@ einem neuen Namen ab.</description>
 <wire x1="137.463" y1="62.181" x2="137.668" y2="61.976" width="0.762" layer="1"/>
 <wire x1="137.668" y1="61.976" x2="137.668" y2="60.452" width="0.762" layer="1"/>
 <wire x1="137.668" y1="60.452" x2="135.89" y2="60.452" width="0.762" layer="1"/>
-<wire x1="135.89" y1="60.452" x2="135.509" y2="60.071" width="0.762" layer="1"/>
 <wire x1="137.668" y1="60.452" x2="137.668" y2="59.69" width="0.762" layer="1"/>
 <wire x1="137.668" y1="59.69" x2="137.922" y2="59.436" width="0.762" layer="1"/>
 <via x="137.922" y="59.436" extent="1-16" drill="0.35"/>
@@ -11068,11 +11069,10 @@ einem neuen Namen ab.</description>
 <via x="48.26" y="107.188" extent="1-16" drill="0.35"/>
 <wire x1="60.329" y1="109.826" x2="60.329" y2="108.589" width="0.381" layer="16"/>
 <wire x1="58.928" y1="108.589" x2="60.329" y2="108.589" width="0.381" layer="16"/>
-<wire x1="58.3906" y1="108.0516" x2="58.928" y2="108.589" width="0.381" layer="16"/>
-<wire x1="58.3906" y1="108.0516" x2="53.34" y2="108.0516" width="0.381" layer="16"/>
-<wire x1="48.26" y1="107.188" x2="52.578" y2="107.188" width="0.381" layer="16"/>
-<wire x1="52.578" y1="107.188" x2="53.34" y2="107.95" width="0.381" layer="16"/>
-<wire x1="53.34" y1="107.95" x2="53.34" y2="108.0516" width="0.381" layer="16"/>
+<wire x1="58.928" y1="108.589" x2="58.3906" y2="108.0516" width="0.381" layer="16"/>
+<wire x1="52.578" y1="107.188" x2="48.26" y2="107.188" width="0.381" layer="16"/>
+<wire x1="58.3906" y1="108.0516" x2="53.4416" y2="108.0516" width="0.381" layer="16"/>
+<wire x1="53.4416" y1="108.0516" x2="52.578" y2="107.188" width="0.381" layer="16"/>
 </signal>
 <signal name="STAMP1_DRDY_TEMP">
 <contactref element="STAMP1_ADC_TEMP" pad="25"/>
@@ -15967,10 +15967,6 @@ einem neuen Namen ab.</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
-<errors>
-<approved hash="21,19,4124432643264124"/>
-<approved hash="23,16,9b48886c097d3fb5"/>
-</errors>
 </board>
 </drawing>
 <compatibility>
